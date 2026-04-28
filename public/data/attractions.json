@@ -395,7 +395,7 @@
       "era_en": "~1st century AD",
       "eraCategory_en": "Ancient Era",
       "shortDesc_en": "Perfectly symmetrical Roman amphitheater",
-      "description_en": "与四方神庙同为尼姆罗马遗产的尼姆竞技场，是一个完美对称的圆形剧场，设计了60个通道以容纳13,000至24,000名观众，凸显了罗马人利用大型公共娱乐（尤其是角斗士战斗）作为社会凝聚力和彰显帝国实力的工具。这一建筑理念随着罗马帝国的扩张传播到整个欧洲，留下了众多竞技场遗迹。",
+      "description_en": "The Arena of Nîmes, like the Maison Carrée, is part of Nîmes' Roman heritage. It is a perfectly symmetrical amphitheater designed with 60 passages to accommodate 13,000 to 24,000 spectators, highlighting the Romans' use of large-scale public entertainment (especially gladiator fights) as a tool for social cohesion and displaying imperial power. This architectural concept spread throughout Europe with the expansion of the Roman Empire, leaving numerous arena remains.",
       "image": "arena-nimes.jpg"
     },
     {
@@ -420,7 +420,7 @@
       "era_en": "72 AD - 80 AD",
       "eraCategory_en": "Ancient Era",
       "shortDesc_en": "Greatest amphitheater of the Roman Empire and symbol of power",
-      "description_en": "罗马斗兽场是奥古斯都广场中最宏伟的建筑，这座巨大的椭圆形剧场能够容纳数万名观众，是罗马帝国力量与残酷娱乐的终极象征。在帝国全盛时期，这里上演着角斗士生死搏斗、猎兽表演，甚至引水淹没剧场进行海战表演。它不仅是建筑的奇迹，更是罗马帝国政治宣传的工具，通过壮观场面展示帝国的财富与权威。1980年列入UNESCO世界遗产。",
+      "description_en": "The Colosseum is the most magnificent structure in the Augustan Forum. This massive elliptical amphitheater could accommodate tens of thousands of spectators, serving as the ultimate symbol of Roman imperial power and brutal entertainment. During the height of the empire, it hosted gladiatorial combat, beast hunts, and even naval battles with the theater flooded. It is not only an architectural marvel but also a tool of Roman imperial propaganda, showcasing the wealth and authority of the empire through spectacular displays. Listed as UNESCO World Heritage in 1980.",
       "image": "colosseum.jpg"
     },
     {
@@ -442,10 +442,10 @@
       "description": "被维苏威火山喷发瞬间掩埋的庞贝古城，提供了古代世界无与伦比的\"时间定格\"快照。最近的考古发现从根本上修正了既定的历史时间表——在墙上发现的木炭涂鸦将普遍接受的火山喷发日期从公元79年8月24日移至10月24日。此外，庞贝的城墙是平民声音的原生态档案。数以千计的幸存涂鸦铭文展示了一个高度识字的社会，从阿塞利娜（Asellina）酒吧等酒馆外墙上的政治背书，到臭名昭著的妓院（lupanar）中粗俗的侮辱和诗意的宣言，庞贝的实体建筑揭示了一个公共空间被积极用于个人和政治表达的社会。1997年列入UNESCO世界遗产。",
       "name_en": "Pompeii",
       "location_en": "Campi Flegrei, Italy",
-      "era_en": "公元79年被维苏威火山喷发掩埋",
+      "era_en": "79 AD - Buried by Vesuvius eruption",
       "eraCategory_en": "Ancient Era",
-      "shortDesc_en": "原生态保存的罗马帝国早期平民生活与社会蓝图",
-      "description_en": "被维苏威火山喷发瞬间掩埋的庞贝古城，提供了古代世界无与伦比的\"时间定格\"快照。最近的考古发现从根本上修正了既定的历史时间表——在墙上发现的木炭涂鸦将普遍接受的火山喷发日期从公元79年8月24日移至10月24日。此外，庞贝的城墙是平民声音的原生态档案。数以千计的幸存涂鸦铭文展示了一个高度识字的社会，从阿塞利娜（Asellina）酒吧等酒馆外墙上的政治背书，到臭名昭著的妓院（lupanar）中粗俗的侮辱和诗意的宣言，庞贝的实体建筑揭示了一个公共空间被积极用于个人和政治表达的社会。1997年列入UNESCO世界遗产。",
+      "shortDesc_en": "Authentically preserved snapshot of early Roman imperial civilian life",
+      "description_en": "Pompeii, buried instantly by the eruption of Mount Vesuvius, provides an unparalleled 'frozen in time' snapshot of the ancient world. Recent archaeological discoveries have fundamentally revised the established historical timeline - charcoal graffiti found on walls moved the generally accepted eruption date from August 24, 79 AD to October 24. Additionally, Pompeii's walls are a pristine archive of ordinary people's voices. Thousands of surviving graffiti inscriptions reveal a highly literate society, from political endorsements on the outer walls of taverns like the Asellina bar, to vulgar insults and poetic declarations in the notorious lupanar brothel. Pompeii's physical architecture reveals a society where public space was actively used for personal and political expression. Listed as UNESCO World Heritage in 1997.",
       "image": "pompeii.jpg"
     },
     {
@@ -469,8 +469,8 @@
       "location_en": "Segovia, Spain",
       "era_en": "~Late 1st century AD - early 2nd century AD",
       "eraCategory_en": "Ancient Era",
-      "shortDesc_en": "屹立近两千年不倒的罗马水利工程奇迹",
-      "description_en": "在西班牙的塞哥维亚，一座双层石拱门的高架引水桥静静矗立了近乎两千年。塞哥维亚输水槽利用精确的坡度和巨大的石头拱门将淡水从18公里外的河流输送至城市，展示罗马人在水利工程上务实的天才。令人惊叹的是，这座巨大的建筑完全依靠石块的重力镶嵌而屹立不倒，没有任何灰浆粘连。它是罗马工程学最实用的杰作，也是目前保存最完整的水利工程之一。",
+      "shortDesc_en": "Roman hydraulic engineering marvel standing for nearly 2,000 years",
+      "description_en": "In Segovia, Spain, a two-tiered stone arch aqueduct bridge has stood silently for nearly two thousand years. The Aqueduct of Segovia uses precise gradients and massive stone arches to transport fresh water from a river 18 kilometers away to the city, showcasing the Romans' pragmatic genius in hydraulic engineering. Astonishingly, this massive structure stands firm solely through the gravity-fit arrangement of stone blocks, without any mortar. It is the most practical masterpiece of Roman engineering and one of the most well-preserved hydraulic structures today.",
       "image": "aqueduct-segovia.jpg"
     },
     {
@@ -492,10 +492,10 @@
       "description": "万神殿是世界上保存最完好的古罗马建筑，以直径43米的无钢筋混凝土穹顶著称，历经近两千年仍是世界最大同类穹顶。哈德良皇帝建造了这座供奉众神的庙宇，公元609年改建为天主教堂。其穹顶顶部开设的圆孔（oculus）将光线投射进来，随着太阳移动在地面上形成巨大的光斑，象征着神性对凡间的照耀。这座建筑证明了罗马人在混凝土工程上的惊人天才，至今仍是建筑师们研究和借鉴的典范。",
       "name_en": "Pantheon",
       "location_en": "Rome, Italy",
-      "era_en": "公元118年—125年完工",
+      "era_en": "Completed 118 AD - 125 AD",
       "eraCategory_en": "Ancient Era",
-      "shortDesc_en": "世界上保存最完好的古罗马建筑",
-      "description_en": "万神殿是世界上保存最完好的古罗马建筑，以直径43米的无钢筋混凝土穹顶著称，历经近两千年仍是世界最大同类穹顶。哈德良皇帝建造了这座供奉众神的庙宇，公元609年改建为天主教堂。其穹顶顶部开设的圆孔（oculus）将光线投射进来，随着太阳移动在地面上形成巨大的光斑，象征着神性对凡间的照耀。这座建筑证明了罗马人在混凝土工程上的惊人天才，至今仍是建筑师们研究和借鉴的典范。",
+      "shortDesc_en": "Best-preserved ancient Roman building in the world",
+      "description_en": "The Pantheon is the best-preserved ancient Roman building in the world, famous for its unreinforced concrete dome with a diameter of 43 meters, which remains the world's largest dome of its kind after nearly two thousand years. Emperor Hadrian built this temple dedicated to all the gods, and in 609 AD it was converted into a Catholic church. The oculus at the top of the dome projects light inward, creating a massive spot of light on the floor as the sun moves, symbolizing the illumination of the divine upon the earthly realm. This building demonstrates the Romans' astonishing genius in concrete engineering and remains a model for architects to study and draw inspiration from today.",
       "image": "pantheon.jpg"
     },
     {
@@ -517,10 +517,10 @@
       "description": "由哈德良皇帝下令建造，哈德良长城横跨英格兰北部，全长117公里，是罗马帝国北部边疆的标志性防御工程，代表罗马帝国权力的最北边界。这道防线包括城墙、瞭望塔、堡垒和军事道路，旨在防御苏格兰的皮克特部落。1987年列入UNESCO世界遗产。如今，长城遗址吸引着全球游客，成为罗马帝国历史与英国原住民文化交汇的物理见证。",
       "name_en": "Hadrian's Wall",
       "location_en": "Northern England, UK",
-      "era_en": "公元122年开始建造",
+      "era_en": "Construction began 122 AD",
       "eraCategory_en": "Ancient Era",
-      "shortDesc_en": "罗马帝国北部边疆的标志性防御工程",
-      "description_en": "由哈德良皇帝下令建造，哈德良长城横跨英格兰北部，全长117公里，是罗马帝国北部边疆的标志性防御工程，代表罗马帝国权力的最北边界。这道防线包括城墙、瞭望塔、堡垒和军事道路，旨在防御苏格兰的皮克特部落。1987年列入UNESCO世界遗产。如今，长城遗址吸引着全球游客，成为罗马帝国历史与英国原住民文化交汇的物理见证。",
+      "shortDesc_en": "Iconic defensive structure marking the northern frontier of the Roman Empire",
+      "description_en": "Built on the orders of Emperor Hadrian, Hadrian's Wall stretches across northern England for 117 kilometers, serving as an iconic defensive engineering project marking the northern frontier of the Roman Empire and representing the northernmost boundary of Roman imperial power. This defensive system includes the wall, watchtowers, forts and military roads, designed to defend against the Pictish tribes of Scotland. Listed as UNESCO World Heritage in 1987. Today, the wall's ruins attract global tourists, becoming a physical witness to the intersection of Roman imperial history and British indigenous culture.",
       "image": "hadrians-wall.jpg"
     },
     {
@@ -542,10 +542,10 @@
       "description": "特里尔是德国最古老的城市，曾是罗马帝国的都城。黑门（Porta Nigra）建于公元170年左右，是阿尔卑斯山以北保存最完好、最庞大的罗马城门，完美代表了罗马帝国在边疆的强大防御与城市化进程。这座巨大的砂岩城门由两部分组成，拥有复杂的内部通道和防御设施，是罗马帝国边境防御体系的典型代表。",
       "name_en": "Porta Nigra",
       "location_en": "Trier, Germany",
-      "era_en": "公元170年",
+      "era_en": "170 AD",
       "eraCategory_en": "Ancient Era",
-      "shortDesc_en": "阿尔卑斯斯山以北保存最完好的罗马城门",
-      "description_en": "特里尔是德国最古老的城市，曾是罗马帝国的都城。黑门（Porta Nigra）建于公元170年左右，是阿尔卑斯山以北保存最完好、最庞大的罗马城门，完美代表了罗马帝国在边疆的强大防御与城市化进程。这座巨大的砂岩城门由两部分组成，拥有复杂的内部通道和防御设施，是罗马帝国边境防御体系的典型代表。",
+      "shortDesc_en": "Best-preserved Roman city gate north of the Alps",
+      "description_en": "Trier is Germany's oldest city and was once the capital of the Roman Empire. Porta Nigra, built around 170 AD, is the best-preserved and largest Roman city gate north of the Alps, perfectly representing the Roman Empire's powerful defense and urbanization process on its frontiers. This massive sandstone gate consists of two parts with complex internal passages and defensive facilities, serving as a typical representative of the Roman Empire's border defense system.",
       "image": "porta-nigra.jpg"
     },
     {
@@ -569,8 +569,8 @@
       "location_en": "Split, Croatia",
       "era_en": "Early 4th century AD",
       "eraCategory_en": "Ancient Era",
-      "shortDesc_en": "从开放型城市向中世纪防御型堡垒过渡的标志性建筑",
-      "description_en": "随着古典时代走向晚期，罗马帝国的建筑重点从开放的公民参与转向了设防防御。位于克罗地亚斯普利特的戴克里先宫就是在这一背景下建造的。这是4世纪初为戴克里先皇帝建造的庞大且防御森严的退休堡垒，其建筑格局深刻地影响了向中世纪防御性城市规划范式的过渡。宫殿的地下室、城墙和努曼尼亚门（Porta di Terra）至今仍完好保存，成为研究罗马帝国晚期建筑的重要实例。",
+      "shortDesc_en": "Symbolic structure of transition from open city to medieval defensive fortress",
+      "description_en": "As the classical era drew to a close, the architectural focus of the Roman Empire shifted from open civic participation to fortified defense. Diocletian's Palace in Split, Croatia was built in this context. This massive and heavily fortified retirement fortress was built for Emperor Diocletian in the early 4th century, and its architectural layout profoundly influenced the transition to the medieval paradigm of defensive urban planning. The palace's basements, city walls and Porta di Terra remain well preserved today, serving as an important example for studying late Roman Empire architecture.",
       "image": "diocletian-palace.jpg"
     },
     {
@@ -592,10 +592,10 @@
       "description": "在中世纪欧洲的精神版图中，米兰占据着独特而关键的地位。公元313年，两位罗马皇帝——君士坦丁大帝与李锡尼——在米兰签署了一项具有划时代意义的法令，史称《米兰敕令》（Edict of Milan）。这份文件正式宣告基督教在罗马帝国境内享有信仰自由，结束了自尼禄皇帝时代（公元64年）起对基督徒长达两百余年的系统性迫害。米兰因此成为基督教历史上最具象征意义的地点之一。 数百年后興建的米兰大教堂（Duomo di Milano），正是为了纪念这一深刻改变欧洲文明走向的奠基性事件。这座历时近600年（1386-1965年）才完工的哥特式杰作，是世界上最大的哥特式教堂之一，拥有135座尖塔和可俯瞰城市全景的屋顶露台，展示了中世纪工程学的极致成就。其轻盈的飞扶壁结构和精湛的石雕工艺，使其成为欧洲中世纪建筑最壮观的成就之一。",
       "name_en": "米兰敕令与米兰大教堂",
       "location_en": "Milan, Italy",
-      "era_en": "公元313年《米兰敕令》签署；大教堂始建于1386年",
+      "era_en": "Edict signed 313 AD; Cathedral construction began 1386",
       "eraCategory_en": "Medieval Trade",
-      "shortDesc_en": "基督教合法化的历史性地点，欧洲最大的哥特式教堂之一",
-      "description_en": "在中世纪欧洲的精神版图中，米兰占据着独特而关键的地位。公元313年，两位罗马皇帝——君士坦丁大帝与李锡尼——在米兰签署了一项具有划时代意义的法令，史称《米兰敕令》（Edict of Milan）。这份文件正式宣告基督教在罗马帝国境内享有信仰自由，结束了自尼禄皇帝时代（公元64年）起对基督徒长达两百余年的系统性迫害。米兰因此成为基督教历史上最具象征意义的地点之一。 数百年后興建的米兰大教堂（Duomo di Milano），正是为了纪念这一深刻改变欧洲文明走向的奠基性事件。这座历时近600年（1386-1965年）才完工的哥特式杰作，是世界上最大的哥特式教堂之一，拥有135座尖塔和可俯瞰城市全景的屋顶露台，展示了中世纪工程学的极致成就。其轻盈的飞扶壁结构和精湛的石雕工艺，使其成为欧洲中世纪建筑最壮观的成就之一。"
+      "shortDesc_en": "Historic site of Christian legalization, one of Europe's largest Gothic cathedrals",
+      "description_en": "In the spiritual landscape of medieval Europe, Milan occupied a unique and crucial position. In 313 AD, two Roman emperors - Constantine the Great and Licinius - signed a groundbreaking decree in Milan, known as the Edict of Milan. This document officially declared freedom of worship for Christianity within the Roman Empire, ending over two hundred years of systematic persecution of Christians since the era of Emperor Nero (64 AD). Milan thus became one of the most symbolically significant sites in Christian history. The Milan Cathedral (Duomo di Milano), built centuries later, was constructed to commemorate this foundational event that profoundly changed the course of European civilization. This Gothic masterpiece took nearly 600 years (1386-1965) to complete and is one of the largest Gothic cathedrals in the world, with 135 spires and a rooftop terrace overlooking the entire city, showcasing the ultimate achievement of medieval engineering. Its lightweight flying buttress structures and exquisite stone carvings make it one of the most spectacular achievements of medieval European architecture.",
     },
     {
       "id": "hagia-sophia",
@@ -616,10 +616,10 @@
       "description": "当西罗马帝国崩溃时，东罗马帝国（拜占庭帝国）延续了罗马的荣光。在君士坦丁堡（今伊斯坦布尔），查士丁尼一世建造了圣索菲亚大教堂，这是世界上最早完整采用帆拱穹顶的建筑之一。长82米，穹顶高55米，以当时的工程水平而言堪称奇迹。这座教堂融合了希腊-罗马的工程技术与基督教的神学象征，其巨大的中央穹顶被认为\"悬浮\"在空间之上，通过帆拱（pendentives）将重量传递到四角的柱子上。1453年奥斯曼帝国征服君士坦丁堡后，圣索菲亚被改建为清真寺，增添了宣礼塔和米哈拉布，但保留了原有的拜占庭马赛克。1985年列入UNESCO世界遗产。",
       "name_en": "Hagia Sophia",
       "location_en": "Istanbul, Turkey",
-      "era_en": "公元537年完工",
+      "era_en": "Completed 537 AD",
       "eraCategory_en": "Medieval Trade",
-      "shortDesc_en": "拜占庭建筑的巅峰之作，东西方建筑传统的交汇点",
-      "description_en": "当西罗马帝国崩溃时，东罗马帝国（拜占庭帝国）延续了罗马的荣光。在君士坦丁堡（今伊斯坦布尔），查士丁尼一世建造了圣索菲亚大教堂，这是世界上最早完整采用帆拱穹顶的建筑之一。长82米，穹顶高55米，以当时的工程水平而言堪称奇迹。这座教堂融合了希腊-罗马的工程技术与基督教的神学象征，其巨大的中央穹顶被认为\"悬浮\"在空间之上，通过帆拱（pendentives）将重量传递到四角的柱子上。1453年奥斯曼帝国征服君士坦丁堡后，圣索菲亚被改建为清真寺，增添了宣礼塔和米哈拉布，但保留了原有的拜占庭马赛克。1985年列入UNESCO世界遗产。",
+      "shortDesc_en": "Peak of Byzantine architecture, intersection of Eastern and Western architectural traditions",
+      "description_en": "When the Western Roman Empire collapsed, the Eastern Roman Empire (Byzantine Empire) continued Roman glory. In Constantinople (now Istanbul), Emperor Justinian I built the Hagia Sophia, one of the earliest buildings in the world to fully employ pendentive domes. 82 meters long with a dome 55 meters high, it was a marvel of engineering for its time. This cathedral combined Greco-Roman engineering technology with Christian theological symbolism, its massive central dome appearing to 'float' above space, transferring weight to the corner pillars through pendentives. After the Ottoman Empire conquered Constantinople in 1453, Hagia Sophia was converted into a mosque, adding minarets and a mihrab, but preserving the original Byzantine mosaics. Listed as UNESCO World Heritage in 1985.",
       "image": "hagia-sophia.jpg"
     },
     {
@@ -641,10 +641,10 @@
       "description": "在意大利东北部的拉文纳，8座早期基督教建筑群展现了拜占庭帝国早期的艺术成就。圣维塔莱教堂（Basilica of San Vitale）中的镶嵌画描绘了查士丁尼皇帝和皇后西奥多拉的形象，以及精美的基督教场景。亚波利尼亚天主教堂（Basilica of Sant'Apollinare）则以其金色背景上的圣人形象著称。这些镶嵌画代表了拜占庭艺术的巅峰，将基督教图像与古典美学完美融合。1986年列入UNESCO世界遗产。",
       "name_en": "Ravenna Mosaics",
       "location_en": "Ravenna, Italy",
-      "era_en": "5世纪—6世纪",
+      "era_en": "5th - 6th century",
       "eraCategory_en": "Medieval Trade",
-      "shortDesc_en": "\"镶嵌画之都\"，拜占庭帝国早期的艺术明珠",
-      "description_en": "在意大利东北部的拉文纳，8座早期基督教建筑群展现了拜占庭帝国早期的艺术成就。圣维塔莱教堂（Basilica of San Vitale）中的镶嵌画描绘了查士丁尼皇帝和皇后西奥多拉的形象，以及精美的基督教场景。亚波利尼亚天主教堂（Basilica of Sant'Apollinare）则以其金色背景上的圣人形象著称。这些镶嵌画代表了拜占庭艺术的巅峰，将基督教图像与古典美学完美融合。1986年列入UNESCO世界遗产。",
+      "shortDesc_en": "'City of Mosaics', artistic gem of the early Byzantine Empire",
+      "description_en": "In Ravenna in northeastern Italy, eight early Christian architectural complexes showcase the artistic achievements of the early Byzantine Empire. Mosaics in the Basilica of San Vitale depict Emperor Justinian and Empress Theodora, as well as exquisite Christian scenes. The Basilica of Sant'Apollinare is famous for its saintly figures against a golden background. These mosaics represent the pinnacle of Byzantine art, perfectly blending Christian imagery with classical aesthetics. Listed as UNESCO World Heritage in 1986.",
       "image": "ravenna-mosaics.jpg"
     },
     {
@@ -666,10 +666,10 @@
       "description": "托莱多是西班牙历史上最重要的城市之一。6世纪时，这里是西哥特王国的首都；8世纪初，摩尔人征服了这座城市；11-15世纪收复失地运动期间，基督教、伊斯兰教和犹太教在这里共存了数百年。这种三重文化遗产在托莱多的建筑中留下了深深的烙印：托莱多大教堂是西班牙最大的哥特式教堂之一，阿尔卡萨城堡曾是天主教君主的要塞，犹太教堂保留了mudéjar风格的精美装饰。1986年整座古城被列入UNESCO世界遗产。",
       "name_en": "Toledo",
       "location_en": "Castile-La Mancha, Spain",
-      "era_en": "西哥特时期（6世纪）起",
+      "era_en": "From 6th century (Visigothic period)",
       "eraCategory_en": "Ancient Era",
-      "shortDesc_en": "基督教、伊斯兰教、犹太教三文化交融之地，1986年 UNESCO",
-      "description_en": "托莱多是西班牙历史上最重要的城市之一。6世纪时，这里是西哥特王国的首都；8世纪初，摩尔人征服了这座城市；11-15世纪收复失地运动期间，基督教、伊斯兰教和犹太教在这里共存了数百年。这种三重文化遗产在托莱多的建筑中留下了深深的烙印：托莱多大教堂是西班牙最大的哥特式教堂之一，阿尔卡萨城堡曾是天主教君主的要塞，犹太教堂保留了mudéjar风格的精美装饰。1986年整座古城被列入UNESCO世界遗产。"
+      "shortDesc_en": "Meeting point of Christian, Islamic and Jewish cultures, UNESCO 1986",
+      "description_en": "Toledo is one of the most important cities in Spanish history. In the 6th century, it was the capital of the Visigothic Kingdom; in the early 8th century, the Moors conquered the city; during the Reconquista period from the 11th-15th centuries, Christianity, Islam and Judaism coexisted here for centuries. This triple cultural heritage left deep marks on Toledo's architecture: Toledo Cathedral is one of Spain's largest Gothic cathedrals, the Alcázar was a fortress for Catholic monarchs, and the Jewish synagogue retains exquisite mudéjar-style decorations. The entire ancient city was listed as UNESCO World Heritage in 1986."
     },
     {
       "id": "piran",
@@ -690,10 +690,10 @@
       "description": "皮兰是斯洛文尼亚最美丽的沿海城镇，曾经属于威尼斯共和国。城市的布局反映了这个渊源——狭窄弯曲的街道围绕着一系列小广场。圣乔治教堂的钟楼是城市的标志，其高度和位置与威尼斯的圣马可钟楼有着微妙的呼应。皮兰的老城区基本保留了中世纪的面貌，是亚得里亚海北岸保存最完整的威尼斯风格城镇。",
       "name_en": "Piran",
       "location_en": "Koper Coast, Slovenia",
-      "era_en": "7世纪威尼斯共和国时期",
+      "era_en": "7th century (Venetian Republic period)",
       "eraCategory_en": "Ancient Era",
-      "shortDesc_en": "威尼斯共和国最北端的沿海据点",
-      "description_en": "皮兰是斯洛文尼亚最美丽的沿海城镇，曾经属于威尼斯共和国。城市的布局反映了这个渊源——狭窄弯曲的街道围绕着一系列小广场。圣乔治教堂的钟楼是城市的标志，其高度和位置与威尼斯的圣马可钟楼有着微妙的呼应。皮兰的老城区基本保留了中世纪的面貌，是亚得里亚海北岸保存最完整的威尼斯风格城镇。"
+      "shortDesc_en": "Northernmost coastal outpost of the Venetian Republic",
+      "description_en": "Piran is the most beautiful coastal town in Slovenia, once belonging to the Republic of Venice. The city's layout reflects this heritage - narrow curved streets surround a series of small squares. The bell tower of St. George's Church is the city's landmark, its height and position subtly echoing Venice's St. Mark's Bell Tower. Piran's old town has largely preserved its medieval appearance and is the best-preserved Venetian-style town on the northern Adriatic coast."
     },
     {
       "id": "evora",
@@ -714,10 +714,10 @@
       "description": "埃武拉是葡萄牙内陆阿连特茹地区的首府，也是该国保存最完整的历史城市。城市的核心是罗马时期的狄安娜神庙（Templo de Diana），这座1世纪的神庙是伊比利亚半岛保存最完整的罗马神庙之一。中世纪时，摩尔人加固了城墙，建起了城堡；收复失地运动后，基督徒在城中建造了大量的教堂、修道院和贵族宫殿。1986年埃武拉历史中心被列入UNESCO世界遗产。",
       "name_en": "埃武拉 Évora",
       "location_en": "Évora District, Portugal",
-      "era_en": "西哥特时期（7世纪）起",
+      "era_en": "From 7th century (Visigothic period)",
       "eraCategory_en": "Ancient Era",
-      "shortDesc_en": "葡萄牙罗马时期最完整遗迹，1986年 UNESCO",
-      "description_en": "埃武拉是葡萄牙内陆阿连特茹地区的首府，也是该国保存最完整的历史城市。城市的核心是罗马时期的狄安娜神庙（Templo de Diana），这座1世纪的神庙是伊比利亚半岛保存最完整的罗马神庙之一。中世纪时，摩尔人加固了城墙，建起了城堡；收复失地运动后，基督徒在城中建造了大量的教堂、修道院和贵族宫殿。1986年埃武拉历史中心被列入UNESCO世界遗产。"
+      "shortDesc_en": "Best-preserved Roman-era site in Portugal, UNESCO 1986",
+      "description_en": "Évora is the capital of the Alentejo region in Portugal's interior and the country's most well-preserved historic city. The city's core is the Temple of Diana (Templo de Diana) from the Roman period, a 1st-century temple that is one of the best-preserved Roman temples on the Iberian Peninsula. During the Middle Ages, the Moors reinforced the city walls and built castles; after the Reconquista, Christians built numerous churches, monasteries and noble palaces in the city. Évora's historic center was listed as UNESCO World Heritage in 1986."
     },
     {
       "id": "camino-de-santiago",
@@ -738,10 +738,10 @@
       "description": "圣雅各之路是一个横跨欧洲、通往西班牙西北部圣雅各（使徒雅各）遗骸的庞大路径网络，从9世纪开始催生了泛欧洲的现象。沿着这条路，涌现了一个由临终关怀院、桥梁、修道院甚至整个城镇组成的庞大生态系统，以迎合数以百万计的朝圣者。扇贝壳成为了这段旅程不朽的实物线索和象征。这一标志源自一个中世纪的神迹故事：一名骑士坠入海中，在圣雅各的干预下安全浮出水面，身上覆盖着扇贝壳。如今，为支持这条路线而建立的基础设施仍然是欧洲中世纪建筑遗产的重要组成部分。1993年列入UNESCO世界遗产。",
       "name_en": "Camino de Santiago",
       "location_en": "Spain and Multiple European Countries",
-      "era_en": "兴起于公元9世纪",
+      "era_en": "From 9th century AD",
       "eraCategory_en": "Medieval Trade",
-      "shortDesc_en": "横跨欧洲的朝圣之路，催生了泛欧洲的宗教与后勤网络",
-      "description_en": "圣雅各之路是一个横跨欧洲、通往西班牙西北部圣雅各（使徒雅各）遗骸的庞大路径网络，从9世纪开始催生了泛欧洲的现象。沿着这条路，涌现了一个由临终关怀院、桥梁、修道院甚至整个城镇组成的庞大生态系统，以迎合数以百万计的朝圣者。扇贝壳成为了这段旅程不朽的实物线索和象征。这一标志源自一个中世纪的神迹故事：一名骑士坠入海中，在圣雅各的干预下安全浮出水面，身上覆盖着扇贝壳。如今，为支持这条路线而建立的基础设施仍然是欧洲中世纪建筑遗产的重要组成部分。1993年列入UNESCO世界遗产。",
+      "shortDesc_en": "Pilgrimage route spanning Europe, giving rise to pan-European religious and logistical networks",
+      "description_en": "The Way of St. James is a vast network of paths spanning Europe, leading to the relics of St. James (Apostle James) in northwestern Spain. From the 9th century, it gave rise to a pan-European phenomenon. Along these routes, an vast ecosystem of hospices, bridges, monasteries and even entire towns emerged to cater to millions of pilgrims. The scallop shell became an enduring physical clue and symbol of this journey. This symbol originates from a medieval miracle story: a knight fell into the sea but was saved by St. James, emerging covered in scallop shells. Today, the infrastructure built to support this route remains an important part of Europe's medieval architectural heritage. Listed as UNESCO World Heritage in 1993.",
       "image": "camino-santiago.jpg"
     },
     {
