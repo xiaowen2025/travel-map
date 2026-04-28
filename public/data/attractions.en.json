@@ -1,0 +1,1628 @@
+{
+  "timelinePoints": [
+    {
+      "id": "lascaux-cave",
+      "name": "Lascaux Cave",
+      "location": "Dordogne, France",
+      "era": "20000 BC",
+      "sortYear": -20000,
+      "eraCategory": "Prehistoric Bronze Age",
+      "category": "cultural",
+      "coordinates": [
+        1.1718,
+        45.0538
+      ],
+      "tags": [
+        "史前与青铜时代"
+      ],
+      "shortDesc": "Masterpiece of Paleolithic cave painting, the \"Sistine Chapel of Prehistory\"",
+      "description": "In prehistoric Europe, the limestone plateau of southwestern France conceals a stunning treasure of art. The Lascaux caves contain Ice Age animal paintings dating back twenty thousand years, depicting horses, bison, deer and other creatures with fluid lines and natural colors, earning it the nickname the \"Sistine Chapel of Prehistory\". These paintings prove that Ice Age humans possessed highly complex symbolic thinking abilities, marking the beginning of human art history.",
+      "image": "lascaux-cave.jpg"
+    },
+    {
+      "id": "gobekli-tepe",
+      "name": "Göbekli Tepe",
+      "location": "Southeastern Turkey",
+      "era": "9500-8000 BC",
+      "sortYear": -9500,
+      "eraCategory": "Prehistoric Bronze Age",
+      "category": "cultural",
+      "coordinates": [
+        38.9225,
+        37.2231
+      ],
+      "tags": [
+        "史前与青铜时代"
+      ],
+      "shortDesc": "World's earliest Neolithic temple, predating agriculture",
+      "description": "Around 9500 BC, on the desolate hills of southeastern Turkey, before humans had learned farming and settlement, a stunning temple arose - Göbekli Tepe. The massive T-shaped limestone pillars stand up to 5 meters high and weigh 7-20 tons, carved with bas-reliefs of wild animals like lions and bulls, representing the crucial moment when humans transitioned from hunter-gatherers to farmers. The discovery of this site completely overturned traditional historical understanding: religious needs may have preceded the Agricultural Revolution. Listed as UNESCO World Heritage in 2018.",
+      "image": "gobekli-tepe.jpg"
+    },
+    {
+      "id": "matera",
+      "name": "Matera",
+      "location": "Basilicata, Italy",
+      "era": "from 7000 BC",
+      "sortYear": -7000,
+      "eraCategory": "Prehistoric Bronze Age",
+      "category": "cultural",
+      "coordinates": [
+        16.6043,
+        40.6664
+      ],
+      "tags": [
+        "史前与青铜时代"
+      ],
+      "shortDesc": "One of the oldest continuously inhabited cities in the Mediterranean, UNESCO 1993",
+      "description": "Matera is one of the oldest continuously inhabited cities in Europe and the world. The earliest human traces date back to the Paleolithic period (~7000 BC), while the cave dwellings (Sassi) were carved into soft limestone and became a heritage of Christian communities after the 8th century. Before the 1950s, it was widely considered one of the most impoverished areas; today, these cave dwellings have been redeveloped into hotels, restaurants and museums, becoming a unique cultural landscape in Europe. In 2019, Matera was named 'Italian Capital of Culture'."
+    },
+    {
+      "id": "megalithic-temples-of-malta",
+      "name": "Megalithic Temples of Malta",
+      "location": "Malta",
+      "era": "3600 BC",
+      "sortYear": -3600,
+      "eraCategory": "Prehistoric Bronze Age",
+      "category": "cultural",
+      "coordinates": [
+        14.4444,
+        35.8288
+      ],
+      "tags": [
+        "史前与青铜时代"
+      ],
+      "shortDesc": "Oldest free-standing stone structures on Earth",
+      "description": "In the heart of the Mediterranean, the island nation of Malta houses some of the oldest free-standing buildings on Earth. Megalithic temple complexes such as Ħaġar Qim and Mnajdra were built around 3600 BC, nearly a thousand years before Stonehenge. These sites exhibit complex astronomical alignments with the spring equinox, autumn equinox, summer and winter solstice, demonstrating prehistoric humans' advanced understanding of solar cycles and seasonal rhythms. Listed as UNESCO World Heritage in 1992.",
+      "image": "malta-megalithic-temples.jpg"
+    },
+    {
+      "id": "newgrange",
+      "name": "Newgrange",
+      "location": "Boyne Valley, Ireland",
+      "era": "3200 BC",
+      "sortYear": -3200,
+      "eraCategory": "Prehistoric Bronze Age",
+      "category": "cultural",
+      "coordinates": [
+        -6.4754,
+        53.6946
+      ],
+      "tags": [
+        "史前与青铜时代"
+      ],
+      "shortDesc": "Neolithic passage tomb with perfect winter solstice alignment",
+      "description": "In Ireland's Boyne Valley, a massive Neolithic structure has stood silently for five thousand years. Newgrange is a passage tomb and ancient temple, predating both the Pyramids and Stonehenge. Each winter solstice at sunrise, a beam of sunlight penetrates the narrow entrance gap and precisely illuminates the inner chamber along the 19-meter passage - this precise astronomical alignment demonstrates early humans' profound engineering understanding of solar cycles. It is one of the earliest shining witnesses to human wisdom.",
+      "image": "newgrange.jpg"
+    },
+    {
+      "id": "skara-brae",
+      "name": "Skara Brae",
+      "location": "Orkney Islands, Scotland",
+      "era": "3180-2500 BC",
+      "sortYear": -3180,
+      "eraCategory": "Prehistoric Bronze Age",
+      "category": "cultural",
+      "coordinates": [
+        -3.3361,
+        59.0381
+      ],
+      "tags": [
+        "史前与青铜时代"
+      ],
+      "shortDesc": "Most complete Neolithic village in Europe, 'Scottish Pompeii'",
+      "description": "On the Orkney Islands in northern Scotland, humans built a well-planned settlement as early as 5,000 years ago. Skara Brae is Europe's most complete Neolithic village, with ten stone houses preserving complete indoor facilities including beds, wardrobes, seats and storage chests, as well as ancient drainage systems and indoor toilets. This sand-buried village is like the 'Scottish Pompeii', showcasing humanity's early transition from nomadic to settled life. Listed as UNESCO World Heritage 'Heart of Neolithic Orkney' in 1999.",
+      "image": "skara-brae.jpg"
+    },
+    {
+      "id": "stonehenge",
+      "name": "Stonehenge",
+      "location": "Wiltshire, England",
+      "era": "3000-2000 BC",
+      "sortYear": -3000,
+      "eraCategory": "Prehistoric Bronze Age",
+      "category": "cultural",
+      "coordinates": [
+        -1.8262,
+        51.1789
+      ],
+      "tags": [
+        "史前与青铜时代"
+      ],
+      "shortDesc": "Most famous prehistoric stone circle in Europe",
+      "description": "On Salisbury Plain in southern England, Stonehenge stands silently like an eternal riddle. This most famous European prehistoric stone circle is arranged in concentric circles with massive bluestones, famous for its mysterious summer solstice sunrise alignment. Between 3000 BC and 2000 BC, this structure underwent multiple construction phases, and its purpose remains a focus of scholarly debate - religious ritual site, tribal gathering place, or astronomical observatory? Listed as UNESCO World Heritage in 1986.",
+      "image": "stonehenge.jpg"
+    },
+    {
+      "id": "palace-of-knossos",
+      "name": "Palace of Knossos",
+      "location": "Crete, Greece",
+      "era": "1900 BC",
+      "sortYear": -1900,
+      "eraCategory": "Prehistoric Bronze Age",
+      "category": "cultural",
+      "coordinates": [
+        25.163,
+        35.2979
+      ],
+      "tags": [
+        "史前与青铜时代"
+      ],
+      "shortDesc": "Political and cultural center of Europe's first highly developed civilization - the Minoan Civilization",
+      "description": "In the history of European civilization, Crete is a milestone. The Minoan Civilization centered at the Palace of Knossos (~3100 BC - 1100 BC) is widely regarded as Europe's first highly developed civilization. This palace features complex spatial planning, multi-story rooms, complete water supply and drainage systems, and vivid murals depicting nature and rituals. Closely associated with the legendary King Minos and the Labyrinth myth, it represents the most advanced urban civilization of the European Bronze Age. Listed as UNESCO World Heritage in 1999.",
+      "image": "knossos-palace.jpg"
+    },
+    {
+      "id": "mycenae",
+      "name": "Mycenae",
+      "location": "Peloponnese, Greece",
+      "era": "1600-1100 BC",
+      "sortYear": -1600,
+      "eraCategory": "Prehistoric Bronze Age",
+      "category": "cultural",
+      "coordinates": [
+        22.7565,
+        37.7308
+      ],
+      "tags": [
+        "史前与青铜时代"
+      ],
+      "shortDesc": "Legendary capital of Agamemnon, Bronze Age military fortress",
+      "description": "On the hills of southern mainland Greece, the fortified citadel of Mycenae overlooks the Argive Plain. This fortress is recognized as the legendary capital of King Agamemnon, who ruled southern Greece and became the historical backdrop for Homer's epics. Mycenae is famous for the 'Lion Gate' and massive stone walls, showcasing the power structure of Bronze Age military aristocrats. Its excavated burial treasures (including the famous 'Mask of Agamemnon') prove the high complexity of early European civilization. Listed as UNESCO World Heritage in 1999.",
+      "image": "mycenae.jpg"
+    },
+    {
+      "id": "hallstatt",
+      "name": "Hallstatt",
+      "location": "Upper Austria, Austria",
+      "era": "from 800 BC",
+      "sortYear": -800,
+      "eraCategory": "Prehistoric Bronze Age",
+      "category": "cultural",
+      "coordinates": [
+        13.6493,
+        47.5622
+      ],
+      "tags": [
+        "史前与青铜时代"
+      ],
+      "shortDesc": "Iron Age salt mine town, UNESCO 1997",
+      "description": "Hallstatt is one of the oldest human settlements. Salt mining here began in 800 BC, and the profits from salt mines enabled this small valley town of only about 800 residents to accumulate wealth. The traditional Alpine wooden houses (Almlaninger House) from the 16th-19th centuries are brightly colored with sloping attic windows. Today, the name Hallstatt has over 100 'copies' worldwide - Guangdong in China even has a reconstructed 'copy' - while the real Hallstatt sits quietly at the foot of the Dachstein Mountains."
+    },
+    {
+      "id": "athenian-agora",
+      "name": "Athenian Agora",
+      "location": "Athens, Greece",
+      "era": "from 500 BC",
+      "sortYear": -500,
+      "eraCategory": "Ancient Era",
+      "category": "cultural",
+      "coordinates": [
+        23.7225,
+        37.9749
+      ],
+      "tags": [
+        "古代"
+      ],
+      "shortDesc": "Birthplace of democracy, cradle of Western philosophical thought",
+      "description": "The Athenian Agora was the public gathering place of ancient Greece, initially an open-air assembly where free citizens gathered to enlist or hear municipal announcements, and quickly evolved into the center of city life. Catalyzed by reforms of politicians like Solon in 594 BC and later Cleisthenes, democratic politics took root here. It was between the colonnades and shops of the Agora that Socrates engaged in dialectic with citizens until 399 BC, when the court in the same square sentenced him to death for impiety. Upon hearing Socrates' speeches, Plato abandoned his ambition to become an aristocratic playwright and devoted himself entirely to philosophy. The Agora is thus regarded as the birthplace of democracy and Western philosophical thought.",
+      "image": "athenian-agora.jpg"
+    },
+    {
+      "id": "parthenon",
+      "name": "Parthenon",
+      "location": "Acropolis of Athens, Greece",
+      "era": "447-432 BC",
+      "sortYear": -447,
+      "eraCategory": "Ancient Era",
+      "category": "cultural",
+      "coordinates": [
+        23.7264,
+        37.9715
+      ],
+      "tags": [
+        "古代"
+      ],
+      "shortDesc": "Masterpiece of Classical Greek proportion and geometric order",
+      "description": "Overlooking the Agora stands the Acropolis of Athens and its crowning achievement - the Parthenon. After Persian King Xerxes destroyed Athens in 480 BC, politician Pericles ordered the construction of this monument dedicated to the guardian goddess Athena (Athena Parthenos), adorned with sculptures by Phidias. This temple represents the pinnacle of Classical Greek proportion, symmetry and artistic achievement. Its conscious application of geometric order profoundly influenced the aesthetic principles of all subsequent European empires, establishing a municipal building template that continues to modern times.",
+      "image": "parthenon.jpg"
+    },
+    {
+      "id": "su-nuraxi",
+      "name": "Su Nuraxi",
+      "location": "Sardinia, Italy",
+      "era": "1600-1500 BC",
+      "sortYear": -16,
+      "eraCategory": "Prehistoric Bronze Age",
+      "category": "cultural",
+      "coordinates": [
+        8.9912,
+        39.7056
+      ],
+      "tags": [
+        "史前与青铜时代"
+      ],
+      "shortDesc": "Truncated conical stone fortress complex left by the Nuragic civilization",
+      "description": "On Sardinia, the second largest island in the Mediterranean, a unique Bronze Age civilization built thousands of magnificent truncated conical stone fortresses called 'nuraghi'. These distinctive conical stone towers spread across Sardinia, representing the most iconic remains of this unique culture. Su Nuraxi in Barumini is a large architectural complex centered around a massive tower, showcasing the astonishing creativity of prehistoric humans in architectural engineering. Listed as UNESCO World Heritage in 1997.",
+      "image": "su-nuraxi.jpg"
+    },
+    {
+      "id": "maison-carree",
+      "name": "Maison Carrée",
+      "location": "Nîmes, France",
+      "era": "1st century",
+      "sortYear": 1,
+      "eraCategory": "Ancient Era",
+      "category": "cultural",
+      "coordinates": [
+        4.3563,
+        43.8382
+      ],
+      "tags": [
+        "古代"
+      ],
+      "shortDesc": "One of the best-preserved Roman temples",
+      "description": "In Nîmes, southern France (Nîmes, formerly Nemausus), during the reign of Augustus, one of the best-preserved Roman temples was built - the Maison Carrée. It showcases the elegance of classical proportions and independent Corinthian columns, serving as a model for the Roman Empire's establishment of iconic buildings in provinces. This temple has remained intact for nearly two thousand years, making it the best physical example for studying Roman architecture.",
+      "image": "maison-carree.jpg"
+    },
+    {
+      "id": "pont-du-gard",
+      "name": "Pont du Gard",
+      "location": "Near Nîmes, France",
+      "era": "40-60",
+      "sortYear": 40,
+      "eraCategory": "Ancient Era",
+      "category": "cultural",
+      "coordinates": [
+        4.5356,
+        43.9472
+      ],
+      "tags": [
+        "古代"
+      ],
+      "shortDesc": "Finest Roman aqueduct bridge",
+      "description": "Near Nîmes, a three-tiered arch aqueduct bridge has stood silently for nearly two thousand years. The Pont du Gard is the finest Roman aqueduct bridge, with three tiers of arches standing 48.8 meters high and a total length of 275 meters, built entirely by gravity-fit stone blocks without any mortar. It once transported 45,000 cubic meters of fresh water to Nîmes daily, showcasing Roman engineers' profound mastery of hydraulics and geometry. Listed as UNESCO World Heritage in 1985.",
+      "image": "pont-du-gard.jpg"
+    },
+    {
+      "id": "arena-of-nimes",
+      "name": "Arena of Nîmes",
+      "location": "Nîmes, France",
+      "era": "1st century",
+      "sortYear": 50,
+      "eraCategory": "Ancient Era",
+      "category": "cultural",
+      "coordinates": [
+        4.3596,
+        43.8347
+      ],
+      "tags": [
+        "古代"
+      ],
+      "shortDesc": "Perfectly symmetrical Roman amphitheater",
+      "description": "The Arena of Nîmes, like the Maison Carrée, is part of Nîmes' Roman heritage. It is a perfectly symmetrical amphitheater designed with 60 passages to accommodate 13,000 to 24,000 spectators, highlighting the Romans' use of large-scale public entertainment (especially gladiator fights) as a tool for social cohesion and displaying imperial power. This architectural concept spread throughout Europe with the expansion of the Roman Empire, leaving numerous arena remains.",
+      "image": "arena-nimes.jpg"
+    },
+    {
+      "id": "colosseum",
+      "name": "Colosseum",
+      "location": "Rome, Italy",
+      "era": "72-80",
+      "sortYear": 72,
+      "eraCategory": "Ancient Era",
+      "category": "cultural",
+      "coordinates": [
+        12.4922,
+        41.8902
+      ],
+      "tags": [
+        "古代"
+      ],
+      "shortDesc": "Greatest amphitheater of the Roman Empire and symbol of power",
+      "description": "The Colosseum is the most magnificent structure in the Augustan Forum. This massive elliptical amphitheater could accommodate tens of thousands of spectators, serving as the ultimate symbol of Roman imperial power and brutal entertainment. During the height of the empire, it hosted gladiatorial combat, beast hunts, and even naval battles with the theater flooded. It is not only an architectural marvel but also a tool of Roman imperial propaganda, showcasing the wealth and authority of the empire through spectacular displays. Listed as UNESCO World Heritage in 1980.",
+      "image": "colosseum.jpg"
+    },
+    {
+      "id": "pompeii",
+      "name": "Pompeii",
+      "location": "Campi Flegrei, Italy",
+      "era": "79(buried by Vesuvius)",
+      "sortYear": 79,
+      "eraCategory": "Ancient Era",
+      "category": "cultural",
+      "coordinates": [
+        14.4851,
+        40.7508
+      ],
+      "tags": [
+        "古代"
+      ],
+      "shortDesc": "Authentically preserved snapshot of early Roman imperial civilian life",
+      "description": "Pompeii, buried instantly by the eruption of Mount Vesuvius, provides an unparalleled 'frozen in time' snapshot of the ancient world. Recent archaeological discoveries have fundamentally revised the established historical timeline - charcoal graffiti found on walls moved the generally accepted eruption date from August 24, 79 AD to October 24. Additionally, Pompeii's walls are a pristine archive of ordinary people's voices. Thousands of surviving graffiti inscriptions reveal a highly literate society, from political endorsements on the outer walls of taverns like the Asellina bar, to vulgar insults and poetic declarations in the notorious lupanar brothel. Pompeii's physical architecture reveals a society where public space was actively used for personal and political expression. Listed as UNESCO World Heritage in 1997.",
+      "image": "pompeii.jpg"
+    },
+    {
+      "id": "aqueduct-of-segovia",
+      "name": "Aqueduct of Segovia",
+      "location": "Segovia, Spain",
+      "era": "late 1st-early 2nd century",
+      "sortYear": 100,
+      "eraCategory": "Ancient Era",
+      "category": "cultural",
+      "coordinates": [
+        -4.1177,
+        40.9481
+      ],
+      "tags": [
+        "古代"
+      ],
+      "shortDesc": "Roman hydraulic engineering marvel standing for nearly 2,000 years",
+      "description": "In Segovia, Spain, a two-tiered stone arch aqueduct bridge has stood silently for nearly two thousand years. The Aqueduct of Segovia uses precise gradients and massive stone arches to transport fresh water from a river 18 kilometers away to the city, showcasing the Romans' pragmatic genius in hydraulic engineering. Astonishingly, this massive structure stands firm solely through the gravity-fit arrangement of stone blocks, without any mortar. It is the most practical masterpiece of Roman engineering and one of the most well-preserved hydraulic structures today.",
+      "image": "aqueduct-segovia.jpg"
+    },
+    {
+      "id": "pantheon",
+      "name": "Pantheon",
+      "location": "Rome, Italy",
+      "era": "118-125",
+      "sortYear": 118,
+      "eraCategory": "Ancient Era",
+      "category": "cultural",
+      "coordinates": [
+        12.4768,
+        41.8986
+      ],
+      "tags": [
+        "古代"
+      ],
+      "shortDesc": "Best-preserved ancient Roman building in the world",
+      "description": "The Pantheon is the best-preserved ancient Roman building in the world, famous for its unreinforced concrete dome with a diameter of 43 meters, which remains the world's largest dome of its kind after nearly two thousand years. Emperor Hadrian built this temple dedicated to all the gods, and in 609 AD it was converted into a Catholic church. The oculus at the top of the dome projects light inward, creating a massive spot of light on the floor as the sun moves, symbolizing the illumination of the divine upon the earthly realm. This building demonstrates the Romans' astonishing genius in concrete engineering and remains a model for architects to study and draw inspiration from today.",
+      "image": "pantheon.jpg"
+    },
+    {
+      "id": "hadrians-wall",
+      "name": "Hadrian's Wall",
+      "location": "Northern England, UK",
+      "era": "from 122",
+      "sortYear": 122,
+      "eraCategory": "Ancient Era",
+      "category": "cultural",
+      "coordinates": [
+        -2.6019,
+        55.0242
+      ],
+      "tags": [
+        "古代"
+      ],
+      "shortDesc": "Iconic defensive structure marking the northern frontier of the Roman Empire",
+      "description": "Built on the orders of Emperor Hadrian, Hadrian's Wall stretches across northern England for 117 kilometers, serving as an iconic defensive engineering project marking the northern frontier of the Roman Empire and representing the northernmost boundary of Roman imperial power. This defensive system includes the wall, watchtowers, forts and military roads, designed to defend against the Pictish tribes of Scotland. Listed as UNESCO World Heritage in 1987. Today, the wall's ruins attract global tourists, becoming a physical witness to the intersection of Roman imperial history and British indigenous culture.",
+      "image": "hadrians-wall.jpg"
+    },
+    {
+      "id": "porta-nigra",
+      "name": "Porta Nigra",
+      "location": "Trier, Germany",
+      "era": "170",
+      "sortYear": 170,
+      "eraCategory": "Ancient Era",
+      "category": "cultural",
+      "coordinates": [
+        6.6445,
+        49.7597
+      ],
+      "tags": [
+        "古代"
+      ],
+      "shortDesc": "Best-preserved Roman city gate north of the Alps",
+      "description": "Trier is Germany's oldest city and was once the capital of the Roman Empire. Porta Nigra, built around 170 AD, is the best-preserved and largest Roman city gate north of the Alps, perfectly representing the Roman Empire's powerful defense and urbanization process on its frontiers. This massive sandstone gate consists of two parts with complex internal passages and defensive facilities, serving as a typical representative of the Roman Empire's border defense system.",
+      "image": "porta-nigra.jpg"
+    },
+    {
+      "id": "diocletians-palace",
+      "name": "Diocletian's Palace",
+      "location": "Split, Croatia",
+      "era": "early 4th century",
+      "sortYear": 305,
+      "eraCategory": "Ancient Era",
+      "category": "cultural",
+      "coordinates": [
+        16.4402,
+        43.5081
+      ],
+      "tags": [
+        "古代"
+      ],
+      "shortDesc": "Symbolic structure of transition from open city to medieval defensive fortress",
+      "description": "As the classical era drew to a close, the architectural focus of the Roman Empire shifted from open civic participation to fortified defense. Diocletian's Palace in Split, Croatia was built in this context. This massive and heavily fortified retirement fortress was built for Emperor Diocletian in the early 4th century, and its architectural layout profoundly influenced the transition to the medieval paradigm of defensive urban planning. The palace's basements, city walls and Porta di Terra remain well preserved today, serving as an important example for studying late Roman Empire architecture.",
+      "image": "diocletian-palace.jpg"
+    },
+    {
+      "id": "edict-of-milan-milan-cathedral",
+      "name": "Edict of Milan & Milan Cathedral",
+      "location": "Milan, Italy",
+      "era": "313(Edict of Milan); Cathedral from 1386",
+      "sortYear": 313,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        9.1919,
+        45.4642
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Historic site of Christian legalization, one of Europe's largest Gothic cathedrals",
+      "description": "In the spiritual landscape of medieval Europe, Milan occupied a unique and crucial position. In 313 AD, two Roman emperors - Constantine the Great and Licinius - signed a groundbreaking decree in Milan, known as the Edict of Milan. This document officially declared freedom of worship for Christianity within the Roman Empire, ending over two hundred years of systematic persecution of Christians since the era of Emperor Nero (64 AD). Milan thus became one of the most symbolically significant sites in Christian history. The Milan Cathedral (Duomo di Milano), built centuries later, was constructed to commemorate this foundational event that profoundly changed the course of European civilization. This Gothic masterpiece took nearly 600 years (1386-1965) to complete and is one of the largest Gothic cathedrals in the world, with 135 spires and a rooftop terrace overlooking the entire city, showcasing the ultimate achievement of medieval engineering. Its lightweight flying buttress structures and exquisite stone carvings make it one of the most spectacular achievements of medieval European architecture."
+    },
+    {
+      "id": "hagia-sophia",
+      "name": "Hagia Sophia",
+      "location": "Istanbul, Turkey",
+      "era": "537",
+      "sortYear": 537,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        28.9801,
+        41.0086
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Peak of Byzantine architecture, intersection of Eastern and Western architectural traditions",
+      "description": "When the Western Roman Empire collapsed, the Eastern Roman Empire (Byzantine Empire) continued Roman glory. In Constantinople (now Istanbul), Emperor Justinian I built the Hagia Sophia, one of the earliest buildings in the world to fully employ pendentive domes. 82 meters long with a dome 55 meters high, it was a marvel of engineering for its time. This cathedral combined Greco-Roman engineering technology with Christian theological symbolism, its massive central dome appearing to 'float' above space, transferring weight to the corner pillars through pendentives. After the Ottoman Empire conquered Constantinople in 1453, Hagia Sophia was converted into a mosque, adding minarets and a mihrab, but preserving the original Byzantine mosaics. Listed as UNESCO World Heritage in 1985.",
+      "image": "hagia-sophia.jpg"
+    },
+    {
+      "id": "ravenna-mosaics",
+      "name": "Ravenna Mosaics",
+      "location": "Ravenna, Italy",
+      "era": "5th-6th century",
+      "sortYear": 550,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        12.1997,
+        44.4184
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "City of Mosaics, artistic gem of the early Byzantine Empire",
+      "description": "In Ravenna in northeastern Italy, eight early Christian architectural complexes showcase the artistic achievements of the early Byzantine Empire. Mosaics in the Basilica of San Vitale depict Emperor Justinian and Empress Theodora, as well as exquisite Christian scenes. The Basilica of Sant'Apollinare is famous for its saintly figures against a golden background. These mosaics represent the pinnacle of Byzantine art, perfectly blending Christian imagery with classical aesthetics. Listed as UNESCO World Heritage in 1986.",
+      "image": "ravenna-mosaics.jpg"
+    },
+    {
+      "id": "toledo",
+      "name": "Toledo",
+      "location": "Castile-La Mancha, Spain",
+      "era": "from 6th century",
+      "sortYear": 600,
+      "eraCategory": "Ancient Era",
+      "category": "cultural",
+      "coordinates": [
+        -4.0224,
+        39.8628
+      ],
+      "tags": [
+        "古代"
+      ],
+      "shortDesc": "Meeting point of Christian, Islamic and Jewish cultures, UNESCO 1986",
+      "description": "Toledo is one of the most important cities in Spanish history. In the 6th century, it was the capital of the Visigothic Kingdom; in the early 8th century, the Moors conquered the city; during the Reconquista period from the 11th-15th centuries, Christianity, Islam and Judaism coexisted here for centuries. This triple cultural heritage left deep marks on Toledo's architecture: Toledo Cathedral is one of Spain's largest Gothic cathedrals, the Alcázar was a fortress for Catholic monarchs, and the Jewish synagogue retains exquisite mudéjar-style decorations. The entire ancient city was listed as UNESCO World Heritage in 1986."
+    },
+    {
+      "id": "piran",
+      "name": "Piran",
+      "location": "Koper Coast, Slovenia",
+      "era": "7th century",
+      "sortYear": 700,
+      "eraCategory": "Ancient Era",
+      "category": "cultural",
+      "coordinates": [
+        13.5684,
+        45.5282
+      ],
+      "tags": [
+        "古代"
+      ],
+      "shortDesc": "Northernmost coastal outpost of the Venetian Republic",
+      "description": "Piran is the most beautiful coastal town in Slovenia, once belonging to the Republic of Venice. The city's layout reflects this heritage - narrow curved streets surround a series of small squares. The bell tower of St. George's Church is the city's landmark, its height and position subtly echoing Venice's St. Mark's Bell Tower. Piran's old town has largely preserved its medieval appearance and is the best-preserved Venetian-style town on the northern Adriatic coast."
+    },
+    {
+      "id": "evora",
+      "name": "Évora",
+      "location": "Évora District, Portugal",
+      "era": "from 7th century",
+      "sortYear": 700,
+      "eraCategory": "Ancient Era",
+      "category": "cultural",
+      "coordinates": [
+        -7.9068,
+        38.5711
+      ],
+      "tags": [
+        "古代"
+      ],
+      "shortDesc": "Best-preserved Roman-era site in Portugal, UNESCO 1986",
+      "description": "Évora is the capital of the Alentejo region in Portugal's interior and the country's most well-preserved historic city. The city's core is the Temple of Diana (Templo de Diana) from the Roman period, a 1st-century temple that is one of the best-preserved Roman temples on the Iberian Peninsula. During the Middle Ages, the Moors reinforced the city walls and built castles; after the Reconquista, Christians built numerous churches, monasteries and noble palaces in the city. Évora's historic center was listed as UNESCO World Heritage in 1986."
+    },
+    {
+      "id": "camino-de-santiago",
+      "name": "Camino de Santiago",
+      "location": "Spain and Multiple European Countries",
+      "era": "from 9th century",
+      "sortYear": 900,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        -8.5448,
+        42.8805
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Pilgrimage route spanning Europe, giving rise to pan-European religious and logistical networks",
+      "description": "The Way of St. James is a vast network of paths spanning Europe, leading to the relics of St. James (Apostle James) in northwestern Spain. From the 9th century, it gave rise to a pan-European phenomenon. Along these routes, an vast ecosystem of hospices, bridges, monasteries and even entire towns emerged to cater to millions of pilgrims. The scallop shell became an enduring physical clue and symbol of this journey. This symbol originates from a medieval miracle story: a knight fell into the sea but was saved by St. James, emerging covered in scallop shells. Today, the infrastructure built to support this route remains an important part of Europe's medieval architectural heritage. Listed as UNESCO World Heritage in 1993.",
+      "image": "camino-santiago.jpg"
+    },
+    {
+      "id": "mont-saint-michel",
+      "name": "Mont Saint-Michel",
+      "location": "Normandy, France",
+      "era": "from 966",
+      "sortYear": 966,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        -1.5115,
+        48.6361
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Medieval fortress perfectly blending religion, knowledge and defense, UNESCO 1979",
+      "description": "Dramatically situated on a tidal island off the Normandy coast, Mont Saint-Michel represents the ultimate synthesis of medieval spiritual faith, intellectual pursuit and military defense. This abbey was established by a Benedictine monastic community in 966 AD after a legendary vision of the Archangel Michael, becoming a premier center of knowledge where ancient Greek texts containing classical wisdom were preserved, copied and studied. Architecturally, Mont Saint-Michel is a triumph over extreme terrain. The highest point of the complex is 'La Merveille' (The Wonder), a three-story Gothic masterpiece built in the 13th century. The cloister features 137 columns of hobnail marble arranged in an intricate tripod formation, providing a serene, soaring space for monastic meditation. During the Hundred Years' War, this fortress successfully repelled multiple sieges by England, most notably achieving victory in 1434 despite being outnumbered.",
+      "image": "mont-saint-michel.jpg"
+    },
+    {
+      "id": "bamberg",
+      "name": "Bamberg",
+      "location": "Bavaria, Germany",
+      "era": "founded 10th-11th century; peak 14th century",
+      "sortYear": 1100,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        10.8978,
+        49.8917
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "River city founded by Emperor Heinrich II of the Holy Roman Empire, UNESCO 1993",
+      "description": "Bamberg stretches across seven hills, divided by the Regnitz River and its canals into islands, earning it the nickname 'Rome of the Franconia'. The old town preserves numerous Romanesque and Gothic buildings, as well as 17th-18th century Burgundian houses. Most distinctive are the 'Bamberger Bocker' - these half-timbered buildings were built directly on the riverbed, dating back to the 14th century. UNESCO commented that it 'preserves almost completely the urban appearance of the East Frankish Kingdom for over a thousand years'."
+    },
+    {
+      "id": "salzburg-altstadt",
+      "name": "Salzburg Altstadt",
+      "location": "Salzburg State, Austria",
+      "era": "from 1120s; Baroque peak 16th-18th century",
+      "sortYear": 1120,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        13.0479,
+        47.7981
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Baroque city of archbishop's seat, UNESCO 1996",
+      "description": "Salzburg's history is closely linked to its archbishops. From the 1120s onwards, the Archbishop of Salzburg became one of the most influential princes of the Holy Roman Empire, building spectacular palaces, churches and monasteries. The most famous building is Hohensalzburg Fortress, an 11th-century castle standing on a hill above the city, one of the best-preserved castles in Central Europe. Listed as UNESCO World Heritage together with the old town in 1996."
+    },
+    {
+      "id": "st-stephens-cathedral",
+      "name": "St. Stephen's Cathedral",
+      "location": "Vienna, Austria",
+      "era": "from 1137",
+      "sortYear": 1137,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        16.3726,
+        48.2082
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Habsburg dynasty's family church, witness to Austria's major historical events",
+      "description": "Vienna's St. Stephen's Cathedral is the Habsburg dynasty's family church, famous for its 136-meter-high south tower and colorful tile roof depicting the Habsburg double-headed eagle. This cathedral witnessed Austria's major historical events, from its founding in the 13th century to its reconstruction during World War II, and has always been the core symbol of Vienna's urban identity. Its collection of precious cultural relics and artworks records six hundred years of the rise and fall of the Habsburg Empire.",
+      "image": "st-stephens-cathedral.jpg"
+    },
+    {
+      "id": "lubeck",
+      "name": "Lübeck Old Town & Holstentor",
+      "location": "Schleswig-Holstein, Germany",
+      "era": "rebuilt mid-12th century; peak 13th-15th century",
+      "sortYear": 1150,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        10.6865,
+        53.8655
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Heart of the Hanseatic League, birthplace of 'Brick Gothic' architecture",
+      "description": "By the 12th century, the commercial vacuum left by Rome in Northern Europe was filled by the Hanseatic League. Evolved from loose associations of German merchants (hansa), it eventually became an economic superpower spanning over 200 cities in eight modern countries. Lübeck was the administrative and spiritual center of this vast network. Refounded in 1157 by Duke Heinrich the Lion, the city adopted the progressive code 'Lübisches Recht', which was eventually used by over 100 cities in the Baltic Sea region. This commercial monopoly-generated vast wealth financed the Brick Gothic architectural style. Lübeck's skyline is dominated by five magnificent churches with their seven soaring copper spires (including the awesome St. Mary's Church), while the fortified Holsten Gate stands as physical evidence of Lübeck's era as 'Queen of the Hanseatic League'. Listed as UNESCO World Heritage with the entire old town in 1987.",
+      "image": "luebeck.jpg"
+    },
+    {
+      "id": "san-gimignano",
+      "name": "San Gimignano",
+      "location": "Tuscany, Italy",
+      "era": "peak 11th-13th century",
+      "sortYear": 1200,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        11.0433,
+        43.4678
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Once 72 towers, 14 remain, UNESCO 1990",
+      "description": "San Gimignano is a small hill town in the Tuscan mountains, known as the 'City of Fine Towers'. During the medieval peak, there were 72 towers belonging to noble families, used to display family wealth and for defense. Only 14 remain today, but looking up along the narrow streets, you can still feel the visual impact of the towers that once lined the hills."
+    },
+    {
+      "id": "ghent",
+      "name": "Ghent",
+      "location": "East Flanders, Belgium",
+      "era": "peak 11th-14th century",
+      "sortYear": 1200,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        3.7174,
+        51.0543
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "One of the three major Flemish cities, city of three medieval spires",
+      "description": "Ghent, together with Bruges and Antwerp, is one of the three major Flemish historic cities. The city's historic center preserves buildings from the Middle Ages to the 19th century, including St. Bavo's Cathedral which houses one of the greatest works of the Flemish school - the Ghent Altarpiece by Jan van Eyck. Three medieval spires - St. Bavo's Cathedral, St. Nicholas' Church and the Town Hall tower - form Ghent's unique skyline."
+    },
+    {
+      "id": "troyes",
+      "name": "Troyes",
+      "location": "Aube, France",
+      "era": "Champagne fairs 12th-13th century",
+      "sortYear": 1220,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        4.0744,
+        48.2974
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Champagne wine fair city, capital of Gothic churches and stained glass",
+      "description": "Troyes was the center of the medieval Champagne Fairs. This prosperous trade activity reached its peak in the 13th century, when merchants from across Europe gathered in this capital of the Champagne region to trade textiles, wine and spices. The profits from the Champagne Fairs built Troyes stunning Gothic church complexes."
+    },
+    {
+      "id": "sainte-chapelle",
+      "name": "Sainte-Chapelle",
+      "location": "Paris, France",
+      "era": "1248",
+      "sortYear": 1248,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        2.345,
+        48.8554
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Peak of Rayonnant Gothic architecture, ultimate expression of Gothic lightness and translucency",
+      "description": "On the Île de la Cité in Paris, the Sainte-Chapelle was built by Louis IX and possesses 1,113 magnificent stained glass windows, representing the highest engineering achievement of Rayonnant Gothic architecture in lightness and translucency. These stained glass windows depict stories from the Bible, from Genesis to Resurrection, turning light into a prayer book of color. The Gothic architectural pursuit of vertical height and ample light reached a nearly spiritual realm here. Listed as UNESCO World Heritage in 1862.",
+      "image": "sainte-chapelle.jpg"
+    },
+    {
+      "id": "cologne-cathedral",
+      "name": "Cologne Cathedral",
+      "location": "North Rhine-Westphalia, Germany",
+      "era": "1248-1880",
+      "sortYear": 1248,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        6.9583,
+        50.9413
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Took 632 years to complete, world's tallest twin-spired church",
+      "description": "Cologne Cathedral is the world's tallest twin-spired church at 157 meters, representing the ultimate achievement of Gothic architecture. The construction of this cathedral lasted 632 years, spanning the medieval and industrial eras, with multiple work stoppages and resumptions, finally completed during the 19th-century Gothic Revival movement. The three great engineering innovations of Gothic architecture - pointed ribbed vaults, pointed arches and flying buttresses - were most perfectly applied in the cathedral, making the building's skeleton slender and able to replace heavy stone walls with large areas of stained glass windows. Listed as UNESCO World Heritage in 1996.",
+      "image": "cologne-cathedral.jpg"
+    },
+    {
+      "id": "cite-of-carcassonne",
+      "name": "Cité of Carcassonne",
+      "location": "Aude, France",
+      "era": "medieval (mainly 13th century)",
+      "sortYear": 1250,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        2.3631,
+        43.2064
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Europe's largest and best-preserved medieval fortified city",
+      "description": "In southern France, the Cité of Carcassonne provides the ultimate example of medieval inland fortifications. As Europe's largest and best-preserved fortified medieval city, it features 3 kilometers of double walls and 52 sturdy towers. This UNESCO World Heritage fortress perfectly embodies the intensive military defensive architecture of the medieval period, and its captivating silhouette remains a visual symbol of the medieval knight era."
+    },
+    {
+      "id": "siena",
+      "name": "Siena",
+      "location": "Tuscany, Italy",
+      "era": "peak 12th-14th century",
+      "sortYear": 1250,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        11.3319,
+        43.3188
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Medieval city-state competing with Florence for Tuscan hegemony, UNESCO 1995",
+      "description": "Siena is a stunning medieval mountain town. During the 12th-14th century, Siena was one of the most powerful city-states in Tuscany, engaged in fierce competition with Florence. The Black Death of 1348 killed about 60% of the population, preventing Siena from recovering its former glory - but this very decline allowed the city to preserve its medieval appearance intact. Siena's central Piazza del Campo is one of the most beautiful medieval squares in Europe, where the famous Palio horse race is held annually."
+    },
+    {
+      "id": "rothenburg",
+      "name": "Rothenburg",
+      "location": "Bavaria, Germany",
+      "era": "from 13th century",
+      "sortYear": 1300,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        10.1787,
+        49.3769
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Best-preserved example of a medieval German town",
+      "description": "Rothenburg is a landmark on Germany's Romantic Route, dubbed the 'Living Museum of the Middle Ages'. Colorful half-timbered buildings from the 13th-15th century line the cobblestone streets, and the market square's town hall features a tower with panoramic city views. A famous fire in the late 16th century prompted reconstruction in traditional style, accidentally protecting the town from the large-scale modernization that transformed most medieval cities afterward."
+    },
+    {
+      "id": "bruges",
+      "name": "Bruges",
+      "location": "West Flanders, Belgium",
+      "era": "peak 13th-15th century",
+      "sortYear": 1300,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        3.2247,
+        51.2093
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Living fossil of medieval prosperity, financial center of the Ghent-Bruges trade area",
+      "description": "With its large trading posts, Bruges became a premier international financial hub. Its location on a sand ridge, combined with a network of tidal waterways connecting the Lys River and the North Sea, facilitated a massive influx of global commodities. Bruges' architecture centers on the Grote Markt (Main Market Square) and its imposing 83-meter-high belfry, standing today as a well-preserved witness to medieval prosperity. The city's Gothic architecture, such as the 13th-century Our Lady Church and the Basilica of the Holy Blood, demonstrates how commercial wealth and religious devotion were deeply intertwined.",
+      "image": "bruges.jpg"
+    },
+    {
+      "id": "alhambra",
+      "name": "Alhambra",
+      "location": "Granada, Spain",
+      "era": "mid-13th-14th century",
+      "sortYear": 1320,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        -3.5886,
+        37.1761
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Brilliant crystallization of Andalusian Islamic culture, most important Moorish palace in Europe",
+      "description": "On the Iberian Peninsula in southwestern Europe, Moorish architecture represented by the Alhambra in Granada reflects the collision of Mediterranean civilizations and the glory of Islamic culture in Al-Andalus. This palace and fortress complex showcases the Islamic architectural pursuit of geometric patterns, water integration and natural harmony to the extreme. Exquisitely carved Arabic inscriptions, complex water fountains and carefully designed courtyards make the Alhambra the pinnacle of Islamic architecture in Europe and an important window for understanding medieval religious and cultural integration.",
+      "image": "alhambra.jpg"
+    },
+    {
+      "id": "prague-old-town",
+      "name": "Prague Old Town",
+      "location": "Czech Republic",
+      "era": "peak under Charles IV 14th century",
+      "sortYear": 1350,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        14.4205,
+        50.0872
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Perfect meeting point of Renaissance and Gothic in Central Europe, UNESCO 1992",
+      "description": "Prague is one of the most beautiful medieval cities in Europe. In the 14th century, Holy Roman Empire Emperor Charles IV transformed Prague into an imperial capital, building the stunning St. Vitus Cathedral, Charles Bridge and the largest medieval market square in Europe - the Old Town Square. Charles Bridge spans the Vltava River, and its 30 Baroque sculptures from the 17th-18th century form a dialogue spanning hundreds of years with the medieval bridge towers. The entire Old Town remained virtually undamaged by war until the end of World War II in 1945."
+    },
+    {
+      "id": "esk-krumlov",
+      "name": "Český Krumlov",
+      "location": "South Bohemia, Czech Republic",
+      "era": "13th century merchant town; peak 14th-16th century",
+      "sortYear": 1350,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        14.3175,
+        48.8109
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Renaissance pearl of South Bohemia, UNESCO 1992",
+      "description": "Český Krumlov is one of the best-preserved medieval towns in Europe. The town sits on a sharp bend in the Vltava River, with red-roofed houses layered on the hillsides against the backdrop of a massive castle tower. In the 13th century, this was a stop on trade routes to Austria and Italy; during the 14th-16th century, the Rosenberg family transformed it into a Renaissance noble residence."
+    },
+    {
+      "id": "dubrovnik-walls",
+      "name": "Dubrovnik Walls",
+      "location": "Dubrovnik, Croatia",
+      "era": "from 14th century",
+      "sortYear": 1400,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        18.1096,
+        42.6409
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Sea fortress of the Republic of Ragusa, 'Freedom would not be sold for all the gold in the world'",
+      "description": "In the Mediterranean and Adriatic Sea, trade was dominated by highly independent maritime republics. The Republic of Ragusa (now Dubrovnik) is a typical example of strategic architecture adapting to turbulent geopolitical forces. Facing Arab sieges, Venetian aggression and later Ottoman threats, the residents of Ragusa launched an unprecedented defensive construction project. By the 15th century, the entire city was completely enclosed by a massive curtain wall, 22 meters high and 4 meters thick. The defensive perimeter includes the massive Minčeta Tower and the separate Lovrijenac Fortress. The latter's famous inscription 'Non bene pro toto libertas venditur auro' ('Liberty is not well sold for all the gold in the world') captures the character of a aristocratic republic entirely dedicated to maintaining its sovereignty and commercial viability.",
+      "image": "dubrovnik-walls.jpg"
+    },
+    {
+      "id": "doges-palace",
+      "name": "Doge's Palace",
+      "location": "Venice, Italy",
+      "era": "from 14th century",
+      "sortYear": 1400,
+      "eraCategory": "Renaissance Reformation",
+      "category": "cultural",
+      "coordinates": [
+        12.3408,
+        45.4337
+      ],
+      "tags": [
+        "文艺复兴与宗教改革"
+      ],
+      "shortDesc": "Political heart of the Venetian Republic, blending Gothic, Byzantine and Moorish styles",
+      "description": "The Venetian maritime republic used its vast trade network and naval power to introduce Eastern influences and enormous wealth, serving as the center for Renaissance painting, architecture and the development of modern diplomatic practice. The Doge's Palace is the political and power heart of the city, a stunning architectural masterpiece skillfully blending Gothic, Byzantine and Moorish architectural elements. Built of pink marble, this palace was not only the residence of the Doge and seat of the Republic government, but also interior decorated with magnificent paintings by masters such as Tintoretto, connected to the ancient prison via the famous Bridge of Sighs, vividly telling of the Venetian Republic's hundreds of years of glory and majesty.",
+      "image": "doge-palace.jpg"
+    },
+    {
+      "id": "florence-cathedral",
+      "name": "Florence Cathedral",
+      "location": "Florence, Italy",
+      "era": "early 15th century (dome completed 1436)",
+      "sortYear": 1436,
+      "eraCategory": "Renaissance Reformation",
+      "category": "cultural",
+      "coordinates": [
+        11.2558,
+        43.7731
+      ],
+      "tags": [
+        "文艺复兴与宗教改革"
+      ],
+      "shortDesc": "Origin of the Renaissance movement, Brunelleschi revived classical aesthetics",
+      "description": "Florence is recognized as the crucible of the Renaissance. The early literary and artistic foundations of the movement were laid by figures such as Dante, Petrarch and Giotto. A decisive moment occurred in 1401, when Lorenzo Ghiberti and Filippo Brunelleschi engaged in fierce competition for designing the bronze doors of the Florence Cathedral baptistery. Brunelleschi then revolutionized the cityscape by designing the cathedral's massive dome, reintroducing the classical principles of symmetry, proportion and geometry that had been lost for centuries. This dome, 45 meters in diameter and 106 meters high, remains the world's largest brick dome, demonstrating the Renaissance engineer's profound understanding of classical architectural principles.",
+      "image": "florence-cathedral.jpg"
+    },
+    {
+      "id": "krakow-old-town",
+      "name": "Kraków Old Town",
+      "location": "Lesser Poland, Poland",
+      "era": "from 15th century",
+      "sortYear": 1450,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        19.9445,
+        50.0614
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Capital of Poland Golden Age, UNESCO 1978",
+      "description": "Kraków was the capital of Poland before moving to Warsaw in 1320, and also the cultural center of Poland's Golden Age (15th-16th century). Kraków's market square is one of the largest medieval squares in Europe, centered on the Renaissance-style Sukiennice (Cloth Hall), which was once a cloth trading hall. The twin towers of St. Mary's Cathedral sound a trumpet every hour to commemorate a trumpeter who sounded the alarm on the city walls and died during the Mongol invasion in the 13th century. The entire Old Town was largely undamaged during World War II."
+    },
+    {
+      "id": "sintra",
+      "name": "Sintra",
+      "location": "Lisbon Region, Portugal",
+      "era": "15th century",
+      "sortYear": 1450,
+      "eraCategory": "Renaissance Reformation",
+      "category": "cultural",
+      "coordinates": [
+        -9.3908,
+        38.7878
+      ],
+      "tags": [
+        "文艺复兴与宗教改革"
+      ],
+      "shortDesc": "City of Portuguese Romantic palaces, UNESCO 1995",
+      "description": "Sintra is a hill town on the outskirts of Lisbon, which became a royal summer retreat from the 15th century. In the 19th century, with the development of the Portuguese Romantic movement, it attracted artists and intellectuals from across Europe, who built a series of fairy-tale palaces and villas. Palácio da Pena is the most famous of these - its striking contrast of red brick and yellow walls with deep blue roofs, mysterious shapes of towers and castle turrets make it look as if it was moved out of a Grimm fairy tale. In 1995, Sintra's cultural landscape was listed as UNESCO World Heritage."
+    },
+    {
+      "id": "nicolaus-copernicus-house",
+      "name": "Nicolaus Copernicus House",
+      "location": "Toruń, Poland",
+      "era": "15th century",
+      "sortYear": 1470,
+      "eraCategory": "Renaissance Reformation",
+      "category": "cultural",
+      "coordinates": [
+        18.607,
+        53.0104
+      ],
+      "tags": [
+        "文艺复兴与宗教改革"
+      ],
+      "shortDesc": "Birthplace of heliocentric theory, witness to Renaissance scientific revolution",
+      "description": "The scientific revolution of the Renaissance left a profound mark in Toruń, Poland. This is the birthplace of astronomer Nicolaus Copernicus, and its preserved Gothic merchant house serves as the best geographical anchor for telling the birth of the heliocentric theory and the scientific awakening. In his work 'De revolutionibus orbium coelestium', Copernicus proposed the revolutionary theory that the Sun, not the Earth, was the center of the universe, shaking the foundation of the medieval Ptolemaic system and triggering a fundamental transformation in the history of science. This house now operates as a museum, recording an important moment of scientific awakening during the Renaissance."
+    },
+    {
+      "id": "the-last-supper",
+      "name": "The Last Supper",
+      "location": "Santa Maria delle Grazie, Milan, Italy",
+      "era": "1495-1498",
+      "sortYear": 1498,
+      "eraCategory": "Renaissance Reformation",
+      "category": "cultural",
+      "coordinates": [
+        9.1709,
+        45.466
+      ],
+      "tags": [
+        "文艺复兴与宗教改革"
+      ],
+      "shortDesc": "Groundbreaking work marking transition from Renaissance to High Renaissance",
+      "description": "On the refectory wall of Santa Maria delle Grazie in Milan, Leonardo da Vinci painted The Last Supper. Through clever use of perspective and dynamic figure composition, the reactions of the twelve apostles to Jesus announcing his betrayal are vividly depicted. This mural is considered a groundbreaking work marking the transition from the Renaissance to the High Renaissance period, and its profound depiction of psychological states and innovative compositional techniques influenced countless artists for centuries. Listed as UNESCO World Heritage together with the church in 1980.",
+      "image": "last-supper.jpg"
+    },
+    {
+      "id": "salamanca",
+      "name": "Salamanca",
+      "location": "Castile and León, Spain",
+      "era": "founded 12th century; peak 16th century",
+      "sortYear": 1500,
+      "eraCategory": "Renaissance Reformation",
+      "category": "cultural",
+      "coordinates": [
+        -5.664,
+        40.9701
+      ],
+      "tags": [
+        "文艺复兴与宗教改革"
+      ],
+      "shortDesc": "Spain's oldest university city, UNESCO 1988",
+      "description": "Salamanca is Spain's oldest university city, founded in 1218. The city reached its peak during Spain's Golden Age in the 16th century, when extensive construction activity transformed Salamanca into the academic center of Spain during the Renaissance. The facades of university buildings, squares and churches are adorned with exquisite Plateresque facades - a style that combines Gothic decoration with Renaissance proportions, as delicate as a sculptor's work. In 1988, the entire historic center of the city was listed as UNESCO World Heritage."
+    },
+    {
+      "id": "sistine-chapel",
+      "name": "Sistine Chapel",
+      "location": "Vatican City",
+      "era": "1481-1512 (frescoes); 1536-1541 (Last Judgment)",
+      "sortYear": 1512,
+      "eraCategory": "Renaissance Reformation",
+      "category": "cultural",
+      "coordinates": [
+        12.4545,
+        41.9029
+      ],
+      "tags": [
+        "文艺复兴与宗教改革"
+      ],
+      "shortDesc": "Michelangelo's ceiling frescoes, 'the limit of what one man alone could achieve'",
+      "description": "In the Vatican's Sistine Chapel, the Renaissance reached its visual artistic peak. Michelangelo created the Genesis ceiling frescoes here, including the famous 'Creation of Adam' - the classic image of God's finger touching Adam's finger - and the Last Judgment on the altar wall. These frescoes covering more than 500 square meters are dubbed 'the limit of what one man alone could achieve', pushing human figures to unprecedented grandeur and harmony. The chapel also houses frescoes by masters such as Botticelli and Rosselli, together forming the highest achievement of Renaissance art. Listed as UNESCO World Heritage in 1984.",
+      "image": "sistine-chapel.jpg"
+    },
+    {
+      "id": "chateau-de-chenonceau",
+      "name": "Château de Chenonceau",
+      "location": "Loire Valley, France",
+      "era": "from 1513",
+      "sortYear": 1513,
+      "eraCategory": "Renaissance Reformation",
+      "category": "cultural",
+      "coordinates": [
+        1.0704,
+        47.3249
+      ],
+      "tags": [
+        "文艺复兴与宗教改革"
+      ],
+      "shortDesc": "Ladies' Castle, symbol of French court women's power and elegance",
+      "description": "Chenonceau spans elegantly over the Cher River, known as the 'Ladies' Castle'. Its design was dominated by several powerful women: Diane de Poitiers added the original bridge, and Catherine de Médicis built three-story galleries on top. This castle thus became a physical symbol of French court women's power and influence, its elegant arches and meticulously designed gardens making it one of the most romantic castles in the Loire Valley.",
+      "image": "chenonceau-castle.jpg"
+    },
+    {
+      "id": "castle-church",
+      "name": "Castle Church",
+      "location": "Wittenberg, Germany",
+      "era": "1517",
+      "sortYear": 1517,
+      "eraCategory": "Renaissance Reformation",
+      "category": "cultural",
+      "coordinates": [
+        12.6436,
+        51.8661
+      ],
+      "tags": [
+        "文艺复兴与宗教改革"
+      ],
+      "shortDesc": "Ignition point of the Reformation, site of Luther 95 Theses",
+      "description": "In 1517, German theologian Martin Luther posted his 95 Theses on the door of the Castle Church in Wittenberg, directly igniting the Protestant Reformation that swept across Europe. Luther's critique fundamentally targeted the rampant corruption and financial abuse of the Catholic Church, most notably the sale of indulgences - a practice that allowed wealthy people to buy forgiveness for their sins. This event broke a century of religious unity on the continent, triggering decades of religious wars that permanently redrew Europe's political boundaries, limited the authority of the Church, and accelerated the decline of ancient unified institutions like the Holy Roman Empire and the Hanseatic League.",
+      "image": "wittenberg-church.jpg"
+    },
+    {
+      "id": "chateau-de-chambord",
+      "name": "Château de Chambord",
+      "location": "Loire Valley, France",
+      "era": "from 1519(Francois I)",
+      "sortYear": 1519,
+      "eraCategory": "Renaissance Reformation",
+      "category": "cultural",
+      "coordinates": [
+        1.5171,
+        47.6161
+      ],
+      "tags": [
+        "文艺复兴与宗教改革"
+      ],
+      "shortDesc": "Peak of French Renaissance architecture, blending classical principles with French tradition",
+      "description": "The aesthetic and philosophical ideals generated in the Italian city-states were enthusiastically exported across the Alps to France, largely through the military and diplomatic activities of King François I. Chambord is the largest castle in the region, commissioned by François I as a 'weekend getaway'. It features 440 rooms, 365 fireplaces, a complex 'pin-cushion' roof composed of spires, and a famous double helix staircase heavily influenced by Leonardo da Vinci. This castle represents a unique fusion of the French Gothic tradition with Italian Renaissance elegance. Listed as UNESCO World Heritage in 1981.",
+      "image": "chambord-castle.jpg"
+    },
+    {
+      "id": "quedlinburg",
+      "name": "Quedlinburg",
+      "location": "Saxony-Anhalt, Germany",
+      "era": "10th century; peak 16th-17th century",
+      "sortYear": 1550,
+      "eraCategory": "Medieval Trade",
+      "category": "cultural",
+      "coordinates": [
+        11.148,
+        51.7896
+      ],
+      "tags": [
+        "中世纪贸易"
+      ],
+      "shortDesc": "Home to over 1,200 half-timbered buildings, UNESCO 1994",
+      "description": "Quedlinburg is a stunning open-air museum of medieval architecture. The town preserves over 1,200 half-timbered buildings spanning from the 16th to 19th centuries. The oldest part is the St. Servatius Church on the castle hill, built in the 10th century and once the residence of Holy Roman Empire emperors. Quedlinburg was listed as UNESCO World Heritage after German reunification."
+    },
+    {
+      "id": "el-escorial",
+      "name": "El Escorial",
+      "location": "Madrid, Spain",
+      "era": "1563-1584",
+      "sortYear": 1584,
+      "eraCategory": "Renaissance Reformation",
+      "category": "cultural",
+      "coordinates": [
+        -4.1478,
+        40.5892
+      ],
+      "tags": [
+        "文艺复兴与宗教改革"
+      ],
+      "shortDesc": "World's largest Renaissance building, symbol of Spanish Empire and Catholic defender",
+      "description": "In Spain, the Monastery of San Lorenzo de El Escorial, built by King Philip II from 1563 to 1584, is the largest Renaissance building in the world. It is not only a royal palace and mausoleum but also a symbol of Spain's imperial power and its role as the absolute defender of Catholicism at the time. This massive complex, with its strict mathematical proportions and austere stone facades, embodies the combination of Renaissance rationalism and the authority of the Catholic Church during the Counter-Reformation period. Its library houses numerous precious manuscripts, including records of civilizations from the Americas. Listed as UNESCO World Heritage in 1989.",
+      "image": "el-escorial.jpg"
+    },
+    {
+      "id": "st-peters-basilica",
+      "name": "St. Peter's Basilica",
+      "location": "Vatican City",
+      "era": "1506-1626",
+      "sortYear": 1626,
+      "eraCategory": "Renaissance Reformation",
+      "category": "cultural",
+      "coordinates": [
+        12.4534,
+        41.9022
+      ],
+      "tags": [
+        "文艺复兴与宗教改革"
+      ],
+      "shortDesc": "Center of the Catholic world, synthesis of Renaissance and Baroque architecture",
+      "description": "St. Peter's Basilica is one of the largest churches in the world and the spiritual center of the Catholic world. This great building gathered the efforts of the most outstanding architects of the Renaissance: Michelangelo designed the dome, Maderno completed the facade, and Bernini created the magnificent bronze canopy and Piazza San Pietro. The interior houses priceless artistic treasures such as Michelangelo's 'Pietà' sculpture. Consecrated in 1626 after 120 years of construction, it symbolized the Catholic Church's victory and unity during the Counter-Reformation period.",
+      "image": "st-peters-basilica.jpg"
+    },
+    {
+      "id": "chateau-de-cheverny",
+      "name": "Château de Cheverny",
+      "location": "Loire Valley, France",
+      "era": "1634",
+      "sortYear": 1634,
+      "eraCategory": "Renaissance Reformation",
+      "category": "cultural",
+      "coordinates": [
+        1.4583,
+        47.5001
+      ],
+      "tags": [
+        "文艺复兴与宗教改革"
+      ],
+      "shortDesc": "Abandoned medieval patchwork style, perfect symmetrical model of late French Renaissance architecture",
+      "description": "After 30 years of construction, Cheverny Castle completed in 1634 represents the pinnacle of its era, showcasing perfectly unified symmetrical classical style, abandoning the chaotic, piecemeal expansion typical of early medieval architecture. This castle is a model of late French Renaissance architecture, its strict symmetrical facade, regular French gardens and cool architectural vocabulary form a sharp contrast to the passion of the Italian Renaissance, reflecting the French nobility's pursuit of order and reason.",
+      "image": "cheverny-castle.jpg"
+    },
+    {
+      "id": "amsterdam-canals",
+      "name": "Amsterdam Canals",
+      "location": "Amsterdam, Netherlands",
+      "era": "17th century(Dutch Golden Age)",
+      "sortYear": 1650,
+      "eraCategory": "Renaissance Reformation",
+      "category": "cultural",
+      "coordinates": [
+        4.8936,
+        52.3676
+      ],
+      "tags": [
+        "文艺复兴与宗教改革"
+      ],
+      "shortDesc": "Spatial manifestation of global commercial revolution and early enterprise capitalism",
+      "description": "While Central Europe was torn apart by religious wars, the Dutch provinces emerged after breaking free from Spanish Catholic rule, pioneering an unprecedented era of economic and scientific dominance. The Dutch East India Company (VOC), established in 1602, allowed shareholders to freely buy and sell company shares, effectively 'crowdfunding' the huge funds needed for high-risk, long-distance sea expeditions to Asia. This influx of Asian wealth transformed Amsterdam into the world's financial capital. To accommodate the exploding population and the logistics demands of global trade, the city undertook a massive urban planning project. Over 50 years, engineers dug a concentric canal system extending over 100 kilometers, connecting 90 islands and 1,700 bridges. These waterways are lined with thousands of high, narrow merchant houses and massive warehouses, creating the world's most complex and effective navigable urban logistics network. Listed as UNESCO World Heritage with the canals in 2011.",
+      "image": "amsterdam-canals.jpg"
+    },
+    {
+      "id": "sanssouci-palace",
+      "name": "Sanssouci Palace",
+      "location": "Potsdam, Germany",
+      "era": "1745-1747",
+      "sortYear": 1747,
+      "eraCategory": "Empires Enlightenment Revolution",
+      "category": "cultural",
+      "coordinates": [
+        13.0387,
+        52.4042
+      ],
+      "tags": [
+        "帝国、启蒙与革命"
+      ],
+      "shortDesc": "Perfect spatial embodiment of Enlightenment philosophy, Rococo summer palace of Prussian Frederick the Great",
+      "description": "Driven by the Enlightenment, Prussian King Frederick the Great built Sanssouci in Potsdam. This Rococo-style summer palace, meaning 'no worries', perfectly embodies the Enlightenment-era monarch's pursuit of art, nature and reason, as well as the desire to escape court protocol. The palace is built along a hillside with progressively arranged terraces and vineyards on both sides, creating a picturesque landscape. Frederick the Great invited Enlightenment thinkers like Voltaire to discuss philosophy here, reflecting the Prussian monarch's pursuit of reason and progress.",
+      "image": "sanssouci-palace.jpg"
+    },
+    {
+      "id": "schonbrunn-palace-hofburg-palace",
+      "name": "Schönbrunn Palace & Hofburg Palace",
+      "location": "Vienna, Austria",
+      "era": "18th century Baroque peak",
+      "sortYear": 1750,
+      "eraCategory": "Empires Enlightenment Revolution",
+      "category": "cultural",
+      "coordinates": [
+        16.3119,
+        48.1845
+      ],
+      "tags": [
+        "帝国、启蒙与革命"
+      ],
+      "shortDesc": "Habsburg dynasty's power nerve center and summer palace, showcasing old empire's heritage and wealth",
+      "description": "In Central Europe, the Habsburg family as the premier royal dynasty ruled a vast, multi-language empire stretching from Italy to Poland and deep into the Balkans. The Habsburg legacy is physically embodied in two major architectural complexes in Vienna. Hofburg Palace in the city center served as the empire's administrative nerve center, a massive complex continuously expanded by successive monarchs with grand public spaces like Michaelerplatz. In stark contrast, Schönbrunn Palace exists as a luxurious summer residence. Designed in highly ornate Baroque style, it was explicitly built to rival France's Versailles, displaying to foreign dignitaries and domestic subjects the Habsburg monarchy's unshakeable wealth and cultural refinement. Listed as UNESCO World Heritage with the gardens in 1996."
+    },
+    {
+      "id": "ironbridge-gorge",
+      "name": "Ironbridge Gorge",
+      "location": "Shropshire, UK",
+      "era": "1779",
+      "sortYear": 1779,
+      "eraCategory": "Empires Enlightenment Revolution",
+      "category": "cultural",
+      "coordinates": [
+        -2.486,
+        52.6285
+      ],
+      "tags": [
+        "帝国、启蒙与革命"
+      ],
+      "shortDesc": "Cradle of the First Industrial Revolution, location of the world first iron bridge",
+      "description": "In Britain, the Industrial Revolution was mainly reflected in technology. In 1779, Abraham Darby III built the world's first iron bridge at Ironbridge Gorge, marking the beginning of modern industrial practice using coke to smelt pig iron. This cast iron bridge spanning 60 meters was not only a breakthrough in engineering technology but also a milestone in human civilization's transition from the wood era to the steel age. Ironbridge Gorge was listed as UNESCO World Heritage in 1986, representing the fundamental transformation of human society by the Industrial Revolution.",
+      "image": "ironbridge-gorge.jpg"
+    },
+    {
+      "id": "place-de-la-concorde-la-conciergerie",
+      "name": "Place de la Concorde & La Conciergerie",
+      "location": "Paris, France",
+      "era": "late 18th century",
+      "sortYear": 1789,
+      "eraCategory": "Empires Enlightenment Revolution",
+      "category": "cultural",
+      "coordinates": [
+        2.321,
+        48.8656
+      ],
+      "tags": [
+        "帝国、启蒙与革命"
+      ],
+      "shortDesc": "Bloody theater of the French Revolution, central stage of public guillotine executions",
+      "description": "While the Habsburgs consolidated autocratic power through architectural grandeur, France experienced an explosive philosophical transformation and extremely violent political change. Place de la Concorde was originally built in 1757 as 'Place Louis XV' to honor the monarchy. During the French Revolution (1789-1799), it was quickly renamed 'Place de la Révolution' and became a highly public execution theater - including King Louis XVI, Marie Antoinette and revolutionary leader Robespierre, 1,119 people were sent to the guillotine here. In 1795, the square received its current name 'Concorde', intended to achieve national reconciliation. La Conciergerie on the Île de la Cité was originally a 14th-century palace, later converted into a gloomy prison, becoming another focus of the Revolution. More than 2,700 'enemies of the state' - including Queen Marie Antoinette - waited here for their fate before being sent to the guillotine."
+    },
+    {
+      "id": "july-column",
+      "name": "July Column",
+      "location": "Paris, France",
+      "era": "1836",
+      "sortYear": 1836,
+      "eraCategory": "Empires Enlightenment Revolution",
+      "category": "cultural",
+      "coordinates": [
+        2.3694,
+        48.8533
+      ],
+      "tags": [
+        "帝国、启蒙与革命"
+      ],
+      "shortDesc": "Eternal monument to the spirit of the French Revolution",
+      "description": "The storming of the Bastille (July 14, 1789) marked the outbreak of the French Revolution. Today, the fortress is gone, replaced by the July Column built in 1836. Designed by sculptor Augustin Dumont, the monument features the bronze figure of 'Liberty' leading the people at its top, commemorating the revolutionary spirit that transformed France into a modern nation. Its golden statue and exquisite reliefs record the most exciting moments of the revolution.",
+      "image": "july-column.jpg"
+    },
+    {
+      "id": "crystal-palace",
+      "name": "Crystal Palace",
+      "location": "London, UK",
+      "era": "1851-1936(destroyed by fire)",
+      "sortYear": 1851,
+      "eraCategory": "Empires Enlightenment Revolution",
+      "category": "cultural",
+      "coordinates": [
+        -3.435,
+        51.4217
+      ],
+      "tags": [
+        "帝国、启蒙与革命"
+      ],
+      "shortDesc": "Symbol of the Industrial Revolution material revolution, glass and steel masterpiece of the Great Exhibition",
+      "description": "The Crystal Palace at the 1851 Great Exhibition in Hyde Park, London, was a revolutionary building. Designed by Joseph Paxton, this exhibition hall used steel and glass structure, with prefabricated components that could be quickly assembled and disassembled, symbolizing the technological achievements of the Industrial Revolution and the material revolution. The Crystal Palace was later moved to Kensington, South London, and destroyed by fire in 1936, but its original site is now Crystal Palace Park. Although this building no longer exists, it forever changed the boundaries of architectural design possibilities.",
+      "image": "crystal-palace.jpg"
+    },
+    {
+      "id": "palace-of-westminster",
+      "name": "Palace of Westminster",
+      "location": "London, UK",
+      "era": "1840-1870",
+      "sortYear": 1870,
+      "eraCategory": "Empires Enlightenment Revolution",
+      "category": "cultural",
+      "coordinates": [
+        -0.1247,
+        51.4995
+      ],
+      "tags": [
+        "帝国、启蒙与革命"
+      ],
+      "shortDesc": "Representative of Victorian Industrial Revolution, wrapping modern democratic politics in retro Romantic Gothic",
+      "description": "In Britain, the Victorian era (1837-1901) was defined by the relentless engine of the Industrial Revolution, promoting rapid urbanization, expansion of railway networks, and pioneering use of advanced engineering materials such as structural iron, plate glass and red terracotta. However, paradoxically, as Britain pushed the world into the modern era, its architectural taste actively looked backward. After the old Parliament building was completely burned down in 1834, architects Charles Barry and Augustus Pugin won the reconstruction commission, adopting a National Gothic or Elizabethan style. This architectural choice had deep psychological reasons - in an era characterized by rapid mechanization and threats of revolution on the continent, the new Gothic style visually anchored the British government in a romanticized, stable and pious medieval past. Listed as UNESCO World Heritage in 1987.",
+      "image": "palace-westminster.jpg"
+    },
+    {
+      "id": "la-sagrada-familia",
+      "name": "La Sagrada Familia",
+      "location": "Barcelona, Spain",
+      "era": "from 1882(unfinished)",
+      "sortYear": 1882,
+      "eraCategory": "Empires Enlightenment Revolution",
+      "category": "cultural",
+      "coordinates": [
+        2.1744,
+        41.4036
+      ],
+      "tags": [
+        "帝国、启蒙与革命"
+      ],
+      "shortDesc": "Unfinished masterpiece pushing Gothic Revival and Art Nouveau organic forms to the extreme",
+      "description": "At the end of the 19th century, as industrialization swept across Europe, a strong Art Nouveau movement emerged in the architectural world, attempting to reintroduce natural forms into the architectural system. In Barcelona, Antoni Gaudí's pinnacle work - the Sagrada Familia - began construction in 1882, perfectly connecting the grand concepts of traditional Gothic architecture with the organic natural forms of the Art Nouveau movement. This magnificent expiatory church has three highly symbolic facades (Nativity, Passion, and Glory), and its interior structure resembles a dense forest of stone columns, with pillars branching like tree trunks to support the ceiling. Gaudí's design is full of Christian symbolism and naturalistic elements, integrating geometry with theology. Although still under construction, the Sagrada Familia has become one of the most forward-looking and spiritually impactful religious buildings in modern European architectural history, as well as a great wonder of human creativity. Listed as UNESCO World Heritage in 2005.",
+      "image": "sagrada-familia.jpg"
+    },
+    {
+      "id": "eiffel-tower",
+      "name": "Eiffel Tower",
+      "location": "Paris, France",
+      "era": "1889",
+      "sortYear": 1889,
+      "eraCategory": "Empires Enlightenment Revolution",
+      "category": "cultural",
+      "coordinates": [
+        2.2945,
+        48.8584
+      ],
+      "tags": [
+        "帝国、启蒙与革命"
+      ],
+      "shortDesc": "Milestone in modern engineering history, most iconic building in Paris",
+      "description": "The Eiffel Tower, built for the 1889 World's Fair, stands 330 meters high and uses 7,300 tons of forged iron. It was the tallest man-made structure in the world at the time. The tower sparked huge controversy at the time, seen by many Paris cultural elites as a threat to urban aesthetics. However, it quickly became the most iconic building in Paris and a milestone in modern engineering history - proving that iron and steel could build unprecedented tall and lightweight structures. Today, the Eiffel Tower attracts millions of visitors annually and has become a symbol of French technological and cultural confidence.",
+      "image": "eiffel-tower.jpg"
+    },
+    {
+      "id": "hungarian-parliament-building",
+      "name": "Hungarian Parliament Building",
+      "location": "Budapest, Hungary",
+      "era": "1885-1902",
+      "sortYear": 1902,
+      "eraCategory": "Empires Enlightenment Revolution",
+      "category": "cultural",
+      "coordinates": [
+        19.0458,
+        47.5072
+      ],
+      "tags": [
+        "帝国、启蒙与革命"
+      ],
+      "shortDesc": "Declaration of Hungarian national identity after Austro-Hungarian Compromise, architectural expression of political equality",
+      "description": "The Austro-Hungarian Compromise of 1867 elevated the Kingdom of Hungary to a status equal to Austria. To visually declare their newly acquired equal sovereignty, Hungarians commissioned a magnificent parliament building on the Danube. Built between 1885 and 1902, its design was explicitly intended to create an illusion that the country stood on equal footing with the world's greatest imperial powers. The grand building in neo-Gothic eclecticism style with symmetrical spires and intricately carved stone facades is a physical symbol of Hungarian national pride and political ambition."
+    },
+    {
+      "id": "latin-bridge",
+      "name": "Latin Bridge",
+      "location": "Sarajevo, Bosnia and Herzegovina",
+      "era": "1914",
+      "sortYear": 1914,
+      "eraCategory": "World Wars Cold War",
+      "category": "cultural",
+      "coordinates": [
+        18.4286,
+        43.8582
+      ],
+      "tags": [
+        "世界大战与冷战"
+      ],
+      "shortDesc": "Fuse that ignited World War I, exact location of Archduke Franz Ferdinand assassination",
+      "description": "On June 28, 1914, Archduke Franz Ferdinand of Austria was assassinated on the Latin Bridge in Sarajevo, directly triggering World War I and completely changing the course of world history. The imperial heir's motorcade passed through this stone bridge when he was shot by Bosnian Serbian nationalist Gavrilo Princip. A month later, the major European powers were drawn into what came to be called 'the war to end all wars'. This seemingly ordinary stone bridge thus became the starting point of the 20th century's greatest geopolitical disaster.",
+      "image": "latin-bridge.jpg"
+    },
+    {
+      "id": "memorial-de-verdun",
+      "name": "Mémorial de Verdun",
+      "location": "Verdun, France",
+      "era": "1916(battle)",
+      "sortYear": 1916,
+      "eraCategory": "World Wars Cold War",
+      "category": "cultural",
+      "coordinates": [
+        5.4343,
+        49.2
+      ],
+      "tags": [
+        "世界大战与冷战"
+      ],
+      "shortDesc": "Most important memorial site of brutal trench warfare on World War I Western Front",
+      "description": "The Battle of Verdun (February-December 1916) was one of the most brutal battles of World War I. In this battle lasting about 10 months, French and German armies engaged in numerous back-and-forth battles around Verdun, with both sides suffering hundreds of thousands of casualties. This battle, with its extreme brutality - poison gas, dense artillery fire, endless trenches - became a symbol of the WWI Western Front meat grinder. Today, the Mémorial de Verdun and surrounding ossuaries and battlefield ruins record the deep trauma of this most brutal mechanized war in human history. Listed as UNESCO World Heritage in 1994.",
+      "image": "verdun-memorial.jpg"
+    },
+    {
+      "id": "nazi-party-rally-grounds",
+      "name": "Nazi Party Rally Grounds",
+      "location": "Nuremberg, Germany",
+      "era": "1927-1938",
+      "sortYear": 1938,
+      "eraCategory": "World Wars Cold War",
+      "category": "cultural",
+      "coordinates": [
+        11.1133,
+        49.4296
+      ],
+      "tags": [
+        "世界大战与冷战"
+      ],
+      "shortDesc": "Third Reich power display and aesthetic terror architectural complex",
+      "description": "The architecture of the Third Reich (Nazi Germany) was explicitly designed to overwhelm individuals, enforce absolute obedience, and project an aura of historical inevitability. In Nuremberg, the vast Nazi Party Rally Grounds embody this architectural philosophy. Between 1927 and 1938, facilities like the Zeppelin Field hosted highly choreographed fascist power displays designed for global propaganda. With profound historical symmetry, Nuremberg was subsequently chosen as the site of the Nuremberg Trials (1945-1946) - in Courtroom 600, the architects of the Holocaust were prosecuted, establishing foundational precedents for modern international human rights and war crimes law."
+    },
+    {
+      "id": "westerplatte",
+      "name": "Westerplatte",
+      "location": "Gdańsk, Poland",
+      "era": "1939",
+      "sortYear": 1939,
+      "eraCategory": "World Wars Cold War",
+      "category": "cultural",
+      "coordinates": [
+        18.6715,
+        54.408
+      ],
+      "tags": [
+        "世界大战与冷战"
+      ],
+      "shortDesc": "Ancient battlefield site where the first shots of World War II were fired",
+      "description": "On the morning of September 1, 1939, German forces attacked the Polish naval base at Westerplatte, firing the first shots of World War II. Although the Polish defenders numbered only about 200, they stubbornly resisted German attacks for 7 days. This brief battle became a symbol of the outbreak of World War II in Europe. Today, the peninsula retains war ruins and monuments, telling of the beginning of this conflict that changed the world's fate.",
+      "image": "westerplatte.jpg"
+    },
+    {
+      "id": "auschwitz-birkenau-memorial-and-museum",
+      "name": "Auschwitz-Birkenau Memorial and Museum",
+      "location": "Oświęcim, Poland",
+      "era": "1940s",
+      "sortYear": 1940,
+      "eraCategory": "World Wars Cold War",
+      "category": "cultural",
+      "coordinates": [
+        19.204,
+        50.0343
+      ],
+      "tags": [
+        "世界大战与冷战"
+      ],
+      "shortDesc": "Core geographic monument of industrialized genocide, warning of human conscience",
+      "description": "Auschwitz-Birkenau was the Nazi's largest concentration and extermination camp, the ultimate and cold physical manifestation of industrialized genocide. Between 1940 and 1945, approximately 1.5 million people were systematically killed here, the vast majority being Jews. This factory-like death camp applied 'industrial efficiency' to mass murder, reducing humans to numbered labor until they were finally sent to gas chambers and crematorium. In October 1944, prisoners carried out the Sonderkommando rebellion, successfully destroying one crematorium, demonstrating humans' desire for freedom even in extreme environments. Listed as UNESCO World Heritage in 1979."
+    },
+    {
+      "id": "normandy-beaches",
+      "name": "Normandy Beaches",
+      "location": "Normandy, France",
+      "era": "1944(D-Day)",
+      "sortYear": 1944,
+      "eraCategory": "World Wars Cold War",
+      "category": "cultural",
+      "coordinates": [
+        -0.8612,
+        49.3582
+      ],
+      "tags": [
+        "世界大战与冷战"
+      ],
+      "shortDesc": "Starting point of Allied counterattack against European continent, historic beginning of Western Europe liberation",
+      "description": "On June 6, 1944 (D-Day), the Allies launched the largest amphibious landing operation in human history on the peaceful coast of Normandy. Utah, Omaha, Juno, Gold and Sword - these five landing beaches encountered the strongest resistance at Omaha Beach, but ultimately the Allies successfully established a firm bridgehead. This large-scale amphibious logistics operation marked the beginning of Western Europe's liberation and the ultimate collapse of the Nazi regime. Today, the Normandy coast retains numerous concrete bunkers, bomb craters and war cemeteries from that time, with the largest Normandy American Cemetery housing approximately 9,000 American soldiers.",
+      "image": "normandy-dday.jpg"
+    },
+    {
+      "id": "warsaw-uprising-sites",
+      "name": "Warsaw Uprising Sites",
+      "location": "Warsaw, Poland",
+      "era": "1944",
+      "sortYear": 1944,
+      "eraCategory": "World Wars Cold War",
+      "category": "cultural",
+      "coordinates": [
+        21.0122,
+        52.2297
+      ],
+      "tags": [
+        "世界大战与冷战"
+      ],
+      "shortDesc": "Location of tragic Polish civilian and military resistance movement and city destruction",
+      "description": "On August 1, 1944, Warsaw's Armia Krajowa (Home Army) launched an uprising against German occupation forces, intending to liberate the capital before the Red Army arrived. This brave resistance lasting 63 days was finally suppressed by German forces, and as revenge, German troops systematically razed Warsaw, Poland's capital, including the historic buildings of the old town and the Royal Castle. After the uprising failed, civilians were expelled and the city was destroyed. This uprising and destruction is one of the most tragic stories of World War II and a symbol of Polish national resilience. After the war, Warsaw began a decades-long difficult reconstruction, with many historic buildings restored according to old blueprints. In 1980, Warsaw's Old Town, together with the Royal Castle (Zamek Królewski), was listed as UNESCO World Heritage."
+    },
+    {
+      "id": "dachau-concentration-camp",
+      "name": "Dachau Concentration Camp",
+      "location": "Dachau, Germany",
+      "era": "1933-1945",
+      "sortYear": 1945,
+      "eraCategory": "World Wars Cold War",
+      "category": "cultural",
+      "coordinates": [
+        11.4683,
+        48.2699
+      ],
+      "tags": [
+        "世界大战与冷战"
+      ],
+      "shortDesc": "One of the earliest and longest-running concentration camps in Nazi Germany, revealing industrialized systemic persecution",
+      "description": "Dachau was one of the earliest and longest-running concentration camps in Nazi Germany, established in 1933 - the year Hitler came to power. During its 12 years of operation, approximately 188,000 prisoners were held here and about 41,500 died. It is famous for medical experiments, including decompression experiments and malaria experiments and other cruel inhuman research. Dachau is an important site for understanding Nazi crimes and World War II history, now the Dachau Memorial (Dachau Memorial), warning of the darkest page in human history."
+    },
+    {
+      "id": "palace-of-justice",
+      "name": "Palace of Justice",
+      "location": "Nuremberg, Germany",
+      "era": "1945-1946",
+      "sortYear": 1946,
+      "eraCategory": "World Wars Cold War",
+      "category": "cultural",
+      "coordinates": [
+        11.0734,
+        49.4529
+      ],
+      "tags": [
+        "世界大战与冷战"
+      ],
+      "shortDesc": "Historical courtroom for post-war reckoning of Holocaust masterminds, starting point of modern international law",
+      "description": "Between 1945 and 1946, the Nuremberg Trials were held at the Palace of Justice in Nuremberg. In Courtroom 600, the architects of the Holocaust were prosecuted, establishing foundational precedents for modern international human rights and war crimes law. Concepts such as 'crimes against humanity', 'war crimes' and 'crimes of aggression' were first formally defined and used to prosecute national leaders. This building thus became the birthplace of international criminal law, witnessing humanity's first attempt to use law to constrain national power.",
+      "image": "nuremberg-palace-of-justice.jpg"
+    },
+    {
+      "id": "spomeniks",
+      "name": "Spomeniks",
+      "location": "Balkans",
+      "era": "1960s-1970s",
+      "sortYear": 1970,
+      "eraCategory": "World Wars Cold War",
+      "category": "cultural",
+      "coordinates": [
+        18.4131,
+        43.8563
+      ],
+      "tags": [
+        "世界大战与冷战"
+      ],
+      "shortDesc": "Futurist monuments of Yugoslav anti-fascist resistance, concrete monuments of collective memory",
+      "description": "After World War II, Yugoslavia, led by Josip Broz Tito, pursued a path independent of the Soviet bloc. To unite the diverse Slavic peoples, the government commissioned hundreds of monuments called Spomeniks to commemorate victims of fascism and celebrate the victory of guerrilla struggle. Unlike the highly realistic, politically branded statues favored by Soviet socialist realism, Yugoslav architects - such as Bogdan Bogdanović and Dušan Džamonja - used Brutalism (béton brut, unfinished fair-faced concrete) to create massive, highly abstract and often futuristic structures in remote landscapes. By strictly avoiding specific religious imagery, ethnic markers or overt Communist symbols, these monuments attempted to forge a unified identity around the common narrative of suffering and anti-fascist resistance for a fragile multi-ethnic population. Tragically, as Yugoslavia split into brutal sectarian wars in the 1990s, the unifying message of these concrete monuments was shattered. Today, many of these structures are neglected, becoming eerie, isolated remnants of a failed utopian vision and the enduring complexity of Balkan history.",
+      "image": "makedonium.jpg"
+    },
+    {
+      "id": "berlin-wall-checkpoint-charlie",
+      "name": "Berlin Wall & Checkpoint Charlie",
+      "location": "Berlin, Germany",
+      "era": "1961-1989",
+      "sortYear": 1989,
+      "eraCategory": "World Wars Cold War",
+      "category": "cultural",
+      "coordinates": [
+        13.3904,
+        52.5075
+      ],
+      "tags": [
+        "世界大战与冷战"
+      ],
+      "shortDesc": "Most vivid representation of the Cold War Iron Curtain, physical symbol of ideological division",
+      "description": "After the defeat of fascism in 1945, Europe was torn apart by a profound geopolitical rift between the capitalist West (led by the USA) and the communist East (led by the Soviet Union). This Cold War, characterized by proxy conflicts, espionage and the looming threat of nuclear destruction, found its absolute physical manifestation in Berlin. To prevent the massive damage caused by citizens fleeing to the West, the German Democratic Republic (East Germany) built the Berlin Wall in 1961. This barrier literally tore a deadly 'no man's land' through the city, filled with guard towers, anti-vehicle trenches and barbed wire. Checkpoint Charlie was the most famous crossing point between East and West during the Cold War, witnessing the painful separation of ordinary people. The fall of the Berlin Wall on November 9, 1989, marked the end of the Cold War and the acceleration of European unification. After unification in 1990, Germany began demolishing the Berlin Wall, and now only a few ruins remain for posterity."
+    },
+    {
+      "id": "stasi-museum",
+      "name": "Stasi Museum",
+      "location": "Berlin, Germany",
+      "era": "1990",
+      "sortYear": 1990,
+      "eraCategory": "World Wars Cold War",
+      "category": "cultural",
+      "coordinates": [
+        13.4872,
+        52.5145
+      ],
+      "tags": [
+        "世界大战与冷战"
+      ],
+      "shortDesc": "Physical archive of East German secret police psychological terror, warning of totalitarian control",
+      "description": "The fall of the Berlin Wall revealed one of the darkest secrets of the Communist period - the surveillance system of the East German Ministry for State Security (Ministerium für Staatssicherheit, abbreviated Stasi). The Stasi Museum, located in its former headquarters, documents how this secret police agency meticulously monitored East German citizens' lives through informants, letter opening, wiretapping and psychological control. The museum displays various tools and technologies used by the Stasi to surveil citizens, and how resisters outwitted this massive surveillance system. With approximately 100,000 visitors annually, this is an important site for understanding totalitarian control during the Cold War period.",
+      "image": "stasi-museum.jpg"
+    },
+    {
+      "id": "european-parliament",
+      "name": "European Parliament",
+      "location": "Strasbourg, France",
+      "era": "1999",
+      "sortYear": 1999,
+      "eraCategory": "World Wars Cold War",
+      "category": "cultural",
+      "coordinates": [
+        7.7684,
+        48.5975
+      ],
+      "tags": [
+        "世界大战与冷战"
+      ],
+      "shortDesc": "Symbol of post-World War II European reconciliation and democratic unity, landmark of Franco-German friendship",
+      "description": "As the ultimate geographic symbol of peace and reconciliation after World War II and the Cold War, the European Parliament building located in Strasbourg at the Franco-German border represents the vision of European unification. Its massive 13,000-square-meter glass facade symbolizes the democratic transparency of the European Union, while the unfinished tower signifies that the European project is an ongoing process of continuous construction. Although this building is not the European Parliament's only location (Brussels, Belgium and Luxembourg are also official locations), it is the statutory seat of the European Union treaty and an important symbol of European integration - European countries that emerged from the ruins of World War II have finally found a path of joint peaceful development.",
+      "image": "european-parliament-strasbourg.jpg"
+    }
+  ]
+}

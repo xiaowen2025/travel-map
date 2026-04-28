@@ -31,13 +31,9 @@ const locales = {
 
 /**
  * Retrieve the locale-appropriate value from a point object.
- * In English mode, tries `field_en` first; falls back to Chinese if missing or placeholder.
+ * Data is already loaded in the correct language based on state.locale.
  */
 function getLoc(point, field) {
-    if (state.locale === 'en') {
-        const enVal = point[`${field}_en`];
-        if (enVal && !enVal.startsWith('[EN]')) return enVal;
-    }
     return point[field];
 }
 
@@ -74,9 +70,10 @@ myChart.showLoading({
     maskColor: 'rgba(15, 16, 20, 0.8)'
 });
 
+const localeFile = state.locale === 'en' ? 'data/attractions.en.json' : 'data/attractions.json';
 Promise.all([
     fetch('data/europe.geo.json').then(r => r.json()),
-    fetch('data/attractions.json').then(r => r.json())
+    fetch(localeFile).then(r => r.json())
 ]).then(([geoJson, attractionsData]) => {
     myChart.hideLoading();
     echarts.registerMap('europe', geoJson);
@@ -437,13 +434,19 @@ function switchLanguage() {
         btn.innerText = t(modeKeys[i]);
     });
 
-    // Re-render map and panels
-    state.currentEraCategory = '';
-    updateTimelineView(false);
+    // Close detail panel before reloading data
+    ui.detailPanel.classList.remove('active');
+    state.activePointId = null;
 
-    // If detail panel is open, refresh its content
-    if (state.activePointId && state.data) {
-        const activePoint = state.data.find(p => p.id === state.activePointId);
-        if (activePoint) showDetailPanel(activePoint);
-    }
+    // Reload data in new language
+    const localeFile = state.locale === 'en' ? 'data/attractions.en.json' : 'data/attractions.json';
+    fetch(localeFile)
+        .then(r => r.json())
+        .then(attractionsData => {
+            state.data = attractionsData.timelinePoints;
+            state.currentPointIndex = 0;
+            state.currentEraCategory = '';
+            updateTimelineView(false);
+            initMap();
+        });
 }
