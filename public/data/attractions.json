@@ -254,21 +254,21 @@
       "location": "希腊雅典卫城",
       "era": "公元前447年—前432年",
       "sortYear": -447,
-      "eraCategory": "古典罗马帝国",
+      "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
         23.7264,
         37.9715
       ],
       "tags": [
-        "古典罗马帝国"
+        "古代"
       ],
       "shortDesc": "古典希腊比例与几何秩序的顶峰之作",
       "description": "俯瞰阿戈拉的是雅典卫城及其巅峰之作——帕特农神庙。在公元前480年波斯国王薛西斯摧毁雅典之后，政治家伯里克利下令建造了这座纪念碑，供奉守护神雅典娜（Athena Parthenos），饰有菲迪亚斯（Phidias）的雕塑。这座神庙代表了古典希腊在比例、对称和艺术成就上的顶峰，其对几何秩序的自觉应用深刻影响了后来所有欧洲帝国的审美原则，确立了延续至现代的市政建筑模板。",
       "name_en": "Parthenon",
       "location_en": "[EN] 希腊雅典卫城",
       "era_en": "[EN] 公元前447年—前432年",
-      "eraCategory_en": "[EN] Classical Roman Empire",
+      "eraCategory_en": "[EN] Ancient Era",
       "shortDesc_en": "[EN] 古典希腊比例与几何秩序的顶峰之作",
       "description_en": "[EN] 俯瞰阿戈拉的是雅典卫城及其巅峰之作——帕特农神庙。在公元前480年波斯国王薛西斯摧毁雅典之后，政治家伯里克利下令建造了这座纪念碑，供奉守护神雅典娜（Athena Parthenos），饰有菲迪亚斯（Phidias）的雕塑。这座神庙代表了古典希腊在比例、对称和艺术成就上的顶峰，其对几何秩序的自觉应用深刻影响了后来所有欧洲帝国的审美原则，确立了延续至现代的市政建筑模板。",
       "image": "parthenon.jpg"
@@ -303,22 +303,22 @@
       "name": "雅典阿戈拉",
       "location": "希腊雅典",
       "era": "约公元前6世纪",
-      "sortYear": -6,
-      "eraCategory": "古典罗马帝国",
+      "sortYear": -500,
+      "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
         23.7225,
         37.9749
       ],
       "tags": [
-        "古典罗马帝国"
+        "古代"
       ],
       "shortDesc": "民主制度的发源地，西方哲学思想的摇篮",
       "description": "雅典阿戈拉是古希腊的公共集会场所，最初是自由公民集结参军或听取市政公告的露天集会场所，迅速演变成城市生活的中心。在公元前594年梭伦和后来克里斯提尼等政治家改革的催化下，民主政治在这里萌芽。正是在阿戈拉的柱廊和商铺之间，苏格拉底运用辩证法与市民互动，直到公元前399年，位于同一广场上的法庭以不敬神明罪判处他死刑。柏拉图听到苏格拉底的演讲后，放弃了成为贵族剧作家的野心，全身心地投入到哲学中。阿戈拉因此被视为民主制度与西方哲学思想的发源地。",
       "name_en": "Athenian Agora",
       "location_en": "[EN] 希腊雅典",
       "era_en": "[EN] 约公元前6世纪",
-      "eraCategory_en": "[EN] Classical Roman Empire",
+      "eraCategory_en": "[EN] Ancient Era",
       "shortDesc_en": "[EN] 民主制度的发源地，西方哲学思想的摇篮",
       "description_en": "[EN] 雅典阿戈拉是古希腊的公共集会场所，最初是自由公民集结参军或听取市政公告的露天集会场所，迅速演变成城市生活的中心。在公元前594年梭伦和后来克里斯提尼等政治家改革的催化下，民主政治在这里萌芽。正是在阿戈拉的柱廊和商铺之间，苏格拉底运用辩证法与市民互动，直到公元前399年，位于同一广场上的法庭以不敬神明罪判处他死刑。柏拉图听到苏格拉底的演讲后，放弃了成为贵族剧作家的野心，全身心地投入到哲学中。阿戈拉因此被视为民主制度与西方哲学思想的发源地。",
       "image": "athenian-agora.jpg"
@@ -329,21 +329,21 @@
       "location": "法国尼姆附近",
       "era": "约公元40年—60年",
       "sortYear": 40,
-      "eraCategory": "古典罗马帝国",
+      "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
         4.5356,
         43.9472
       ],
       "tags": [
-        "古典罗马帝国"
+        "古代"
       ],
       "shortDesc": "古罗马最精美的输水道桥",
       "description": "在尼姆附近，一座三层拱门的高架引水桥静静矗立了近两千年。加尔桥是古罗马最精美的输水道桥，三层拱门高48.8米，总长275米，完全依靠石块重力镶嵌而成，无任何灰浆粘连。它曾每天将4.5万立方米的淡水输送至尼姆，展示罗马工程师对水力学和几何学的精深掌握。1985年列入UNESCO世界遗产。",
       "name_en": "Pont du Gard",
       "location_en": "[EN] 法国尼姆附近",
       "era_en": "[EN] 约公元40年—60年",
-      "eraCategory_en": "[EN] Classical Roman Empire",
+      "eraCategory_en": "[EN] Ancient Era",
       "shortDesc_en": "[EN] 古罗马最精美的输水道桥",
       "description_en": "[EN] 在尼姆附近，一座三层拱门的高架引水桥静静矗立了近两千年。加尔桥是古罗马最精美的输水道桥，三层拱门高48.8米，总长275米，完全依靠石块重力镶嵌而成，无任何灰浆粘连。它曾每天将4.5万立方米的淡水输送至尼姆，展示罗马工程师对水力学和几何学的精深掌握。1985年列入UNESCO世界遗产。",
       "image": "pont-du-gard.jpg"
@@ -403,21 +403,21 @@
       "location": "意大利罗马",
       "era": "公元72年—80年",
       "sortYear": 72,
-      "eraCategory": "古典罗马帝国",
+      "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
         12.4922,
         41.8902
       ],
       "tags": [
-        "古典罗马帝国"
+        "古代"
       ],
       "shortDesc": "罗马帝国最伟大的圆形剧场与权力象征",
       "description": "罗马斗兽场是奥古斯都广场中最宏伟的建筑，这座巨大的椭圆形剧场能够容纳数万名观众，是罗马帝国力量与残酷娱乐的终极象征。在帝国全盛时期，这里上演着角斗士生死搏斗、猎兽表演，甚至引水淹没剧场进行海战表演。它不仅是建筑的奇迹，更是罗马帝国政治宣传的工具，通过壮观场面展示帝国的财富与权威。1980年列入UNESCO世界遗产。",
       "name_en": "Colosseum",
       "location_en": "[EN] 意大利罗马",
       "era_en": "[EN] 公元72年—80年",
-      "eraCategory_en": "[EN] Classical Roman Empire",
+      "eraCategory_en": "[EN] Ancient Era",
       "shortDesc_en": "[EN] 罗马帝国最伟大的圆形剧场与权力象征",
       "description_en": "[EN] 罗马斗兽场是奥古斯都广场中最宏伟的建筑，这座巨大的椭圆形剧场能够容纳数万名观众，是罗马帝国力量与残酷娱乐的终极象征。在帝国全盛时期，这里上演着角斗士生死搏斗、猎兽表演，甚至引水淹没剧场进行海战表演。它不仅是建筑的奇迹，更是罗马帝国政治宣传的工具，通过壮观场面展示帝国的财富与权威。1980年列入UNESCO世界遗产。",
       "image": "colosseum.jpg"
@@ -428,21 +428,21 @@
       "location": "意大利坎皮佛莱格瑞地区",
       "era": "公元79年被维苏威火山喷发掩埋",
       "sortYear": 79,
-      "eraCategory": "古典罗马帝国",
+      "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
         14.4851,
         40.7508
       ],
       "tags": [
-        "古典罗马帝国"
+        "古代"
       ],
       "shortDesc": "原生态保存的罗马帝国早期平民生活与社会蓝图",
       "description": "被维苏威火山喷发瞬间掩埋的庞贝古城，提供了古代世界无与伦比的\"时间定格\"快照。最近的考古发现从根本上修正了既定的历史时间表——在墙上发现的木炭涂鸦将普遍接受的火山喷发日期从公元79年8月24日移至10月24日。此外，庞贝的城墙是平民声音的原生态档案。数以千计的幸存涂鸦铭文展示了一个高度识字的社会，从阿塞利娜（Asellina）酒吧等酒馆外墙上的政治背书，到臭名昭著的妓院（lupanar）中粗俗的侮辱和诗意的宣言，庞贝的实体建筑揭示了一个公共空间被积极用于个人和政治表达的社会。1997年列入UNESCO世界遗产。",
       "name_en": "Pompeii",
       "location_en": "[EN] 意大利坎皮佛莱格瑞地区",
       "era_en": "[EN] 公元79年被维苏威火山喷发掩埋",
-      "eraCategory_en": "[EN] Classical Roman Empire",
+      "eraCategory_en": "[EN] Ancient Era",
       "shortDesc_en": "[EN] 原生态保存的罗马帝国早期平民生活与社会蓝图",
       "description_en": "[EN] 被维苏威火山喷发瞬间掩埋的庞贝古城，提供了古代世界无与伦比的\"时间定格\"快照。最近的考古发现从根本上修正了既定的历史时间表——在墙上发现的木炭涂鸦将普遍接受的火山喷发日期从公元79年8月24日移至10月24日。此外，庞贝的城墙是平民声音的原生态档案。数以千计的幸存涂鸦铭文展示了一个高度识字的社会，从阿塞利娜（Asellina）酒吧等酒馆外墙上的政治背书，到臭名昭著的妓院（lupanar）中粗俗的侮辱和诗意的宣言，庞贝的实体建筑揭示了一个公共空间被积极用于个人和政治表达的社会。1997年列入UNESCO世界遗产。",
       "image": "pompeii.jpg"
@@ -453,21 +453,21 @@
       "location": "意大利罗马",
       "era": "公元118年—125年完工",
       "sortYear": 118,
-      "eraCategory": "古典罗马帝国",
+      "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
         12.4768,
         41.8986
       ],
       "tags": [
-        "古典罗马帝国"
+        "古代"
       ],
       "shortDesc": "世界上保存最完好的古罗马建筑",
       "description": "万神殿是世界上保存最完好的古罗马建筑，以直径43米的无钢筋混凝土穹顶著称，历经近两千年仍是世界最大同类穹顶。哈德良皇帝建造了这座供奉众神的庙宇，公元609年改建为天主教堂。其穹顶顶部开设的圆孔（oculus）将光线投射进来，随着太阳移动在地面上形成巨大的光斑，象征着神性对凡间的照耀。这座建筑证明了罗马人在混凝土工程上的惊人天才，至今仍是建筑师们研究和借鉴的典范。",
       "name_en": "Pantheon",
       "location_en": "[EN] 意大利罗马",
       "era_en": "[EN] 公元118年—125年完工",
-      "eraCategory_en": "[EN] Classical Roman Empire",
+      "eraCategory_en": "[EN] Ancient Era",
       "shortDesc_en": "[EN] 世界上保存最完好的古罗马建筑",
       "description_en": "[EN] 万神殿是世界上保存最完好的古罗马建筑，以直径43米的无钢筋混凝土穹顶著称，历经近两千年仍是世界最大同类穹顶。哈德良皇帝建造了这座供奉众神的庙宇，公元609年改建为天主教堂。其穹顶顶部开设的圆孔（oculus）将光线投射进来，随着太阳移动在地面上形成巨大的光斑，象征着神性对凡间的照耀。这座建筑证明了罗马人在混凝土工程上的惊人天才，至今仍是建筑师们研究和借鉴的典范。",
       "image": "pantheon.jpg"
@@ -478,21 +478,21 @@
       "location": "英国英格兰北部",
       "era": "公元122年开始建造",
       "sortYear": 122,
-      "eraCategory": "古典罗马帝国",
+      "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
         -2.6019,
         55.0242
       ],
       "tags": [
-        "古典罗马帝国"
+        "古代"
       ],
       "shortDesc": "罗马帝国北部边疆的标志性防御工程",
       "description": "由哈德良皇帝下令建造，哈德良长城横跨英格兰北部，全长117公里，是罗马帝国北部边疆的标志性防御工程，代表罗马帝国权力的最北边界。这道防线包括城墙、瞭望塔、堡垒和军事道路，旨在防御苏格兰的皮克特部落。1987年列入UNESCO世界遗产。如今，长城遗址吸引着全球游客，成为罗马帝国历史与英国原住民文化交汇的物理见证。",
       "name_en": "Hadrian's Wall",
       "location_en": "[EN] 英国英格兰北部",
       "era_en": "[EN] 公元122年开始建造",
-      "eraCategory_en": "[EN] Classical Roman Empire",
+      "eraCategory_en": "[EN] Ancient Era",
       "shortDesc_en": "[EN] 罗马帝国北部边疆的标志性防御工程",
       "description_en": "[EN] 由哈德良皇帝下令建造，哈德良长城横跨英格兰北部，全长117公里，是罗马帝国北部边疆的标志性防御工程，代表罗马帝国权力的最北边界。这道防线包括城墙、瞭望塔、堡垒和军事道路，旨在防御苏格兰的皮克特部落。1987年列入UNESCO世界遗产。如今，长城遗址吸引着全球游客，成为罗马帝国历史与英国原住民文化交汇的物理见证。",
       "image": "hadrians-wall.jpg"
@@ -503,21 +503,21 @@
       "location": "德国特里尔",
       "era": "公元170年",
       "sortYear": 170,
-      "eraCategory": "古典罗马帝国",
+      "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
         6.6445,
         49.7597
       ],
       "tags": [
-        "古典罗马帝国"
+        "古代"
       ],
       "shortDesc": "阿尔卑斯斯山以北保存最完好的罗马城门",
       "description": "特里尔是德国最古老的城市，曾是罗马帝国的都城。黑门（Porta Nigra）建于公元170年左右，是阿尔卑斯山以北保存最完好、最庞大的罗马城门，完美代表了罗马帝国在边疆的强大防御与城市化进程。这座巨大的砂岩城门由两部分组成，拥有复杂的内部通道和防御设施，是罗马帝国边境防御体系的典型代表。",
       "name_en": "Porta Nigra",
       "location_en": "[EN] 德国特里尔",
       "era_en": "[EN] 公元170年",
-      "eraCategory_en": "[EN] Classical Roman Empire",
+      "eraCategory_en": "[EN] Ancient Era",
       "shortDesc_en": "[EN] 阿尔卑斯斯山以北保存最完好的罗马城门",
       "description_en": "[EN] 特里尔是德国最古老的城市，曾是罗马帝国的都城。黑门（Porta Nigra）建于公元170年左右，是阿尔卑斯山以北保存最完好、最庞大的罗马城门，完美代表了罗马帝国在边疆的强大防御与城市化进程。这座巨大的砂岩城门由两部分组成，拥有复杂的内部通道和防御设施，是罗马帝国边境防御体系的典型代表。",
       "image": "porta-nigra.jpg"
@@ -1396,21 +1396,21 @@
       "location": "法国尼姆",
       "era": "约公元1世纪",
       "sortYear": 999999,
-      "eraCategory": "古典罗马帝国",
+      "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
         4.3563,
         43.8382
       ],
       "tags": [
-        "古典罗马帝国"
+        "古代"
       ],
       "shortDesc": "保存最完好的罗马神庙之一",
       "description": "在法国南部的尼姆（Nîmes，原名内毛苏斯 Nemausus），奥古斯都统治时期建造了一座保存最为完好的罗马神庙——四方神庙。它展示了古典比例和独立科林斯圆柱的优雅，是罗马帝国在行省建立标志性建筑的典范。这座神庙历经近两千年仍保持完整，成为研究罗马建筑的最佳实物例证。",
       "name_en": "四方神庙 Maison Carrée",
       "location_en": "[EN] 法国尼姆",
       "era_en": "[EN] 约公元1世纪",
-      "eraCategory_en": "[EN] Classical Roman Empire",
+      "eraCategory_en": "[EN] Ancient Era",
       "shortDesc_en": "[EN] 保存最完好的罗马神庙之一",
       "description_en": "[EN] 在法国南部的尼姆（Nîmes，原名内毛苏斯 Nemausus），奥古斯都统治时期建造了一座保存最为完好的罗马神庙——四方神庙。它展示了古典比例和独立科林斯圆柱的优雅，是罗马帝国在行省建立标志性建筑的典范。这座神庙历经近两千年仍保持完整，成为研究罗马建筑的最佳实物例证。",
       "image": "maison-carree.jpg"
@@ -1421,21 +1421,21 @@
       "location": "法国尼姆",
       "era": "约公元1世纪",
       "sortYear": 999999,
-      "eraCategory": "古典罗马帝国",
+      "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
         4.3596,
         43.8347
       ],
       "tags": [
-        "古典罗马帝国"
+        "古代"
       ],
       "shortDesc": "完美对称的罗马圆形剧场",
       "description": "与四方神庙同为尼姆罗马遗产的尼姆竞技场，是一个完美对称的圆形剧场，设计了60个通道以容纳13,000至24,000名观众，凸显了罗马人利用大型公共娱乐（尤其是角斗士战斗）作为社会凝聚力和彰显帝国实力的工具。这一建筑理念随着罗马帝国的扩张传播到整个欧洲，留下了众多竞技场遗迹。",
       "name_en": "尼姆竞技场 Arena of Nîmes",
       "location_en": "[EN] 法国尼姆",
       "era_en": "[EN] 约公元1世纪",
-      "eraCategory_en": "[EN] Classical Roman Empire",
+      "eraCategory_en": "[EN] Ancient Era",
       "shortDesc_en": "[EN] 完美对称的罗马圆形剧场",
       "description_en": "[EN] 与四方神庙同为尼姆罗马遗产的尼姆竞技场，是一个完美对称的圆形剧场，设计了60个通道以容纳13,000至24,000名观众，凸显了罗马人利用大型公共娱乐（尤其是角斗士战斗）作为社会凝聚力和彰显帝国实力的工具。这一建筑理念随着罗马帝国的扩张传播到整个欧洲，留下了众多竞技场遗迹。",
       "image": "arena-nimes.jpg"
@@ -1446,21 +1446,21 @@
       "location": "西班牙塞哥维亚",
       "era": "约公元1世纪末—2世纪初",
       "sortYear": 999999,
-      "eraCategory": "古典罗马帝国",
+      "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
         -4.1177,
         40.9481
       ],
       "tags": [
-        "古典罗马帝国"
+        "古代"
       ],
       "shortDesc": "屹立近两千年不倒的罗马水利工程奇迹",
       "description": "在西班牙的塞哥维亚，一座双层石拱门的高架引水桥静静矗立了近乎两千年。塞哥维亚输水槽利用精确的坡度和巨大的石头拱门将淡水从18公里外的河流输送至城市，展示罗马人在水利工程上务实的天才。令人惊叹的是，这座巨大的建筑完全依靠石块的重力镶嵌而屹立不倒，没有任何灰浆粘连。它是罗马工程学最实用的杰作，也是目前保存最完整的水利工程之一。",
       "name_en": "Aqueduct of Segovia",
       "location_en": "[EN] 西班牙塞哥维亚",
       "era_en": "[EN] 约公元1世纪末—2世纪初",
-      "eraCategory_en": "[EN] Classical Roman Empire",
+      "eraCategory_en": "[EN] Ancient Era",
       "shortDesc_en": "[EN] 屹立近两千年不倒的罗马水利工程奇迹",
       "description_en": "[EN] 在西班牙的塞哥维亚，一座双层石拱门的高架引水桥静静矗立了近乎两千年。塞哥维亚输水槽利用精确的坡度和巨大的石头拱门将淡水从18公里外的河流输送至城市，展示罗马人在水利工程上务实的天才。令人惊叹的是，这座巨大的建筑完全依靠石块的重力镶嵌而屹立不倒，没有任何灰浆粘连。它是罗马工程学最实用的杰作，也是目前保存最完整的水利工程之一。",
       "image": "aqueduct-segovia.jpg"
@@ -1471,21 +1471,21 @@
       "location": "克罗地亚斯普利特",
       "era": "公元4世纪初",
       "sortYear": 999999,
-      "eraCategory": "古典罗马帝国",
+      "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
         16.4402,
         43.5081
       ],
       "tags": [
-        "古典罗马帝国"
+        "古代"
       ],
       "shortDesc": "从开放型城市向中世纪防御型堡垒过渡的标志性建筑",
       "description": "随着古典时代走向晚期，罗马帝国的建筑重点从开放的公民参与转向了设防防御。位于克罗地亚斯普利特的戴克里先宫就是在这一背景下建造的。这是4世纪初为戴克里先皇帝建造的庞大且防御森严的退休堡垒，其建筑格局深刻地影响了向中世纪防御性城市规划范式的过渡。宫殿的地下室、城墙和努曼尼亚门（Porta di Terra）至今仍完好保存，成为研究罗马帝国晚期建筑的重要实例。",
       "name_en": "Diocletian's Palace",
       "location_en": "[EN] 克罗地亚斯普利特",
       "era_en": "[EN] 公元4世纪初",
-      "eraCategory_en": "[EN] Classical Roman Empire",
+      "eraCategory_en": "[EN] Ancient Era",
       "shortDesc_en": "[EN] 从开放型城市向中世纪防御型堡垒过渡的标志性建筑",
       "description_en": "[EN] 随着古典时代走向晚期，罗马帝国的建筑重点从开放的公民参与转向了设防防御。位于克罗地亚斯普利特的戴克里先宫就是在这一背景下建造的。这是4世纪初为戴克里先皇帝建造的庞大且防御森严的退休堡垒，其建筑格局深刻地影响了向中世纪防御性城市规划范式的过渡。宫殿的地下室、城墙和努曼尼亚门（Porta di Terra）至今仍完好保存，成为研究罗马帝国晚期建筑的重要实例。",
       "image": "diocletian-palace.jpg"
@@ -1496,21 +1496,21 @@
       "location": "西班牙卡斯蒂利亚-拉曼查大区",
       "era": "西哥特时期（6世纪）起",
       "sortYear": 999999,
-      "eraCategory": "古典罗马帝国",
+      "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
         -4.0224,
         39.8628
       ],
       "tags": [
-        "古典罗马帝国"
+        "古代"
       ],
       "shortDesc": "基督教、伊斯兰教、犹太教三文化交融之地，1986年 UNESCO",
       "description": "托莱多是西班牙历史上最重要的城市之一。6世纪时，这里是西哥特王国的首都；8世纪初，摩尔人征服了这座城市；11-15世纪收复失地运动期间，基督教、伊斯兰教和犹太教在这里共存了数百年。这种三重文化遗产在托莱多的建筑中留下了深深的烙印：托莱多大教堂是西班牙最大的哥特式教堂之一，阿尔卡萨城堡曾是天主教君主的要塞，犹太教堂保留了mudéjar风格的精美装饰。1986年整座古城被列入UNESCO世界遗产。",
       "name_en": "Toledo",
       "location_en": "[EN] 西班牙卡斯蒂利亚-拉曼查大区",
       "era_en": "[EN] 西哥特时期（6世纪）起",
-      "eraCategory_en": "[EN] Classical Roman Empire",
+      "eraCategory_en": "[EN] Ancient Era",
       "shortDesc_en": "[EN] 基督教、伊斯兰教、犹太教三文化交融之地，1986年 UNESCO",
       "description_en": "[EN] 托莱多是西班牙历史上最重要的城市之一。6世纪时，这里是西哥特王国的首都；8世纪初，摩尔人征服了这座城市；11-15世纪收复失地运动期间，基督教、伊斯兰教和犹太教在这里共存了数百年。这种三重文化遗产在托莱多的建筑中留下了深深的烙印：托莱多大教堂是西班牙最大的哥特式教堂之一，阿尔卡萨城堡曾是天主教君主的要塞，犹太教堂保留了mudéjar风格的精美装饰。1986年整座古城被列入UNESCO世界遗产。"
     },
@@ -1520,21 +1520,21 @@
       "location": "斯洛文尼亚科佩尔海岸",
       "era": "7世纪威尼斯共和国时期",
       "sortYear": 999999,
-      "eraCategory": "古典罗马帝国",
+      "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
         13.5684,
         45.5282
       ],
       "tags": [
-        "古典罗马帝国"
+        "古代"
       ],
       "shortDesc": "威尼斯共和国最北端的沿海据点",
       "description": "皮兰是斯洛文尼亚最美丽的沿海城镇，曾经属于威尼斯共和国。城市的布局反映了这个渊源——狭窄弯曲的街道围绕着一系列小广场。圣乔治教堂的钟楼是城市的标志，其高度和位置与威尼斯的圣马可钟楼有着微妙的呼应。皮兰的老城区基本保留了中世纪的面貌，是亚得里亚海北岸保存最完整的威尼斯风格城镇。",
       "name_en": "Piran",
       "location_en": "[EN] 斯洛文尼亚科佩尔海岸",
       "era_en": "[EN] 7世纪威尼斯共和国时期",
-      "eraCategory_en": "[EN] Classical Roman Empire",
+      "eraCategory_en": "[EN] Ancient Era",
       "shortDesc_en": "[EN] 威尼斯共和国最北端的沿海据点",
       "description_en": "[EN] 皮兰是斯洛文尼亚最美丽的沿海城镇，曾经属于威尼斯共和国。城市的布局反映了这个渊源——狭窄弯曲的街道围绕着一系列小广场。圣乔治教堂的钟楼是城市的标志，其高度和位置与威尼斯的圣马可钟楼有着微妙的呼应。皮兰的老城区基本保留了中世纪的面貌，是亚得里亚海北岸保存最完整的威尼斯风格城镇。"
     },
@@ -1544,21 +1544,21 @@
       "location": "葡萄牙埃武拉区",
       "era": "西哥特时期（7世纪）起",
       "sortYear": 999999,
-      "eraCategory": "古典罗马帝国",
+      "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
         -7.9068,
         38.5711
       ],
       "tags": [
-        "古典罗马帝国"
+        "古代"
       ],
       "shortDesc": "葡萄牙罗马时期最完整遗迹，1986年 UNESCO",
       "description": "埃武拉是葡萄牙内陆阿连特茹地区的首府，也是该国保存最完整的历史城市。城市的核心是罗马时期的狄安娜神庙（Templo de Diana），这座1世纪的神庙是伊比利亚半岛保存最完整的罗马神庙之一。中世纪时，摩尔人加固了城墙，建起了城堡；收复失地运动后，基督徒在城中建造了大量的教堂、修道院和贵族宫殿。1986年埃武拉历史中心被列入UNESCO世界遗产。",
       "name_en": "埃武拉 Évora",
       "location_en": "[EN] 葡萄牙埃武拉区",
       "era_en": "[EN] 西哥特时期（7世纪）起",
-      "eraCategory_en": "[EN] Classical Roman Empire",
+      "eraCategory_en": "[EN] Ancient Era",
       "shortDesc_en": "[EN] 葡萄牙罗马时期最完整遗迹，1986年 UNESCO",
       "description_en": "[EN] 埃武拉是葡萄牙内陆阿连特茹地区的首府，也是该国保存最完整的历史城市。城市的核心是罗马时期的狄安娜神庙（Templo de Diana），这座1世纪的神庙是伊比利亚半岛保存最完整的罗马神庙之一。中世纪时，摩尔人加固了城墙，建起了城堡；收复失地运动后，基督徒在城中建造了大量的教堂、修道院和贵族宫殿。1986年埃武拉历史中心被列入UNESCO世界遗产。"
     },
