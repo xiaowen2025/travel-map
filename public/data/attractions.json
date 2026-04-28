@@ -1395,7 +1395,7 @@
       "name": "四方神庙 Maison Carrée",
       "location": "法国尼姆",
       "era": "约公元1世纪",
-      "sortYear": 999999,
+      "sortYear": 1,
       "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
@@ -1420,7 +1420,7 @@
       "name": "尼姆竞技场 Arena of Nîmes",
       "location": "法国尼姆",
       "era": "约公元1世纪",
-      "sortYear": 999999,
+      "sortYear": 50,
       "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
@@ -1445,7 +1445,7 @@
       "name": "塞哥维亚输水槽",
       "location": "西班牙塞哥维亚",
       "era": "约公元1世纪末—2世纪初",
-      "sortYear": 999999,
+      "sortYear": 100,
       "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
@@ -1470,7 +1470,7 @@
       "name": "戴克里先宫",
       "location": "克罗地亚斯普利特",
       "era": "公元4世纪初",
-      "sortYear": 999999,
+      "sortYear": 305,
       "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
@@ -1495,7 +1495,7 @@
       "name": "托莱多",
       "location": "西班牙卡斯蒂利亚-拉曼查大区",
       "era": "西哥特时期（6世纪）起",
-      "sortYear": 999999,
+      "sortYear": 600,
       "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
@@ -1519,7 +1519,7 @@
       "name": "皮兰",
       "location": "斯洛文尼亚科佩尔海岸",
       "era": "7世纪威尼斯共和国时期",
-      "sortYear": 999999,
+      "sortYear": 700,
       "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
@@ -1543,7 +1543,7 @@
       "name": "埃武拉 Évora",
       "location": "葡萄牙埃武拉区",
       "era": "西哥特时期（7世纪）起",
-      "sortYear": 999999,
+      "sortYear": 700,
       "eraCategory": "古代",
       "category": "cultural",
       "coordinates": [
@@ -1567,7 +1567,7 @@
       "name": "拉文纳早期基督教镶嵌画",
       "location": "意大利拉文纳",
       "era": "5世纪—6世纪",
-      "sortYear": 999999,
+      "sortYear": 550,
       "eraCategory": "中世纪贸易",
       "category": "cultural",
       "coordinates": [
@@ -1592,7 +1592,7 @@
       "name": "圣雅各之路",
       "location": "西班牙及欧洲多国",
       "era": "兴起于公元9世纪",
-      "sortYear": 999999,
+      "sortYear": 900,
       "eraCategory": "中世纪贸易",
       "category": "cultural",
       "coordinates": [
@@ -1617,7 +1617,7 @@
       "name": "吕贝克老城与霍尔斯滕门 Lübeck",
       "location": "德国石勒苏益格-荷尔斯泰因州",
       "era": "12世纪中叶重建，13-15世纪繁荣",
-      "sortYear": 999999,
+      "sortYear": 1150,
       "eraCategory": "中世纪贸易",
       "category": "cultural",
       "coordinates": [
@@ -1642,7 +1642,7 @@
       "name": "卡尔卡松中世纪画城 Cité of Carcassonne",
       "location": "法国奥德省",
       "era": "中世纪（主要建于13世纪）",
-      "sortYear": 999999,
+      "sortYear": 1250,
       "eraCategory": "中世纪贸易",
       "category": "cultural",
       "coordinates": [
@@ -1666,7 +1666,7 @@
       "name": "布拉格老城",
       "location": "捷克共和国",
       "era": "14世纪查理四世时期全盛",
-      "sortYear": 999999,
+      "sortYear": 1350,
       "eraCategory": "中世纪贸易",
       "category": "cultural",
       "coordinates": [
@@ -1690,7 +1690,7 @@
       "name": "锡耶纳",
       "location": "意大利托斯卡纳大区",
       "era": "12-14世纪全盛",
-      "sortYear": 999999,
+      "sortYear": 1250,
       "eraCategory": "中世纪贸易",
       "category": "cultural",
       "coordinates": [
@@ -1714,7 +1714,7 @@
       "name": "圣吉米尼亚诺",
       "location": "意大利托斯卡纳大区",
       "era": "11-13世纪全盛",
-      "sortYear": 999999,
+      "sortYear": 1200,
       "eraCategory": "中世纪贸易",
       "category": "cultural",
       "coordinates": [
@@ -1738,7 +1738,7 @@
       "name": "克拉科夫老城 Kraków Old Town",
       "location": "波兰小波兰省",
       "era": "13世纪，15-16世纪全盛",
-      "sortYear": 999999,
+      "sortYear": 1450,
       "eraCategory": "中世纪贸易",
       "category": "cultural",
       "coordinates": [
@@ -1762,7 +1762,7 @@
       "name": "班贝格",
       "location": "德国巴伐利亚州",
       "era": "10-11世纪创建，14世纪繁荣",
-      "sortYear": 999999,
+      "sortYear": 1100,
       "eraCategory": "中世纪贸易",
       "category": "cultural",
       "coordinates": [
@@ -1786,7 +1786,7 @@
       "name": "罗滕堡",
       "location": "德国巴伐利亚州",
       "era": "13-15世纪鼎盛期",
-      "sortYear": 999999,
+      "sortYear": 1300,
       "eraCategory": "中世纪贸易",
       "category": "cultural",
       "coordinates": [
@@ -1810,7 +1810,7 @@
       "name": "奎德林堡",
       "location": "德国萨克森-安哈尔特州",
       "era": "10世纪起，16-17世纪全盛",
-      "sortYear": 999999,
+      "sortYear": 1550,
       "eraCategory": "中世纪贸易",
       "category": "cultural",
       "coordinates": [
@@ -1834,7 +1834,7 @@
       "name": "克鲁姆洛夫 Český Krumlov",
       "location": "捷克共和国南波西米亚",
       "era": "13世纪商人城镇，14-16世纪全盛",
-      "sortYear": 999999,
+      "sortYear": 1350,
       "eraCategory": "中世纪贸易",
       "category": "cultural",
       "coordinates": [
@@ -1858,7 +1858,7 @@
       "name": "根特",
       "location": "比利时东弗兰德省",
       "era": "11-14世纪全盛",
-      "sortYear": 999999,
+      "sortYear": 1200,
       "eraCategory": "中世纪贸易",
       "category": "cultural",
       "coordinates": [
@@ -1882,7 +1882,7 @@
       "name": "特鲁瓦",
       "location": "法国奥布省",
       "era": "12-13世纪香槟展会时期",
-      "sortYear": 999999,
+      "sortYear": 1220,
       "eraCategory": "中世纪贸易",
       "category": "cultural",
       "coordinates": [
@@ -1906,7 +1906,7 @@
       "name": "阿尔罕布拉宫",
       "location": "西班牙格拉纳达",
       "era": "13世纪中后期—14世纪",
-      "sortYear": 999999,
+      "sortYear": 1320,
       "eraCategory": "中世纪贸易",
       "category": "cultural",
       "coordinates": [
@@ -1931,7 +1931,7 @@
       "name": "布鲁日历史中心",
       "location": "比利时西弗兰德省",
       "era": "13世纪至今",
-      "sortYear": 999999,
+      "sortYear": 1300,
       "eraCategory": "中世纪贸易",
       "category": "cultural",
       "coordinates": [
@@ -1956,7 +1956,7 @@
       "name": "杜布罗夫尼克城墙",
       "location": "克罗地亚杜布罗夫尼克",
       "era": "主要建于14-15世纪",
-      "sortYear": 999999,
+      "sortYear": 1400,
       "eraCategory": "中世纪贸易",
       "category": "cultural",
       "coordinates": [
@@ -1981,7 +1981,7 @@
       "name": "威尼斯总督宫",
       "location": "意大利威尼斯",
       "era": "14世纪起建，逐步完工",
-      "sortYear": 999999,
+      "sortYear": 1400,
       "eraCategory": "文艺复兴与宗教改革",
       "category": "cultural",
       "coordinates": [
@@ -2006,7 +2006,7 @@
       "name": "哥白尼故居",
       "location": "波兰托伦",
       "era": "15世纪",
-      "sortYear": 999999,
+      "sortYear": 1470,
       "eraCategory": "文艺复兴与宗教改革",
       "category": "cultural",
       "coordinates": [
@@ -2030,7 +2030,7 @@
       "name": "阿姆斯特丹运河带",
       "location": "荷兰阿姆斯特丹",
       "era": "17世纪（荷兰黄金时代）",
-      "sortYear": 999999,
+      "sortYear": 1650,
       "eraCategory": "文艺复兴与宗教改革",
       "category": "cultural",
       "coordinates": [
@@ -2055,7 +2055,7 @@
       "name": "萨拉曼卡",
       "location": "西班牙卡斯蒂利亚-莱昂大区",
       "era": "12世纪建城，16世纪黄金时代",
-      "sortYear": 999999,
+      "sortYear": 1500,
       "eraCategory": "文艺复兴与宗教改革",
       "category": "cultural",
       "coordinates": [
@@ -2079,7 +2079,7 @@
       "name": "辛特拉",
       "location": "葡萄牙里斯本大区",
       "era": "15世纪起成为皇家避暑胜地",
-      "sortYear": 999999,
+      "sortYear": 1450,
       "eraCategory": "文艺复兴与宗教改革",
       "category": "cultural",
       "coordinates": [
@@ -2103,7 +2103,7 @@
       "name": "美泉宫与霍夫堡宫 Schönbrunn Palace & Hofburg Palace",
       "location": "奥地利维也纳",
       "era": "18世纪巴洛克鼎盛期",
-      "sortYear": 999999,
+      "sortYear": 1750,
       "eraCategory": "帝国、启蒙与革命",
       "category": "cultural",
       "coordinates": [
@@ -2127,7 +2127,7 @@
       "name": "协和广场与巴黎古监狱 Place de la Concorde & La Conciergerie",
       "location": "法国巴黎",
       "era": "18世纪末",
-      "sortYear": 999999,
+      "sortYear": 1789,
       "eraCategory": "帝国、启蒙与革命",
       "category": "cultural",
       "coordinates": [
