@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Europe Travel Map - Interactive History</title>
+    <link rel="stylesheet" href="/src/style.css">
+    
+</head>
+<body>
+
+    <div class="header">
+        <h1>EUROPE</h1>
+        <p>A Journey Through Time</p>
+    </div>
+
+    <!-- 模式切换 -->
+    <div class="mode-switch">
+        <button class="lang-btn" id="langToggle">EN</button>
+        <div style="width: 1px; background: rgba(232, 202, 136, 0.3); margin: 0 10px;"></div>
+        <button class="mode-btn active" data-mode="history">历史纪元</button>
+        <button class="mode-btn" data-mode="city">城市探索</button>
+        <button class="mode-btn" data-mode="nature">自然风光</button>
+    </div>
+
+    <!-- 当前时代信息 -->
+    <div class="era-panel" id="eraPanel">
+        <h2 id="eraTitle">Loading...</h2>
+        <p id="eraDesc">使用滚轮穿梭于欧洲历史的长河</p>
+    </div>
+
+    <!-- 跨时代提示 -->
+    <div class="era-toast" id="eraToast"></div>
+
+    <!-- 景点详情 -->
+    <div class="detail-panel" id="detailPanel">
+        <button class="close-btn" id="closeDetail">&times;</button>
+        <span class="detail-era" id="detailEra"></span>
+        <h3 class="detail-title" id="detailTitle"></h3>
+        <div class="detail-meta">
+            <span id="detailLoc">📍 </span>
+        </div>
+        <img class="detail-image" id="detailImage" src="" alt="" style="display:none;">
+        <div class="detail-highlight" id="detailHighlight"></div>
+        <div class="detail-desc" id="detailDesc"></div>
+    </div>
+
+    <div id="map-container"></div>
+    
+    <div class="scroll-indicator">
+        <span>滚轮穿梭时空</span>
+        <div class="mouse-icon"><div class="mouse-wheel"></div></div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
