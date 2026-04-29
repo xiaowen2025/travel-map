@@ -38,11 +38,12 @@ export function setupBaseOption() {
             formatter: function (params) {
                 if (params.seriesType === 'effectScatter' || params.seriesType === 'scatter') {
                     const p = params.data.rawData;
+                    const locale = state.get('locale');
                     if (!p) return params.name;
                     return `<div style="padding: 2px;">
-                                <div style="font-size:12px;color:#E8CA88;">${getLoc(p, 'era')}</div>
-                                <div style="font-weight:bold;font-size:16px;margin:4px 0;">📍 ${getLoc(p, 'name')}</div>
-                                <div style="font-size:12px;color:#aaa;">${getLoc(p, 'location')}</div>
+                                <div style="font-size:12px;color:#E8CA88;">${getLoc(p, 'era', locale)}</div>
+                                <div style="font-weight:bold;font-size:16px;margin:4px 0;">📍 ${getLoc(p, 'name', locale)}</div>
+                                <div style="font-size:12px;color:#aaa;">${getLoc(p, 'country', locale)}${getLoc(p, 'region', locale) ? ', ' + getLoc(p, 'region', locale) : ''}</div>
                             </div>`;
                 }
             }
@@ -114,12 +115,13 @@ export function flyTo(coords, zoom = 3.5, animated = false) {
 export function updateMarkers(currentPointIndex, data) {
     if (!data || data.length === 0) return;
 
+    const locale = state.get('locale');
     const activePoints = [];
     const historyPoints = [];
 
     data.forEach((p, index) => {
         const pointData = {
-            name: getLoc(p, 'name'),
+            name: getLoc(p, 'name', locale),
             value: p.coordinates,
             rawData: p
         };
@@ -142,11 +144,12 @@ export function updateMarkers(currentPointIndex, data) {
 
 // Highlight related points (triggered by click)
 export function highlightRelated(targetPoint, data) {
+    const locale = state.get('locale');
     const activePoints = [];
     const otherPoints = [];
 
     data.forEach(p => {
-        const pointData = { name: getLoc(p, 'name'), value: p.coordinates, rawData: p };
+        const pointData = { name: getLoc(p, 'name', locale), value: p.coordinates, rawData: p };
 
         const isRelated = p.id === targetPoint.id || p.eraCategory === targetPoint.eraCategory;
 

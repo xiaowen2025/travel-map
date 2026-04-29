@@ -28,10 +28,15 @@ const locales = {
 
 /**
  * Retrieve the locale-appropriate value from a point object.
- * Data is already loaded in the correct language based on state.locale.
+ * Supports both plain values and { en, zh } i18n structure.
  */
-function getLoc(point, field) {
-    return point[field];
+function getLoc(point, field, locale = 'zh') {
+    const value = point[field];
+    if (value === null || value === undefined) return value;
+    if (typeof value === 'object' && ('en' in value || 'zh' in value)) {
+        return value[locale] ?? value.en;
+    }
+    return value;
 }
 
 export function t(key, locale = 'zh') {

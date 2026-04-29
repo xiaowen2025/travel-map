@@ -1,38 +1,36 @@
 import { describe, it, expect } from 'vitest';
-import zhData from '../public/data/attractions.json';
-import enData from '../public/data/attractions.en.json';
+import data from '../public/data/attractions.json';
 
 const ERACategoryRanges = {
-  '史前与青铜时代': { min: -20000, max: -16 },
-  '古代': { min: -500, max: 700 },
-  '中世纪贸易': { min: 313, max: 1550 },
-  '文艺复兴与宗教改革': { min: 1400, max: 1650 },
-  '帝国、启蒙与革命': { min: 1747, max: 1902 },
-  '世界大战与冷战': { min: 1914, max: 1999 },
-  // English equivalents
-  'Prehistoric Bronze Age': { min: -20000, max: -16 },
-  'Ancient Era': { min: -500, max: 700 },
-  'Medieval Trade': { min: 313, max: 1550 },
-  'Renaissance Reformation': { min: 1400, max: 1650 },
-  'Empires Enlightenment Revolution': { min: 1747, max: 1902 },
-  'World Wars Cold War': { min: 1914, max: 1999 }
+  'Prehistory': { min: -20000, max: -16 },
+  'Ancient': { min: -500, max: 700 },
+  'Medieval': { min: 313, max: 1550 },
+  'Renaissance': { min: 1400, max: 1650 },
+  'Early Modern': { min: 1747, max: 1902 },
+  'Modern': { min: 1789, max: 1902 },
+  'WorldWars': { min: 1914, max: 1999 },
+  'Contemporary': { min: 1945, max: 2000 }
 };
 
-const REQUIRED_FIELDS = ['id', 'name', 'location', 'era', 'eraCategory', 'category', 'sortYear', 'coordinates', 'shortDesc', 'description', 'tags'];
+const I18N_FIELDS = ['name', 'shortDesc', 'description', 'country', 'region'];
 
 function hasChinese(text) {
   return /[\u4e00-\u9fff]/.test(text);
 }
 
+function isI18n(obj) {
+  return obj && typeof obj === 'object' && 'en' in obj && 'zh' in obj;
+}
+
 describe('Attractions Data Validation', () => {
-  describe('Chinese file (attractions.json)', () => {
+  describe('i18n structure', () => {
     it('should have timelinePoints array', () => {
-      expect(zhData.timelinePoints).toBeDefined();
-      expect(Array.isArray(zhData.timelinePoints)).toBe(true);
+      expect(data.timelinePoints).toBeDefined();
+      expect(Array.isArray(data.timelinePoints)).toBe(true);
     });
 
     it('should have valid eraCategory ranges', () => {
-      for (const point of zhData.timelinePoints) {
+      for (const point of data.timelinePoints) {
         const range = ERACategoryRanges[point.eraCategory];
         expect(range, `${point.id} has unknown eraCategory: ${point.eraCategory}`)
           .toBeDefined();
@@ -44,7 +42,8 @@ describe('Attractions Data Validation', () => {
     });
 
     it('should have all required fields', () => {
-      for (const point of zhData.timelinePoints) {
+      const REQUIRED_FIELDS = ['id', 'era', 'eraCategory', 'category', 'sortYear', 'coordinates', 'tags'];
+      for (const point of data.timelinePoints) {
         for (const field of REQUIRED_FIELDS) {
           expect(point[field], `${point.id} missing field: ${field}`).toBeDefined();
         }
@@ -52,7 +51,7 @@ describe('Attractions Data Validation', () => {
     });
 
     it('should have valid coordinates [lng, lat]', () => {
-      for (const point of zhData.timelinePoints) {
+      for (const point of data.timelinePoints) {
         expect(Array.isArray(point.coordinates), `${point.id} coordinates not array`).toBe(true);
         expect(point.coordinates.length, `${point.id} coordinates length != 2`).toBe(2);
         const [lng, lat] = point.coordinates;
@@ -63,75 +62,28 @@ describe('Attractions Data Validation', () => {
       }
     });
 
-    it('should contain no Latin text in Chinese fields', () => {
-      const fields = ['name', 'location', 'eraCategory', 'shortDesc', 'description'];
-      for (const point of zhData.timelinePoints) {
-        for (const field of fields) {
-          expect(hasChinese(point[field]), `${point.id}.${field} contains no Chinese`).toBe(true);
-        }
-      }
-    });
-  });
-
-  describe('English file (attractions.en.json)', () => {
-    it('should have timelinePoints array', () => {
-      expect(enData.timelinePoints).toBeDefined();
-      expect(Array.isArray(enData.timelinePoints)).toBe(true);
-    });
-
-    it('should have valid eraCategory ranges', () => {
-      for (const point of enData.timelinePoints) {
-        const range = ERACategoryRanges[point.eraCategory];
-        expect(range, `${point.id} has unknown eraCategory: ${point.eraCategory}`)
-          .toBeDefined();
-        expect(point.sortYear, `${point.id} sortYear ${point.sortYear} outside ${point.eraCategory} range [${range.min}, ${range.max}]`)
-          .toBeGreaterThanOrEqual(range.min);
-        expect(point.sortYear, `${point.id} sortYear ${point.sortYear} outside ${point.eraCategory} range [${range.min}, ${range.max}]`)
-          .toBeLessThanOrEqual(range.max);
-      }
-    });
-
-    it('should have all required fields', () => {
-      for (const point of enData.timelinePoints) {
-        for (const field of REQUIRED_FIELDS) {
-          expect(point[field], `${point.id} missing field: ${field}`).toBeDefined();
+    it('i18n fields should have {en, zh} structure', () => {
+      for (const point of data.timelinePoints) {
+        for (const field of I18N_FIELDS) {
+          const val = point[field];
+          if (val === null) continue;
+          expect(typeof val === 'object' && 'en' in val && 'zh' in val, `${point.id}.${field} should be {en, zh} object or null`).toBe(true);
         }
       }
     });
 
-    it('should have valid coordinates [lng, lat]', () => {
-      for (const point of enData.timelinePoints) {
-        expect(Array.isArray(point.coordinates), `${point.id} coordinates not array`).toBe(true);
-        expect(point.coordinates.length, `${point.id} coordinates length != 2`).toBe(2);
-      }
-    });
-
-    it('should contain no Chinese in English fields', () => {
-      const fields = ['name', 'location', 'era', 'eraCategory', 'shortDesc', 'description'];
-      for (const point of enData.timelinePoints) {
-        for (const field of fields) {
-          expect(hasChinese(point[field]), `${point.id}.${field} contains Chinese`).toBe(false);
+    it('i18n fields should have correct language content', () => {
+      for (const point of data.timelinePoints) {
+        for (const field of I18N_FIELDS) {
+          const val = point[field];
+          if (val === null) continue;
+          if (val.zh !== null) {
+            expect(hasChinese(val.zh), `${point.id}.${field}.zh should have Chinese`).toBe(true);
+          }
+          if (val.en !== null) {
+            expect(hasChinese(val.en), `${point.id}.${field}.en should NOT have Chinese`).toBe(false);
+          }
         }
-      }
-    });
-  });
-
-  describe('Cross-file consistency', () => {
-    it('should have same number of entries', () => {
-      expect(zhData.timelinePoints.length).toBe(enData.timelinePoints.length);
-    });
-
-    it('should have matching ids', () => {
-      const zhIds = zhData.timelinePoints.map(p => p.id).sort();
-      const enIds = enData.timelinePoints.map(p => p.id).sort();
-      expect(zhIds).toEqual(enIds);
-    });
-
-    it('should have same sortYear values', () => {
-      for (const zhPoint of zhData.timelinePoints) {
-        const enPoint = enData.timelinePoints.find(p => p.id === zhPoint.id);
-        expect(enPoint, `id ${zhPoint.id} not found in English file`).toBeDefined();
-        expect(enPoint.sortYear).toBe(zhPoint.sortYear);
       }
     });
   });

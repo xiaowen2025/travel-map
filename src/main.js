@@ -15,12 +15,12 @@ const scrollManager = new ScrollManager({ scrollThreshold: 400 });
 
 // ==================== Data Loading ====================
 async function loadData(locale) {
-    const localeFile = locale === 'en' ? 'data/attractions.en.json' : 'data/attractions.json';
-    const [geoJson, attractionsData] = await Promise.all([
+    const [geoJson, attractionsData, erasData] = await Promise.all([
         fetch('data/europe.geo.json').then(r => r.json()),
-        fetch(localeFile).then(r => r.json())
+        fetch('data/attractions.json').then(r => r.json()),
+        fetch('data/eras.json').then(r => r.json())
     ]);
-    return { geoJson, attractionsData };
+    return { geoJson, attractionsData, erasData };
 }
 
 // ==================== State Subscriptions ====================
@@ -43,11 +43,12 @@ state.addEventListener('change:currentPointIndex', (e) => {
     }
 
     // Update era panel
-    updateEraPanel(currentPoint);
+    updateEraPanel(currentPoint, state.get('locale'));
 
     // Show era toast on transition
-    const currentEraCat = getLoc(currentPoint, 'eraCategory');
-    const oldEraCat = oldValue !== undefined ? getLoc(data[oldValue], 'eraCategory') : null;
+    const locale = state.get('locale');
+    const currentEraCat = getLoc(currentPoint, 'eraCategory', locale);
+    const oldEraCat = oldValue !== undefined ? getLoc(data[oldValue], 'eraCategory', locale) : null;
     if (isScroll && currentEraCat !== state.get('currentEraCategory')) {
         state.set('currentEraCategory', currentEraCat);
         showEraToast(currentEraCat);
@@ -55,10 +56,8 @@ state.addEventListener('change:currentPointIndex', (e) => {
         state.set('currentEraCategory', currentEraCat);
     }
 
-    // Auto-open detail panel on scroll
-    if (isScroll) {
-        showDetailPanel(currentPoint);
-    }
+    // Auto-open detail panel on navigation
+    showDetailPanel(currentPoint);
 });
 
 // viewMode change → update UI visibility + map display
@@ -70,12 +69,13 @@ state.addEventListener('change:viewMode', (e) => {
     if (value === 'history') {
         updateMarkers(state.get('currentPointIndex'), data);
     } else {
+        const locale = state.get('locale');
         const filtered = data.filter(p => {
             if (value === 'city') return p.category === 'city';
             if (value === 'nature') return p.category === 'natural';
             return false;
         }).map(p => ({
-            name: getLoc(p, 'name'),
+            name: getLoc(p, 'name', locale),
             value: p.coordinates,
             rawData: p
         }));
@@ -126,25 +126,15 @@ async function handleLangToggle() {
     updateStaticLabels(newLocale);
     updateModeButtons(newLocale);
 
-    // Reload data
-    const { attractionsData } = await loadData(newLocale);
-    state.set('data', attractionsData.timelinePoints);
-    state.set('currentPointIndex', 0);
-    state.set('currentEraCategory', '');
-
-    const chart = getChart();
-    chart?.showLoading({
-        text: t('loadingText', newLocale),
-        color: '#E8CA88',
-        textColor: '#fff',
-        maskColor: 'rgba(15, 16, 20, 0.8)'
-    });
-
-    // Re-init map with new data
-    setTimeout(() => {
-        chart?.hideLoading();
-        updateMarkers(0, attractionsData.timelinePoints);
-    }, 100);
+    // Re-render current UI with new locale (data stays the same)
+    const data = state.get('data');
+    const currentPointIndex = state.get('currentPointIndex');
+    const currentPoint = data[currentPointIndex];
+    updateMarkers(currentPointIndex, data);
+    if (currentPoint) {
+        updateEraPanel(currentPoint, newLocale);
+        showDetailPanel(currentPoint);
+    }
 }
 
 function handleKeydown(e) {
@@ -153,10 +143,14 @@ function handleKeydown(e) {
 
     if (e.key === 'ArrowDown') {
         e.preventDefault();
-        handleNext();
+        if (state.get('currentPointIndex') < data.length - 1) {
+            state.set('currentPointIndex', state.get('currentPointIndex') + 1, { _meta: { isScroll: true } });
+        }
     } else if (e.key === 'ArrowUp') {
         e.preventDefault();
-        handlePrev();
+        if (state.get('currentPointIndex') > 0) {
+            state.set('currentPointIndex', state.get('currentPointIndex') - 1, { _meta: { isScroll: true } });
+        }
     } else if (e.key === 'ArrowRight') {
         e.preventDefault();
         const currentEra = data[state.get('currentPointIndex')].eraCategory;
@@ -218,7 +212,10 @@ function handleMapDataAndInit(geoJson, attractionsData) {
 }
 
 // ==================== Boot ====================
-loadData(state.get('locale')).then(({ geoJson, attractionsData }) => {
+loadData(state.get('locale')).then(({ geoJson, attractionsData, erasData }) => {
+    // Store eras data in state for UI to use
+    state.set('erasData', erasData);
+
     handleMapDataAndInit(geoJson, attractionsData);
 
     // Setup UI event listeners

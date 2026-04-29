@@ -1,6 +1,13 @@
 import { state } from './state.js';
 import { t, getLoc } from './i18n.js';
 
+// Find era by key directly from erasData
+function findEraByKey(key) {
+    const erasData = state.get('erasData');
+    if (!erasData) return null;
+    return erasData.eras.find(e => e.key === key);
+}
+
 // DOM references
 const ui = {
     eraTitle: document.getElementById('eraTitle'),
@@ -22,16 +29,33 @@ const ui = {
 };
 
 // Update era panel
-export function updateEraPanel(currentPoint) {
+export function updateEraPanel(currentPoint, locale = 'zh') {
     if (!currentPoint) return;
-    ui.eraTitle.innerText = getLoc(currentPoint, 'eraCategory');
-    ui.eraDesc.innerText = getLoc(currentPoint, 'era');
+    const eraCat = getLoc(currentPoint, 'eraCategory');
+    const era = findEraByKey(eraCat);
+
+    if (era) {
+        ui.eraTitle.innerText = era.name[locale] || era.name.en;
+        ui.eraDesc.innerText = era.dateRange[locale] || era.dateRange.en;
+    } else {
+        ui.eraTitle.innerText = eraCat;
+        ui.eraDesc.innerText = '';
+    }
+}
+
+// Get milestone text for toast
+export function getEraMilestone(eraCat, locale = 'zh') {
+    const era = findEraByKey(eraCat);
+    if (!era) return '';
+    return era.milestone[locale] || era.milestone.en;
 }
 
 // Show era transition toast
-export function showEraToast(eraCategory) {
+export function showEraToast(eraCat) {
+    const locale = state.get('locale');
+    const era = findEraByKey(eraCat);
     const toast = ui.eraToast;
-    toast.innerText = eraCategory;
+    toast.innerText = era ? era.name[locale] || era.name.en : eraCat;
     toast.style.opacity = 1;
     setTimeout(() => { toast.style.opacity = 0; }, 2500);
 }
@@ -39,15 +63,18 @@ export function showEraToast(eraCategory) {
 // Show detail panel
 export function showDetailPanel(p) {
     state.set('activePointId', p.id);
-    ui.detailEra.innerText = getLoc(p, 'eraCategory') + ' | ' + getLoc(p, 'era');
-    ui.detailTitle.innerText = getLoc(p, 'name');
-    ui.detailLoc.innerText = '📍 ' + getLoc(p, 'location');
-    ui.detailHighlight.innerText = getLoc(p, 'shortDesc') || '';
-    ui.detailDesc.innerText = getLoc(p, 'description') || '';
+    const locale = state.get('locale');
+    const era = findEraByKey(getLoc(p, 'eraCategory', locale));
+    const eraName = era ? era.name[locale] || era.name.en : getLoc(p, 'eraCategory', locale);
+    ui.detailEra.innerText = eraName + ' | ' + getLoc(p, 'era', locale);
+    ui.detailTitle.innerText = getLoc(p, 'name', locale);
+    ui.detailLoc.innerText = '📍 ' + getLoc(p, 'country', locale) + (getLoc(p, 'region', locale) ? ', ' + getLoc(p, 'region', locale) : '');
+    ui.detailHighlight.innerText = getLoc(p, 'shortDesc', locale) || '';
+    ui.detailDesc.innerText = getLoc(p, 'description', locale) || '';
 
     if (p.image) {
         ui.detailImage.src = 'assets/' + p.image;
-        ui.detailImage.alt = getLoc(p, 'name');
+        ui.detailImage.alt = getLoc(p, 'name', locale);
         ui.detailImage.style.display = 'block';
     } else {
         ui.detailImage.style.display = 'none';
