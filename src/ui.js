@@ -1,5 +1,6 @@
 import { state } from './state.js';
 import { t, getLoc } from './i18n.js';
+import { getCountry } from './countries.js';
 
 // Find era by key directly from erasData
 function findEraByKey(key) {
@@ -83,7 +84,7 @@ function fillCompactContent(p, eraName, locale) {
     ui.cardEra.innerText = eraName + ' · ' + getLoc(p, 'era', locale);
     ui.cardTitle.innerText = getLoc(p, 'name', locale);
     ui.cardShortDesc.innerText = getLoc(p, 'shortDesc', locale) || '';
-    ui.cardLocation.innerText = '📍 ' + getLoc(p, 'country', locale) + (getLoc(p, 'region', locale) ? ' · ' + getLoc(p, 'region', locale) : '');
+    ui.cardLocation.innerText = '📍 ' + getCountry(p, locale) + (getLoc(p, 'region', locale) ? ' · ' + getLoc(p, 'region', locale) : '');
 }
 
 /**

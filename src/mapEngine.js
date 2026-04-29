@@ -1,6 +1,7 @@
 import * as echarts from 'echarts';
 import { state } from './state.js';
 import { getLoc } from './i18n.js';
+import { getCountry } from './countries.js';
 
 let myChart = null;
 
@@ -43,7 +44,7 @@ export function setupBaseOption() {
                     return `<div style="padding: 2px;">
                                 <div style="font-size:12px;color:#E8CA88;">${getLoc(p, 'era', locale)}</div>
                                 <div style="font-weight:bold;font-size:16px;margin:4px 0;">📍 ${getLoc(p, 'name', locale)}</div>
-                                <div style="font-size:12px;color:#aaa;">${getLoc(p, 'country', locale)}${getLoc(p, 'region', locale) ? ', ' + getLoc(p, 'region', locale) : ''}</div>
+                                <div style="font-size:12px;color:#aaa;">${getCountry(p, locale)}${getLoc(p, 'region', locale) ? ', ' + getLoc(p, 'region', locale) : ''}</div>
                             </div>`;
                 }
             }

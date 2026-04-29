@@ -26,10 +26,7 @@
         "zh": "在欧洲的史前时代，法国西南部的石灰岩高原隐藏着一个震撼人心的艺术宝库。拉斯科洞穴内保存着两万年历史的冰河时期动物群壁画，描绘了马、野牛、鹿等生物，线条流畅、色彩自然，被誉为\"史前西斯廷教堂\"。这些壁画证明冰河时代的人类已经具备了高度复杂的符号思维能力，是人类艺术史的开端。"
       },
       "image": "lascaux-cave.jpg",
-      "country": {
-        "en": "France",
-        "zh": "法国"
-      },
+      "country": "FR",
       "region": {
         "en": "Dordogne",
         "zh": "多尔多涅"
@@ -62,10 +59,7 @@
         "zh": "约公元前9500年，在土耳其东南部的荒凉山丘上，当人类尚未学会农耕定居之时，就已经崛起了一座令人震惊的神庙——哥贝克力石阵。巨大的T形石灰岩石柱高达5米、重达7-20吨，雕刻着狮子、公牛等野生动物浅浮雕，代表了人类从狩猎采集向农耕定居转变的关键时刻。这座遗址的发现彻底颠覆了传统史学认知：宗教需求可能先于农业革命而出现。2018年列入UNESCO世界遗产。"
       },
       "image": "gobekli-tepe.jpg",
-      "country": {
-        "en": "Southeastern Turkey",
-        "zh": "土耳其"
-      },
+      "country": "TR",
       "region": {
         "en": null,
         "zh": "东南部"
@@ -97,10 +91,7 @@
         "en": "Matera is one of the oldest continuously inhabited cities in Europe and the world. The earliest human traces date back to the Paleolithic period (~7000 BC), while the cave dwellings (Sassi) were carved into soft limestone and became a heritage of Christian communities after the 8th century. Before the 1950s, it was widely considered one of the most impoverished areas; today, these cave dwellings have been redeveloped into hotels, restaurants and museums, becoming a unique cultural landscape in Europe. In 2019, Matera was named 'Italian Capital of Culture'.",
         "zh": "马泰拉是欧洲乃至世界最古老的连续有人居住城市之一。最早的人类踪迹可追溯至旧石器时代（约公元前7000年），而洞穴住宅（Sassi）则是在柔软的石灰岩中凿出的住所，8世纪后成为基督教社区的遗产。1950年代前，这里被普遍认为是最贫困的地区之一；如今，这些洞穴住宅已被重新开发为酒店、餐厅和博物馆，成为欧洲独特的人文景观。2019年马泰拉被命名为\"意大利文化之都\"。"
       },
-      "country": {
-        "en": "Italy",
-        "zh": "意大利"
-      },
+      "country": "IT",
       "region": {
         "en": "Basilicata",
         "zh": "巴西利卡塔大"
@@ -134,10 +125,7 @@
         "zh": "在地中海的心脏地带，岛国马耳他拥有地球上最古老的一些独立式建筑。哈加尔齐姆（Ħaġar Qim）和姆纳德拉（Mnajdra）等巨石神庙建筑群始建于约公元前3600年，比巨石阵还早近千年。这些遗址展示了与春分、秋分和夏至、冬至的复杂天文对齐，突显了史前人类对太阳周期和季节节律的先进理解。1992年列入UNESCO世界遗产。"
       },
       "image": "malta-megalithic-temples.jpg",
-      "country": {
-        "en": "Malta",
-        "zh": "马耳他"
-      },
+      "country": "MT",
       "region": {
         "en": null,
         "zh": null
@@ -170,10 +158,7 @@
         "zh": "在爱尔兰的博因河谷，一座巨大的新石器时代建筑静静矗立了五千年。纽格莱奇墓是一座通道式陵墓和古老神庙，其历史早于金字塔和巨石阵。每年冬至日出时分，一道阳光穿透墓室入口的狭窄缝隙，沿着长达19米的通道精确照亮内部墓室——这一精准的天文对齐展示了早期人类对太阳周期的深刻工程学理解。它是人类智慧最早的光辉见证之一。"
       },
       "image": "newgrange.jpg",
-      "country": {
-        "en": "Ireland",
-        "zh": "爱尔兰"
-      },
+      "country": "IE",
       "region": {
         "en": "Boyne Valley",
         "zh": "博因河谷"
@@ -206,10 +191,7 @@
         "zh": "在苏格兰北部的奥克尼群岛上，人类早在5000年前就已经建造了规划完整的聚落。斯卡拉布雷是欧洲最完整的新石器时代村落，十个石板屋保存了床铺、衣柜、座椅和储物箱等完整室内设施，以及古老的排水系统和室内厕所。这座被沙石掩埋的村落如同\"苏格兰庞贝古城\"，展现了人类从游牧向定居生活的早期过渡。1999年列入UNESCO世界遗产\"奥克尼新石器时代心脏\"。"
       },
       "image": "skara-brae.jpg",
-      "country": {
-        "en": "Scotland",
-        "zh": "苏格兰奥克尼群岛"
-      },
+      "country": "GB",
       "region": {
         "en": "Orkney Islands",
         "zh": null
@@ -242,10 +224,7 @@
         "zh": "在英格兰南部的 Salisbury 平原上，巨石阵如同一个永恒的谜题静默矗立。这座欧洲最著名的史前环形石阵由巨大的蓝巨石排列成同心圆结构，以其神秘的夏至日出对齐而闻名于世。从公元前3000年至前2000年间，这座建筑经历了多次建造阶段，其目的至今仍是学者争论的焦点——是宗教仪式场所、部落集会地，还是天文观测台？1986年列入UNESCO世界遗产。"
       },
       "image": "stonehenge.jpg",
-      "country": {
-        "en": "England",
-        "zh": "英国"
-      },
+      "country": "GB",
       "region": {
         "en": "Wiltshire",
         "zh": "威尔特郡"
@@ -278,10 +257,7 @@
         "zh": "在欧洲文明史上，克里特岛是一座划时代的里程碑。以克诺索斯宫为中心的米诺斯文明（Minoan civilization，约公元前3100年—公元前1100年）被广泛认为是欧洲第一个高度文明。这座宫殿拥有复杂的空间规划、多层楼室、完善的供水排水系统，以及描绘自然与仪式的生动壁画。它与神话中的米诺斯国王和迷宫传说息息相关，代表了欧洲青铜时代最先进的城市文明。1999年列入UNESCO世界遗产。"
       },
       "image": "knossos-palace.jpg",
-      "country": {
-        "en": "Greece",
-        "zh": "希腊"
-      },
+      "country": "GR",
       "region": {
         "en": "Crete",
         "zh": "克里特岛"
@@ -314,10 +290,7 @@
         "zh": "在希腊大陆南部的山丘上，迈锡尼的坚固卫城俯瞰着阿尔戈斯平原。这座城堡被公认为传说中阿伽门农国王的都城，曾统治希腊南部，并成为后来荷马史诗的历史背景。迈锡尼以\"狮子门\"和巨石城墙闻名，展示了青铜时代军事贵族的权力架构。其出土的陪葬宝藏（包括著名的\"阿伽门农黄金面具\"）证明了早期欧洲文明的高度复杂性。1999年列入UNESCO世界遗产。"
       },
       "image": "mycenae.jpg",
-      "country": {
-        "en": "Greece",
-        "zh": "希腊"
-      },
+      "country": "GR",
       "region": {
         "en": "Peloponnese",
         "zh": "伯罗奔尼撒半岛"
@@ -349,10 +322,7 @@
         "en": "Hallstatt is one of the oldest human settlements. Salt mining here began in 800 BC, and the profits from salt mines enabled this small valley town of only about 800 residents to accumulate wealth. The traditional Alpine wooden houses (Almlaninger House) from the 16th-19th centuries are brightly colored with sloping attic windows. Today, the name Hallstatt has over 100 'copies' worldwide - Guangdong in China even has a reconstructed 'copy' - while the real Hallstatt sits quietly at the foot of the Dachstein Mountains.",
         "zh": "哈尔施塔特是人类最古老的定居点之一。这里的盐矿自公元前800年起就开始开采，盐矿的利润使这个仅有约800居民的山谷小镇积累了财富。16-19世纪的阿尔卑斯地区传统木屋（Almlaninger House）色彩明快，屋顶带有倾斜的阁楼窗。如今，Hallstatt这个名字在全球拥有超过100个\"复制品\"——中国广东就有一个按原样重建的\"翻版\"——而真正的哈尔施塔特则安静地坐落在达赫斯坦山脉的山脚下。"
       },
-      "country": {
-        "en": "Austria",
-        "zh": "奥地利"
-      },
+      "country": "AT",
       "region": {
         "en": "Upper Austria",
         "zh": "上奥地利州"
@@ -386,10 +356,7 @@
         "zh": "雅典阿戈拉是古希腊的公共集会场所，最初是自由公民集结参军或听取市政公告的露天集会场所，迅速演变成城市生活的中心。在公元前594年梭伦和后来克里斯提尼等政治家改革的催化下，民主政治在这里萌芽。正是在阿戈拉的柱廊和商铺之间，苏格拉底运用辩证法与市民互动，直到公元前399年，位于同一广场上的法庭以不敬神明罪判处他死刑。柏拉图听到苏格拉底的演讲后，放弃了成为贵族剧作家的野心，全身心地投入到哲学中。阿戈拉因此被视为民主制度与西方哲学思想的发源地。"
       },
       "image": "athenian-agora.jpg",
-      "country": {
-        "en": "Greece",
-        "zh": "希腊"
-      },
+      "country": "GR",
       "region": {
         "en": "Athens",
         "zh": "雅典"
@@ -422,10 +389,7 @@
         "zh": "俯瞰阿戈拉的是雅典卫城及其巅峰之作——帕特农神庙。在公元前480年波斯国王薛西斯摧毁雅典之后，政治家伯里克利下令建造了这座纪念碑，供奉守护神雅典娜（Athena Parthenos），饰有菲迪亚斯（Phidias）的雕塑。这座神庙代表了古典希腊在比例、对称和艺术成就上的顶峰，其对几何秩序的自觉应用深刻影响了后来所有欧洲帝国的审美原则，确立了延续至现代的市政建筑模板。"
       },
       "image": "parthenon.jpg",
-      "country": {
-        "en": "Greece",
-        "zh": "希腊"
-      },
+      "country": "GR",
       "region": {
         "en": "Acropolis of Athens",
         "zh": "雅典卫城"
@@ -458,10 +422,7 @@
         "zh": "在地中海第二大岛撒丁岛上，一种独特的青铜时代文明建造了成千上万座宏伟的截顶圆锥形石堡，被称为\"努拉吉\"（nuraghi）。这些奇特的锥形石塔遍布撒丁岛全境，是这种独特文化的最具代表性遗存。其中巴鲁米尼的苏努拉吉是一个以巨大塔楼为中心的庞大建筑群，展示了史前人类在建筑工程上的惊人创造力。1997年列入UNESCO世界遗产。"
       },
       "image": "su-nuraxi.jpg",
-      "country": {
-        "en": "Italy",
-        "zh": "意大利"
-      },
+      "country": "IT",
       "region": {
         "en": "Sardinia",
         "zh": "撒丁岛"
@@ -494,10 +455,7 @@
         "zh": "在法国南部的尼姆（Nîmes，原名内毛苏斯 Nemausus），奥古斯都统治时期建造了一座保存最为完好的罗马神庙——四方神庙。它展示了古典比例和独立科林斯圆柱的优雅，是罗马帝国在行省建立标志性建筑的典范。这座神庙历经近两千年仍保持完整，成为研究罗马建筑的最佳实物例证。"
       },
       "image": "maison-carree.jpg",
-      "country": {
-        "en": "France",
-        "zh": "法国"
-      },
+      "country": "FR",
       "region": {
         "en": "Nîmes",
         "zh": "尼姆"
@@ -530,10 +488,7 @@
         "zh": "在尼姆附近，一座三层拱门的高架引水桥静静矗立了近两千年。加尔桥是古罗马最精美的输水道桥，三层拱门高48.8米，总长275米，完全依靠石块重力镶嵌而成，无任何灰浆粘连。它曾每天将4.5万立方米的淡水输送至尼姆，展示罗马工程师对水力学和几何学的精深掌握。1985年列入UNESCO世界遗产。"
       },
       "image": "pont-du-gard.jpg",
-      "country": {
-        "en": "France",
-        "zh": "法国"
-      },
+      "country": "FR",
       "region": {
         "en": "Near Nîmes",
         "zh": "尼姆附近"
@@ -566,10 +521,7 @@
         "zh": "与四方神庙同为尼姆罗马遗产的尼姆竞技场，是一个完美对称的圆形剧场，设计了60个通道以容纳13,000至24,000名观众，凸显了罗马人利用大型公共娱乐（尤其是角斗士战斗）作为社会凝聚力和彰显帝国实力的工具。这一建筑理念随着罗马帝国的扩张传播到整个欧洲，留下了众多竞技场遗迹。"
       },
       "image": "arena-nimes.jpg",
-      "country": {
-        "en": "France",
-        "zh": "法国"
-      },
+      "country": "FR",
       "region": {
         "en": "Nîmes",
         "zh": "尼姆"
@@ -602,10 +554,7 @@
         "zh": "罗马斗兽场是奥古斯都广场中最宏伟的建筑，这座巨大的椭圆形剧场能够容纳数万名观众，是罗马帝国力量与残酷娱乐的终极象征。在帝国全盛时期，这里上演着角斗士生死搏斗、猎兽表演，甚至引水淹没剧场进行海战表演。它不仅是建筑的奇迹，更是罗马帝国政治宣传的工具，通过壮观场面展示帝国的财富与权威。1980年列入UNESCO世界遗产。"
       },
       "image": "colosseum.jpg",
-      "country": {
-        "en": "Italy",
-        "zh": "意大利"
-      },
+      "country": "IT",
       "region": {
         "en": "Rome",
         "zh": "罗马"
@@ -638,10 +587,7 @@
         "zh": "被维苏威火山喷发瞬间掩埋的庞贝古城，提供了古代世界无与伦比的\"时间定格\"快照。最近的考古发现从根本上修正了既定的历史时间表——在墙上发现的木炭涂鸦将普遍接受的火山喷发日期从公元79年8月24日移至10月24日。此外，庞贝的城墙是平民声音的原生态档案。数以千计的幸存涂鸦铭文展示了一个高度识字的社会，从阿塞利娜（Asellina）酒吧等酒馆外墙上的政治背书，到臭名昭著的妓院（lupanar）中粗俗的侮辱和诗意的宣言，庞贝的实体建筑揭示了一个公共空间被积极用于个人和政治表达的社会。1997年列入UNESCO世界遗产。"
       },
       "image": "pompeii.jpg",
-      "country": {
-        "en": "Italy",
-        "zh": "意大利"
-      },
+      "country": "IT",
       "region": {
         "en": "Campi Flegrei",
         "zh": "坎皮佛莱格瑞地"
@@ -674,10 +620,7 @@
         "zh": "在西班牙的塞哥维亚，一座双层石拱门的高架引水桥静静矗立了近乎两千年。塞哥维亚输水槽利用精确的坡度和巨大的石头拱门将淡水从18公里外的河流输送至城市，展示罗马人在水利工程上务实的天才。令人惊叹的是，这座巨大的建筑完全依靠石块的重力镶嵌而屹立不倒，没有任何灰浆粘连。它是罗马工程学最实用的杰作，也是目前保存最完整的水利工程之一。"
       },
       "image": "aqueduct-segovia.jpg",
-      "country": {
-        "en": "Spain",
-        "zh": "西班牙"
-      },
+      "country": "ES",
       "region": {
         "en": "Segovia",
         "zh": "塞哥维亚"
@@ -710,10 +653,7 @@
         "zh": "万神殿是世界上保存最完好的古罗马建筑，以直径43米的无钢筋混凝土穹顶著称，历经近两千年仍是世界最大同类穹顶。哈德良皇帝建造了这座供奉众神的庙宇，公元609年改建为天主教堂。其穹顶顶部开设的圆孔（oculus）将光线投射进来，随着太阳移动在地面上形成巨大的光斑，象征着神性对凡间的照耀。这座建筑证明了罗马人在混凝土工程上的惊人天才，至今仍是建筑师们研究和借鉴的典范。"
       },
       "image": "pantheon.jpg",
-      "country": {
-        "en": "Italy",
-        "zh": "意大利"
-      },
+      "country": "IT",
       "region": {
         "en": "Rome",
         "zh": "罗马"
@@ -746,10 +686,7 @@
         "zh": "由哈德良皇帝下令建造，哈德良长城横跨英格兰北部，全长117公里，是罗马帝国北部边疆的标志性防御工程，代表罗马帝国权力的最北边界。这道防线包括城墙、瞭望塔、堡垒和军事道路，旨在防御苏格兰的皮克特部落。1987年列入UNESCO世界遗产。如今，长城遗址吸引着全球游客，成为罗马帝国历史与英国原住民文化交汇的物理见证。"
       },
       "image": "hadrians-wall.jpg",
-      "country": {
-        "en": "UK",
-        "zh": "英国"
-      },
+      "country": "GB",
       "region": {
         "en": "Northern England",
         "zh": "英格兰北部"
@@ -782,10 +719,7 @@
         "zh": "特里尔是德国最古老的城市，曾是罗马帝国的都城。黑门（Porta Nigra）建于公元170年左右，是阿尔卑斯山以北保存最完好、最庞大的罗马城门，完美代表了罗马帝国在边疆的强大防御与城市化进程。这座巨大的砂岩城门由两部分组成，拥有复杂的内部通道和防御设施，是罗马帝国边境防御体系的典型代表。"
       },
       "image": "porta-nigra.jpg",
-      "country": {
-        "en": "Germany",
-        "zh": "德国"
-      },
+      "country": "DE",
       "region": {
         "en": "Trier",
         "zh": "特里尔"
@@ -818,10 +752,7 @@
         "zh": "随着古典时代走向晚期，罗马帝国的建筑重点从开放的公民参与转向了设防防御。位于克罗地亚斯普利特的戴克里先宫就是在这一背景下建造的。这是4世纪初为戴克里先皇帝建造的庞大且防御森严的退休堡垒，其建筑格局深刻地影响了向中世纪防御性城市规划范式的过渡。宫殿的地下室、城墙和努曼尼亚门（Porta di Terra）至今仍完好保存，成为研究罗马帝国晚期建筑的重要实例。"
       },
       "image": "diocletian-palace.jpg",
-      "country": {
-        "en": "Croatia",
-        "zh": "克罗地亚"
-      },
+      "country": "HR",
       "region": {
         "en": "Split",
         "zh": "斯普利特"
@@ -853,10 +784,7 @@
         "en": "Milan Cathedral (Duomo di Milano) is one of the largest Gothic cathedrals in the world, a masterpiece that took nearly 600 years (1386-1965) to complete. With 135 spires and a rooftop terrace overlooking the entire city, it showcases the ultimate achievement of medieval engineering. Its lightweight flying buttress structures and exquisite stone carvings make it one of the most spectacular achievements of medieval European architecture.",
         "zh": "米兰大教堂（Duomo di Milano）是世界上最大的哥特式教堂之一，历经近600年（1386-1965年）才完工，拥有135座尖塔和可俯瞰城市全景的屋顶露台，展示了中世纪工程学的极致成就。其轻盈的飞扶壁结构和精湛的石雕工艺，使其成为欧洲中世纪建筑最壮观的成就之一。"
       },
-      "country": {
-        "en": "Italy",
-        "zh": "意大利"
-      },
+      "country": "IT",
       "region": {
         "en": "Milan",
         "zh": "米兰"
@@ -890,10 +818,7 @@
         "zh": "当西罗马帝国崩溃时，东罗马帝国（拜占庭帝国）延续了罗马的荣光。在君士坦丁堡（今伊斯坦布尔），查士丁尼一世建造了圣索菲亚大教堂，这是世界上最早完整采用帆拱穹顶的建筑之一。长82米，穹顶高55米，以当时的工程水平而言堪称奇迹。这座教堂融合了希腊-罗马的工程技术与基督教的神学象征，其巨大的中央穹顶被认为\"悬浮\"在空间之上，通过帆拱（pendentives）将重量传递到四角的柱子上。1453年奥斯曼帝国征服君士坦丁堡后，圣索菲亚被改建为清真寺，增添了宣礼塔和米哈拉布，但保留了原有的拜占庭马赛克。1985年列入UNESCO世界遗产。"
       },
       "image": "hagia-sophia.jpg",
-      "country": {
-        "en": "Turkey",
-        "zh": "土耳其"
-      },
+      "country": "TR",
       "region": {
         "en": "Istanbul",
         "zh": "伊斯坦布尔"
@@ -926,10 +851,7 @@
         "zh": "在意大利东北部的拉文纳，8座早期基督教建筑群展现了拜占庭帝国早期的艺术成就。圣维塔莱教堂（Basilica of San Vitale）中的镶嵌画描绘了查士丁尼皇帝和皇后西奥多拉的形象，以及精美的基督教场景。亚波利尼亚天主教堂（Basilica of Sant'Apollinare）则以其金色背景上的圣人形象著称。这些镶嵌画代表了拜占庭艺术的巅峰，将基督教图像与古典美学完美融合。1986年列入UNESCO世界遗产。"
       },
       "image": "ravenna-mosaics.jpg",
-      "country": {
-        "en": "Italy",
-        "zh": "意大利"
-      },
+      "country": "IT",
       "region": {
         "en": "Ravenna",
         "zh": "拉文纳"
@@ -961,10 +883,7 @@
         "en": "Toledo is one of the most important cities in Spanish history. In the 6th century, it was the capital of the Visigothic Kingdom; in the early 8th century, the Moors conquered the city; during the Reconquista period from the 11th-15th centuries, Christianity, Islam and Judaism coexisted here for centuries. This triple cultural heritage left deep marks on Toledo's architecture: Toledo Cathedral is one of Spain's largest Gothic cathedrals, the Alcázar was a fortress for Catholic monarchs, and the Jewish synagogue retains exquisite mudéjar-style decorations. The entire ancient city was listed as UNESCO World Heritage in 1986.",
         "zh": "托莱多是西班牙历史上最重要的城市之一。6世纪时，这里是西哥特王国的首都；8世纪初，摩尔人征服了这座城市；11-15世纪收复失地运动期间，基督教、伊斯兰教和犹太教在这里共存了数百年。这种三重文化遗产在托莱多的建筑中留下了深深的烙印：托莱多大教堂是西班牙最大的哥特式教堂之一，阿尔卡萨城堡曾是天主教君主的要塞，犹太教堂保留了mudéjar风格的精美装饰。1986年整座古城被列入UNESCO世界遗产。"
       },
-      "country": {
-        "en": "Spain",
-        "zh": "西班牙"
-      },
+      "country": "ES",
       "region": {
         "en": "Castile-La Mancha",
         "zh": "卡斯蒂利亚-拉曼查大"
@@ -997,10 +916,7 @@
         "en": "Piran is the most beautiful coastal town in Slovenia, once belonging to the Republic of Venice. The city's layout reflects this heritage - narrow curved streets surround a series of small squares. The bell tower of St. George's Church is the city's landmark, its height and position subtly echoing Venice's St. Mark's Bell Tower. Piran's old town has largely preserved its medieval appearance and is the best-preserved Venetian-style town on the northern Adriatic coast.",
         "zh": "皮兰是斯洛文尼亚最美丽的沿海城镇，曾经属于威尼斯共和国。城市的布局反映了这个渊源——狭窄弯曲的街道围绕着一系列小广场。圣乔治教堂的钟楼是城市的标志，其高度和位置与威尼斯的圣马可钟楼有着微妙的呼应。皮兰的老城区基本保留了中世纪的面貌，是亚得里亚海北岸保存最完整的威尼斯风格城镇。"
       },
-      "country": {
-        "en": "Slovenia",
-        "zh": "斯洛文尼亚"
-      },
+      "country": "SI",
       "region": {
         "en": "Koper Coast",
         "zh": "科佩尔海岸"
@@ -1033,10 +949,7 @@
         "en": "Évora is the capital of the Alentejo region in Portugal's interior and the country's most well-preserved historic city. The city's core is the Temple of Diana (Templo de Diana) from the Roman period, a 1st-century temple that is one of the best-preserved Roman temples on the Iberian Peninsula. During the Middle Ages, the Moors reinforced the city walls and built castles; after the Reconquista, Christians built numerous churches, monasteries and noble palaces in the city. Évora's historic center was listed as UNESCO World Heritage in 1986.",
         "zh": "埃武拉是葡萄牙内陆阿连特茹地区的首府，也是该国保存最完整的历史城市。城市的核心是罗马时期的狄安娜神庙（Templo de Diana），这座1世纪的神庙是伊比利亚半岛保存最完整的罗马神庙之一。中世纪时，摩尔人加固了城墙，建起了城堡；收复失地运动后，基督徒在城中建造了大量的教堂、修道院和贵族宫殿。1986年埃武拉历史中心被列入UNESCO世界遗产。"
       },
-      "country": {
-        "en": "Portugal",
-        "zh": "葡萄牙"
-      },
+      "country": "PT",
       "region": {
         "en": "Évora District",
         "zh": "埃武拉"
@@ -1070,10 +983,7 @@
         "zh": "圣雅各之路是一个横跨欧洲、通往西班牙西北部圣雅各（使徒雅各）遗骸的庞大路径网络，从9世纪开始催生了泛欧洲的现象。沿着这条路，涌现了一个由临终关怀院、桥梁、修道院甚至整个城镇组成的庞大生态系统，以迎合数以百万计的朝圣者。扇贝壳成为了这段旅程不朽的实物线索和象征。这一标志源自一个中世纪的神迹故事：一名骑士坠入海中，在圣雅各的干预下安全浮出水面，身上覆盖着扇贝壳。如今，为支持这条路线而建立的基础设施仍然是欧洲中世纪建筑遗产的重要组成部分。1993年列入UNESCO世界遗产。"
       },
       "image": "camino-santiago.jpg",
-      "country": {
-        "en": "Spain and Multiple European Countries",
-        "zh": "西班牙"
-      },
+      "country": "ES",
       "region": {
         "en": null,
         "zh": "及欧洲多国"
@@ -1106,10 +1016,7 @@
         "zh": "圣米歇尔山戏剧性地坐落在诺曼底海岸外的潮汐岛上，代表了中世纪精神信仰、智力追求和军事防御的终极综合体。这座修道院由本笃会修士社区于公元966年在大天使迈克尔的传说异象之后建立，成为了首屈一指的知识中心。在其写字间里，包含古典智慧的古希腊文本被保存、复制和研究。 在建筑上，圣米歇尔山是对极端地形挑战的胜利。建筑的最高点是\"奇迹楼\"（La Merveille），这是建于13世纪的三层哥特式杰作。回廊有137根波贝克大理石柱排列成错落有致的三脚架形状，为修士冥想提供了宁静、高耸的空间。百年战争期间，这座堡垒能够成功击退英国的多次围攻，最著名的是在1434年敌众我寡的情况下取得胜利。"
       },
       "image": "mont-saint-michel.jpg",
-      "country": {
-        "en": "France",
-        "zh": "法国"
-      },
+      "country": "FR",
       "region": {
         "en": "Normandy",
         "zh": "诺曼底"
@@ -1141,10 +1048,7 @@
         "en": "Bamberg stretches across seven hills, divided by the Regnitz River and its canals into islands, earning it the nickname 'Rome of the Franconia'. The old town preserves numerous Romanesque and Gothic buildings, as well as 17th-18th century Burgundian houses. Most distinctive are the 'Bamberger Bocker' - these half-timbered buildings were built directly on the riverbed, dating back to the 14th century. UNESCO commented that it 'preserves almost completely the urban appearance of the East Frankish Kingdom for over a thousand years'.",
         "zh": "班贝格横跨七座山丘，被雷格尼茨河及其运河分割成岛屿，因此获得了\"弗兰肯的罗马\"的昵称。老城中保留了大量罗马式与哥特式建筑，以及17-18世纪的勃艮第式住宅。其中最有特色的是水上房东，这些桁架建筑直接建在河床上，历史可追溯至14世纪。联合国教科文组织评价其\"几乎完完整整地保留了一千多年的东法兰克王国城市面貌\"。"
       },
-      "country": {
-        "en": "Germany",
-        "zh": "德国"
-      },
+      "country": "DE",
       "region": {
         "en": "Bavaria",
         "zh": "巴伐利亚州"
@@ -1177,10 +1081,7 @@
         "en": "Salzburg's history is closely linked to its archbishops. From the 1120s onwards, the Archbishop of Salzburg became one of the most influential princes of the Holy Roman Empire, building spectacular palaces, churches and monasteries. The most famous building is Hohensalzburg Fortress, an 11th-century castle standing on a hill above the city, one of the best-preserved castles in Central Europe. Listed as UNESCO World Heritage together with the old town in 1996.",
         "zh": "萨尔茨堡的历史与其大主教们紧密相连。从1120年代起，萨尔茨堡大主教成为神圣罗马帝国最有影响力的诸侯之一，建造了壮观的宫殿、教堂和修道院。最著名的建筑是霍亨萨尔茨堡城堡，这座11世纪的城堡矗立在城市上方的山丘上，是中欧保存最完整的城堡之一。1996年连同老城列入UNESCO世界遗产。"
       },
-      "country": {
-        "en": "Austria",
-        "zh": "奥地利"
-      },
+      "country": "AT",
       "region": {
         "en": "Salzburg State",
         "zh": "萨尔茨堡州"
@@ -1214,10 +1115,7 @@
         "zh": "维也纳圣斯蒂芬大教堂是哈布斯堡王朝的家族教堂，以136米高的南塔和绘有哈布斯堡双头鹰的彩色瓦片屋顶著称。这座教堂见证了奥地利的重大历史事件，从十三世纪奠基到二战期间的重建，它始终是维也纳城市身份的核心象征。其内部收藏的珍贵文物和艺术品，记录了哈布斯堡帝国六百年的兴衰史。"
       },
       "image": "st-stephens-cathedral.jpg",
-      "country": {
-        "en": "Austria",
-        "zh": "奥地利"
-      },
+      "country": "AT",
       "region": {
         "en": "Vienna",
         "zh": "维也纳"
@@ -1250,10 +1148,7 @@
         "zh": "到了12世纪，罗马在北欧留下的商业真空被汉萨同盟（Hanseatic League）填补。同盟由德国商人（hansa）松散的协会演变而来，最终成为一个囊括今天八个国家内200多个城镇的经济超级大国。 吕贝克是这个庞大网络的行政和精神中心。1157年由狮子亨利公爵重新建立，该市采用了一部进步的法典《吕贝克法》（Lübisches Recht），最终被波罗的海地区的100多个城市采用。这种商业垄断产生的巨大财富资助了砖砌哥特式（Brick Gothic）建筑风格。吕贝克的天际线以五座宏伟的教堂及其七个高耸的铜尖顶（包括令人敬畏的圣玛丽亚教堂）为主导，设防的霍尔斯滕门（Holsten Gate）则是证明吕贝克曾作为\"汉萨同盟女王\"时代的实物遗迹。1987年连同整个老城列入UNESCO世界遗产。"
       },
       "image": "luebeck.jpg",
-      "country": {
-        "en": "Germany",
-        "zh": "德国"
-      },
+      "country": "DE",
       "region": {
         "en": "Schleswig-Holstein",
         "zh": "石勒苏益格-荷尔斯泰因州"
@@ -1285,10 +1180,7 @@
         "en": "San Gimignano is a small hill town in the Tuscan mountains, known as the 'City of Fine Towers'. During the medieval peak, there were 72 towers belonging to noble families, used to display family wealth and for defense. Only 14 remain today, but looking up along the narrow streets, you can still feel the visual impact of the towers that once lined the hills.",
         "zh": "圣吉米尼亚诺是托斯卡纳山区一座小小的山顶城镇，以\"塔楼之城\"闻名。在中世纪鼎盛时期，这里曾有72座贵族家族的塔楼，用于展示家族财富和进行防御。如今仅存14座，但沿着狭窄的街道向上望去，仍能感受到当年塔楼林立带来的视觉冲击。"
       },
-      "country": {
-        "en": "Italy",
-        "zh": "意大利"
-      },
+      "country": "IT",
       "region": {
         "en": "Tuscany",
         "zh": "托斯卡纳大"
@@ -1321,10 +1213,7 @@
         "en": "Ghent, together with Bruges and Antwerp, is one of the three major Flemish historic cities. The city's historic center preserves buildings from the Middle Ages to the 19th century, including St. Bavo's Cathedral which houses one of the greatest works of the Flemish school - the Ghent Altarpiece by Jan van Eyck. Three medieval spires - St. Bavo's Cathedral, St. Nicholas' Church and the Town Hall tower - form Ghent's unique skyline.",
         "zh": "根特与布鲁日、安特卫普并列为佛拉芒三大历史城市。这座城市的历史中心保留了从中世纪到19世纪的建筑，其中圣巴夫大教堂收藏了佛拉芒画派最伟大的作品之一——扬·范·艾克的《根特祭坛画》。三座中世纪尖塔——圣巴夫大教堂、圣尼古拉教堂和市政府塔楼——构成了根特独特的天际线。"
       },
-      "country": {
-        "en": "Belgium",
-        "zh": "比利时"
-      },
+      "country": "BE",
       "region": {
         "en": "East Flanders",
         "zh": "东弗兰德"
@@ -1357,10 +1246,7 @@
         "en": "Troyes was the center of the medieval Champagne Fairs. This prosperous trade activity reached its peak in the 13th century, when merchants from across Europe gathered in this capital of the Champagne region to trade textiles, wine and spices. The profits from the Champagne Fairs built Troyes stunning Gothic church complexes.",
         "zh": "特鲁瓦是中世纪香槟酒展会（Champagne Fairs）的中心。这项繁荣的贸易活动在13世纪达到顶峰，来自欧洲各地的商人聚集在这座香槟地区首府，进行纺织品、葡萄酒和香料交易。香槟酒展会的利润建造了特鲁瓦城内令人叹为观止的哥特式教堂群。"
       },
-      "country": {
-        "en": "France",
-        "zh": "法国"
-      },
+      "country": "FR",
       "region": {
         "en": "Aube",
         "zh": "奥布"
@@ -1394,10 +1280,7 @@
         "zh": "在法国巴黎的西岱岛上，圣礼拜堂由路易九世建造，拥有1113块绚丽的彩色玻璃窗，代表了辐射式哥特式建筑（Rayonnant Gothic）在轻盈与透光性上的最高工程成就。这些彩色玻璃窗描绘了《圣经》故事，从创世纪到复活，将光线转化为色彩的祈祷书。哥特式建筑对垂直高度和充足光线的追求，在这里达到了近乎精神层面的境界。1862年列入UNESCO世界遗产。"
       },
       "image": "sainte-chapelle.jpg",
-      "country": {
-        "en": "France",
-        "zh": "法国"
-      },
+      "country": "FR",
       "region": {
         "en": "Paris",
         "zh": "巴黎"
@@ -1430,10 +1313,7 @@
         "zh": "科隆大教堂是全球最高的双尖塔教堂，高157米，代表了哥特式建筑的极致成就。这座教堂的建造历时632年，跨越了中世纪和工业时代，其间多次停工又复工，最终在19世纪哥特复兴运动中得以完工。哥特式建筑的三大工程创新——尖肋拱顶、尖拱和飞扶壁——在大教堂中得到了最完美的应用，使得建筑骨架变得细长，能够用大面积的彩色玻璃窗取代沉重的石墙。1996年列入UNESCO世界遗产。"
       },
       "image": "cologne-cathedral.jpg",
-      "country": {
-        "en": "Germany",
-        "zh": "德国"
-      },
+      "country": "DE",
       "region": {
         "en": "North Rhine-Westphalia",
         "zh": "北莱茵-威斯特法伦州"
@@ -1465,10 +1345,7 @@
         "en": "In southern France, the Cité of Carcassonne provides the ultimate example of medieval inland fortifications. As Europe's largest and best-preserved fortified medieval city, it features 3 kilometers of double walls and 52 sturdy towers. This UNESCO World Heritage fortress perfectly embodies the intensive military defensive architecture of the medieval period, and its captivating silhouette remains a visual symbol of the medieval knight era.",
         "zh": "在法国南部，卡尔卡松中世纪画城提供了中世纪内陆防御工事的终极范例。作为欧洲最大、保存最完整的设防中世纪城市，它拥有长达3公里的双层城墙和52座坚固的塔楼。这座被联合国教科文组织列为世界遗产的堡垒，完美地体现了中世纪时期高强度的军事防御建筑体系，其引人入胜的轮廓至今仍是中世纪骑士时代的视觉象征。"
       },
-      "country": {
-        "en": "France",
-        "zh": "法国"
-      },
+      "country": "FR",
       "region": {
         "en": "Aude",
         "zh": "奥德"
@@ -1501,10 +1378,7 @@
         "en": "Siena is a stunning medieval mountain town. During the 12th-14th century, Siena was one of the most powerful city-states in Tuscany, engaged in fierce competition with Florence. The Black Death of 1348 killed about 60% of the population, preventing Siena from recovering its former glory - but this very decline allowed the city to preserve its medieval appearance intact. Siena's central Piazza del Campo is one of the most beautiful medieval squares in Europe, where the famous Palio horse race is held annually.",
         "zh": "锡耶纳是一座令人惊叹的中世纪山城。在12-14世纪，锡耶纳是托斯卡纳最强大的城邦之一，与佛罗伦萨进行着激烈的竞争。1348年的黑死病杀死了约60%的人口，使锡耶纳再也没有恢复昔日的辉煌——但也正是这种衰落，使这座城市得以完整地保存了中世纪的面貌。锡耶纳的市中心广场（Campo）是欧洲最美丽的中世纪广场之一，每年著名的赛马节就在这里举行。"
       },
-      "country": {
-        "en": "Italy",
-        "zh": "意大利"
-      },
+      "country": "IT",
       "region": {
         "en": "Tuscany",
         "zh": "托斯卡纳大"
@@ -1537,10 +1411,7 @@
         "en": "Rothenburg is a landmark on Germany's Romantic Route, dubbed the 'Living Museum of the Middle Ages'. Colorful half-timbered buildings from the 13th-15th century line the cobblestone streets, and the market square's town hall features a tower with panoramic city views. A famous fire in the late 16th century prompted reconstruction in traditional style, accidentally protecting the town from the large-scale modernization that transformed most medieval cities afterward.",
         "zh": "罗滕堡是德国浪漫主义旅游路线的标志性站点，被誉为\"中世纪的活的博物馆\"。建于13-15世纪的桁架式建筑色彩斑斓，街道铺着鹅卵石，市集广场上的市政厅拥有可俯瞰全城的塔楼。16世纪末的一场著名火灾促使城镇按传统风格重建，阴差阳错地使其躲过了中世纪后常见的大规模现代化改造。"
       },
-      "country": {
-        "en": "Germany",
-        "zh": "德国"
-      },
+      "country": "DE",
       "region": {
         "en": "Bavaria",
         "zh": "巴伐利亚州"
@@ -1574,10 +1445,7 @@
         "zh": "拥有大型商站的布鲁日（Bruges）成为了首屈一指的国际金融枢纽。它位于沙脊上的地理位置，加上连接雷耶河和北海的潮汐水道网络，促进了全球商品的大量涌入。布鲁日的建筑以大市集广场（Grote Markt）及其雄伟的83米高钟楼为中心，至今仍作为中世纪繁荣的保存完好见证而存在。该市的哥特式建筑，如13世纪的圣母教堂和圣血圣殿，展示了商业财富与宗教虔诚之间是如何深度交织的。2000年连同钟楼列入UNESCO世界遗产。"
       },
       "image": "bruges.jpg",
-      "country": {
-        "en": "Belgium",
-        "zh": "比利时"
-      },
+      "country": "BE",
       "region": {
         "en": "West Flanders",
         "zh": "西弗兰德"
@@ -1610,10 +1478,7 @@
         "zh": "在欧洲西南角的伊比利亚半岛，以格拉纳达的阿尔罕布拉宫为代表的摩尔人建筑，反映了地中海文明的碰撞与伊斯兰文化在安达卢斯时期的辉煌。这座宫殿与堡垒综合体展示了伊斯兰建筑对几何图案、水系和自然融合的极致追求。精雕细琢的阿拉伯文铭文、复杂的水喷泉和精心设计的庭院，使阿尔罕布拉宫成为伊斯兰建筑在欧洲的巅峰之作，也是理解中世纪宗教和文化交融的重要窗口。2011年列入UNESCO世界遗产。"
       },
       "image": "alhambra.jpg",
-      "country": {
-        "en": "Spain",
-        "zh": "西班牙"
-      },
+      "country": "ES",
       "region": {
         "en": "Granada",
         "zh": "格拉纳达"
@@ -1645,10 +1510,7 @@
         "en": "Prague is one of the most beautiful medieval cities in Europe. In the 14th century, Holy Roman Empire Emperor Charles IV transformed Prague into an imperial capital, building the stunning St. Vitus Cathedral, Charles Bridge and the largest medieval market square in Europe - the Old Town Square. Charles Bridge spans the Vltava River, and its 30 Baroque sculptures from the 17th-18th century form a dialogue spanning hundreds of years with the medieval bridge towers. The entire Old Town remained virtually undamaged by war until the end of World War II in 1945.",
         "zh": "布拉格是欧洲最美丽的中世纪城市之一。14世纪，神圣罗马帝国皇帝查理四世将布拉格打造为帝都，建造了令人惊叹的圣维特斯大教堂、查理大桥和中世纪最大的集市广场——老城广场。查理大桥横跨伏尔塔瓦河，桥上的30尊巴洛克雕塑是17-18世纪的作品，与中世纪的桥塔形成了跨越数百年的对话。整座老城在1945年二战结束前基本未受战火破坏。"
       },
-      "country": {
-        "en": "Czech Republic",
-        "zh": "捷克"
-      },
+      "country": "CZ",
       "region": {
         "en": null,
         "zh": "共和国"
@@ -1681,10 +1543,7 @@
         "en": "Český Krumlov is one of the best-preserved medieval towns in Europe. The town sits on a sharp bend in the Vltava River, with red-roofed houses layered on the hillsides against the backdrop of a massive castle tower. In the 13th century, this was a stop on trade routes to Austria and Italy; during the 14th-16th century, the Rosenberg family transformed it into a Renaissance noble residence.",
         "zh": "克鲁姆洛夫是欧洲保存最完整的中世纪城镇之一。这座城镇坐落在伏尔塔瓦河的一个急弯处，红顶的房舍层层叠叠地排列在山坡上，背景是巨大的城堡塔楼。13世纪时，这里是通往奥地利和意大利的商路上的一个节点；14-16世纪， Rosenberg家族将这里改建为文艺复兴时期的贵族住所。"
       },
-      "country": {
-        "en": "Czech Republic",
-        "zh": "捷克"
-      },
+      "country": "CZ",
       "region": {
         "en": "South Bohemia",
         "zh": "共和国南波西米亚"
@@ -1718,10 +1577,7 @@
         "zh": "在地中海和亚得里亚海，贸易由极其独立的海洋共和国主导。拉古萨共和国（Republic of Ragusa，今杜布罗夫尼克 Dubrovnik）是战略建筑适应动荡地缘政治力量的典型例子。面对阿拉伯人围攻、威尼斯人的侵略以及后来奥斯曼帝国的威胁，拉古萨居民启动了一项史无前例的防御工事项目。 到15世纪，整个城市被一道巨大的幕墙完全封闭，高度达22米，厚度达4米。防御周边包括巨大的明切塔塔（Minčeta Tower）以及独立的洛夫里耶纳茨堡垒（Lovrijenac）。后者著名的铭文\"Non bene pro toto libertas venditur auro\"（\"自由不为世上所有的黄金而卖\"），捕捉到了一个完全致力于维护其主权和商业生存能力的贵族共和国的特质。1979年列入UNESCO世界遗产。"
       },
       "image": "dubrovnik-walls.jpg",
-      "country": {
-        "en": "Croatia",
-        "zh": "克罗地亚"
-      },
+      "country": "HR",
       "region": {
         "en": "Dubrovnik",
         "zh": "杜布罗夫尼克"
@@ -1754,10 +1610,7 @@
         "zh": "威尼斯海洋共和国利用其庞大的贸易网络和海军力量，引进了东方的影响和巨大的财富，充当了文艺复兴绘画、建筑以及现代外交惯例发展的中心。威尼斯总督宫是这座城市的政治与权力心脏，是一座令人惊叹的建筑杰作，巧妙融合了哥特、拜占庭和摩尔人的建筑元素。这座由粉色大理石建成的宫殿不仅是总督的住所和共和国政府所在地，内部更装饰着丁托列托（Tintoretto）等大师的宏伟画作，并通过著名的叹息桥（Bridge of Sighs）与古老的监狱相连，生动地诉说着威尼斯共和国长达数百年的辉煌与威严。"
       },
       "image": "doge-palace.jpg",
-      "country": {
-        "en": "Italy",
-        "zh": "意大利"
-      },
+      "country": "IT",
       "region": {
         "en": "Venice",
         "zh": "威尼斯"
@@ -1790,10 +1643,7 @@
         "zh": "佛罗伦萨被公认为文艺复兴的熔炉。该运动早期的文学和艺术基础是由但丁、彼特拉克和乔托等人物奠定的。一个决定性的时刻发生在1401年，洛伦佐·吉贝尔蒂（Lorenzo Ghiberti）和菲利波·布鲁内莱斯基（Filippo Brunelleschi）之间为设计佛罗伦萨主教座堂洗礼堂铜门展开了激烈的竞争。布鲁内莱斯基随后通过设计大教堂巨大的穹顶彻底改变了城市景观，重新引入了失传几个世纪的对称、比例和几何的古典原则。这座穹顶直径45米，高106米，至今仍是世界上最大的砖砌穹顶，展现了文艺复兴工程师对古典建筑原则的精深理解。"
       },
       "image": "florence-cathedral.jpg",
-      "country": {
-        "en": "Italy",
-        "zh": "意大利"
-      },
+      "country": "IT",
       "region": {
         "en": "Florence",
         "zh": "佛罗伦萨"
@@ -1825,10 +1675,7 @@
         "en": "Kraków was the capital of Poland before moving to Warsaw in 1320, and also the cultural center of Poland's Golden Age (15th-16th century). Kraków's market square is one of the largest medieval squares in Europe, centered on the Renaissance-style Sukiennice (Cloth Hall), which was once a cloth trading hall. The twin towers of St. Mary's Cathedral sound a trumpet every hour to commemorate a trumpeter who sounded the alarm on the city walls and died during the Mongol invasion in the 13th century. The entire Old Town was largely undamaged during World War II.",
         "zh": "克拉科夫是波兰在1320年迁都华沙之前的首都，也是波兰黄金时代（15-16世纪）的文化中心。克拉科夫的集市广场是欧洲最大的中世纪广场之一，中央矗立着文艺复兴风格的服装塔（Sukiennice），过去是布料交易大厅。圣玛丽亚大教堂的双塔每到整点会吹响小号，以纪念13世纪蒙古入侵时一位在城墙上吹响警报而牺牲的号手。整座老城在二战中基本未受破坏。"
       },
-      "country": {
-        "en": "Poland",
-        "zh": "波兰"
-      },
+      "country": "PL",
       "region": {
         "en": "Lesser Poland",
         "zh": "小波兰"
@@ -1861,10 +1708,7 @@
         "en": "Sintra is a hill town on the outskirts of Lisbon, which became a royal summer retreat from the 15th century. In the 19th century, with the development of the Portuguese Romantic movement, it attracted artists and intellectuals from across Europe, who built a series of fairy-tale palaces and villas. Palácio da Pena is the most famous of these - its striking contrast of red brick and yellow walls with deep blue roofs, mysterious shapes of towers and castle turrets make it look as if it was moved out of a Grimm fairy tale. In 1995, Sintra's cultural landscape was listed as UNESCO World Heritage.",
         "zh": "辛特拉是里斯本郊外的山丘小镇，从15世纪起成为葡萄牙皇室的避暑胜地。19世纪，随着葡萄牙浪漫主义运动的发展，这里吸引了欧洲各地的艺术家和知识分子，建造了一系列充满童话色彩的宫殿和别墅。佩纳宫（Palácio da Pena）是其中最著名的一座，其红砖黄墙与深蓝屋顶的强烈对比，尖塔和城堡塔楼的神秘外形，使其看起来像是从格林童话中搬出来的。1995年辛特拉的文化景观被列入UNESCO世界遗产。"
       },
-      "country": {
-        "en": "Portugal",
-        "zh": "葡萄牙"
-      },
+      "country": "PT",
       "region": {
         "en": "Lisbon Region",
         "zh": "里斯本大"
@@ -1897,10 +1741,7 @@
         "en": "The scientific revolution of the Renaissance left a profound mark in Toruń, Poland. This is the birthplace of astronomer Nicolaus Copernicus, and its preserved Gothic merchant house serves as the best geographical anchor for telling the birth of the heliocentric theory and the scientific awakening. In his work 'De revolutionibus orbium coelestium', Copernicus proposed the revolutionary theory that the Sun, not the Earth, was the center of the universe, shaking the foundation of the medieval Ptolemaic system and triggering a fundamental transformation in the history of science. This house now operates as a museum, recording an important moment of scientific awakening during the Renaissance.",
         "zh": "文艺复兴的科学革命在波兰托伦（Toruń）留下了深刻的印记。这里是天文学家尼古拉·哥白尼的出生地，其保留的哥特式商人之家是讲述日心说诞生和科学觉醒的最佳地理锚点。哥白尼在其著作《天球运行论》（De revolutionibus orbium coelestium）中提出了太阳而非地球是宇宙中心的革命性理论，动摇了中世纪托勒密体系的基础，引发了科学史上的根本性变革。这座房子如今作为博物馆，记录了文艺复兴时期科学思想觉醒的重要时刻。"
       },
-      "country": {
-        "en": "Poland",
-        "zh": "波兰"
-      },
+      "country": "PL",
       "region": {
         "en": "Toruń",
         "zh": "托伦"
@@ -1934,10 +1775,7 @@
         "zh": "在米兰的圣母感恩教堂（Santa Maria delle Grazie）的食堂墙壁上，列奥纳多·达·芬奇创作了《最后的晚餐》。通过巧妙的透视法和人物动态描绘，耶稣宣布被出卖后十二门徒的反应被刻画得栩栩如生。这幅壁画被视为从文艺复兴向鼎盛期转变的开创性作品，对人物心理状态的深刻刻画和创新的构图方式影响了后世的无数艺术家。1980年连同教堂列入UNESCO世界遗产。"
       },
       "image": "last-supper.jpg",
-      "country": {
-        "en": "Santa Maria delle Grazie, Milan, Italy",
-        "zh": "意大利"
-      },
+      "country": "IT",
       "region": {
         "en": null,
         "zh": "米兰圣母感恩教堂"
@@ -1969,10 +1807,7 @@
         "en": "Salamanca is Spain's oldest university city, founded in 1218. The city reached its peak during Spain's Golden Age in the 16th century, when extensive construction activity transformed Salamanca into the academic center of Spain during the Renaissance. The facades of university buildings, squares and churches are adorned with exquisite Plateresque facades - a style that combines Gothic decoration with Renaissance proportions, as delicate as a sculptor's work. In 1988, the entire historic center of the city was listed as UNESCO World Heritage.",
         "zh": "萨拉曼卡是西班牙最古老的大学城，创立于1218年。这座城市在16世纪西班牙黄金时代达到鼎盛，大量建筑活动将萨拉曼卡转变为文艺复兴时期西班牙的学术中心。大学建筑、广场和教堂的立面上装饰着精美的银匠风格（Plateresque）立面——这种风格将哥特式装饰与文艺复兴比例相结合，精致得如同雕刻师的作品。1988年整座城市的历史中心被列入UNESCO世界遗产。"
       },
-      "country": {
-        "en": "Spain",
-        "zh": "西班牙"
-      },
+      "country": "ES",
       "region": {
         "en": "Castile and León",
         "zh": "卡斯蒂利亚-莱昂大"
@@ -2006,10 +1841,7 @@
         "zh": "在梵蒂冈的西斯廷教堂，文艺复兴达到了其视觉艺术的巅峰。米开朗基罗在此创作了《创世纪》穹顶壁画，包括著名的《创造亚当》——上帝的手指触碰亚当手指的经典形象，以及祭坛墙的《最后审判》。这总面积超过500平方米的壁画，被誉为\"一人之力所能成就的极限\"，将人物形象推向了前所未有的雄伟与和谐。教堂还收藏了波提切利、罗塞利等大师的壁画，共同构成了文艺复兴艺术的最高成就。1984年列入UNESCO世界遗产。"
       },
       "image": "sistine-chapel.jpg",
-      "country": {
-        "en": "Vatican City",
-        "zh": "梵蒂冈"
-      },
+      "country": "VA",
       "region": {
         "en": null,
         "zh": null
@@ -2042,10 +1874,7 @@
         "zh": "舍农索堡优雅地横跨在谢尔河（Cher River）上，被称为\"女士城堡\"。它的设计由几位权势女性主导：戴安·德·普瓦捷（Diane de Poitiers）增加了最初的桥梁，凯瑟琳·德·美第奇（Catherine de Médicis）在桥上建造了三层画廊。这座城堡因此成为法国宫廷女性权力与影响力的物理象征，其优雅的拱形结构和精心设计的花园使其成为卢瓦尔河谷最浪漫的城堡之一。"
       },
       "image": "chenonceau-castle.jpg",
-      "country": {
-        "en": "France",
-        "zh": "法国"
-      },
+      "country": "FR",
       "region": {
         "en": "Loire Valley",
         "zh": "卢瓦尔河谷"
@@ -2078,10 +1907,7 @@
         "zh": "1517年，德国神学家马丁·路德（Martin Luther）在维滕贝格（Wittenberg）的城堡教堂大门上发表了《九十五条论纲》，直接点燃了席卷欧洲的新教改革。路德的批评从根本上指向天主教会猖獗的腐败和财务滥用，最著名的是出售赎罪券——这是一种允许富人花钱为自己罪行购买赦免的做法。这一事件打破了欧洲大陆一个世纪以来的宗教统一，引发了持续数十年的宗教战争，最终永久地重绘了欧洲的政治边界，限制了教会的权威，并加速了神圣罗马帝国和汉萨同盟等古老、统一机构的衰落。"
       },
       "image": "wittenberg-church.jpg",
-      "country": {
-        "en": "Germany",
-        "zh": "德国"
-      },
+      "country": "DE",
       "region": {
         "en": "Wittenberg",
         "zh": "维滕贝格"
@@ -2114,10 +1940,7 @@
         "zh": "在意大利城邦产生的审美和哲学理想被热情地越过阿尔卑斯山输出到法国，这在很大程度上是通过国王弗朗索瓦一世（François I）的军事和外交活动实现的。香波堡是该地区最大的城堡，由弗朗索瓦一世委托建造，作为\"周末度假胜地\"。它拥有440个房间、365个壁炉，一个由尖顶组成的复杂\"针插式\"屋顶，以及深受达·芬奇影响的著名双螺旋楼梯。这座城堡代表了法国哥特式传统与意大利文艺复兴优雅的独特融合。1981年列入UNESCO世界遗产。"
       },
       "image": "chambord-castle.jpg",
-      "country": {
-        "en": "France",
-        "zh": "法国"
-      },
+      "country": "FR",
       "region": {
         "en": "Loire Valley",
         "zh": "卢瓦尔河谷"
@@ -2149,10 +1972,7 @@
         "en": "Quedlinburg is a stunning open-air museum of medieval architecture. The town preserves over 1,200 half-timbered buildings spanning from the 16th to 19th centuries. The oldest part is the St. Servatius Church on the castle hill, built in the 10th century and once the residence of Holy Roman Empire emperors. Quedlinburg was listed as UNESCO World Heritage after German reunification.",
         "zh": "奎德林堡是一座令人惊叹的中世纪建筑露天博物馆。城镇中保存了超过1200栋桁架式建筑，时间跨度从16世纪到19世纪。其中最古老的部分是城堡山上的圣塞尔瓦提乌斯教堂，建于10世纪，曾是神圣罗马帝国皇帝的行宫。奎德林堡在两德统一后被列为UNESCO世界遗产。"
       },
-      "country": {
-        "en": "Germany",
-        "zh": "德国"
-      },
+      "country": "DE",
       "region": {
         "en": "Saxony-Anhalt",
         "zh": "萨克森-安哈尔特州"
@@ -2186,10 +2006,7 @@
         "zh": "在西班牙，国王腓力二世下令建造的圣洛伦索-德埃斯科里亚尔修道院（El Escorial）建于1563至1584年间，是世界上最大的文艺复兴建筑。它不仅是皇宫和皇家陵墓，更象征了当时西班牙的帝国实力和作为天主教绝对捍卫者的地位。这座巨大的建筑群以其严格的数学比例和冷峻的石立面，体现了文艺复兴理性主义与反宗教改革时期天主教会权威的结合。其图书馆收藏了大量珍贵的手稿，包括来自美洲的文明记录。1989年列入UNESCO世界遗产。"
       },
       "image": "el-escorial.jpg",
-      "country": {
-        "en": "Spain",
-        "zh": "西班牙"
-      },
+      "country": "ES",
       "region": {
         "en": "Madrid",
         "zh": "马德里自治"
@@ -2222,10 +2039,7 @@
         "zh": "圣彼得大教堂是世界上最大的教堂之一，也是天主教世界的精神中心。这座伟大的建筑汇集了文艺复兴时期最杰出的建筑师的心血：米开朗基罗设计了大教堂的穹顶，布朗芒（Maderno）完成了立面，贝尼尼（Bernini）则创作了宏大的青铜华盖和 Piazza San Pietro 广场。教堂内部拥有米开朗基罗的《哀悼基督》雕像等无价艺术珍品。1626年正式祝圣这座历经120年建造的教堂，象征着天主教会在反宗教改革时期的胜利与统一。"
       },
       "image": "st-peters-basilica.jpg",
-      "country": {
-        "en": "Vatican City",
-        "zh": "梵蒂冈"
-      },
+      "country": "VA",
       "region": {
         "en": null,
         "zh": null
@@ -2258,10 +2072,7 @@
         "zh": "经过30年的建设后于1634年完工的雪瓦尼堡，代表了该时代的顶峰，展示了完美统一的对称古典风格，摒弃了早期中世纪建筑典型的混乱、零碎的扩建。这座城堡是法国文艺复兴晚期建筑的典范，其严格的正立面对称、规整的法式花园和冷静的建筑语汇，与意大利文艺复兴的激情形成鲜明对比，体现了法国贵族对秩序和理性的追求。"
       },
       "image": "cheverny-castle.jpg",
-      "country": {
-        "en": "France",
-        "zh": "法国"
-      },
+      "country": "FR",
       "region": {
         "en": "Loire Valley",
         "zh": "卢瓦尔河谷"
@@ -2294,10 +2105,7 @@
         "zh": "当中欧因宗教战争而动荡时，荷兰各省在摆脱西班牙天主教统治后脱颖而出，开创了一个前所未有的经济和科学主导时代。成立于1602年的荷兰东印度公司（VOC）允许股东自由买卖公司股份，这种结构性创新有效地\"众筹\"了前往亚洲进行高风险、长途海上探险所需的巨额资金。 这种亚洲财富的涌入将阿姆斯特丹转变为世界的金融之都。为了容纳爆炸性增长的人口和全球贸易的物流需求，这座城市开展了一项大规模的城市规划项目。在50年的时间里，工程师们挖掘了一个长达100多公里的同心运河系统，并与90个岛屿和1700座桥梁相连。这些水道两旁排列着成千上万座高而窄的商人房屋和巨大的仓库，创造了世界上最复杂、最有效的可通航城市物流网络。2011年连同运河带列入UNESCO世界遗产。"
       },
       "image": "amsterdam-canals.jpg",
-      "country": {
-        "en": "Netherlands",
-        "zh": "荷兰"
-      },
+      "country": "NL",
       "region": {
         "en": "Amsterdam",
         "zh": "阿姆斯特丹"
@@ -2330,15 +2138,46 @@
         "zh": "在启蒙运动的推动下，普鲁士国王腓特烈大帝在波茨坦建造了无忧宫（Sanssouci）。这座洛可可风格的夏宫意为\"无忧无虑\"，完美体现了启蒙时代君主对艺术、自然与理性的追求，以及远离宫廷繁文缛节的愿望。宫殿依山而建，层层递进的台阶和两侧的葡萄园构成了一幅如画的景观。腓特烈大帝曾在此邀请伏尔泰等启蒙思想家讨论哲学，体现了普鲁士君主对理性与进步的追求。"
       },
       "image": "sanssouci-palace.jpg",
-      "country": {
-        "en": "Germany",
-        "zh": "德国"
-      },
+      "country": "DE",
       "region": {
         "en": "Potsdam",
         "zh": "波茨坦"
       },
       "city": null
+    },
+    {
+      "id": "palace-of-versailles",
+      "name": {
+        "en": "Palace of Versailles",
+        "zh": "凡尔赛宫"
+      },
+      "era": "1682-1789",
+      "sortYear": 1682,
+      "eraKey": "enlightenment",
+      "category": "cultural",
+      "coordinates": [
+        2.1204,
+        48.8049
+      ],
+      "tags": [
+        "Palace",
+        "Enlightenment"
+      ],
+      "shortDesc": {
+        "en": "The symbol of French monarchy absolutism, 'the Palace of the Sun King'",
+        "zh": "法国君主专制巅峰之作，\"太阳王\"的宫殿"
+      },
+      "description": {
+        "en": "The Palace of Versailles was built in the 17th century as a hunting lodge for Louis XIII, and later expanded by Louis XIV into the largest royal palace in the world. Known as the 'Palace of the Sun King' after the emblem of Apollo chosen by Louis XIV, Versailles became the center of French political power and a model of European absolutism. The Hall of Mirrors (Galerie des Glaces), the Royal Opera, and the formal gardens designed by Andre Le Notre are masterpieces of French Baroque architecture. The Treaty of Versailles was signed here in 1919, ending World War I. Listed as UNESCO World Heritage in 1979.",
+        "zh": "凡尔赛宫始建于17世纪，最初是路易十三的狩猎行宫，后被路易十四扩建为世界上最大的皇家宫殿。以路易十四选择的阿波罗标志被称为\"太阳王宫殿\"，凡尔赛宫成为法国政治权力的中心和欧洲君主专制的典范。镜厅（Galerie des Glaces）、皇家歌剧院以及安德烈·勒诺特设计的正式花园都是法国巴洛克建筑的巅峰之作。1919年《凡尔赛条约》在此签署，标志着第一次世界大战的结束。1979年列入UNESCO世界遗产。"
+      },
+      "image": "palace-of-versailles.jpg",
+      "country": "FR",
+      "region": {
+        "en": "Ile-de-France",
+        "zh": "法兰西岛大区"
+      },
+      "city": "Versailles"
     },
     {
       "id": "schonbrunn-palace-hofburg-palace",
@@ -2365,10 +2204,7 @@
         "en": "In Central Europe, the Habsburg family as the premier royal dynasty ruled a vast, multi-language empire stretching from Italy to Poland and deep into the Balkans. The Habsburg legacy is physically embodied in two major architectural complexes in Vienna. Hofburg Palace in the city center served as the empire's administrative nerve center, a massive complex continuously expanded by successive monarchs with grand public spaces like Michaelerplatz. In stark contrast, Schönbrunn Palace exists as a luxurious summer residence. Designed in highly ornate Baroque style, it was explicitly built to rival France's Versailles, displaying to foreign dignitaries and domestic subjects the Habsburg monarchy's unshakeable wealth and cultural refinement. Listed as UNESCO World Heritage with the gardens in 1996.",
         "zh": "在中欧，哈布斯堡家族作为首屈一指的皇室王朝，统治着一个庞大、使用多种语言的帝国，其版图从意大利延伸到波兰，并深入巴尔干半岛。 哈布斯堡的遗产物理地体现在维也纳的两个主要建筑群中。位于市中心的霍夫堡宫（Hofburg Palace）充当了帝国的行政神经系统，这是一个由历代君主不断扩建的庞大建筑群，拥有如米歇尔广场（Michaelerplatz）这样宏大的公共空间。与霍夫堡宫形成鲜明对比的是，美泉宫（Schönbrunn Palace）作为一座奢华的夏宫而存在。它以高度华丽的巴洛克风格设计，被明确建造以媲美法国的凡尔赛宫，向外国政要和国内臣民展示了哈布斯堡君主制不可撼动的财富和文化修养。1996年连同美泉宫花园列入UNESCO世界遗产。"
       },
-      "country": {
-        "en": "Austria",
-        "zh": "奥地利"
-      },
+      "country": "AT",
       "region": {
         "en": "Vienna",
         "zh": "维也纳"
@@ -2402,10 +2238,7 @@
         "zh": "在英国，工业革命主要体现在技术层面。1779年，亚伯拉罕·达比三世（Abraham Darby III）在铁桥峡谷建造了世界上第一座铁桥，标志着使用焦炭冶炼生铁的现代工业实践的开端。这座跨度60米的铸铁桥不仅是工程技术的突破，更是人类文明从木质材料时代向钢铁时代迈进的里程碑。铁桥峡谷于1986年列入UNESCO世界遗产，代表了工业革命对人类社会的根本性改变。"
       },
       "image": "ironbridge-gorge.jpg",
-      "country": {
-        "en": "UK",
-        "zh": "英国"
-      },
+      "country": "GB",
       "region": {
         "en": "Shropshire",
         "zh": "什罗普郡"
@@ -2437,10 +2270,7 @@
         "en": "While the Habsburgs consolidated autocratic power through architectural grandeur, France experienced an explosive philosophical transformation and extremely violent political change. Place de la Concorde was originally built in 1757 as 'Place Louis XV' to honor the monarchy. During the French Revolution (1789-1799), it was quickly renamed 'Place de la Révolution' and became a highly public execution theater - including King Louis XVI, Marie Antoinette and revolutionary leader Robespierre, 1,119 people were sent to the guillotine here. In 1795, the square received its current name 'Concorde', intended to achieve national reconciliation. La Conciergerie on the Île de la Cité was originally a 14th-century palace, later converted into a gloomy prison, becoming another focus of the Revolution. More than 2,700 'enemies of the state' - including Queen Marie Antoinette - waited here for their fate before being sent to the guillotine.",
         "zh": "当哈布斯堡家族通过建筑的宏伟成功巩固专制权力时，法国却经历了一场爆炸性的哲学转变和极其暴力的政治变革。 协和广场最初建于1757年，名为\"路易十五广场\"以向君主制致敬。法国大革命（1789-1799）期间，它迅速更名为\"革命广场\"，变成了一个高度公开的处决剧场——包括国王路易十六、玛丽·安托瓦内特和革命领袖罗伯斯庇尔在内的1,119人在此被送上断头台。1795年，广场获得现在的名字\"协和\"，意在达成民族和解。 西岱岛上的巴黎古监狱（La Conciergerie）则最初是一座14世纪的宫殿，后被改建成阴森的监狱，成为革命的另一个焦点。在这里被关押的超过2,700名\"国家敌人\"——包括王后玛丽·安托瓦内特——在被送上断头台前等待命运的终结。1995年，巴黎古监狱与圣礼拜堂、巴黎司法宫一同列入UNESCO世界遗产。"
       },
-      "country": {
-        "en": "France",
-        "zh": "法国"
-      },
+      "country": "FR",
       "region": {
         "en": "Paris",
         "zh": "巴黎"
@@ -2474,10 +2304,7 @@
         "zh": "巴士底狱被攻陷（1789年7月14日）标志着法国大革命的爆发。如今，当年的堡垒已无踪迹，取而代之的是1836年建成的七月圆柱。这座纪念碑由雕塑家奥古斯都·杜蒙（Augustin Dumont）设计，顶端站立着\"自由引导人民\"的自由女神青铝像，纪念将法国转变为一个现代国家的革命精神。其金色的雕像和精细的浮雕，记录了大革命中最激动人心的时刻。"
       },
       "image": "july-column.jpg",
-      "country": {
-        "en": "France",
-        "zh": "法国"
-      },
+      "country": "FR",
       "region": {
         "en": "Paris",
         "zh": "巴黎"
@@ -2510,10 +2337,7 @@
         "zh": "1851年\"万国工业博览会\"在伦敦海德公园的水晶宫是一座革命性的建筑。这座由约瑟夫·帕克斯顿（Joseph Paxton）设计的展览馆采用钢铁与玻璃结构，预制化的构件可以在短时间内组装和拆卸，象征工业革命的技术成就和材料革命。水晶宫后来迁移至伦敦南部肯辛顿，1936年毁于火灾，但其原址现为水晶宫公园。这座建筑虽已不在，却永远改变了建筑设计的可能性边界。"
       },
       "image": "crystal-palace.jpg",
-      "country": {
-        "en": "UK",
-        "zh": "英国"
-      },
+      "country": "GB",
       "region": {
         "en": "London",
         "zh": "伦敦"
@@ -2546,10 +2370,7 @@
         "zh": "在英国，维多利亚时代（1837-1901）被工业革命无情的引擎所定义，推动了快速的城市化、铁路网络的扩张，以及结构铁、平板玻璃和红陶等先进工程材料的开创性使用。 然而矛盾的是，当英国将世界推入现代时代时，其建筑品味却积极向后倒退。1834年旧议会大厦被大火完全烧毁后，建筑师查尔斯·巴里（Charles Barry）和奥古斯都·普金（Augustus Pugin）赢得了重建委托，他们采用了民族哥特式或伊丽莎白时代风格。这种建筑选择具有深层次的心理学原因——在一个以快速机械化和欧洲大陆革命威胁为特征的时代，新哥特式风格在视觉上将英国政府锚定在一个浪漫化、稳定且虔诚的中世纪过去。1987年列入UNESCO世界遗产。"
       },
       "image": "palace-westminster.jpg",
-      "country": {
-        "en": "UK",
-        "zh": "英国"
-      },
+      "country": "GB",
       "region": {
         "en": "London",
         "zh": "伦敦"
@@ -2582,10 +2403,7 @@
         "zh": "19世纪末，当工业化席卷欧洲时，建筑界出现了一股强烈的新艺术运动（Art Nouveau / Modernista），试图将自然形态重新引入建筑体系。在巴塞罗那，安东尼·高迪（Antoni Gaudí）的巅峰之作——圣家堂于1882年动工，完美地连接了传统哥特式建筑的宏大理念与新艺术运动的有机自然形态。 这座宏伟的赎罪堂拥有三个极具象征意义的立面（诞生立面、受难立面和荣耀立面），其内部结构犹如一片由石柱组成的茂密森林，柱子如同树干般分叉支撑着天花板。高迪的设计充满了基督教象征意义和自然主义元素，将几何学与神学融为一体。尽管至今仍在建造中，圣家堂已成为欧洲近代建筑史上最具前瞻性和精神震撼力的宗教建筑，也是人类创造力的一大奇迹。2005年列入UNESCO世界遗产。"
       },
       "image": "sagrada-familia.jpg",
-      "country": {
-        "en": "Spain",
-        "zh": "西班牙"
-      },
+      "country": "ES",
       "region": {
         "en": "Barcelona",
         "zh": "巴塞罗那"
@@ -2618,10 +2436,7 @@
         "zh": "为1889年世博会建造的埃菲尔铁塔高330米，使用7300吨锻铁建造，是当时世界上最高的人造建筑。这座铁塔在当时引发了巨大争议，被许多巴黎文化精英视为对城市美学的威胁。然而，它很快成为了巴黎最具标志性的建筑，也是现代工程史上的里程碑——证明了铁和钢可以建造出前所未有的高大、轻盈结构。如今，埃菲尔铁塔每年吸引数百万游客，成为法国技术和文化自信的象征。"
       },
       "image": "eiffel-tower.jpg",
-      "country": {
-        "en": "France",
-        "zh": "法国"
-      },
+      "country": "FR",
       "region": {
         "en": "Paris",
         "zh": "巴黎"
@@ -2653,10 +2468,7 @@
         "en": "The Austro-Hungarian Compromise of 1867 elevated the Kingdom of Hungary to a status equal to Austria. To visually declare their newly acquired equal sovereignty, Hungarians commissioned a magnificent parliament building on the Danube. Built between 1885 and 1902, its design was explicitly intended to create an illusion that the country stood on equal footing with the world's greatest imperial powers. The grand building in neo-Gothic eclecticism style with symmetrical spires and intricately carved stone facades is a physical symbol of Hungarian national pride and political ambition.",
         "zh": "1867年的《奥匈妥协案》将匈牙利王国的行政地位提升至与奥地利同等水平。为了在视觉上宣示他们新获得的平等主权，匈牙利人在多瑙河畔委托建造了一座宏伟的国会大厦。这座建筑于1885年至1902年间建成，其设计目的明确是为了营造一种该国与世界上最伟大的帝国列强平起平坐的错觉。新哥特式折衷主义风格的宏大建筑拥有对称的尖顶和精心雕刻的石雕外观，是匈牙利民族自豪感和政治野心的物理象征。"
       },
-      "country": {
-        "en": "Hungary",
-        "zh": "匈牙利"
-      },
+      "country": "HU",
       "region": {
         "en": "Budapest",
         "zh": "布达佩斯"
@@ -2690,10 +2502,7 @@
         "zh": "1914年6月28日，奥匈帝国皇储弗朗茨·斐迪南大公在萨拉热窝的拉丁桥上遇刺，这一事件直接引爆了第一次世界大战，彻底改变了世界历史的轨迹。这位帝国继承人的车队在途经这座石桥时，遭到了波斯尼亚塞尔维亚民族主义者加弗里洛·普林西普的枪击。一个月后，欧洲各大国被卷入这场被称为\"结束所有战争的战争\"的冲突。这座看似平凡的石桥，因此成为20世纪最大地缘政治灾难的起点。"
       },
       "image": "latin-bridge.jpg",
-      "country": {
-        "en": "Bosnia and Herzegovina",
-        "zh": "波黑萨拉热窝"
-      },
+      "country": "BA",
       "region": {
         "en": "Sarajevo",
         "zh": null
@@ -2726,10 +2535,7 @@
         "zh": "凡尔登战役（1916年2月-12月）是第一次世界大战中最惨烈的战役之一。在这场持续约10个月的战斗中，法国和德国军队在凡尔登周边进行了无数次拉锯战，双方伤亡人数高达数十万。这场战役以其极端的残酷性——毒气、密集的炮火、无尽的战壕——成为一战西线绞肉机的缩影。如今，凡尔登纪念馆（Mémorial de Verdun）及周边的骨库和战场遗址，记录了这场人类历史上最惨烈的机械化战争的深重创伤。1994年列入UNESCO世界遗产。"
       },
       "image": "verdun-memorial.jpg",
-      "country": {
-        "en": "France",
-        "zh": "法国"
-      },
+      "country": "FR",
       "region": {
         "en": "Verdun",
         "zh": "凡尔登"
@@ -2761,10 +2567,7 @@
         "en": "The architecture of the Third Reich (Nazi Germany) was explicitly designed to overwhelm individuals, enforce absolute obedience, and project an aura of historical inevitability. In Nuremberg, the vast Nazi Party Rally Grounds embody this architectural philosophy. Between 1927 and 1938, facilities like the Zeppelin Field hosted highly choreographed fascist power displays designed for global propaganda. With profound historical symmetry, Nuremberg was subsequently chosen as the site of the Nuremberg Trials (1945-1946) - in Courtroom 600, the architects of the Holocaust were prosecuted, establishing foundational precedents for modern international human rights and war crimes law.",
         "zh": "第三帝国（纳粹德国）的建筑被明确设计为压倒个人、强制绝对服从，并投射出一种历史必然性的光环。在纽伦堡，庞大的纳粹党集会场就是这一建筑哲学的典型体现。1927年至1938年间，像齐柏林飞船场（Zeppelin Field）这样的建筑举办了为全球宣传而设计的、高度精心编排的法西斯力量展示。带着深刻的历史对称性，纽伦堡随后被选为战后纽伦堡审判（Nuremberg Trials）的地点——1945年至1946年间，在600号法庭内，大屠杀的策划者被起诉，为现代国际人权和战争罪法确立了基础判例。"
       },
-      "country": {
-        "en": "Germany",
-        "zh": "德国"
-      },
+      "country": "DE",
       "region": {
         "en": "Nuremberg",
         "zh": "纽伦堡"
@@ -2798,10 +2601,7 @@
         "zh": "1939年9月1日清晨，德国军队进攻波兰海军基地西盘半岛（Westerplatte），打响了第二次世界大战的第一枪。尽管波兰守军仅有约200人，面对德军的进攻仍进行了顽强的抵抗，坚持了7天之久。这场短暂的战斗成为了二战欧洲战场爆发的象征。如今，半岛上保留了战争遗迹和纪念碑，诉说着这场改变世界命运的冲突的开端。"
       },
       "image": "westerplatte.jpg",
-      "country": {
-        "en": "Poland",
-        "zh": "波兰"
-      },
+      "country": "PL",
       "region": {
         "en": "Gdańsk",
         "zh": "格但斯克"
@@ -2833,10 +2633,7 @@
         "en": "Auschwitz-Birkenau was the Nazi's largest concentration and extermination camp, the ultimate and cold physical manifestation of industrialized genocide. Between 1940 and 1945, approximately 1.5 million people were systematically killed here, the vast majority being Jews. This factory-like death camp applied 'industrial efficiency' to mass murder, reducing humans to numbered labor until they were finally sent to gas chambers and crematorium. In October 1944, prisoners carried out the Sonderkommando rebellion, successfully destroying one crematorium, demonstrating humans' desire for freedom even in extreme environments. Listed as UNESCO World Heritage in 1979.",
         "zh": "奥斯维辛-比克瑙（Auschwitz-Birkenau）是纳粹最大的集中营和灭绝营，也是工业化种族灭绝的终极而冷酷的物理表现。在1940年至1945年间，约150万人在这里被系统性杀害，其中大部分是犹太人。这座工厂般的死亡营将\"工业效率\"应用于大规模屠杀，将人类降格为编号的劳动力，直到最后被送入毒气室焚毁。1944年10月，囚犯们曾发动特遣队起义（Sonderkommando rebellion），成功摧毁了一座火葬场，展现了在极端环境下人类对自由的渴望。1979年列入UNESCO世界遗产。"
       },
-      "country": {
-        "en": "Poland",
-        "zh": "波兰"
-      },
+      "country": "PL",
       "region": {
         "en": "Oświęcim",
         "zh": "奥斯维辛"
@@ -2870,10 +2667,7 @@
         "zh": "1944年6月6日（D-Day），盟军在诺曼底宁静的海岸线上发动了人类历史上最大规模的两栖登陆作战。犹他滩、奥马哈滩、朱诺滩、金滩和剑滩——这五个登陆点在奥马哈滩遭遇了最顽强的抵抗，但最终盟军成功建立了稳固的桥头堡。这场大规模的两栖后勤行动拉开了西欧解放和纳粹政权最终垮台的序幕。如今，诺曼底海岸线上仍保留着大量当时留下的混凝土碉堡、炸弹坑和战争公墓，其中最大的诺曼底美军公墓（Normandy American Cemetery）安葬了约9,000名美国士兵。"
       },
       "image": "normandy-dday.jpg",
-      "country": {
-        "en": "France",
-        "zh": "法国"
-      },
+      "country": "FR",
       "region": {
         "en": "Normandy",
         "zh": "诺曼底"
@@ -2905,10 +2699,7 @@
         "en": "On August 1, 1944, Warsaw's Armia Krajowa (Home Army) launched an uprising against German occupation forces, intending to liberate the capital before the Red Army arrived. This brave resistance lasting 63 days was finally suppressed by German forces, and as revenge, German troops systematically razed Warsaw, Poland's capital, including the historic buildings of the old town and the Royal Castle. After the uprising failed, civilians were expelled and the city was destroyed. This uprising and destruction is one of the most tragic stories of World War II and a symbol of Polish national resilience. After the war, Warsaw began a decades-long difficult reconstruction, with many historic buildings restored according to old blueprints. In 1980, Warsaw's Old Town, together with the Royal Castle (Zamek Królewski), was listed as UNESCO World Heritage.",
         "zh": "1944年8月1日，华沙的波兰救国军（Armia Krajowa）发动了反抗德国占领军的起义，意图在红军到达之前解放首都。这场长达63天的英勇抵抗最终被德军镇压，作为报复，德国军队系统地将华沙这座波兰首都夷为平地，包括古城区的历史建筑和皇家城堡。起义失败后，平民被驱逐，城市被摧毁。这场起义和毁城是二战中最悲壮的故事之一，也是波兰民族韧性的象征。二战后，华沙开始了长达数十年的艰苦重建，许多历史建筑按照旧图纸进行了修复。1980年，华沙古城（Warsaw's Old Town）连同卡斯普拉图什（Royal Castle）等重建建筑一同列入UNESCO世界遗产。"
       },
-      "country": {
-        "en": "Poland",
-        "zh": "波兰"
-      },
+      "country": "PL",
       "region": {
         "en": "Warsaw",
         "zh": "华沙"
@@ -2941,10 +2732,7 @@
         "en": "Dachau was one of the earliest and longest-running concentration camps in Nazi Germany, established in 1933 - the year Hitler came to power. During its 12 years of operation, approximately 188,000 prisoners were held here and about 41,500 died. It is famous for medical experiments, including decompression experiments and malaria experiments and other cruel inhuman research. Dachau is an important site for understanding Nazi crimes and World War II history, now the Dachau Memorial (Dachau Memorial), warning of the darkest page in human history.",
         "zh": "达豪集中营是纳粹德国最早建立、运行时间最长的集中营之一，于1933年——即希特勒上台当年——建成。在长达12年的运行期间，这里关押过约18.8万名囚犯，约4.15万人死亡。它以医学实验闻名，包括减压实验和疟疾实验等残忍的非人道研究。达豪是理解纳粹罪行和二战历史的重要场所，现为达豪纪念馆（Dachau Memorial），警示着人类历史上最黑暗的一页。"
       },
-      "country": {
-        "en": "Germany",
-        "zh": "德国"
-      },
+      "country": "DE",
       "region": {
         "en": "Dachau",
         "zh": "达豪"
@@ -2978,10 +2766,7 @@
         "zh": "1945年至1946年间，纽伦堡审判（Nuremberg Trials）在纽伦堡司法宫举行。这场审判在600号法庭内起诉了大屠杀的策划者，为现代国际人权和战争罪法确立了基础判例。\"危害人类罪\"、\"战争罪\"和\"侵略罪\"等概念首次被正式定义并用于起诉国家领导人。这座建筑因此成为国际刑法的诞生地，见证了人类试图用法律约束国家权力的最初努力。"
       },
       "image": "nuremberg-palace-of-justice.jpg",
-      "country": {
-        "en": "Germany",
-        "zh": "德国"
-      },
+      "country": "DE",
       "region": {
         "en": "Nuremberg",
         "zh": "纽伦堡"
@@ -3014,10 +2799,7 @@
         "zh": "二战后，由约瑟普·布罗兹·铁托（Josip Broz Tito）领导的南斯拉夫社会主义联邦奉行独立于苏联集团之外的道路。为了团结多元的斯拉夫民族，政府委托建造了数百座被称为Spomeniks的纪念碑，以纪念法西斯主义的受害者并庆祝游击队的解放斗争。 与苏联社会主义现实主义所偏爱的高度写实、带有政治烙印的雕像不同，南斯拉夫建筑师——如博格丹·博格达诺维奇（Bogdan Bogdanović）和杜尚·扎莫尼亚（Dušan Džamonja）——利用粗野主义风格（béton brut，即未修饰的清水混凝土）在偏远的景观中创造了巨大、高度抽象且往往具有未来感的建筑。通过严格避免特定的宗教图像、种族标记或公开的共产党象征，这些纪念碑试图围绕受苦和反法西斯抵抗的共同叙事，为一个脆弱的多民族人口锻造统一的身份认同。 悲剧的是，随着南斯拉夫在1990年代分裂成残酷的宗派战争，这些混凝土巨石的统一信息被粉碎了。如今，其中许多建筑被忽视，成为失败的乌托邦愿景和巴尔干历史持久复杂性中令人毛骨悚然的、孤立的遗迹。"
       },
       "image": "makedonium.jpg",
-      "country": {
-        "en": "Balkans",
-        "zh": "巴尔干半岛各国"
-      },
+      "country": "GR",
       "region": {
         "en": null,
         "zh": null
@@ -3049,10 +2831,7 @@
         "en": "After the defeat of fascism in 1945, Europe was torn apart by a profound geopolitical rift between the capitalist West (led by the USA) and the communist East (led by the Soviet Union). This Cold War, characterized by proxy conflicts, espionage and the looming threat of nuclear destruction, found its absolute physical manifestation in Berlin. To prevent the massive damage caused by citizens fleeing to the West, the German Democratic Republic (East Germany) built the Berlin Wall in 1961. This barrier literally tore a deadly 'no man's land' through the city, filled with guard towers, anti-vehicle trenches and barbed wire. Checkpoint Charlie was the most famous crossing point between East and West during the Cold War, witnessing the painful separation of ordinary people. The fall of the Berlin Wall on November 9, 1989, marked the end of the Cold War and the acceleration of European unification. After unification in 1990, Germany began demolishing the Berlin Wall, and now only a few ruins remain for posterity.",
         "zh": "1945年法西斯主义被击败后，欧洲被资本主义西方（由美国领导）和共产主义东方（由苏联主导）之间的深刻地缘政治裂痕所撕裂。这场以代理冲突、间谍活动和核毁灭隐约威胁为特征冷战，在柏林找到了其绝对的物理表现。 为阻止大量公民逃往西方造成的严重破坏，德意志民主共和国（东德）于1961年修建了柏林墙。这道屏障在城市中生生撕裂出一条致命的\"无人区\"，布满了守卫塔、反车辆壕沟和铁丝网。查理检查站（Checkpoint Charlie）是当时东西方之间最著名的过境点，见证了冷战时期普通人的痛苦分离。1989年11月9日柏林墙的倒塌，标志着冷战的结束和欧洲统一进程的加速。1990年统一后的德国开始了柏林墙的拆除工作，如今仅存少量遗址供后人凭吊。"
       },
-      "country": {
-        "en": "Germany",
-        "zh": "德国"
-      },
+      "country": "DE",
       "region": {
         "en": "Berlin",
         "zh": "柏林"
@@ -3086,10 +2865,7 @@
         "zh": "柏林墙的倒塌揭示了共产主义时期最黑暗的秘密之一——东德国家安全部（Ministerium für Staatssicherheit，简称Stasi）的监控系统。斯塔西博物馆位于其前总部内，记录了这个秘密警察机构如何通过线人、拆信、窃听和心理控制等手段严密监控东德公民生活。博物馆展示了斯塔西用来监视公民的各种工具和技术，以及反抗者们如何智胜这个庞大的监控系统。每年约10万名游客到此了解这段沉重的历史，是理解冷战时期极权主义控制的重要场所。"
       },
       "image": "stasi-museum.jpg",
-      "country": {
-        "en": "Germany",
-        "zh": "德国"
-      },
+      "country": "DE",
       "region": {
         "en": "Berlin",
         "zh": "柏林"
@@ -3122,10 +2898,7 @@
         "zh": "作为二战和冷战后和平与和解的终极地理象征，位于法德交界处斯特拉斯堡的欧洲议会（European Parliament）大厦代表了欧洲走向联合的愿景。其巨大的13000平方米玻璃外立面象征着欧盟的民主透明度，而未完成的塔楼则寓意着欧洲项目是一个不断建设的持续过程。 这座建筑虽然不是欧洲议会唯一的所在地（比利时布鲁塞尔和卢森堡也是官方所在地），却是《欧洲联盟条约》的法定总部所在地，也是欧洲一体化的重要象征——从二战废墟中走来的欧洲国家，终于找到了共同和平发展的道路。"
       },
       "image": "european-parliament-strasbourg.jpg",
-      "country": {
-        "en": "France",
-        "zh": "法国"
-      },
+      "country": "FR",
       "region": {
         "en": "Strasbourg",
         "zh": "斯特拉斯堡"

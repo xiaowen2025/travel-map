@@ -13,7 +13,7 @@ const ERAKeyRanges = {
   'contemporary': { min: 1945, max: 2100 }
 };
 
-const I18N_FIELDS = ['name', 'shortDesc', 'description', 'country', 'region'];
+const I18N_FIELDS = ['name', 'shortDesc', 'description', 'region'];
 
 function hasChinese(text) {
   return /[\u4e00-\u9fff]/.test(text);
@@ -63,12 +63,11 @@ describe('Attractions Data Validation', () => {
       }
     });
 
-    it('i18n fields should have {en, zh} structure', () => {
+    it('country should be a valid ISO 3166-1 alpha-2 code', () => {
       for (const point of attractionsData.timelinePoints) {
-        for (const field of I18N_FIELDS) {
-          const val = point[field];
-          if (val === null) continue;
-          expect(typeof val === 'object' && 'en' in val && 'zh' in val, `${point.id}.${field} should be {en, zh} object or null`).toBe(true);
+        if (point.country) {
+          expect(typeof point.country === 'string', `${point.id}.country should be a string code`).toBe(true);
+          expect(/^[A-Z]{2}$/.test(point.country), `${point.id}.country "${point.country}" should be valid ISO code`).toBe(true);
         }
       }
     });
