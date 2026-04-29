@@ -115,22 +115,51 @@ state.addEventListener('change:activePointId', (e) => {
     }
 });
 
-// ==================== Handlers ====================
+// ==================== Navigation ====================
 
-function handleNext() {
+function navigateTo(index) {
+    const data = state.get('data');
+    if (!data || index < 0 || index >= data.length) return;
+    state.set('currentPointIndex', index);
+}
+
+function navigateToEra(direction) {
     const data = state.get('data');
     if (!data) return;
-    if (state.get('currentPointIndex') < data.length - 1) {
-        state.set('currentPointIndex', state.get('currentPointIndex') + 1);
+    const currentIdx = state.get('currentPointIndex');
+    const currentEra = data[currentIdx].eraKey;
+
+    if (direction === 'next') {
+        for (let i = currentIdx + 1; i < data.length; i++) {
+            if (data[i].eraKey !== currentEra) {
+                navigateTo(i);
+                break;
+            }
+        }
+    } else {
+        let eraStart = currentIdx;
+        while (eraStart > 0 && data[eraStart - 1].eraKey === currentEra) {
+            eraStart--;
+        }
+        if (eraStart > 0) {
+            const prevEra = data[eraStart - 1].eraKey;
+            let prevStart = eraStart - 1;
+            while (prevStart > 0 && data[prevStart - 1].eraKey === prevEra) {
+                prevStart--;
+            }
+            navigateTo(prevStart);
+        }
     }
 }
 
+// ==================== Handlers ====================
+
+function handleNext() {
+    navigateTo(state.get('currentPointIndex') + 1);
+}
+
 function handlePrev() {
-    const data = state.get('data');
-    if (!data) return;
-    if (state.get('currentPointIndex') > 0) {
-        state.set('currentPointIndex', state.get('currentPointIndex') - 1);
-    }
+    navigateTo(state.get('currentPointIndex') - 1);
 }
 
 function handleModeChange(mode) {
@@ -164,38 +193,16 @@ function handleKeydown(e) {
 
     if (e.key === 'ArrowDown') {
         e.preventDefault();
-        if (state.get('currentPointIndex') < data.length - 1) {
-            state.set('currentPointIndex', state.get('currentPointIndex') + 1);
-        }
+        navigateTo(state.get('currentPointIndex') + 1);
     } else if (e.key === 'ArrowUp') {
         e.preventDefault();
-        if (state.get('currentPointIndex') > 0) {
-            state.set('currentPointIndex', state.get('currentPointIndex') - 1);
-        }
+        navigateTo(state.get('currentPointIndex') - 1);
     } else if (e.key === 'ArrowRight') {
         e.preventDefault();
-        const currentEra = data[state.get('currentPointIndex')].eraKey;
-        for (let i = state.get('currentPointIndex') + 1; i < data.length; i++) {
-            if (data[i].eraKey !== currentEra) {
-                state.set('currentPointIndex', i);
-                break;
-            }
-        }
+        navigateToEra('next');
     } else if (e.key === 'ArrowLeft') {
         e.preventDefault();
-        const currentEra = data[state.get('currentPointIndex')].eraKey;
-        let eraStart = state.get('currentPointIndex');
-        while (eraStart > 0 && data[eraStart - 1].eraKey === currentEra) {
-            eraStart--;
-        }
-        if (eraStart > 0) {
-            const prevEra = data[eraStart - 1].eraKey;
-            let prevStart = eraStart - 1;
-            while (prevStart > 0 && data[prevStart - 1].eraKey === prevEra) {
-                prevStart--;
-            }
-            state.set('currentPointIndex', prevStart);
-        }
+        navigateToEra('prev');
     } else if (e.key === 'Escape') {
         collapseCard();
     }
