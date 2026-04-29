@@ -105,7 +105,8 @@
         "en": "Basilicata",
         "zh": "巴西利卡塔大"
       },
-      "city": null
+      "city": null,
+      "image": "matera.jpg"
     },
     {
       "id": "megalithic-temples-of-malta",
@@ -356,7 +357,8 @@
         "en": "Upper Austria",
         "zh": "上奥地利州"
       },
-      "city": null
+      "city": null,
+      "image": "hallstatt.jpg"
     },
     {
       "id": "athenian-agora",
@@ -859,7 +861,8 @@
         "en": "Milan",
         "zh": "米兰"
       },
-      "city": null
+      "city": null,
+      "image": "milan-cathedral.jpg"
     },
     {
       "id": "hagia-sophia",
@@ -966,7 +969,8 @@
         "en": "Castile-La Mancha",
         "zh": "卡斯蒂利亚-拉曼查大"
       },
-      "city": null
+      "city": null,
+      "image": "toledo.jpg"
     },
     {
       "id": "piran",
@@ -1001,7 +1005,8 @@
         "en": "Koper Coast",
         "zh": "科佩尔海岸"
       },
-      "city": null
+      "city": null,
+      "image": "piran.jpg"
     },
     {
       "id": "evora",
@@ -1036,7 +1041,8 @@
         "en": "Évora District",
         "zh": "埃武拉"
       },
-      "city": null
+      "city": null,
+      "image": "evora.jpg"
     },
     {
       "id": "camino-de-santiago",
@@ -1143,7 +1149,8 @@
         "en": "Bavaria",
         "zh": "巴伐利亚州"
       },
-      "city": null
+      "city": null,
+      "image": "bamberg.png"
     },
     {
       "id": "salzburg-altstadt",
@@ -1178,7 +1185,8 @@
         "en": "Salzburg State",
         "zh": "萨尔茨堡州"
       },
-      "city": null
+      "city": null,
+      "image": "salzburg-altstadt.jpg"
     },
     {
       "id": "st-stephens-cathedral",
@@ -1285,7 +1293,8 @@
         "en": "Tuscany",
         "zh": "托斯卡纳大"
       },
-      "city": null
+      "city": null,
+      "image": "san-gimignano.jpg"
     },
     {
       "id": "ghent",
@@ -1320,7 +1329,8 @@
         "en": "East Flanders",
         "zh": "东弗兰德"
       },
-      "city": null
+      "city": null,
+      "image": "ghent.jpg"
     },
     {
       "id": "troyes",
@@ -1355,7 +1365,8 @@
         "en": "Aube",
         "zh": "奥布"
       },
-      "city": null
+      "city": null,
+      "image": "troyes.jpg"
     },
     {
       "id": "sainte-chapelle",
@@ -1462,7 +1473,8 @@
         "en": "Aude",
         "zh": "奥德"
       },
-      "city": null
+      "city": null,
+      "image": "carcassonne-fortified-city.jpg"
     },
     {
       "id": "siena",
@@ -1497,7 +1509,8 @@
         "en": "Tuscany",
         "zh": "托斯卡纳大"
       },
-      "city": null
+      "city": null,
+      "image": "siena.jpg"
     },
     {
       "id": "rothenburg",
@@ -1532,7 +1545,8 @@
         "en": "Bavaria",
         "zh": "巴伐利亚州"
       },
-      "city": null
+      "city": null,
+      "image": "rothenburg.jpg"
     },
     {
       "id": "bruges",
@@ -1639,7 +1653,8 @@
         "en": null,
         "zh": "共和国"
       },
-      "city": null
+      "city": null,
+      "image": "prague-old-town.jpg"
     },
     {
       "id": "esk-krumlov",
@@ -1674,7 +1689,8 @@
         "en": "South Bohemia",
         "zh": "共和国南波西米亚"
       },
-      "city": null
+      "city": null,
+      "image": "esk-krumlov.jpg"
     },
     {
       "id": "dubrovnik-walls",
@@ -1817,7 +1833,8 @@
         "en": "Lesser Poland",
         "zh": "小波兰"
       },
-      "city": null
+      "city": null,
+      "image": "krakow-old-town.jpg"
     },
     {
       "id": "sintra",
@@ -1852,7 +1869,8 @@
         "en": "Lisbon Region",
         "zh": "里斯本大"
       },
-      "city": null
+      "city": null,
+      "image": "sintra.jpg"
     },
     {
       "id": "nicolaus-copernicus-house",
@@ -1887,7 +1905,8 @@
         "en": "Toruń",
         "zh": "托伦"
       },
-      "city": null
+      "city": null,
+      "image": "copernicus-house.jpg"
     },
     {
       "id": "the-last-supper",
@@ -1958,7 +1977,8 @@
         "en": "Castile and León",
         "zh": "卡斯蒂利亚-莱昂大"
       },
-      "city": null
+      "city": null,
+      "image": "salamanca.jpg"
     },
     {
       "id": "sistine-chapel",
@@ -2137,7 +2157,8 @@
         "en": "Saxony-Anhalt",
         "zh": "萨克森-安哈尔特州"
       },
-      "city": null
+      "city": null,
+      "image": "quedlinburg.jpg"
     },
     {
       "id": "el-escorial",
@@ -2352,7 +2373,8 @@
         "en": "Vienna",
         "zh": "维也纳"
       },
-      "city": null
+      "city": null,
+      "image": "schonbrunn-palace.jpg"
     },
     {
       "id": "ironbridge-gorge",
@@ -2423,7 +2445,8 @@
         "en": "Paris",
         "zh": "巴黎"
       },
-      "city": null
+      "city": null,
+      "image": "place-de-la-concorde.jpg"
     },
     {
       "id": "july-column",
@@ -2638,7 +2661,8 @@
         "en": "Budapest",
         "zh": "布达佩斯"
       },
-      "city": null
+      "city": null,
+      "image": "hungarian-parliament.jpg"
     },
     {
       "id": "latin-bridge",
@@ -2745,7 +2769,8 @@
         "en": "Nuremberg",
         "zh": "纽伦堡"
       },
-      "city": null
+      "city": null,
+      "image": "nazi-party-rally-grounds.jpg"
     },
     {
       "id": "westerplatte",
@@ -2816,7 +2841,8 @@
         "en": "Oświęcim",
         "zh": "奥斯维辛"
       },
-      "city": null
+      "city": null,
+      "image": "auschwitz.jpg"
     },
     {
       "id": "normandy-beaches",
@@ -2887,7 +2913,8 @@
         "en": "Warsaw",
         "zh": "华沙"
       },
-      "city": null
+      "city": null,
+      "image": "warsaw-uprising.jpg"
     },
     {
       "id": "dachau-concentration-camp",
@@ -2922,7 +2949,8 @@
         "en": "Dachau",
         "zh": "达豪"
       },
-      "city": null
+      "city": null,
+      "image": "dachau.jpg"
     },
     {
       "id": "palace-of-justice",
@@ -3029,7 +3057,8 @@
         "en": "Berlin",
         "zh": "柏林"
       },
-      "city": null
+      "city": null,
+      "image": "berlin-wall.jpg"
     },
     {
       "id": "stasi-museum",
