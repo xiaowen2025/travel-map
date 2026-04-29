@@ -82,12 +82,12 @@ body, html {
         /* 时代面板 */
         .era-panel {
             position: absolute;
-            bottom: 50px;
+            bottom: 240px;
             left: 50px;
             z-index: 10;
             pointer-events: none;
             max-width: 400px;
-            transition: opacity 0.5s ease;
+            transition: opacity 0.5s ease, bottom 0.4s ease;
         }
         .era-panel h2 {
             font-size: 28px;
@@ -102,80 +102,136 @@ body, html {
             margin: 0;
         }
 
-        /* 景点详情侧边栏 */
-        .detail-panel {
+        /* ===== Attraction Card (左下角卡片) ===== */
+        .attraction-card {
             position: absolute;
-            top: 0;
-            right: -400px;
-            width: 350px;
-            height: 100%;
-            background: rgba(15, 16, 20, 0.95);
-            border-left: 1px solid rgba(232, 202, 136, 0.2);
-            z-index: 20;
-            transition: right 0.4s cubic-bezier(0.19, 1, 0.22, 1);
-            padding: 40px;
+            bottom: 50px;
+            left: 50px;
+            z-index: 15;
+            width: 380px;
+            background: rgba(15, 16, 20, 0.88);
+            border: 1px solid rgba(232, 202, 136, 0.15);
+            border-radius: 14px;
+            padding: 24px 28px;
             box-sizing: border-box;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
             pointer-events: auto;
-            overflow-y: auto;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.4s ease, transform 0.4s ease;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
         }
-        .detail-panel.open {
-            right: 0;
+        .attraction-card.visible {
+            opacity: 1;
+            transform: translateY(0);
         }
-        .close-btn {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background: none;
-            border: none;
-            color: #888;
-            font-size: 24px;
-            cursor: pointer;
-            transition: color 0.3s;
-        }
-        .close-btn:hover {
-            color: #E8CA88;
-        }
-        .detail-era {
-            font-size: 12px;
-            color: #E8CA88;
+
+        /* Card Compact Section */
+        .card-era {
+            font-size: 11px;
+            color: rgba(232, 202, 136, 0.7);
             text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 5px;
+            letter-spacing: 1.5px;
+            margin-bottom: 6px;
             display: block;
         }
-        .detail-title {
-            font-size: 24px;
+        .card-title {
+            font-size: 22px;
             font-weight: 400;
-            margin: 0 0 20px 0;
+            margin: 0 0 10px 0;
             color: #fff;
+            letter-spacing: 0.5px;
+            transition: color 0.3s ease;
         }
-        .detail-meta {
+        .card-short-desc {
             font-size: 13px;
-            color: #aaa;
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .detail-desc {
-            font-size: 14px;
-            line-height: 1.8;
-            color: #ccc;
-        }
-        .detail-highlight {
             font-style: italic;
             color: #E8CA88;
-            margin-bottom: 15px;
-            border-left: 2px solid #E8CA88;
+            margin: 0 0 8px 0;
+            line-height: 1.5;
+            border-left: 2px solid rgba(232, 202, 136, 0.4);
             padding-left: 10px;
         }
-        .detail-image {
+        .card-location {
+            font-size: 12px;
+            color: #888;
+            letter-spacing: 0.5px;
+        }
+
+        /* Card Expanded Section (accordion) */
+        .card-expanded {
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: max-height 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+                        opacity 0.4s ease 0.1s;
+        }
+        .card-expanded.revealed {
+            max-height: 400px;
+            opacity: 1;
+        }
+        .card-divider {
+            height: 1px;
+            background: linear-gradient(90deg, rgba(232, 202, 136, 0.3), transparent);
+            margin: 14px 0;
+        }
+        .card-image {
             width: 100%;
-            max-height: 200px;
+            max-height: 160px;
             object-fit: cover;
             border-radius: 8px;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
+            opacity: 0;
+            transform: scale(0.98);
+            transition: opacity 0.5s ease 0.15s, transform 0.5s ease 0.15s;
+        }
+        .card-expanded.revealed .card-image {
+            opacity: 1;
+            transform: scale(1);
+        }
+        .card-description {
+            font-size: 13px;
+            line-height: 1.85;
+            color: #bbb;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.5s ease 0.25s, transform 0.5s ease 0.25s;
+        }
+        .card-expanded.revealed .card-description {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Card slide transition animations */
+        .attraction-card.slide-out-up .card-compact {
+            animation: cardExitUp 0.25s ease-out forwards;
+        }
+        .attraction-card.slide-in-up .card-compact {
+            animation: cardEnterUp 0.3s ease-out forwards;
+        }
+        .attraction-card.slide-out-down .card-compact {
+            animation: cardExitDown 0.25s ease-out forwards;
+        }
+        .attraction-card.slide-in-down .card-compact {
+            animation: cardEnterDown 0.3s ease-out forwards;
+        }
+
+        @keyframes cardExitUp {
+            from { transform: translateY(0); opacity: 1; }
+            to   { transform: translateY(-20px); opacity: 0; }
+        }
+        @keyframes cardEnterUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to   { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes cardExitDown {
+            from { transform: translateY(0); opacity: 1; }
+            to   { transform: translateY(20px); opacity: 0; }
+        }
+        @keyframes cardEnterDown {
+            from { transform: translateY(-20px); opacity: 0; }
+            to   { transform: translateY(0); opacity: 1; }
         }
 
         .scroll-indicator {

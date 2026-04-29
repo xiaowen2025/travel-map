@@ -4,7 +4,13 @@ import { state } from './state.js';
 import { t, getLoc, locales } from './i18n.js';
 import { initMap, hideLoading, registerMap, setupBaseOption, flyTo, updateMarkers, highlightRelated, showAllPoints, resizeChart, getChart } from './mapEngine.js';
 import { ScrollManager } from './scrollManager.js';
-import { updateEraPanel, showEraToast, showDetailPanel, closeDetailPanel, setViewMode, updateLangToggle, updateStaticLabels, updateModeButtons, setupEventListeners } from './ui.js';
+import {
+    updateEraPanel, showEraToast,
+    showCompactCard, expandCard, collapseCard,
+    startExpandTimer, clearExpandTimer,
+    setViewMode, updateLangToggle, updateStaticLabels,
+    updateModeButtons, setupEventListeners
+} from './ui.js';
 
 // ==================== Initialize ====================
 const chartDom = document.getElementById('map-container');
@@ -25,13 +31,15 @@ async function loadData(locale) {
 
 // ==================== State Subscriptions ====================
 
-// currentPointIndex change → update map markers + camera + UI
+// currentPointIndex change → update map markers + camera + card
 state.addEventListener('change:currentPointIndex', (e) => {
     const { value, oldValue } = e.detail;
     const data = state.get('data');
     if (!data) return;
 
-    const isScroll = e.detail._meta?.isScroll ?? false;
+    // Determine scroll direction for card animation
+    const isScroll = oldValue !== undefined && Math.abs(value - oldValue) === 1;
+    const direction = isScroll ? (value > oldValue ? 'down' : 'up') : null;
 
     // Update markers
     updateMarkers(value, data);
@@ -56,8 +64,18 @@ state.addEventListener('change:currentPointIndex', (e) => {
         state.set('currentEraCategory', currentEraCat);
     }
 
-    // Auto-open detail panel on navigation
-    showDetailPanel(currentPoint);
+    // --- Card: compact + idle timer ---
+    // Clear previous expand timer
+    clearExpandTimer();
+
+    // Collapse any expanded state immediately
+    collapseCard();
+
+    // Show compact card with slide animation
+    showCompactCard(currentPoint, direction);
+
+    // Start expand timer (will auto-expand after idle)
+    startExpandTimer(currentPoint);
 });
 
 // viewMode change → update UI visibility + map display
@@ -68,6 +86,12 @@ state.addEventListener('change:viewMode', (e) => {
 
     if (value === 'history') {
         updateMarkers(state.get('currentPointIndex'), data);
+        // Show card for current point
+        const currentPoint = data[state.get('currentPointIndex')];
+        if (currentPoint) {
+            showCompactCard(currentPoint);
+            startExpandTimer(currentPoint);
+        }
     } else {
         const locale = state.get('locale');
         const filtered = data.filter(p => {
@@ -97,7 +121,7 @@ function handleNext() {
     const data = state.get('data');
     if (!data) return;
     if (state.get('currentPointIndex') < data.length - 1) {
-        state.set('currentPointIndex', state.get('currentPointIndex') + 1, { _meta: { isScroll: true } });
+        state.set('currentPointIndex', state.get('currentPointIndex') + 1);
     }
 }
 
@@ -105,13 +129,8 @@ function handlePrev() {
     const data = state.get('data');
     if (!data) return;
     if (state.get('currentPointIndex') > 0) {
-        state.set('currentPointIndex', state.get('currentPointIndex') - 1, { _meta: { isScroll: true } });
+        state.set('currentPointIndex', state.get('currentPointIndex') - 1);
     }
-}
-
-function handleCloseDetail() {
-    closeDetailPanel();
-    updateMarkers(state.get('currentPointIndex'), state.get('data'));
 }
 
 function handleModeChange(mode) {
@@ -133,7 +152,9 @@ async function handleLangToggle() {
     updateMarkers(currentPointIndex, data);
     if (currentPoint) {
         updateEraPanel(currentPoint, newLocale);
-        showDetailPanel(currentPoint);
+        // Re-render card with new locale
+        showCompactCard(currentPoint);
+        startExpandTimer(currentPoint);
     }
 }
 
@@ -144,19 +165,19 @@ function handleKeydown(e) {
     if (e.key === 'ArrowDown') {
         e.preventDefault();
         if (state.get('currentPointIndex') < data.length - 1) {
-            state.set('currentPointIndex', state.get('currentPointIndex') + 1, { _meta: { isScroll: true } });
+            state.set('currentPointIndex', state.get('currentPointIndex') + 1);
         }
     } else if (e.key === 'ArrowUp') {
         e.preventDefault();
         if (state.get('currentPointIndex') > 0) {
-            state.set('currentPointIndex', state.get('currentPointIndex') - 1, { _meta: { isScroll: true } });
+            state.set('currentPointIndex', state.get('currentPointIndex') - 1);
         }
     } else if (e.key === 'ArrowRight') {
         e.preventDefault();
         const currentEra = data[state.get('currentPointIndex')].eraCategory;
         for (let i = state.get('currentPointIndex') + 1; i < data.length; i++) {
             if (data[i].eraCategory !== currentEra) {
-                state.set('currentPointIndex', i, { _meta: { isScroll: true } });
+                state.set('currentPointIndex', i);
                 break;
             }
         }
@@ -173,10 +194,10 @@ function handleKeydown(e) {
             while (prevStart > 0 && data[prevStart - 1].eraCategory === prevEra) {
                 prevStart--;
             }
-            state.set('currentPointIndex', prevStart, { _meta: { isScroll: true } });
+            state.set('currentPointIndex', prevStart);
         }
     } else if (e.key === 'Escape') {
-        handleCloseDetail();
+        collapseCard();
     }
 }
 
@@ -184,7 +205,12 @@ function handleMapClick(params) {
     if (params.seriesType === 'effectScatter' || params.seriesType === 'scatter') {
         const p = params.data.rawData;
         if (!p) return;
-        showDetailPanel(p);
+
+        // On map click, immediately show and expand (no timer)
+        state.set('activePointId', p.id);
+        clearExpandTimer();
+        showCompactCard(p);
+        expandCard(p);
         highlightRelated(p, state.get('data'));
     }
 }
@@ -204,6 +230,13 @@ function handleMapDataAndInit(geoJson, attractionsData) {
     // Initial render
     updateMarkers(0, attractionsData.timelinePoints);
 
+    // Show initial card
+    const firstPoint = attractionsData.timelinePoints[0];
+    if (firstPoint) {
+        showCompactCard(firstPoint);
+        startExpandTimer(firstPoint);
+    }
+
     // Map click event
     myChart.on('click', handleMapClick);
 
@@ -220,7 +253,6 @@ loadData(state.get('locale')).then(({ geoJson, attractionsData, erasData }) => {
 
     // Setup UI event listeners
     setupEventListeners({
-        onCloseDetail: handleCloseDetail,
         onModeChange: handleModeChange,
         onLangToggle: handleLangToggle,
         onKeydown: handleKeydown

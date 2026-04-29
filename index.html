@@ -32,17 +32,19 @@
     <!-- 跨时代提示 -->
     <div class="era-toast" id="eraToast"></div>
 
-    <!-- 景点详情 -->
-    <div class="detail-panel" id="detailPanel">
-        <button class="close-btn" id="closeDetail">&times;</button>
-        <span class="detail-era" id="detailEra"></span>
-        <h3 class="detail-title" id="detailTitle"></h3>
-        <div class="detail-meta">
-            <span id="detailLoc">📍 </span>
+    <!-- 景点卡片 (compact + expandable) -->
+    <div class="attraction-card" id="attractionCard">
+        <div class="card-compact">
+            <span class="card-era" id="cardEra"></span>
+            <h3 class="card-title" id="cardTitle"></h3>
+            <p class="card-short-desc" id="cardShortDesc"></p>
+            <span class="card-location" id="cardLocation"></span>
         </div>
-        <img class="detail-image" id="detailImage" src="" alt="" style="display:none;">
-        <div class="detail-highlight" id="detailHighlight"></div>
-        <div class="detail-desc" id="detailDesc"></div>
+        <div class="card-expanded" id="cardExpanded">
+            <div class="card-divider"></div>
+            <img class="card-image" id="cardImage" src="" alt="" style="display:none;">
+            <div class="card-description" id="cardDescription"></div>
+        </div>
     </div>
 
     <div id="map-container"></div>
