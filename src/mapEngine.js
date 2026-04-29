@@ -151,7 +151,7 @@ export function highlightRelated(targetPoint, data) {
     data.forEach(p => {
         const pointData = { name: getLoc(p, 'name', locale), value: p.coordinates, rawData: p };
 
-        const isRelated = p.id === targetPoint.id || p.eraCategory === targetPoint.eraCategory;
+        const isRelated = p.id === targetPoint.id || p.eraKey === targetPoint.eraKey;
 
         if (isRelated) {
             if (p.id === targetPoint.id) {

@@ -4,7 +4,7 @@ import { t, getLoc } from './i18n.js';
 // Find era by key directly from erasData
 function findEraByKey(key) {
     const erasData = state.get('erasData');
-    if (!erasData) return null;
+    if (!erasData || !key) return null;
     return erasData.eras.find(e => e.key === key);
 }
 
@@ -48,8 +48,8 @@ const EXPAND_DELAY = 800; // ms before auto-expand
 export function showCompactCard(p, direction = null) {
     currentCardPoint = p;
     const locale = state.get('locale');
-    const era = findEraByKey(getLoc(p, 'eraCategory', locale));
-    const eraName = era ? era.name[locale] || era.name.en : getLoc(p, 'eraCategory', locale);
+    const era = findEraByKey(getLoc(p, 'eraKey', locale));
+    const eraName = era ? era.name[locale] || era.name.en : getLoc(p, 'eraKey', locale);
 
     // Collapse if currently expanded
     if (isExpanded) {
@@ -146,12 +146,12 @@ export function clearExpandTimer() {
 // Update era panel
 export function updateEraPanel(currentPoint, locale = 'zh') {
     if (!currentPoint) return;
-    const eraCat = getLoc(currentPoint, 'eraCategory');
+    const eraCat = getLoc(currentPoint, 'eraKey');
     const era = findEraByKey(eraCat);
 
     if (era) {
         ui.eraTitle.innerText = era.name[locale] || era.name.en;
-        ui.eraDesc.innerText = era.dateRange[locale] || era.dateRange.en;
+        ui.eraDesc.innerText = era.milestone[locale] || era.milestone.en;
     } else {
         ui.eraTitle.innerText = eraCat;
         ui.eraDesc.innerText = '';

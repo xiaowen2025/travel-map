@@ -2,15 +2,15 @@ import { describe, it, expect } from 'vitest';
 import attractionsData from '../public/data/attractions.json';
 import erasData from '../public/data/eras.json';
 
-const ERACategoryRanges = {
-  'Prehistory': { min: -30000, max: -3000 },
-  'Ancient': { min: -3000, max: 476 },
-  'Medieval': { min: 477, max: 1449 },
-  'Renaissance': { min: 1450, max: 1599 },
-  'Enlightenment': { min: 1600, max: 1788 },
-  'Early Modern': { min: 1620, max: 1913 },
-  'WorldWars': { min: 1914, max: 1945 },
-  'Contemporary': { min: 1945, max: 2100 }
+const ERAKeyRanges = {
+  'prehistory': { min: -30000, max: -3000 },
+  'ancient': { min: -3000, max: 476 },
+  'medieval': { min: 477, max: 1449 },
+  'renaissance': { min: 1450, max: 1599 },
+  'enlightenment': { min: 1600, max: 1788 },
+  'earlymodern': { min: 1789, max: 1913 },
+  'worldwars': { min: 1914, max: 1945 },
+  'contemporary': { min: 1945, max: 2100 }
 };
 
 const I18N_FIELDS = ['name', 'shortDesc', 'description', 'country', 'region'];
@@ -30,20 +30,20 @@ describe('Attractions Data Validation', () => {
       expect(Array.isArray(attractionsData.timelinePoints)).toBe(true);
     });
 
-    it('should have valid eraCategory ranges', () => {
+    it('should have valid eraKey ranges', () => {
       for (const point of attractionsData.timelinePoints) {
-        const range = ERACategoryRanges[point.eraCategory];
-        expect(range, `${point.id} has unknown eraCategory: ${point.eraCategory}`)
+        const range = ERAKeyRanges[point.eraKey];
+        expect(range, `${point.id} has unknown eraKey: ${point.eraKey}`)
           .toBeDefined();
-        expect(point.sortYear, `${point.id} sortYear ${point.sortYear} outside ${point.eraCategory} range [${range.min}, ${range.max}]`)
+        expect(point.sortYear, `${point.id} sortYear ${point.sortYear} outside ${point.eraKey} range [${range.min}, ${range.max}]`)
           .toBeGreaterThanOrEqual(range.min);
-        expect(point.sortYear, `${point.id} sortYear ${point.sortYear} outside ${point.eraCategory} range [${range.min}, ${range.max}]`)
+        expect(point.sortYear, `${point.id} sortYear ${point.sortYear} outside ${point.eraKey} range [${range.min}, ${range.max}]`)
           .toBeLessThanOrEqual(range.max);
       }
     });
 
     it('should have all required fields', () => {
-      const REQUIRED_FIELDS = ['id', 'era', 'eraCategory', 'category', 'sortYear', 'coordinates', 'tags'];
+      const REQUIRED_FIELDS = ['id', 'era', 'eraKey', 'category', 'sortYear', 'coordinates', 'tags'];
       for (const point of attractionsData.timelinePoints) {
         for (const field of REQUIRED_FIELDS) {
           expect(point[field], `${point.id} missing field: ${field}`).toBeDefined();
@@ -91,16 +91,13 @@ describe('Attractions Data Validation', () => {
 
   describe('era ranges consistency', () => {
     it('sortYear should be within era range defined in eras.json', () => {
-      const eraMap = {};
-      erasData.eras.forEach(e => { eraMap[e.name.en] = e; });
-
       for (const point of attractionsData.timelinePoints) {
-        const era = eraMap[point.eraCategory];
+        const era = erasData.eras.find(e => e.key === point.eraKey);
         if (!era) continue;
         const { start, end } = era.dateRange;
-        expect(point.sortYear, `${point.id} sortYear ${point.sortYear} outside era "${point.eraCategory}" range [${start}, ${end}]`)
+        expect(point.sortYear, `${point.id} sortYear ${point.sortYear} outside era "${point.eraKey}" range [${start}, ${end}]`)
           .toBeGreaterThanOrEqual(start);
-        expect(point.sortYear, `${point.id} sortYear ${point.sortYear} outside era "${point.eraCategory}" range [${start}, ${end}]`)
+        expect(point.sortYear, `${point.id} sortYear ${point.sortYear} outside era "${point.eraKey}" range [${start}, ${end}]`)
           .toBeLessThanOrEqual(end);
       }
     });

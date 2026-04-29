@@ -55,8 +55,8 @@ state.addEventListener('change:currentPointIndex', (e) => {
 
     // Show era toast on transition
     const locale = state.get('locale');
-    const currentEraCat = getLoc(currentPoint, 'eraCategory', locale);
-    const oldEraCat = oldValue !== undefined ? getLoc(data[oldValue], 'eraCategory', locale) : null;
+    const currentEraCat = getLoc(currentPoint, 'eraKey', locale);
+    const oldEraCat = oldValue !== undefined ? getLoc(data[oldValue], 'eraKey', locale) : null;
     if (isScroll && currentEraCat !== state.get('currentEraCategory')) {
         state.set('currentEraCategory', currentEraCat);
         showEraToast(currentEraCat);
@@ -174,24 +174,24 @@ function handleKeydown(e) {
         }
     } else if (e.key === 'ArrowRight') {
         e.preventDefault();
-        const currentEra = data[state.get('currentPointIndex')].eraCategory;
+        const currentEra = data[state.get('currentPointIndex')].eraKey;
         for (let i = state.get('currentPointIndex') + 1; i < data.length; i++) {
-            if (data[i].eraCategory !== currentEra) {
+            if (data[i].eraKey !== currentEra) {
                 state.set('currentPointIndex', i);
                 break;
             }
         }
     } else if (e.key === 'ArrowLeft') {
         e.preventDefault();
-        const currentEra = data[state.get('currentPointIndex')].eraCategory;
+        const currentEra = data[state.get('currentPointIndex')].eraKey;
         let eraStart = state.get('currentPointIndex');
-        while (eraStart > 0 && data[eraStart - 1].eraCategory === currentEra) {
+        while (eraStart > 0 && data[eraStart - 1].eraKey === currentEra) {
             eraStart--;
         }
         if (eraStart > 0) {
-            const prevEra = data[eraStart - 1].eraCategory;
+            const prevEra = data[eraStart - 1].eraKey;
             let prevStart = eraStart - 1;
-            while (prevStart > 0 && data[prevStart - 1].eraCategory === prevEra) {
+            while (prevStart > 0 && data[prevStart - 1].eraKey === prevEra) {
                 prevStart--;
             }
             state.set('currentPointIndex', prevStart);
@@ -235,6 +235,7 @@ function handleMapDataAndInit(geoJson, attractionsData) {
     if (firstPoint) {
         showCompactCard(firstPoint);
         startExpandTimer(firstPoint);
+        updateEraPanel(firstPoint, state.get('locale'));
     }
 
     // Map click event

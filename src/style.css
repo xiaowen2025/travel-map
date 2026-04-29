@@ -102,11 +102,11 @@ body, html {
             margin: 0;
         }
 
-        /* ===== Attraction Card (左下角卡片) ===== */
+        /* ===== Attraction Card (右下角卡片) ===== */
         .attraction-card {
             position: absolute;
             bottom: 50px;
-            left: 50px;
+            right: 50px;
             z-index: 15;
             width: 380px;
             background: rgba(15, 16, 20, 0.88);
