@@ -1,0 +1,4 @@
+- use gh for version control
+- run any commands on your own if it's clear
+- search and check images with minimax-cli
+- update documentation by default
