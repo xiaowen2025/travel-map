@@ -260,14 +260,14 @@
       },
       "era": "1900 BC",
       "sortYear": -1900,
-      "eraCategory": "Prehistory",
+      "eraCategory": "Ancient",
       "category": "cultural",
       "coordinates": [
         25.163,
         35.2979
       ],
       "tags": [
-        "Prehistory"
+        "Ancient"
       ],
       "shortDesc": {
         "en": "Political and cultural center of Europe's first highly developed civilization - the Minoan Civilization",
@@ -296,14 +296,14 @@
       },
       "era": "1600-1100 BC",
       "sortYear": -1600,
-      "eraCategory": "Prehistory",
+      "eraCategory": "Ancient",
       "category": "cultural",
       "coordinates": [
         22.7565,
         37.7308
       ],
       "tags": [
-        "Prehistory"
+        "Ancient"
       ],
       "shortDesc": {
         "en": "Legendary capital of Agamemnon, Bronze Age military fortress",
@@ -332,14 +332,14 @@
       },
       "era": "from 800 BC",
       "sortYear": -800,
-      "eraCategory": "Prehistory",
+      "eraCategory": "Ancient",
       "category": "cultural",
       "coordinates": [
         13.6493,
         47.5622
       ],
       "tags": [
-        "Prehistory"
+        "Ancient"
       ],
       "shortDesc": {
         "en": "Iron Age salt mine town, UNESCO 1997",
@@ -440,14 +440,14 @@
       },
       "era": "1600-1500 BC",
       "sortYear": -16,
-      "eraCategory": "Prehistory",
+      "eraCategory": "Ancient",
       "category": "cultural",
       "coordinates": [
         8.9912,
         39.7056
       ],
       "tags": [
-        "Prehistory"
+        "Ancient"
       ],
       "shortDesc": {
         "en": "Truncated conical stone fortress complex left by the Nuragic civilization",
@@ -835,7 +835,7 @@
         "zh": "米兰大教堂"
       },
       "era": "Cathedral from 1386",
-      "sortYear": 313,
+      "sortYear": 1386,
       "eraCategory": "Medieval",
       "category": "cultural",
       "coordinates": [
@@ -944,14 +944,14 @@
       },
       "era": "from 6th century",
       "sortYear": 600,
-      "eraCategory": "Ancient",
+      "eraCategory": "Medieval",
       "category": "cultural",
       "coordinates": [
         -4.0224,
         39.8628
       ],
       "tags": [
-        "Ancient"
+        "Medieval"
       ],
       "shortDesc": {
         "en": "Meeting point of Christian, Islamic and Jewish cultures, UNESCO 1986",
@@ -980,14 +980,14 @@
       },
       "era": "7th century",
       "sortYear": 700,
-      "eraCategory": "Ancient",
+      "eraCategory": "Medieval",
       "category": "cultural",
       "coordinates": [
         13.5684,
         45.5282
       ],
       "tags": [
-        "Ancient"
+        "Medieval"
       ],
       "shortDesc": {
         "en": "Northernmost coastal outpost of the Venetian Republic",
@@ -1016,14 +1016,14 @@
       },
       "era": "from 7th century",
       "sortYear": 700,
-      "eraCategory": "Ancient",
+      "eraCategory": "Medieval",
       "category": "cultural",
       "coordinates": [
         -7.9068,
         38.5711
       ],
       "tags": [
-        "Ancient"
+        "Medieval"
       ],
       "shortDesc": {
         "en": "Best-preserved Roman-era site in Portugal, UNESCO 1986",
@@ -1736,14 +1736,14 @@
       },
       "era": "from 14th century",
       "sortYear": 1400,
-      "eraCategory": "Renaissance",
+      "eraCategory": "Medieval",
       "category": "cultural",
       "coordinates": [
         12.3408,
         45.4337
       ],
       "tags": [
-        "Renaissance"
+        "Medieval"
       ],
       "shortDesc": {
         "en": "Political heart of the Venetian Republic, blending Gothic, Byzantine and Moorish styles",
@@ -1772,14 +1772,14 @@
       },
       "era": "early 15th century (dome completed 1436)",
       "sortYear": 1436,
-      "eraCategory": "Renaissance",
+      "eraCategory": "Medieval",
       "category": "cultural",
       "coordinates": [
         11.2558,
         43.7731
       ],
       "tags": [
-        "Renaissance"
+        "Medieval"
       ],
       "shortDesc": {
         "en": "Origin of the Renaissance movement, Brunelleschi revived classical aesthetics",
@@ -1808,14 +1808,14 @@
       },
       "era": "from 15th century",
       "sortYear": 1450,
-      "eraCategory": "Medieval",
+      "eraCategory": "Renaissance",
       "category": "cultural",
       "coordinates": [
         19.9445,
         50.0614
       ],
       "tags": [
-        "Medieval"
+        "Renaissance"
       ],
       "shortDesc": {
         "en": "Capital of Poland Golden Age, UNESCO 1978",
@@ -2132,14 +2132,14 @@
       },
       "era": "10th century; peak 16th-17th century",
       "sortYear": 1550,
-      "eraCategory": "Medieval",
+      "eraCategory": "Renaissance",
       "category": "cultural",
       "coordinates": [
         11.148,
         51.7896
       ],
       "tags": [
-        "Medieval"
+        "Renaissance"
       ],
       "shortDesc": {
         "en": "Home to over 1,200 half-timbered buildings, UNESCO 1994",
@@ -2204,14 +2204,14 @@
       },
       "era": "1506-1626",
       "sortYear": 1626,
-      "eraCategory": "Renaissance",
+      "eraCategory": "Enlightenment",
       "category": "cultural",
       "coordinates": [
         12.4534,
         41.9022
       ],
       "tags": [
-        "Renaissance"
+        "Enlightenment"
       ],
       "shortDesc": {
         "en": "Center of the Catholic world, synthesis of Renaissance and Baroque architecture",
@@ -2240,14 +2240,14 @@
       },
       "era": "1634",
       "sortYear": 1634,
-      "eraCategory": "Renaissance",
+      "eraCategory": "Enlightenment",
       "category": "cultural",
       "coordinates": [
         1.4583,
         47.5001
       ],
       "tags": [
-        "Renaissance"
+        "Enlightenment"
       ],
       "shortDesc": {
         "en": "Abandoned medieval patchwork style, perfect symmetrical model of late French Renaissance architecture",
@@ -2276,14 +2276,14 @@
       },
       "era": "17th century(Dutch Golden Age)",
       "sortYear": 1650,
-      "eraCategory": "Renaissance",
+      "eraCategory": "Enlightenment",
       "category": "cultural",
       "coordinates": [
         4.8936,
         52.3676
       ],
       "tags": [
-        "Renaissance"
+        "Enlightenment"
       ],
       "shortDesc": {
         "en": "Spatial manifestation of global commercial revolution and early enterprise capitalism",
@@ -2312,14 +2312,14 @@
       },
       "era": "1745-1747",
       "sortYear": 1747,
-      "eraCategory": "Early Modern",
+      "eraCategory": "Enlightenment",
       "category": "cultural",
       "coordinates": [
         13.0387,
         52.4042
       ],
       "tags": [
-        "EarlyModern"
+        "Enlightenment"
       ],
       "shortDesc": {
         "en": "Perfect spatial embodiment of Enlightenment philosophy, Rococo summer palace of Prussian Frederick the Great",
@@ -2348,14 +2348,14 @@
       },
       "era": "18th century Baroque peak",
       "sortYear": 1750,
-      "eraCategory": "Early Modern",
+      "eraCategory": "Enlightenment",
       "category": "cultural",
       "coordinates": [
         16.3119,
         48.1845
       ],
       "tags": [
-        "EarlyModern"
+        "Enlightenment"
       ],
       "shortDesc": {
         "en": "Habsburg dynasty's power nerve center and summer palace, showcasing old empire's heritage and wealth",
@@ -2384,14 +2384,14 @@
       },
       "era": "1779",
       "sortYear": 1779,
-      "eraCategory": "Early Modern",
+      "eraCategory": "Enlightenment",
       "category": "cultural",
       "coordinates": [
         -2.486,
         52.6285
       ],
       "tags": [
-        "EarlyModern"
+        "Enlightenment"
       ],
       "shortDesc": {
         "en": "Cradle of the First Industrial Revolution, location of the world first iron bridge",
@@ -2420,14 +2420,14 @@
       },
       "era": "late 18th century",
       "sortYear": 1789,
-      "eraCategory": "Modern",
+      "eraCategory": "Early Modern",
       "category": "cultural",
       "coordinates": [
         2.321,
         48.8656
       ],
       "tags": [
-        "Modern"
+        "Early Modern"
       ],
       "shortDesc": {
         "en": "Bloody theater of the French Revolution, central stage of public guillotine executions",
@@ -2456,14 +2456,14 @@
       },
       "era": "1836",
       "sortYear": 1836,
-      "eraCategory": "Modern",
+      "eraCategory": "Early Modern",
       "category": "cultural",
       "coordinates": [
         2.3694,
         48.8533
       ],
       "tags": [
-        "Modern"
+        "Early Modern"
       ],
       "shortDesc": {
         "en": "Eternal monument to the spirit of the French Revolution",
@@ -2492,14 +2492,14 @@
       },
       "era": "1851-1936(destroyed by fire)",
       "sortYear": 1851,
-      "eraCategory": "Modern",
+      "eraCategory": "Early Modern",
       "category": "cultural",
       "coordinates": [
         -3.435,
         51.4217
       ],
       "tags": [
-        "Modern"
+        "Early Modern"
       ],
       "shortDesc": {
         "en": "Symbol of the Industrial Revolution material revolution, glass and steel masterpiece of the Great Exhibition",
@@ -2528,14 +2528,14 @@
       },
       "era": "1840-1870",
       "sortYear": 1870,
-      "eraCategory": "Modern",
+      "eraCategory": "Early Modern",
       "category": "cultural",
       "coordinates": [
         -0.1247,
         51.4995
       ],
       "tags": [
-        "Modern"
+        "Early Modern"
       ],
       "shortDesc": {
         "en": "Representative of Victorian Industrial Revolution, wrapping modern democratic politics in retro Romantic Gothic",
@@ -2564,14 +2564,14 @@
       },
       "era": "from 1882(unfinished)",
       "sortYear": 1882,
-      "eraCategory": "Modern",
+      "eraCategory": "Early Modern",
       "category": "cultural",
       "coordinates": [
         2.1744,
         41.4036
       ],
       "tags": [
-        "Modern"
+        "Early Modern"
       ],
       "shortDesc": {
         "en": "Unfinished masterpiece pushing Gothic Revival and Art Nouveau organic forms to the extreme",
@@ -2600,14 +2600,14 @@
       },
       "era": "1889",
       "sortYear": 1889,
-      "eraCategory": "Modern",
+      "eraCategory": "Early Modern",
       "category": "cultural",
       "coordinates": [
         2.2945,
         48.8584
       ],
       "tags": [
-        "Modern"
+        "Early Modern"
       ],
       "shortDesc": {
         "en": "Milestone in modern engineering history, most iconic building in Paris",
@@ -2636,14 +2636,14 @@
       },
       "era": "1885-1902",
       "sortYear": 1902,
-      "eraCategory": "Modern",
+      "eraCategory": "Early Modern",
       "category": "cultural",
       "coordinates": [
         19.0458,
         47.5072
       ],
       "tags": [
-        "Modern"
+        "Early Modern"
       ],
       "shortDesc": {
         "en": "Declaration of Hungarian national identity after Austro-Hungarian Compromise, architectural expression of political equality",

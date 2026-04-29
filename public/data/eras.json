@@ -3,49 +3,49 @@
     {
       "key": "prehistory",
       "name": { "en": "Prehistory", "zh": "史前时代" },
-      "dateRange": { "en": "~3000 BC", "zh": "公元前3000年之前" },
+      "dateRange": { "start": -30000, "end": -3000 },
       "milestone": { "en": "Stone Age, before written records", "zh": "石器时代，文字记载之前" }
     },
     {
       "key": "ancient",
       "name": { "en": "Ancient", "zh": "古代" },
-      "dateRange": { "en": "3000 BC – 476 AD", "zh": "公元前3000年 - 公元476年" },
+      "dateRange": { "start": -3000, "end": 476 },
       "milestone": { "en": "The Fall of the Western Roman Empire", "zh": "西罗马帝国灭亡" }
     },
     {
       "key": "medieval",
       "name": { "en": "Medieval", "zh": "中世纪" },
-      "dateRange": { "en": "476 – 1450 AD", "zh": "公元476年 - 1450年" },
+      "dateRange": { "start": 477, "end": 1449 },
       "milestone": { "en": "Feudalism and the Printing Press", "zh": "封建制度与印刷术兴起" }
     },
     {
       "key": "renaissance",
       "name": { "en": "Renaissance", "zh": "文艺复兴" },
-      "dateRange": { "en": "1450 – 1600 AD", "zh": "公元1450年 - 1600年" },
+      "dateRange": { "start": 1450, "end": 1599 },
       "milestone": { "en": "Humanism and the Rebirth of Classical art/science", "zh": "人文主义与古典艺术/科学的复兴" }
+    },
+    {
+      "key": "enlightenment",
+      "name": { "en": "Enlightenment", "zh": "启蒙时代" },
+      "dateRange": { "start": 1600, "end": 1788 },
+      "milestone": { "en": "The Scientific Revolution & The Enlightenment", "zh": "科学革命与启蒙运动" }
     },
     {
       "key": "earlymodern",
       "name": { "en": "Early Modern", "zh": "近代" },
-      "dateRange": { "en": "1600 – 1789 AD", "zh": "公元1600年 - 1789年" },
-      "milestone": { "en": "The Scientific Revolution & The Enlightenment", "zh": "科学革命与启蒙运动" }
-    },
-    {
-      "key": "modern",
-      "name": { "en": "Modern", "zh": "现代" },
-      "dateRange": { "en": "1789 – 1939 AD", "zh": "公元1789年 - 1939年" },
+      "dateRange": { "start": 1789, "end": 1913 },
       "milestone": { "en": "Industrialization & French Revolution", "zh": "工业化与法国大革命" }
     },
     {
       "key": "worldwars",
       "name": { "en": "World Wars", "zh": "世界大战" },
-      "dateRange": { "en": "1939 – 1945 AD", "zh": "公元1939年 - 1945年" },
+      "dateRange": { "start": 1914, "end": 1945 },
       "milestone": { "en": "World War I & World War II", "zh": "第一次世界大战与第二次世界大战" }
     },
     {
       "key": "contemporary",
       "name": { "en": "Contemporary", "zh": "当代" },
-      "dateRange": { "en": "1945 – Present", "zh": "公元1945年 - 至今" },
+      "dateRange": { "start": 1945, "end": 2100 },
       "milestone": { "en": "Cold War & Digital Revolution", "zh": "冷战与数字革命" }
     }
   ]
