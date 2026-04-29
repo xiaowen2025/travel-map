@@ -82,24 +82,25 @@ body, html {
         /* 时代面板 */
         .era-panel {
             position: absolute;
-            bottom: 240px;
+            bottom: 80px;
             left: 50px;
             z-index: 10;
             pointer-events: none;
-            max-width: 400px;
-            transition: opacity 0.5s ease, bottom 0.4s ease;
+            transition: opacity 0.4s ease;
         }
-        .era-panel h2 {
-            font-size: 28px;
-            font-weight: 300;
+        .era-title {
+            font-size: 42px;
+            font-weight: 200;
             color: #E8CA88;
-            margin: 0 0 10px 0;
-        }
-        .era-panel p {
-            font-size: 14px;
-            color: #aaa;
-            line-height: 1.5;
+            letter-spacing: 0.08em;
+            line-height: 1;
             margin: 0;
+        }
+        .era-milestone {
+            font-size: 13px;
+            color: rgba(255,255,255,0.5);
+            margin: 8px 0 0 0;
+            letter-spacing: 0.03em;
         }
 
         /* ===== Attraction Card (右下角卡片) ===== */
