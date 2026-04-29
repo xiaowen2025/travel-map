@@ -829,10 +829,10 @@
     {
       "id": "edict-of-milan-milan-cathedral",
       "name": {
-        "en": "Edict of Milan & Milan Cathedral",
-        "zh": "米兰敕令与米兰大教堂"
+        "en": "Milan Cathedral",
+        "zh": "米兰大教堂"
       },
-      "era": "313(Edict of Milan); Cathedral from 1386",
+      "era": "Cathedral from 1386",
       "sortYear": 313,
       "eraCategory": "Medieval",
       "category": "cultural",
@@ -845,11 +845,11 @@
       ],
       "shortDesc": {
         "en": "Historic site of Christian legalization, one of Europe's largest Gothic cathedrals",
-        "zh": "基督教合法化的历史性地点，欧洲最大的哥特式教堂之一"
+        "zh": "欧洲最大的哥特式教堂之一，历经近600年完工"
       },
       "description": {
-        "en": "In the spiritual landscape of medieval Europe, Milan occupied a unique and crucial position. In 313 AD, two Roman emperors - Constantine the Great and Licinius - signed a groundbreaking decree in Milan, known as the Edict of Milan. This document officially declared freedom of worship for Christianity within the Roman Empire, ending over two hundred years of systematic persecution of Christians since the era of Emperor Nero (64 AD). Milan thus became one of the most symbolically significant sites in Christian history. The Milan Cathedral (Duomo di Milano), built centuries later, was constructed to commemorate this foundational event that profoundly changed the course of European civilization. This Gothic masterpiece took nearly 600 years (1386-1965) to complete and is one of the largest Gothic cathedrals in the world, with 135 spires and a rooftop terrace overlooking the entire city, showcasing the ultimate achievement of medieval engineering. Its lightweight flying buttress structures and exquisite stone carvings make it one of the most spectacular achievements of medieval European architecture.",
-        "zh": "在中世纪欧洲的精神版图中，米兰占据着独特而关键的地位。公元313年，两位罗马皇帝——君士坦丁大帝与李锡尼——在米兰签署了一项具有划时代意义的法令，史称《米兰敕令》（Edict of Milan）。这份文件正式宣告基督教在罗马帝国境内享有信仰自由，结束了自尼禄皇帝时代（公元64年）起对基督徒长达两百余年的系统性迫害。米兰因此成为基督教历史上最具象征意义的地点之一。 数百年后興建的米兰大教堂（Duomo di Milano），正是为了纪念这一深刻改变欧洲文明走向的奠基性事件。这座历时近600年（1386-1965年）才完工的哥特式杰作，是世界上最大的哥特式教堂之一，拥有135座尖塔和可俯瞰城市全景的屋顶露台，展示了中世纪工程学的极致成就。其轻盈的飞扶壁结构和精湛的石雕工艺，使其成为欧洲中世纪建筑最壮观的成就之一。"
+        "en": "Milan Cathedral (Duomo di Milano) is one of the largest Gothic cathedrals in the world, a masterpiece that took nearly 600 years (1386-1965) to complete. With 135 spires and a rooftop terrace overlooking the entire city, it showcases the ultimate achievement of medieval engineering. Its lightweight flying buttress structures and exquisite stone carvings make it one of the most spectacular achievements of medieval European architecture.",
+        "zh": "米兰大教堂（Duomo di Milano）是世界上最大的哥特式教堂之一，历经近600年（1386-1965年）才完工，拥有135座尖塔和可俯瞰城市全景的屋顶露台，展示了中世纪工程学的极致成就。其轻盈的飞扶壁结构和精湛的石雕工艺，使其成为欧洲中世纪建筑最壮观的成就之一。"
       },
       "country": {
         "en": "Italy",
