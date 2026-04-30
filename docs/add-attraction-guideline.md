@@ -53,7 +53,7 @@
 
 ### 图片存放位置
 ```
-public/assets/
+public/assets/attractions/
 ```
 
 ### 图片命名规范

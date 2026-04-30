@@ -27,7 +27,7 @@ app-travel-map/
 │   ├── data/
 │   │   ├── attractions.json   # 唯一业务数据源（99 景点，含 _en 双语字段）
 │   │   └── europe.geo.json    # 欧洲 GeoJSON 底图数据
-│   └── assets/             # 景点图片（72 张）
+│   └── assets/attractions/  # 景点图片（91 张）
 │
 ├── refs/                   # 原始 Markdown 参考资料（已归档，非运行时依赖）
 ├── scripts/                # 空目录（旧解析脚本已删除）
