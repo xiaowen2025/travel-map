@@ -276,13 +276,41 @@ body, html {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-size: 56px;
-            font-family: serif;
-            color: #E8CA88;
-            letter-spacing: 8px;
-            text-shadow: 0 4px 20px rgba(0,0,0,0.8);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
             opacity: 0;
             pointer-events: none;
             z-index: 30;
             transition: opacity 1s ease;
+        }
+        .era-toast__name {
+            font-size: 13px;
+            font-weight: 400;
+            letter-spacing: 6px;
+            text-transform: uppercase;
+            color: rgba(232, 202, 136, 0.55);
+            opacity: 0;
+            transform: translateY(8px);
+            transition: opacity 0.8s ease 0.15s, transform 0.8s ease 0.15s;
+        }
+        .era-toast__desc {
+            font-size: 40px;
+            font-family: serif;
+            font-weight: 300;
+            color: #E8CA88;
+            letter-spacing: 3px;
+            text-align: center;
+            max-width: 700px;
+            line-height: 1.35;
+            text-shadow: 0 4px 24px rgba(0,0,0,0.7);
+            opacity: 0;
+            transform: translateY(12px);
+            transition: opacity 0.9s ease 0.35s, transform 0.9s ease 0.35s;
+        }
+        .era-toast.visible .era-toast__name,
+        .era-toast.visible .era-toast__desc {
+            opacity: 1;
+            transform: translateY(0);
         }

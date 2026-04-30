@@ -3,50 +3,44 @@
     {
       "key": "prehistory",
       "name": { "en": "Prehistory", "zh": "史前时代" },
-      "dateRange": { "start": -30000, "end": -3000 },
-      "milestone": { "en": "Stone Age, before written records", "zh": "石器时代，文字记载之前" }
+      "dateRange": { "start": -50000, "end": -3000 },
+      "milestone": { "en": "Emergence of Homo sapiens to the invention of writing", "zh": "晚期智人出现至文字发明" }
     },
     {
       "key": "ancient",
-      "name": { "en": "Ancient", "zh": "古代" },
+      "name": { "en": "Ancient History", "zh": "古代史" },
       "dateRange": { "start": -3000, "end": 476 },
-      "milestone": { "en": "The Fall of the Western Roman Empire", "zh": "西罗马帝国灭亡" }
+      "milestone": { "en": "Rise of civilizations to the Fall of Western Roman Empire", "zh": "文明兴起至西罗马帝国灭亡" }
     },
     {
       "key": "medieval",
-      "name": { "en": "Medieval", "zh": "中世纪" },
-      "dateRange": { "start": 477, "end": 1449 },
-      "milestone": { "en": "Feudalism and the Printing Press", "zh": "封建制度与印刷术兴起" }
+      "name": { "en": "Middle Ages", "zh": "中世纪" },
+      "dateRange": { "start": 477, "end": 1453 },
+      "milestone": { "en": "Migration Period to the Fall of Constantinople", "zh": "民族大迁徙至君士坦丁堡陷落" }
     },
     {
-      "key": "renaissance",
-      "name": { "en": "Renaissance", "zh": "文艺复兴" },
-      "dateRange": { "start": 1450, "end": 1599 },
-      "milestone": { "en": "Humanism and the Rebirth of Classical art/science", "zh": "人文主义与古典艺术/科学的复兴" }
+      "key": "early_modern",
+      "name": { "en": "Early Modern Period", "zh": "近代早期" },
+      "dateRange": { "start": 1454, "end": 1788 },
+      "milestone": { "en": "Renaissance, Age of Discovery, and Enlightenment", "zh": "文艺复兴、大航海时代与启蒙运动" }
     },
     {
-      "key": "enlightenment",
-      "name": { "en": "Enlightenment", "zh": "启蒙时代" },
-      "dateRange": { "start": 1600, "end": 1788 },
-      "milestone": { "en": "The Scientific Revolution & The Enlightenment", "zh": "科学革命与启蒙运动" }
-    },
-    {
-      "key": "earlymodern",
-      "name": { "en": "Early Modern", "zh": "近代" },
+      "key": "modern",
+      "name": { "en": "Modern Period", "zh": "近代" },
       "dateRange": { "start": 1789, "end": 1913 },
-      "milestone": { "en": "Industrialization & French Revolution", "zh": "工业化与法国大革命" }
+      "milestone": { "en": "Industrial Revolution and the rise of Nation-States", "zh": "工业革命与民族国家兴起" }
     },
     {
-      "key": "worldwars",
-      "name": { "en": "World Wars", "zh": "世界大战" },
+      "key": "world_wars",
+      "name": { "en": "Era of World Wars", "zh": "两次世界大战时期" },
       "dateRange": { "start": 1914, "end": 1945 },
-      "milestone": { "en": "World War I & World War II", "zh": "第一次世界大战与第二次世界大战" }
+      "milestone": { "en": "Global conflicts and the collapse of old empires", "zh": "全球冲突与旧帝国体系瓦解" }
     },
     {
       "key": "contemporary",
-      "name": { "en": "Contemporary", "zh": "当代" },
-      "dateRange": { "start": 1945, "end": 2100 },
-      "milestone": { "en": "Cold War & Digital Revolution", "zh": "冷战与数字革命" }
+      "name": { "en": "Contemporary Period", "zh": "当代" },
+      "dateRange": { "start": 1946, "end": null },
+      "milestone": { "en": "Atomic Age, Cold War, and Digital Revolution", "zh": "原子能时代、冷战与数字革命" }
     }
   ]
 }

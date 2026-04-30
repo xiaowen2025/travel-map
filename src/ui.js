@@ -14,6 +14,8 @@ const ui = {
     eraTitle: document.getElementById('eraTitle'),
     eraDesc: document.getElementById('eraDesc'),
     eraToast: document.getElementById('eraToast'),
+    eraToastName: document.getElementById('eraToastName'),
+    eraToastDesc: document.getElementById('eraToastDesc'),
     eraPanel: document.getElementById('eraPanel'),
     modeBtns: document.querySelectorAll('.mode-btn'),
     langToggle: document.getElementById('langToggle'),
@@ -167,13 +169,30 @@ export function getEraMilestone(eraCat, locale = 'zh') {
 }
 
 // Show era transition toast
+let eraToastTimer = null;
 export function showEraToast(eraCat) {
     const locale = state.get('locale');
     const era = findEraByKey(eraCat);
     const toast = ui.eraToast;
-    toast.innerText = era ? era.name[locale] || era.name.en : eraCat;
+
+    // Set content: subtle name + large description
+    ui.eraToastName.innerText = era ? era.name[locale] || era.name.en : eraCat;
+    ui.eraToastDesc.innerText = era ? era.milestone[locale] || era.milestone.en : '';
+
+    // Clear any previous hide timer
+    if (eraToastTimer) clearTimeout(eraToastTimer);
+
+    // Show: container opacity + child slide-in via .visible class
     toast.style.opacity = 1;
-    setTimeout(() => { toast.style.opacity = 0; }, 2500);
+    // Force reflow so re-adding class restarts the child transitions
+    toast.classList.remove('visible');
+    void toast.offsetHeight;
+    toast.classList.add('visible');
+
+    eraToastTimer = setTimeout(() => {
+        toast.classList.remove('visible');
+        toast.style.opacity = 0;
+    }, 3000);
 }
 
 // Show/hide scroll indicator and era panel based on view mode

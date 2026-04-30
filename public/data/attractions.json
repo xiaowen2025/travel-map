@@ -1658,7 +1658,7 @@
       },
       "era": "from 15th century",
       "sortYear": 1450,
-      "eraKey": "renaissance",
+      "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
         19.9445,
@@ -1691,7 +1691,7 @@
       },
       "era": "15th century",
       "sortYear": 1450,
-      "eraKey": "renaissance",
+      "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
         -9.3908,
@@ -1724,7 +1724,7 @@
       },
       "era": "15th century",
       "sortYear": 1470,
-      "eraKey": "renaissance",
+      "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
         18.607,
@@ -1757,7 +1757,7 @@
       },
       "era": "1495-1498",
       "sortYear": 1498,
-      "eraKey": "renaissance",
+      "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
         9.1709,
@@ -1790,7 +1790,7 @@
       },
       "era": "founded 12th century; peak 16th century",
       "sortYear": 1500,
-      "eraKey": "renaissance",
+      "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
         -5.664,
@@ -1823,7 +1823,7 @@
       },
       "era": "1481-1512 (frescoes); 1536-1541 (Last Judgment)",
       "sortYear": 1512,
-      "eraKey": "renaissance",
+      "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
         12.4545,
@@ -1856,7 +1856,7 @@
       },
       "era": "from 1513",
       "sortYear": 1513,
-      "eraKey": "renaissance",
+      "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
         1.0704,
@@ -1889,7 +1889,7 @@
       },
       "era": "1517",
       "sortYear": 1517,
-      "eraKey": "renaissance",
+      "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
         12.6436,
@@ -1922,7 +1922,7 @@
       },
       "era": "from 1519(Francois I)",
       "sortYear": 1519,
-      "eraKey": "renaissance",
+      "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
         1.5171,
@@ -1955,7 +1955,7 @@
       },
       "era": "10th century; peak 16th-17th century",
       "sortYear": 1550,
-      "eraKey": "renaissance",
+      "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
         11.148,
@@ -1988,7 +1988,7 @@
       },
       "era": "1563-1584",
       "sortYear": 1584,
-      "eraKey": "renaissance",
+      "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
         -4.1478,
@@ -2021,7 +2021,7 @@
       },
       "era": "1506-1626",
       "sortYear": 1626,
-      "eraKey": "enlightenment",
+      "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
         12.4534,
@@ -2054,7 +2054,7 @@
       },
       "era": "1634",
       "sortYear": 1634,
-      "eraKey": "enlightenment",
+      "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
         1.4583,
@@ -2087,7 +2087,7 @@
       },
       "era": "17th century(Dutch Golden Age)",
       "sortYear": 1650,
-      "eraKey": "enlightenment",
+      "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
         4.8936,
@@ -2120,7 +2120,7 @@
       },
       "era": "1745-1747",
       "sortYear": 1747,
-      "eraKey": "enlightenment",
+      "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
         13.0387,
@@ -2153,7 +2153,7 @@
       },
       "era": "1682-1789",
       "sortYear": 1682,
-      "eraKey": "enlightenment",
+      "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
         2.1204,
@@ -2187,7 +2187,7 @@
       },
       "era": "18th century Baroque peak",
       "sortYear": 1750,
-      "eraKey": "enlightenment",
+      "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
         16.3119,
@@ -2220,7 +2220,7 @@
       },
       "era": "1779",
       "sortYear": 1779,
-      "eraKey": "enlightenment",
+      "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
         -2.486,
@@ -2253,7 +2253,7 @@
       },
       "era": "late 18th century",
       "sortYear": 1789,
-      "eraKey": "earlymodern",
+      "eraKey": "modern",
       "category": "cultural",
       "coordinates": [
         2.321,
@@ -2286,7 +2286,7 @@
       },
       "era": "1836",
       "sortYear": 1836,
-      "eraKey": "earlymodern",
+      "eraKey": "modern",
       "category": "cultural",
       "coordinates": [
         2.3694,
@@ -2319,7 +2319,7 @@
       },
       "era": "1851-1936(destroyed by fire)",
       "sortYear": 1851,
-      "eraKey": "earlymodern",
+      "eraKey": "modern",
       "category": "cultural",
       "coordinates": [
         -3.435,
@@ -2352,7 +2352,7 @@
       },
       "era": "1840-1870",
       "sortYear": 1870,
-      "eraKey": "earlymodern",
+      "eraKey": "modern",
       "category": "cultural",
       "coordinates": [
         -0.1247,
@@ -2385,7 +2385,7 @@
       },
       "era": "from 1882(unfinished)",
       "sortYear": 1882,
-      "eraKey": "earlymodern",
+      "eraKey": "modern",
       "category": "cultural",
       "coordinates": [
         2.1744,
@@ -2418,7 +2418,7 @@
       },
       "era": "1889",
       "sortYear": 1889,
-      "eraKey": "earlymodern",
+      "eraKey": "modern",
       "category": "cultural",
       "coordinates": [
         2.2945,
@@ -2451,7 +2451,7 @@
       },
       "era": "1885-1902",
       "sortYear": 1902,
-      "eraKey": "earlymodern",
+      "eraKey": "modern",
       "category": "cultural",
       "coordinates": [
         19.0458,
@@ -2484,7 +2484,7 @@
       },
       "era": "1914",
       "sortYear": 1914,
-      "eraKey": "worldwars",
+      "eraKey": "world_wars",
       "category": "cultural",
       "coordinates": [
         18.4286,
@@ -2517,7 +2517,7 @@
       },
       "era": "1916(battle)",
       "sortYear": 1916,
-      "eraKey": "worldwars",
+      "eraKey": "world_wars",
       "category": "cultural",
       "coordinates": [
         5.4343,
@@ -2550,7 +2550,7 @@
       },
       "era": "1927-1938",
       "sortYear": 1938,
-      "eraKey": "worldwars",
+      "eraKey": "world_wars",
       "category": "cultural",
       "coordinates": [
         11.1133,
@@ -2583,7 +2583,7 @@
       },
       "era": "1939",
       "sortYear": 1939,
-      "eraKey": "worldwars",
+      "eraKey": "world_wars",
       "category": "cultural",
       "coordinates": [
         18.6715,
@@ -2616,7 +2616,7 @@
       },
       "era": "mid 20th century",
       "sortYear": 1940,
-      "eraKey": "worldwars",
+      "eraKey": "world_wars",
       "category": "cultural",
       "coordinates": [
         19.204,
@@ -2649,7 +2649,7 @@
       },
       "era": "1944(D-Day)",
       "sortYear": 1944,
-      "eraKey": "worldwars",
+      "eraKey": "world_wars",
       "category": "cultural",
       "coordinates": [
         -0.8612,
@@ -2682,7 +2682,7 @@
       },
       "era": "1944",
       "sortYear": 1944,
-      "eraKey": "worldwars",
+      "eraKey": "world_wars",
       "category": "cultural",
       "coordinates": [
         21.0122,
