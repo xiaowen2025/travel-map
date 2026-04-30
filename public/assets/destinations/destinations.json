@@ -1,0 +1,1134 @@
+{
+  "Rome": {
+    "status": "downloaded",
+    "error": "Error: Failed to generate image: 2061 your current token plan not support model, image-01 Response: {\n  \"base_resp\": {\n    \"status_code\": 2061,\n    \"status_msg\": \"your current token plan not support m",
+    "destination": "Rome",
+    "country": "Italy"
+  },
+  "Florence": {
+    "status": "downloaded",
+    "error": "Error: Failed to generate image: 2061 your current token plan not support model, image-01 Response: {\n  \"base_resp\": {\n    \"status_code\": 2061,\n    \"status_msg\": \"your current token plan not support m",
+    "destination": "Florence",
+    "country": "Italy"
+  },
+  "Venice": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/ISS-39_Venice_Lagoon%2C_Italy.jpg",
+    "filename": "ISS-39 Venice Lagoon, Italy.jpg",
+    "source": "Wikimedia Commons",
+    "destination": "Venice",
+    "country": "Italy",
+    "status": "downloaded"
+  },
+  "Milan": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Milan_Airport%2C_Gallarate.jpg",
+    "filename": "Milan Airport, Gallarate.jpg",
+    "source": "Wikimedia Commons",
+    "destination": "Milan",
+    "country": "Italy",
+    "status": "downloaded"
+  },
+  "Naples": {
+    "status": "downloaded",
+    "error": "Error: Failed to generate image: 2061 your current token plan not support model, image-01 Response: {\n  \"base_resp\": {\n    \"status_code\": 2061,\n    \"status_msg\": \"your current token plan not support m",
+    "destination": "Naples",
+    "country": "Italy"
+  },
+  "Cinque Terre": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Golfo_di_La_Spezia_Italy_aerial_view.jpg",
+    "filename": "Golfo di La Spezia Italy aerial view.jpg",
+    "source": "Wikimedia Commons",
+    "destination": "Cinque Terre",
+    "country": "Italy",
+    "status": "downloaded"
+  },
+  "Amalfi Coast": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Vico_Equense_drone_2016-05-27.jpg",
+    "filename": "Vico Equense drone 2016-05-27.jpg",
+    "source": "Wikimedia Commons",
+    "destination": "Amalfi Coast",
+    "country": "Italy",
+    "status": "downloaded"
+  },
+  "Pisa": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Costa_Brava%2C_aerial_view_of_L%27Estartit%2C_illes_Medes%2C_Sa_Riera.jpg",
+    "filename": "Costa Brava, aerial view of L'Estartit, illes Medes, Sa Riera.jpg",
+    "source": "Wikimedia Commons",
+    "destination": "Pisa",
+    "country": "Italy",
+    "status": "downloaded"
+  },
+  "Lake Como": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Villa_d%27Este_Aerial_Photo.jpg",
+    "filename": "Villa d'Este Aerial Photo.jpg",
+    "source": "Wikimedia Commons",
+    "destination": "Lake Como",
+    "country": "Italy",
+    "status": "downloaded"
+  },
+  "Verona": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Aerial_picture_of_Verona.jpg",
+    "filename": "Aerial picture of Verona.jpg",
+    "source": "Wikimedia Commons",
+    "destination": "Verona",
+    "country": "Italy",
+    "status": "downloaded"
+  },
+  "Barcelona": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Barcelona_-_Parc_del_Tur%C3%B3_-_Tur%C3%B3_Park_-_Panorama_View_over_Barcelona_%282008%29.jpg",
+    "filename": "Barcelona - Parc del Turó - Turó Park - Panorama View over Barcelona (2008).jpg",
+    "source": "Wikimedia Commons",
+    "destination": "Barcelona",
+    "country": "Spain",
+    "status": "downloaded"
+  },
+  "Madrid": {
+    "status": "downloaded",
+    "error": "Error: Failed to generate image: 2061 your current token plan not support model, image-01 Response: {\n  \"base_resp\": {\n    \"status_code\": 2061,\n    \"status_msg\": \"your current token plan not support m",
+    "destination": "Madrid",
+    "country": "Spain"
+  },
+  "Seville": {
+    "status": "downloaded",
+    "error": "Error: Failed to generate image: 2061 your current token plan not support model, image-01 Response: {\n  \"base_resp\": {\n    \"status_code\": 2061,\n    \"status_msg\": \"your current token plan not support m",
+    "destination": "Seville",
+    "country": "Spain"
+  },
+  "Valencia": {
+    "status": "downloaded",
+    "error": "Error: Failed to generate image: 2061 your current token plan not support model, image-01 Response: {\n  \"base_resp\": {\n    \"status_code\": 2061,\n    \"status_msg\": \"your current token plan not support m",
+    "destination": "Valencia",
+    "country": "Spain"
+  },
+  "Granada": {
+    "status": "downloaded",
+    "error": "Error: Failed to generate image: 2061 your current token plan not support model, image-01 Response: {\n  \"base_resp\": {\n    \"status_code\": 2061,\n    \"status_msg\": \"your current token plan not support m",
+    "destination": "Granada",
+    "country": "Spain"
+  },
+  "M laga": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Atardecer_%28192633237%29.jpeg",
+    "filename": "Atardecer (192633237).jpeg",
+    "source": "Wikimedia Commons",
+    "destination": "M laga",
+    "country": "Spain",
+    "status": "downloaded"
+  },
+  "Bilbao": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Museo_Guggenheim_--_2021_--_Bilbao%2C_Euskadi%2C_Espa%C3%B1a.jpg",
+    "filename": "Museo Guggenheim -- 2021 -- Bilbao, Euskadi, España.jpg",
+    "source": "Wikimedia Commons",
+    "destination": "Bilbao",
+    "country": "Spain",
+    "status": "downloaded"
+  },
+  "Ibiza": {
+    "status": "failed",
+    "destination": "Ibiza",
+    "country": "Spain"
+  },
+  "Majorca": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Puig_de_Ferrutx_-_Panorama.jpg",
+    "filename": "Puig de Ferrutx - Panorama.jpg",
+    "source": "Wikimedia Commons",
+    "destination": "Majorca",
+    "country": "Spain",
+    "status": "downloaded"
+  },
+  "San Sebasti n": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Reflejos_Multicolor_%28152979571%29.jpeg",
+    "filename": "Reflejos Multicolor (152979571).jpeg",
+    "source": "Wikimedia Commons",
+    "destination": "San Sebasti n",
+    "country": "Spain",
+    "status": "downloaded"
+  },
+  "Paris": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Nadar%2C_Aerial_view_of_Paris%2C_1868.jpg",
+    "filename": "Nadar, Aerial view of Paris, 1868.jpg",
+    "source": "Wikimedia Commons",
+    "destination": "Paris",
+    "country": "France",
+    "status": "downloaded"
+  },
+  "Nice": {
+    "status": "failed",
+    "destination": "Nice",
+    "country": "France"
+  },
+  "Marseille": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Panorama-Calanque_de_Sugiton.jpg",
+    "filename": "Panorama-Calanque de Sugiton.jpg",
+    "source": "Wikimedia Commons",
+    "destination": "Marseille",
+    "country": "France",
+    "status": "downloaded"
+  },
+  "Lyon": {
+    "status": "failed",
+    "destination": "Lyon",
+    "country": "France"
+  },
+  "Bordeaux": {
+    "status": "failed",
+    "destination": "Bordeaux",
+    "country": "France"
+  },
+  "Strasbourg": {
+    "status": "failed",
+    "destination": "Strasbourg",
+    "country": "France"
+  },
+  "Cannes": {
+    "status": "failed",
+    "destination": "Cannes",
+    "country": "France"
+  },
+  "Mont Saint-Michel": {
+    "status": "failed",
+    "destination": "Mont Saint-Michel",
+    "country": "France"
+  },
+  "Loire Valley": {
+    "status": "failed",
+    "destination": "Loire Valley",
+    "country": "France"
+  },
+  "French Alps": {
+    "status": "failed",
+    "destination": "French Alps",
+    "country": "France"
+  },
+  "Vienna": {
+    "status": "failed",
+    "destination": "Vienna",
+    "country": "Austria"
+  },
+  "Salzburg": {
+    "status": "failed",
+    "destination": "Salzburg",
+    "country": "Austria"
+  },
+  "Innsbruck": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Aerial_view_of_Innsbruck_01.jpg",
+    "filename": "Aerial view of Innsbruck 01.jpg",
+    "source": "Wikimedia Commons",
+    "destination": "Innsbruck",
+    "country": "Austria",
+    "status": "downloaded"
+  },
+  "Hallstatt": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Aerial_view_of_the_Magdalenenberg_burial_mound_near_Villingen_%28Landesamt_f%C3%BCr_Denkmalpflege_im_Regierungspr%C3%A4sidium_Stuttgart%2C_Photo_by_Otto_Braasch%2C_L7916-012-01_5380-01%29.png",
+    "filename": "Aerial view of the Magdalenenberg burial mound near Villingen (Landesamt für Denkmalpflege im Regierungspräsidium Stuttgart, Photo by Otto Braasch, L7916-012-01 5380-01).png",
+    "source": "Wikimedia Commons",
+    "destination": "Hallstatt",
+    "country": "Austria",
+    "status": "downloaded"
+  },
+  "Graz": {
+    "status": "failed",
+    "destination": "Graz",
+    "country": "Austria"
+  },
+  "Zell am See": {
+    "status": "failed",
+    "destination": "Zell am See",
+    "country": "Austria"
+  },
+  "Wachau Valley": {
+    "status": "failed",
+    "destination": "Wachau Valley",
+    "country": "Austria"
+  },
+  "Bregenz": {
+    "status": "failed",
+    "destination": "Bregenz",
+    "country": "Austria"
+  },
+  "Vienna Woods": {
+    "status": "failed",
+    "destination": "Vienna Woods",
+    "country": "Austria"
+  },
+  "Bad Gastein": {
+    "status": "failed",
+    "destination": "Bad Gastein",
+    "country": "Austria"
+  },
+  "Brussels": {
+    "status": "failed",
+    "destination": "Brussels",
+    "country": "Belgium"
+  },
+  "Bruges": {
+    "status": "failed",
+    "destination": "Bruges",
+    "country": "Belgium"
+  },
+  "Ghent": {
+    "status": "no_image",
+    "destination": "Ghent",
+    "country": "Belgium"
+  },
+  "Antwerp": {
+    "status": "no_image",
+    "destination": "Antwerp",
+    "country": "Belgium"
+  },
+  "Leuven": {
+    "status": "no_image",
+    "destination": "Leuven",
+    "country": "Belgium"
+  },
+  "Dinant": {
+    "status": "failed",
+    "destination": "Dinant",
+    "country": "Belgium"
+  },
+  "Ypres": {
+    "status": "failed",
+    "destination": "Ypres",
+    "country": "Belgium"
+  },
+  "Spa": {
+    "status": "failed",
+    "destination": "Spa",
+    "country": "Belgium"
+  },
+  "Ostend": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Oostende_Europacentrum_01.jpg",
+    "filename": "Oostende Europacentrum 01.jpg",
+    "source": "Wikimedia Commons",
+    "destination": "Ostend",
+    "country": "Belgium",
+    "status": "downloaded"
+  },
+  "Namur": {
+    "status": "failed",
+    "destination": "Namur",
+    "country": "Belgium"
+  },
+  "Copenhagen": {
+    "status": "failed",
+    "destination": "Copenhagen",
+    "country": "Denmark"
+  },
+  "Aarhus": {
+    "status": "no_image",
+    "destination": "Aarhus",
+    "country": "Denmark"
+  },
+  "Odense": {
+    "status": "no_image",
+    "destination": "Odense",
+    "country": "Denmark"
+  },
+  "Legoland Billund": {
+    "status": "no_image",
+    "destination": "Legoland Billund",
+    "country": "Denmark"
+  },
+  "Ribe": {
+    "status": "no_image",
+    "destination": "Ribe",
+    "country": "Denmark"
+  },
+  "Roskilde": {
+    "status": "failed",
+    "destination": "Roskilde",
+    "country": "Denmark"
+  },
+  "Helsing?r": {
+    "status": "failed",
+    "destination": "Helsing?r",
+    "country": "Denmark"
+  },
+  "Aalborg": {
+    "status": "no_image",
+    "destination": "Aalborg",
+    "country": "Denmark"
+  },
+  "Aarhus Botanical Garden": {
+    "status": "no_image",
+    "destination": "Aarhus Botanical Garden",
+    "country": "Denmark"
+  },
+  "Tivoli Gardens": {
+    "status": "no_image",
+    "destination": "Tivoli Gardens",
+    "country": "Denmark"
+  },
+  "Berlin": {
+    "status": "no_image",
+    "destination": "Berlin",
+    "country": "Germany"
+  },
+  "Munich": {
+    "status": "failed",
+    "destination": "Munich",
+    "country": "Germany"
+  },
+  "Frankfurt": {
+    "status": "failed",
+    "destination": "Frankfurt",
+    "country": "Germany"
+  },
+  "Cologne": {
+    "status": "failed",
+    "destination": "Cologne",
+    "country": "Germany"
+  },
+  "Hamburg": {
+    "status": "failed",
+    "destination": "Hamburg",
+    "country": "Germany"
+  },
+  "Dresden": {
+    "status": "failed",
+    "destination": "Dresden",
+    "country": "Germany"
+  },
+  "Heidelberg": {
+    "status": "no_image",
+    "destination": "Heidelberg",
+    "country": "Germany"
+  },
+  "Rothenburg ob der Tauber": {
+    "status": "no_image",
+    "destination": "Rothenburg ob der Tauber",
+    "country": "Germany"
+  },
+  "Neuschwanstein Castle": {
+    "status": "no_image",
+    "destination": "Neuschwanstein Castle",
+    "country": "Germany"
+  },
+  "Black Forest": {
+    "status": "failed",
+    "destination": "Black Forest",
+    "country": "Germany"
+  },
+  "Monaco-Ville": {
+    "status": "failed",
+    "destination": "Monaco-Ville",
+    "country": "Monaco"
+  },
+  "Monte Carlo": {
+    "status": "failed",
+    "destination": "Monte Carlo",
+    "country": "Monaco"
+  },
+  "Casino Square": {
+    "status": "no_image",
+    "destination": "Casino Square",
+    "country": "Monaco"
+  },
+  "Oceanographic Museum": {
+    "status": "no_image",
+    "destination": "Oceanographic Museum",
+    "country": "Monaco"
+  },
+  "Japanese Garden": {
+    "status": "no_image",
+    "destination": "Japanese Garden",
+    "country": "Monaco"
+  },
+  "Saint-Martin Gardens": {
+    "status": "no_image",
+    "destination": "Saint-Martin Gardens",
+    "country": "Monaco"
+  },
+  "Exotic Garden": {
+    "status": "failed",
+    "destination": "Exotic Garden",
+    "country": "Monaco"
+  },
+  "Rainier III Botanical Garden": {
+    "status": "no_image",
+    "destination": "Rainier III Botanical Garden",
+    "country": "Monaco"
+  },
+  "Larvotto Beach": {
+    "status": "no_image",
+    "destination": "Larvotto Beach",
+    "country": "Monaco"
+  },
+  "Grimaldi Forum": {
+    "status": "no_image",
+    "destination": "Grimaldi Forum",
+    "country": "Monaco"
+  },
+  "Moscow": {
+    "status": "no_image",
+    "destination": "Moscow",
+    "country": "Russia"
+  },
+  "St. Petersburg": {
+    "status": "failed",
+    "destination": "St. Petersburg",
+    "country": "Russia"
+  },
+  "Sochi": {
+    "status": "failed",
+    "destination": "Sochi",
+    "country": "Russia"
+  },
+  "Kazan": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Kazan_skyline.jpg",
+    "filename": "Kazan skyline.jpg",
+    "source": "Wikimedia Commons",
+    "destination": "Kazan",
+    "country": "Russia",
+    "status": "downloaded"
+  },
+  "Vladivostok": {
+    "status": "failed",
+    "destination": "Vladivostok",
+    "country": "Russia"
+  },
+  "Lake Baikal": {
+    "status": "failed",
+    "destination": "Lake Baikal",
+    "country": "Russia"
+  },
+  "Kamchatka Peninsula": {
+    "status": "no_image",
+    "destination": "Kamchatka Peninsula",
+    "country": "Russia"
+  },
+  "Golden Ring": {
+    "status": "no_image",
+    "destination": "Golden Ring",
+    "country": "Russia"
+  },
+  "Trans-Siberian Railway": {
+    "status": "failed",
+    "destination": "Trans-Siberian Railway",
+    "country": "Russia"
+  },
+  "St. Basil's Cathedral": {
+    "status": "failed",
+    "destination": "St. Basil's Cathedral",
+    "country": "Russia"
+  },
+  "Athens": {
+    "status": "no_image",
+    "destination": "Athens",
+    "country": "Greece"
+  },
+  "Santorini": {
+    "status": "no_image",
+    "destination": "Santorini",
+    "country": "Greece"
+  },
+  "Mykonos": {
+    "status": "no_image",
+    "destination": "Mykonos",
+    "country": "Greece"
+  },
+  "Crete": {
+    "status": "no_image",
+    "destination": "Crete",
+    "country": "Greece"
+  },
+  "Rhodes": {
+    "status": "no_image",
+    "destination": "Rhodes",
+    "country": "Greece"
+  },
+  "Corfu": {
+    "status": "no_image",
+    "destination": "Corfu",
+    "country": "Greece"
+  },
+  "Meteora": {
+    "status": "failed",
+    "destination": "Meteora",
+    "country": "Greece"
+  },
+  "Delphi": {
+    "status": "failed",
+    "destination": "Delphi",
+    "country": "Greece"
+  },
+  "Nafplio": {
+    "status": "failed",
+    "destination": "Nafplio",
+    "country": "Greece"
+  },
+  "Olympia": {
+    "status": "failed",
+    "destination": "Olympia",
+    "country": "Greece"
+  },
+  "Lisbon": {
+    "status": "failed",
+    "destination": "Lisbon",
+    "country": "Portugal"
+  },
+  "Porto": {
+    "status": "failed",
+    "destination": "Porto",
+    "country": "Portugal"
+  },
+  "Algarve": {
+    "status": "failed",
+    "destination": "Algarve",
+    "country": "Portugal"
+  },
+  "Madeira": {
+    "status": "failed",
+    "destination": "Madeira",
+    "country": "Portugal"
+  },
+  "Sintra": {
+    "status": "failed",
+    "destination": "Sintra",
+    "country": "Portugal"
+  },
+  "?bidos": {
+    "status": "failed",
+    "destination": "?bidos",
+    "country": "Portugal"
+  },
+  "Aveiro": {
+    "status": "failed",
+    "destination": "Aveiro",
+    "country": "Portugal"
+  },
+  "Braga": {
+    "status": "failed",
+    "destination": "Braga",
+    "country": "Portugal"
+  },
+  "Coimbra": {
+    "status": "no_image",
+    "destination": "Coimbra",
+    "country": "Portugal"
+  },
+  "Douro Valley": {
+    "status": "no_image",
+    "destination": "Douro Valley",
+    "country": "Portugal"
+  },
+  "Oslo": {
+    "status": "no_image",
+    "destination": "Oslo",
+    "country": "Norway"
+  },
+  "Bergen": {
+    "status": "no_image",
+    "destination": "Bergen",
+    "country": "Norway"
+  },
+  "Sognefjord": {
+    "status": "no_image",
+    "destination": "Sognefjord",
+    "country": "Norway"
+  },
+  "Geirangerfjord": {
+    "status": "no_image",
+    "destination": "Geirangerfjord",
+    "country": "Norway"
+  },
+  "Lofoten Islands": {
+    "status": "no_image",
+    "destination": "Lofoten Islands",
+    "country": "Norway"
+  },
+  "Troms?": {
+    "status": "failed",
+    "destination": "Troms?",
+    "country": "Norway"
+  },
+  "Jotunheimen National Park": {
+    "status": "failed",
+    "destination": "Jotunheimen National Park",
+    "country": "Norway"
+  },
+  "Hardangervidda National Park": {
+    "status": "failed",
+    "destination": "Hardangervidda National Park",
+    "country": "Norway"
+  },
+  "Preikestolen": {
+    "status": "failed",
+    "destination": "Preikestolen",
+    "country": "Norway"
+  },
+  "Flm": {
+    "status": "failed",
+    "destination": "Flm",
+    "country": "Norway"
+  },
+  "Stockholm": {
+    "status": "failed",
+    "destination": "Stockholm",
+    "country": "Sweden"
+  },
+  "Gothenburg": {
+    "status": "failed",
+    "destination": "Gothenburg",
+    "country": "Sweden"
+  },
+  "Malm": {
+    "status": "failed",
+    "destination": "Malm",
+    "country": "Sweden"
+  },
+  "Lapland": {
+    "status": "failed",
+    "destination": "Lapland",
+    "country": "Sweden"
+  },
+  "Fjllbacka": {
+    "status": "no_image",
+    "destination": "Fjllbacka",
+    "country": "Sweden"
+  },
+  "Visby": {
+    "status": "no_image",
+    "destination": "Visby",
+    "country": "Sweden"
+  },
+  "Uppsala": {
+    "status": "no_image",
+    "destination": "Uppsala",
+    "country": "Sweden"
+  },
+  "Kiruna": {
+    "status": "no_image",
+    "destination": "Kiruna",
+    "country": "Sweden"
+  },
+  "Sarek National Park": {
+    "status": "no_image",
+    "destination": "Sarek National Park",
+    "country": "Sweden"
+  },
+  "Vasa Museum": {
+    "status": "failed",
+    "destination": "Vasa Museum",
+    "country": "Sweden"
+  },
+  "Zurich": {
+    "status": "failed",
+    "destination": "Zurich",
+    "country": "Switzerland"
+  },
+  "Geneva": {
+    "status": "failed",
+    "destination": "Geneva",
+    "country": "Switzerland"
+  },
+  "Lucerne": {
+    "status": "failed",
+    "destination": "Lucerne",
+    "country": "Switzerland"
+  },
+  "Interlaken": {
+    "status": "failed",
+    "destination": "Interlaken",
+    "country": "Switzerland"
+  },
+  "Zermatt": {
+    "status": "no_image",
+    "destination": "Zermatt",
+    "country": "Switzerland"
+  },
+  "Jungfraujoch": {
+    "status": "failed",
+    "destination": "Jungfraujoch",
+    "country": "Switzerland"
+  },
+  "Rhine Falls": {
+    "status": "failed",
+    "destination": "Rhine Falls",
+    "country": "Switzerland"
+  },
+  "Swiss National Park": {
+    "status": "failed",
+    "destination": "Swiss National Park",
+    "country": "Switzerland"
+  },
+  "Gruyres": {
+    "status": "no_image",
+    "destination": "Gruyres",
+    "country": "Switzerland"
+  },
+  "Montreux": {
+    "status": "no_image",
+    "destination": "Montreux",
+    "country": "Switzerland"
+  },
+  "Istanbul": {
+    "status": "no_image",
+    "destination": "Istanbul",
+    "country": "Turkey"
+  },
+  "Antalya": {
+    "status": "no_image",
+    "destination": "Antalya",
+    "country": "Turkey"
+  },
+  "Cappadocia": {
+    "status": "no_image",
+    "destination": "Cappadocia",
+    "country": "Turkey"
+  },
+  "Ephesus": {
+    "status": "no_image",
+    "destination": "Ephesus",
+    "country": "Turkey"
+  },
+  "Pamukkale": {
+    "status": "failed",
+    "destination": "Pamukkale",
+    "country": "Turkey"
+  },
+  "Bodrum": {
+    "status": "failed",
+    "destination": "Bodrum",
+    "country": "Turkey"
+  },
+  "Fethiye": {
+    "status": "failed",
+    "destination": "Fethiye",
+    "country": "Turkey"
+  },
+  "Istanbul Grand Bazaar": {
+    "status": "no_image",
+    "destination": "Istanbul Grand Bazaar",
+    "country": "Turkey"
+  },
+  "Topkapi Palace": {
+    "status": "no_image",
+    "destination": "Topkapi Palace",
+    "country": "Turkey"
+  },
+  "Blue Mosque": {
+    "status": "no_image",
+    "destination": "Blue Mosque",
+    "country": "Turkey"
+  },
+  "Kyiv": {
+    "status": "no_image",
+    "destination": "Kyiv",
+    "country": "Ukraine"
+  },
+  "Lviv": {
+    "status": "no_image",
+    "destination": "Lviv",
+    "country": "Ukraine"
+  },
+  "Odessa": {
+    "status": "no_image",
+    "destination": "Odessa",
+    "country": "Ukraine"
+  },
+  "Chernobyl Exclusion Zone": {
+    "status": "no_image",
+    "destination": "Chernobyl Exclusion Zone",
+    "country": "Ukraine"
+  },
+  "Carpathian Mountains": {
+    "status": "no_image",
+    "destination": "Carpathian Mountains",
+    "country": "Ukraine"
+  },
+  "Kharkiv": {
+    "status": "no_image",
+    "destination": "Kharkiv",
+    "country": "Ukraine"
+  },
+  "Dnipro": {
+    "status": "no_image",
+    "destination": "Dnipro",
+    "country": "Ukraine"
+  },
+  "Lviv Opera House": {
+    "status": "no_image",
+    "destination": "Lviv Opera House",
+    "country": "Ukraine"
+  },
+  "Andriyivski Descent": {
+    "status": "no_image",
+    "destination": "Andriyivski Descent",
+    "country": "Ukraine"
+  },
+  "Pechersk Lavra": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/PANO_20220515_125715.jpg",
+    "filename": "PANO 20220515 125715.jpg",
+    "source": "Wikimedia Commons",
+    "destination": "Pechersk Lavra",
+    "country": "Ukraine",
+    "status": "downloaded"
+  },
+  "London": {
+    "status": "failed",
+    "destination": "London",
+    "country": "United Kingdom"
+  },
+  "Edinburgh": {
+    "status": "no_image",
+    "destination": "Edinburgh",
+    "country": "United Kingdom"
+  },
+  "Manchester": {
+    "status": "no_image",
+    "destination": "Manchester",
+    "country": "United Kingdom"
+  },
+  "Liverpool": {
+    "status": "no_image",
+    "destination": "Liverpool",
+    "country": "United Kingdom"
+  },
+  "Cambridge": {
+    "status": "no_image",
+    "destination": "Cambridge",
+    "country": "United Kingdom"
+  },
+  "Lake District": {
+    "status": "no_image",
+    "destination": "Lake District",
+    "country": "United Kingdom"
+  },
+  "Yorkshire Dales": {
+    "status": "no_image",
+    "destination": "Yorkshire Dales",
+    "country": "United Kingdom"
+  },
+  "The Cotswolds": {
+    "status": "no_image",
+    "destination": "The Cotswolds",
+    "country": "United Kingdom"
+  },
+  "Stonehenge": {
+    "status": "no_image",
+    "destination": "Stonehenge",
+    "country": "United Kingdom"
+  },
+  "Scottish Highlands": {
+    "status": "no_image",
+    "destination": "Scottish Highlands",
+    "country": "United Kingdom"
+  },
+  "Luxembourg City": {
+    "status": "no_image",
+    "destination": "Luxembourg City",
+    "country": "Luxembourg"
+  },
+  "Vianden": {
+    "status": "failed",
+    "destination": "Vianden",
+    "country": "Luxembourg"
+  },
+  "Esch-sur-Alzette": {
+    "status": "failed",
+    "destination": "Esch-sur-Alzette",
+    "country": "Luxembourg"
+  },
+  "Luxembourg American Cemetery and Memorial": {
+    "status": "failed",
+    "destination": "Luxembourg American Cemetery and Memorial",
+    "country": "Luxembourg"
+  },
+  "Mullerthal": {
+    "status": "failed",
+    "destination": "Mullerthal",
+    "country": "Luxembourg"
+  },
+  "Beaufort Castle": {
+    "status": "failed",
+    "destination": "Beaufort Castle",
+    "country": "Luxembourg"
+  },
+  "Vianden Castle": {
+    "status": "no_image",
+    "destination": "Vianden Castle",
+    "country": "Luxembourg"
+  },
+  "Grund": {
+    "status": "no_image",
+    "destination": "Grund",
+    "country": "Luxembourg"
+  },
+  "Bettembourg": {
+    "status": "no_image",
+    "destination": "Bettembourg",
+    "country": "Luxembourg"
+  },
+  "Valletta": {
+    "status": "no_image",
+    "destination": "Valletta",
+    "country": "Malta"
+  },
+  "Mdina": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"0642926c",
+    "destination": "Mdina",
+    "country": "Malta"
+  },
+  "Blue Lagoon": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"0642927f",
+    "destination": "Blue Lagoon",
+    "country": "Iceland"
+  },
+  "Marsaxlokk": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 2061 your current token plan not support model, image-01 Response: {\n  \"base_resp\": {\n    \"status_code\": 2061,\n    \"status_msg\": \"your current token plan not support m",
+    "destination": "Marsaxlokk",
+    "country": "Malta"
+  },
+  "St. Paul's Bay": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"06429271",
+    "destination": "St. Paul's Bay",
+    "country": "Malta"
+  },
+  "Rabat": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"06429273",
+    "destination": "Rabat",
+    "country": "Malta"
+  },
+  "Mosta": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 2061 your current token plan not support model, image-01 Response: {\n  \"base_resp\": {\n    \"status_code\": 2061,\n    \"status_msg\": \"your current token plan not support m",
+    "destination": "Mosta",
+    "country": "Malta"
+  },
+  "Marsaskala": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"06429277",
+    "destination": "Marsaskala",
+    "country": "Malta"
+  },
+  "Gozo": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"06429279",
+    "destination": "Gozo",
+    "country": "Malta"
+  },
+  "Comino": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 2061 your current token plan not support model, image-01 Response: {\n  \"base_resp\": {\n    \"status_code\": 2061,\n    \"status_msg\": \"your current token plan not support m",
+    "destination": "Comino",
+    "country": "Malta"
+  },
+  "Reykjavik": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"0642927d",
+    "destination": "Reykjavik",
+    "country": "Iceland"
+  },
+  "Golden Circle": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 2061 your current token plan not support model, image-01 Response: {\n  \"base_resp\": {\n    \"status_code\": 2061,\n    \"status_msg\": \"your current token plan not support m",
+    "destination": "Golden Circle",
+    "country": "Iceland"
+  },
+  "Skaftafell National Park": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"06429283",
+    "destination": "Skaftafell National Park",
+    "country": "Iceland"
+  },
+  "Vatnajkull National Park": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"06429285",
+    "destination": "Vatnajkull National Park",
+    "country": "Iceland"
+  },
+  "Akureyri": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 2061 your current token plan not support model, image-01 Response: {\n  \"base_resp\": {\n    \"status_code\": 2061,\n    \"status_msg\": \"your current token plan not support m",
+    "destination": "Akureyri",
+    "country": "Iceland"
+  },
+  "Snfellsjkull National Park": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"06429288",
+    "destination": "Snfellsjkull National Park",
+    "country": "Iceland"
+  },
+  "Westfjords": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"0642928a",
+    "destination": "Westfjords",
+    "country": "Iceland"
+  },
+  "Jkuls rl¢n Glacier Lagoon": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 2061 your current token plan not support model, image-01 Response: {\n  \"base_resp\": {\n    \"status_code\": 2061,\n    \"status_msg\": \"your current token plan not support m",
+    "destination": "Jkuls rl¢n Glacier Lagoon",
+    "country": "Iceland"
+  },
+  "Reynisfjara Black Sand Beach": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"0642928e",
+    "destination": "Reynisfjara Black Sand Beach",
+    "country": "Iceland"
+  },
+  "Belgrade": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"06429290",
+    "destination": "Belgrade",
+    "country": "Serbia"
+  },
+  "Novi Sad": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 2061 your current token plan not support model, image-01 Response: {\n  \"base_resp\": {\n    \"status_code\": 2061,\n    \"status_msg\": \"your current token plan not support m",
+    "destination": "Novi Sad",
+    "country": "Serbia"
+  },
+  "Ni?": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"06429294",
+    "destination": "Ni?",
+    "country": "Serbia"
+  },
+  "Belgrade Fortress": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"06429296",
+    "destination": "Belgrade Fortress",
+    "country": "Serbia"
+  },
+  "Tara National Park": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"06429298",
+    "destination": "Tara National Park",
+    "country": "Serbia"
+  },
+  "Kopaonik": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 2061 your current token plan not support model, image-01 Response: {\n  \"base_resp\": {\n    \"status_code\": 2061,\n    \"status_msg\": \"your current token plan not support m",
+    "destination": "Kopaonik",
+    "country": "Serbia"
+  },
+  "Novi Sad Fortress": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"0642929b",
+    "destination": "Novi Sad Fortress",
+    "country": "Serbia"
+  },
+  "Sremski Karlovci": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"0642929d",
+    "destination": "Sremski Karlovci",
+    "country": "Serbia"
+  },
+  "Subotica": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 2061 your current token plan not support model, image-01 Response: {\n  \"base_resp\": {\n    \"status_code\": 2061,\n    \"status_msg\": \"your current token plan not support m",
+    "destination": "Subotica",
+    "country": "Serbia"
+  },
+  "Vrnja?ka Banja": {
+    "status": "failed",
+    "error": "Error: Failed to generate image: 1002 rate limit exceeded(RPM) Response: {\n  \"base_resp\": {\n    \"status_code\": 1002,\n    \"status_msg\": \"rate limit exceeded(RPM)\"\n  },\n  \"data\": null,\n  \"id\": \"064292a1",
+    "destination": "Vrnja?ka Banja",
+    "country": "Serbia"
+  }
+}
