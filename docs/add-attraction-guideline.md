@@ -73,6 +73,8 @@ public/assets/attractions/
 
 ### 图片获取步骤
 
+Prefer a high-angle panoramic view from an observation deck. Ensure high visibility and include primary landmarks. Filter for Creative Commons or Public Domain licenses via Bing or Wikimedia Commons.
+
 1. **使用必应图片搜索** (版权风险较低)
    - 搜索：`[景点名] UNESCO` 或 `[景点名] wiki`
    - 优先选择 Creative Commons 授权图片

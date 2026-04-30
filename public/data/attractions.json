@@ -919,7 +919,7 @@
       "country": "ES",
       "region": {
         "en": "Castile-La Mancha",
-        "zh": "卡斯蒂利亚-拉曼查大"
+        "zh": "卡斯蒂利亚-拉曼查"
       },
       "city": null,
       "image": "/assets/attractions/toledo.jpg"
@@ -963,8 +963,8 @@
         "en": "Évora",
         "zh": "埃武拉"
       },
-      "era": "from 7th century",
-      "sortYear": 700,
+      "era": "1th century",
+      "sortYear": 100,
       "eraKey": "medieval",
       "category": "cultural",
       "coordinates": [
@@ -1216,7 +1216,7 @@
       "country": "IT",
       "region": {
         "en": "Tuscany",
-        "zh": "托斯卡纳大"
+        "zh": "托斯卡纳"
       },
       "city": null,
       "image": "/assets/attractions/san-gimignano.jpg"
@@ -1414,7 +1414,7 @@
       "country": "IT",
       "region": {
         "en": "Tuscany",
-        "zh": "托斯卡纳大"
+        "zh": "托斯卡纳"
       },
       "city": null,
       "image": "/assets/attractions/siena.jpg"
@@ -1545,8 +1545,8 @@
       },
       "country": "CZ",
       "region": {
-        "en": null,
-        "zh": "共和国"
+        "en": "Prague",
+        "zh": "布拉格"
       },
       "city": null,
       "image": "/assets/attractions/prague-old-town.jpg"
@@ -1578,8 +1578,8 @@
       },
       "country": "CZ",
       "region": {
-        "en": "South Bohemia",
-        "zh": "共和国南波西米亚"
+        "en": "South Bohemian Region",
+        "zh": "南波希米亚州"
       },
       "city": null,
       "image": "/assets/attractions/esk-krumlov.jpg"
@@ -1843,7 +1843,7 @@
       "country": "ES",
       "region": {
         "en": "Castile and León",
-        "zh": "卡斯蒂利亚-莱昂大"
+        "zh": "卡斯蒂利亚-莱昂"
       },
       "city": null,
       "image": "/assets/attractions/salamanca.jpg"
@@ -2134,8 +2134,8 @@
         "zh": "全球商业革命与早期企业资本主义的空间体现"
       },
       "description": {
-        "en": "While Central Europe was torn apart by religious wars, the Dutch provinces emerged after breaking free from Spanish Catholic rule, pioneering an unprecedented era of economic and scientific dominance. The Dutch East India Company (VOC), established in 1602, allowed shareholders to freely buy and sell company shares, effectively 'crowdfunding' the huge funds needed for high-risk, long-distance sea expeditions to Asia. This influx of Asian wealth transformed Amsterdam into the world's financial capital. To accommodate the exploding population and the logistics demands of global trade, the city undertook a massive urban planning project. Over 50 years, engineers dug a concentric canal system extending over 100 kilometers, connecting 90 islands and 1,700 bridges. These waterways are lined with thousands of high, narrow merchant houses and massive warehouses, creating the world's most complex and effective navigable urban logistics network. Listed as UNESCO World Heritage with the canals in 2011.",
-        "zh": "当中欧因宗教战争而动荡时，荷兰各省在摆脱西班牙天主教统治后脱颖而出，开创了一个前所未有的经济和科学主导时代。成立于1602年的荷兰东印度公司（VOC）允许股东自由买卖公司股份，这种结构性创新有效地\"众筹\"了前往亚洲进行高风险、长途海上探险所需的巨额资金。 这种亚洲财富的涌入将阿姆斯特丹转变为世界的金融之都。为了容纳爆炸性增长的人口和全球贸易的物流需求，这座城市开展了一项大规模的城市规划项目。在50年的时间里，工程师们挖掘了一个长达100多公里的同心运河系统，并与90个岛屿和1700座桥梁相连。这些水道两旁排列着成千上万座高而窄的商人房屋和巨大的仓库，创造了世界上最复杂、最有效的可通航城市物流网络。2011年连同运河带列入UNESCO世界遗产。"
+        "en": "While Central Europe was torn apart by religious wars, the Dutch provinces emerged after breaking free from Spanish Catholic rule, pioneering an unprecedented era of economic and scientific dominance. The Dutch East India Company (VOC), established in 1602, allowed shareholders to freely buy and sell company shares, effectively 'crowdfunding' the huge funds needed for high-risk, long-distance sea expeditions to Asia. This influx of Asian wealth transformed Amsterdam into the world's financial capital. To accommodate the exploding population and the logistics demands of global trade, the city undertook a massive urban planning project. Over 50 years, engineers dug a concentric canal system extending over 100 kilometers, connecting 90 islands and 1,700 bridges. These waterways are lined with thousands of high, narrow merchant houses and massive warehouses, creating the world's most complex and effective navigable urban logistics network. Listed as UNESCO World Heritage with the canals in 2010.",
+        "zh": "当中欧因宗教战争而动荡时，荷兰各省在摆脱西班牙天主教统治后脱颖而出，开创了一个前所未有的经济和科学主导时代。成立于1602年的荷兰东印度公司（VOC）允许股东自由买卖公司股份，这种结构性创新有效地\"众筹\"了前往亚洲进行高风险、长途海上探险所需的巨额资金。 这种亚洲财富的涌入将阿姆斯特丹转变为世界的金融之都。为了容纳爆炸性增长的人口和全球贸易的物流需求，这座城市开展了一项大规模的城市规划项目。在50年的时间里，工程师们挖掘了一个长达100多公里的同心运河系统，并与90个岛屿和1700座桥梁相连。这些水道两旁排列着成千上万座高而窄的商人房屋和巨大的仓库，创造了世界上最复杂、最有效的可通航城市物流网络。2010年连同运河带列入UNESCO世界遗产。"
       },
       "image": "/assets/attractions/amsterdam-canals.jpg",
       "country": "NL",
@@ -2301,7 +2301,7 @@
       },
       "description": {
         "en": "While the Habsburgs consolidated autocratic power through architectural grandeur, France experienced an explosive philosophical transformation and extremely violent political change. Place de la Concorde was originally built in 1757 as 'Place Louis XV' to honor the monarchy. During the French Revolution (1789-1799), it was quickly renamed 'Place de la Révolution' and became a highly public execution theater - including King Louis XVI, Marie Antoinette and revolutionary leader Robespierre, 1,119 people were sent to the guillotine here. In 1795, the square received its current name 'Concorde', intended to achieve national reconciliation. La Conciergerie on the Île de la Cité was originally a 14th-century palace, later converted into a gloomy prison, becoming another focus of the Revolution. More than 2,700 'enemies of the state' - including Queen Marie Antoinette - waited here for their fate before being sent to the guillotine.",
-        "zh": "当哈布斯堡家族通过建筑的宏伟成功巩固专制权力时，法国却经历了一场爆炸性的哲学转变和极其暴力的政治变革。 协和广场最初建于1757年，名为\"路易十五广场\"以向君主制致敬。法国大革命（1789-1799）期间，它迅速更名为\"革命广场\"，变成了一个高度公开的处决剧场——包括国王路易十六、玛丽·安托瓦内特和革命领袖罗伯斯庇尔在内的1,119人在此被送上断头台。1795年，广场获得现在的名字\"协和\"，意在达成民族和解。 西岱岛上的巴黎古监狱（La Conciergerie）则最初是一座14世纪的宫殿，后被改建成阴森的监狱，成为革命的另一个焦点。在这里被关押的超过2,700名\"国家敌人\"——包括王后玛丽·安托瓦内特——在被送上断头台前等待命运的终结。1995年，巴黎古监狱与圣礼拜堂、巴黎司法宫一同列入UNESCO世界遗产。"
+        "zh": "当哈布斯堡家族通过建筑的宏伟成功巩固专制权力时，法国却经历了一场爆炸性的哲学转变和极其暴力的政治变革。 协和广场最初建于1757年，名为\"路易十五广场\"以向君主制致敬。法国大革命（1789-1799）期间，它迅速更名为\"革命广场\"，变成了一个高度公开的处决剧场——包括国王路易十六、玛丽·安托瓦内特和革命领袖罗伯斯庇尔在内的1,119人在此被送上断头台。1795年，广场获得现在的名字\"协和\"，意在达成民族和解。 西岱岛上的巴黎古监狱（La Conciergerie）则最初是一座14世纪的宫殿，后被改建成阴森的监狱，成为革命的另一个焦点。在这里被关押的超过2,700名\"国家敌人\"——包括王后玛丽·安托瓦内特——在被送上断头台前等待命运的终结。1991年，巴黎古监狱与圣礼拜堂、巴黎司法宫一同作为'巴黎塞纳河畔'的一部分列入UNESCO世界遗产。"
       },
       "country": "FR",
       "region": {
@@ -2355,8 +2355,8 @@
       "eraKey": "modern",
       "category": "cultural",
       "coordinates": [
-        -3.435,
-        51.4217
+        -0.0715,
+        51.4221
       ],
       "tags": [
         "Early Modern"
@@ -2564,8 +2564,8 @@
         "zh": "第一次世界大战西线残酷战壕战的最重要纪念地"
       },
       "description": {
-        "en": "The Battle of Verdun (February-December 1916) was one of the most brutal battles of World War I. In this battle lasting about 10 months, French and German armies engaged in numerous back-and-forth battles around Verdun, with both sides suffering hundreds of thousands of casualties. This battle, with its extreme brutality - poison gas, dense artillery fire, endless trenches - became a symbol of the WWI Western Front meat grinder. Today, the Mémorial de Verdun and surrounding ossuaries and battlefield ruins record the deep trauma of this most brutal mechanized war in human history. Listed as UNESCO World Heritage in 1994.",
-        "zh": "凡尔登战役（1916年2月-12月）是第一次世界大战中最惨烈的战役之一。在这场持续约10个月的战斗中，法国和德国军队在凡尔登周边进行了无数次拉锯战，双方伤亡人数高达数十万。这场战役以其极端的残酷性——毒气、密集的炮火、无尽的战壕——成为一战西线绞肉机的缩影。如今，凡尔登纪念馆（Mémorial de Verdun）及周边的骨库和战场遗址，记录了这场人类历史上最惨烈的机械化战争的深重创伤。1994年列入UNESCO世界遗产。"
+        "en": "The Battle of Verdun (February-December 1916) was one of the most brutal battles of World War I. In this battle lasting about 10 months, French and German armies engaged in numerous back-and-forth battles around Verdun, with both sides suffering hundreds of thousands of casualties. This battle, with its extreme brutality - poison gas, dense artillery fire, endless trenches - became a symbol of the WWI Western Front meat grinder. Today, the Mémorial de Verdun and surrounding ossuaries and battlefield ruins record the deep trauma of this most brutal mechanized war in human history. Listed as UNESCO World Heritage in 2023 (as part of the Funerary and memory sites of the WWI).",
+        "zh": "凡尔登战役（1916年2月-12月）是第一次世界大战中最惨烈的战役之一。在这场持续约10个月的战斗中，法国和德国军队在凡尔登周边进行了无数次拉锯战，双方伤亡人数高达数十万。这场战役以其极端的残酷性——毒气、密集的炮火、无尽的战壕——成为一战西线绞肉机的缩影。如今，凡尔登纪念馆（Mémorial de Verdun）及周边的骨库和战场遗址，记录了这场人类历史上最惨烈的机械化战争照下的深重创伤。2023年作为一战西线墓地和纪念地的一部分列入UNESCO世界遗产。"
       },
       "image": "/assets/attractions/verdun-memorial.jpg",
       "country": "FR",
@@ -2748,14 +2748,14 @@
       },
       "era": "1933-1945",
       "sortYear": 1945,
-      "eraKey": "contemporary",
+      "eraKey": "world_wars",
       "category": "cultural",
       "coordinates": [
         11.4683,
         48.2699
       ],
       "tags": [
-        "Contemporary"
+        "world_wars"
       ],
       "shortDesc": {
         "en": "One of the earliest and longest-running concentration camps in Nazi Germany, revealing industrialized systemic persecution",
@@ -2832,7 +2832,7 @@
         "zh": "二战后，由约瑟普·布罗兹·铁托（Josip Broz Tito）领导的南斯拉夫社会主义联邦奉行独立于苏联集团之外的道路。为了团结多元的斯拉夫民族，政府委托建造了数百座被称为Spomeniks的纪念碑，以纪念法西斯主义的受害者并庆祝游击队的解放斗争。 与苏联社会主义现实主义所偏爱的高度写实、带有政治烙印的雕像不同，南斯拉夫建筑师——如博格丹·博格达诺维奇（Bogdan Bogdanović）和杜尚·扎莫尼亚（Dušan Džamonja）——利用粗野主义风格（béton brut，即未修饰的清水混凝土）在偏远的景观中创造了巨大、高度抽象且往往具有未来感的建筑。通过严格避免特定的宗教图像、种族标记或公开的共产党象征，这些纪念碑试图围绕受苦和反法西斯抵抗的共同叙事，为一个脆弱的多民族人口锻造统一的身份认同。 悲剧的是，随着南斯拉夫在1990年代分裂成残酷的宗派战争，这些混凝土巨石的统一信息被粉碎了。如今，其中许多建筑被忽视，成为失败的乌托邦愿景和巴尔干历史持久复杂性中令人毛骨悚然的、孤立的遗迹。"
       },
       "image": "/assets/attractions/makedonium.jpg",
-      "country": "GR",
+      "country": "BA",
       "region": {
         "en": null,
         "zh": null

@@ -5,12 +5,15 @@ import { t, getLoc, locales } from './i18n.js';
 import { initMap, hideLoading, registerMap, setupBaseOption, flyTo, updateMarkers, highlightRelated, showAllPoints, resizeChart, getChart } from './mapEngine.js';
 import { ScrollManager } from './scrollManager.js';
 import {
-    updateEraPanel, showEraToast,
-    showCompactCard, expandCard, collapseCard,
-    startExpandTimer, clearExpandTimer,
     setViewMode, updateLangToggle, updateStaticLabels,
-    updateModeButtons, setupEventListeners
+    updateModeButtons, setupEventListeners, collapseCard
 } from './ui.js';
+import { initCityExplorer, showCityPanel, hideCityPanel, refreshCityPanel, onMapCityClick } from './cityExplorer.js';
+import {
+    initHistoryExplorer, showHistoryExplorer, hideHistoryExplorer,
+    refreshHistoryExplorer, handleScroll, handleKeydown as historyKeydown,
+    onMapHistoryClick
+} from './historyExplorer.js';
 
 // ==================== Initialize ====================
 const chartDom = document.getElementById('map-container');
@@ -21,62 +24,14 @@ const scrollManager = new ScrollManager({ scrollThreshold: 400 });
 
 // ==================== Data Loading ====================
 async function loadData(locale) {
-    const [geoJson, attractionsData, erasData] = await Promise.all([
+    const [geoJson, attractionsData, erasData, destinationsData] = await Promise.all([
         fetch('data/europe.geo.json').then(r => r.json()),
         fetch('data/attractions.json').then(r => r.json()),
-        fetch('data/eras.json').then(r => r.json())
+        fetch('data/eras.json').then(r => r.json()),
+        fetch('data/destinations.json').then(r => r.json())
     ]);
-    return { geoJson, attractionsData, erasData };
+    return { geoJson, attractionsData, erasData, destinationsData };
 }
-
-// ==================== State Subscriptions ====================
-
-// currentPointIndex change → update map markers + camera + card
-state.addEventListener('change:currentPointIndex', (e) => {
-    const { value, oldValue } = e.detail;
-    const data = state.get('data');
-    if (!data) return;
-
-    // Determine scroll direction for card animation
-    const isScroll = oldValue !== undefined && Math.abs(value - oldValue) === 1;
-    const direction = isScroll ? (value > oldValue ? 'down' : 'up') : null;
-
-    // Update markers
-    updateMarkers(value, data);
-
-    // Camera fly-to
-    const currentPoint = data[value];
-    if (currentPoint?.coordinates[0] !== 0) {
-        flyTo(currentPoint.coordinates, 3.5, isScroll);
-    }
-
-    // Update era panel
-    updateEraPanel(currentPoint, state.get('locale'));
-
-    // Show era toast on transition
-    const locale = state.get('locale');
-    const currentEraCat = getLoc(currentPoint, 'eraKey', locale);
-    const oldEraCat = oldValue !== undefined ? getLoc(data[oldValue], 'eraKey', locale) : null;
-    if (isScroll && currentEraCat !== state.get('currentEraCategory')) {
-        state.set('currentEraCategory', currentEraCat);
-        showEraToast(currentEraCat);
-    } else if (!isScroll) {
-        state.set('currentEraCategory', currentEraCat);
-    }
-
-    // --- Card: compact + idle timer ---
-    // Clear previous expand timer
-    clearExpandTimer();
-
-    // Collapse any expanded state immediately
-    collapseCard();
-
-    // Show compact card with slide animation
-    showCompactCard(currentPoint, direction);
-
-    // Start expand timer (will auto-expand after idle)
-    startExpandTimer(currentPoint);
-});
 
 // viewMode change → update UI visibility + map display
 state.addEventListener('change:viewMode', (e) => {
@@ -85,20 +40,20 @@ state.addEventListener('change:viewMode', (e) => {
     setViewMode(value);
 
     if (value === 'history') {
-        updateMarkers(state.get('currentPointIndex'), data);
-        // Show card for current point
-        const currentPoint = data[state.get('currentPointIndex')];
-        if (currentPoint) {
-            showCompactCard(currentPoint);
-            startExpandTimer(currentPoint);
-        }
+        hideCityPanel();
+        scrollManager.enable();
+        showHistoryExplorer();
+    } else if (value === 'city') {
+        hideHistoryExplorer();
+        scrollManager.disable();
+        showCityPanel();
     } else {
+        hideCityPanel();
+        hideHistoryExplorer();
+        scrollManager.disable();
+        
         const locale = state.get('locale');
-        const filtered = data.filter(p => {
-            if (value === 'city') return p.category === 'city';
-            if (value === 'nature') return p.category === 'natural';
-            return false;
-        }).map(p => ({
+        const filtered = data.filter(p => p.category === 'natural').map(p => ({
             name: getLoc(p, 'name', locale),
             value: p.coordinates,
             rawData: p
@@ -107,60 +62,7 @@ state.addEventListener('change:viewMode', (e) => {
     }
 });
 
-// activePointId change → highlight related points or reset
-state.addEventListener('change:activePointId', (e) => {
-    const { value } = e.detail;
-    if (value === null) {
-        updateMarkers(state.get('currentPointIndex'), state.get('data'));
-    }
-});
-
-// ==================== Navigation ====================
-
-function navigateTo(index) {
-    const data = state.get('data');
-    if (!data || index < 0 || index >= data.length) return;
-    state.set('currentPointIndex', index);
-}
-
-function navigateToEra(direction) {
-    const data = state.get('data');
-    if (!data) return;
-    const currentIdx = state.get('currentPointIndex');
-    const currentEra = data[currentIdx].eraKey;
-
-    if (direction === 'next') {
-        for (let i = currentIdx + 1; i < data.length; i++) {
-            if (data[i].eraKey !== currentEra) {
-                navigateTo(i);
-                break;
-            }
-        }
-    } else {
-        let eraStart = currentIdx;
-        while (eraStart > 0 && data[eraStart - 1].eraKey === currentEra) {
-            eraStart--;
-        }
-        if (eraStart > 0) {
-            const prevEra = data[eraStart - 1].eraKey;
-            let prevStart = eraStart - 1;
-            while (prevStart > 0 && data[prevStart - 1].eraKey === prevEra) {
-                prevStart--;
-            }
-            navigateTo(prevStart);
-        }
-    }
-}
-
-// ==================== Handlers ====================
-
-function handleNext() {
-    navigateTo(state.get('currentPointIndex') + 1);
-}
-
-function handlePrev() {
-    navigateTo(state.get('currentPointIndex') - 1);
-}
+// Navigation functions moved to historyExplorer.js
 
 function handleModeChange(mode) {
     state.set('viewMode', mode);
@@ -174,35 +76,13 @@ async function handleLangToggle() {
     updateStaticLabels(newLocale);
     updateModeButtons(newLocale);
 
-    // Re-render current UI with new locale (data stays the same)
-    const data = state.get('data');
-    const currentPointIndex = state.get('currentPointIndex');
-    const currentPoint = data[currentPointIndex];
-    updateMarkers(currentPointIndex, data);
-    if (currentPoint) {
-        updateEraPanel(currentPoint, newLocale);
-        // Re-render card with new locale
-        showCompactCard(currentPoint);
-        startExpandTimer(currentPoint);
-    }
+    refreshHistoryExplorer();
+    refreshCityPanel();
 }
 
 function handleKeydown(e) {
-    const data = state.get('data');
-    if (!data || data.length === 0) return;
-
-    if (e.key === 'ArrowDown') {
-        e.preventDefault();
-        navigateTo(state.get('currentPointIndex') + 1);
-    } else if (e.key === 'ArrowUp') {
-        e.preventDefault();
-        navigateTo(state.get('currentPointIndex') - 1);
-    } else if (e.key === 'ArrowRight') {
-        e.preventDefault();
-        navigateToEra('next');
-    } else if (e.key === 'ArrowLeft') {
-        e.preventDefault();
-        navigateToEra('prev');
+    if (state.get('viewMode') === 'history') {
+        historyKeydown(e);
     } else if (e.key === 'Escape') {
         collapseCard();
     }
@@ -213,12 +93,12 @@ function handleMapClick(params) {
         const p = params.data.rawData;
         if (!p) return;
 
-        // On map click, immediately show and expand (no timer)
-        state.set('activePointId', p.id);
-        clearExpandTimer();
-        showCompactCard(p);
-        expandCard(p);
-        highlightRelated(p, state.get('data'));
+        const mode = state.get('viewMode');
+        if (mode === 'history') {
+            onMapHistoryClick(p);
+        } else if (mode === 'city') {
+            onMapCityClick(p.name, p.country);
+        }
     }
 }
 
@@ -230,19 +110,11 @@ function handleMapDataAndInit(geoJson, attractionsData) {
     state.set('data', attractionsData.timelinePoints);
 
     // Enable scroll manager for history mode
+    // Enable history view by default
+    initHistoryExplorer();
     if (state.get('viewMode') === 'history') {
         scrollManager.enable();
-    }
-
-    // Initial render
-    updateMarkers(0, attractionsData.timelinePoints);
-
-    // Show initial card
-    const firstPoint = attractionsData.timelinePoints[0];
-    if (firstPoint) {
-        showCompactCard(firstPoint);
-        startExpandTimer(firstPoint);
-        updateEraPanel(firstPoint, state.get('locale'));
+        showHistoryExplorer();
     }
 
     // Map click event
@@ -253,9 +125,12 @@ function handleMapDataAndInit(geoJson, attractionsData) {
 }
 
 // ==================== Boot ====================
-loadData(state.get('locale')).then(({ geoJson, attractionsData, erasData }) => {
+loadData(state.get('locale')).then(({ geoJson, attractionsData, erasData, destinationsData }) => {
     // Store eras data in state for UI to use
     state.set('erasData', erasData);
+
+    // Initialize city explorer with destinations data
+    initCityExplorer(destinationsData.destinations);
 
     handleMapDataAndInit(geoJson, attractionsData);
 
@@ -268,11 +143,8 @@ loadData(state.get('locale')).then(({ geoJson, attractionsData, erasData }) => {
 
     // Setup scroll manager
     scrollManager.onScroll((direction) => {
-        if (state.get('viewMode') !== 'history') return;
-        if (direction === 'down') {
-            handleNext();
-        } else {
-            handlePrev();
+        if (state.get('viewMode') === 'history') {
+            handleScroll(direction);
         }
     });
     scrollManager.enable();

@@ -173,7 +173,54 @@ export function highlightRelated(targetPoint, data) {
     });
 }
 
-// Show all points for city/nature mode
+// Show specific points for city mode with dynamic sizes and selective labels
+export function showCityPoints(points) {
+    const locale = state.get('locale');
+    myChart.setOption({
+        series: [
+            {
+                name: 'HistoryPoints',
+                type: 'scatter',
+                coordinateSystem: 'geo',
+                zlevel: 2,
+                symbolSize: function (val, params) {
+                    return params.data.symbolSize || 8;
+                },
+                label: {
+                    show: true,
+                    position: 'right',
+                    formatter: function(params) {
+                        return params.data.showLabel ? params.name : '';
+                    },
+                    color: '#E8CA88',
+                    fontSize: 12,
+                    distance: 6,
+                    textBorderColor: 'rgba(15, 16, 20, 0.8)',
+                    textBorderWidth: 2
+                },
+                itemStyle: {
+                    color: function(params) {
+                        return params.data.color || '#E8CA88';
+                    },
+                    opacity: 0.8,
+                    borderColor: '#fff',
+                    borderWidth: 0.5,
+                    shadowBlur: 8,
+                    shadowColor: 'rgba(0,0,0,0.5)'
+                },
+                emphasis: {
+                    scale: true,
+                    label: { show: true, formatter: '{b}', fontSize: 14, fontWeight: 'bold' },
+                    itemStyle: { opacity: 1, borderColor: '#E8CA88', borderWidth: 2 }
+                },
+                data: points
+            },
+            { name: 'OtherPoints', data: [] }
+        ]
+    });
+}
+
+// Show all points for nature mode
 export function showAllPoints(points) {
     myChart.setOption({
         series: [
