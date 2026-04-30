@@ -19,17 +19,50 @@
       ],
       "shortDesc": {
         "en": "Masterpiece of Paleolithic cave painting, the \"Sistine Chapel of Prehistory\"",
-        "zh": "旧石器时代壁画的巅峰之作，\"史前西斯廷教堂\""
+        "zh": "旧石器时代壁画的巅峰之作，\"史前卢浮宫\""
       },
       "description": {
         "en": "In prehistoric Europe, the limestone plateau of southwestern France conceals a stunning treasure of art. The Lascaux caves contain Ice Age animal paintings dating back twenty thousand years, depicting horses, bison, deer and other creatures with fluid lines and natural colors, earning it the nickname the \"Sistine Chapel of Prehistory\". These paintings prove that Ice Age humans possessed highly complex symbolic thinking abilities, marking the beginning of human art history.",
-        "zh": "在欧洲的史前时代，法国西南部的石灰岩高原隐藏着一个震撼人心的艺术宝库。拉斯科洞穴内保存着两万年历史的冰河时期动物群壁画，描绘了马、野牛、鹿等生物，线条流畅、色彩自然，被誉为\"史前西斯廷教堂\"。这些壁画证明冰河时代的人类已经具备了高度复杂的符号思维能力，是人类艺术史的开端。"
+        "zh": "在欧洲的史前时代，法国西南部的石灰岩高原隐藏着一个震撼人心的艺术宝库。拉斯科洞穴内保存着两万年历史的冰河时期动物群壁画，描绘了马、野牛、鹿等生物，线条流畅、色彩自然，被誉为\"史前卢浮宫\"。这些壁画证明冰河时代的人类已经具备了高度复杂的符号思维能力，是人类艺术史的开端。"
       },
       "image": "lascaux-cave.jpg",
       "country": "FR",
       "region": {
         "en": "Dordogne",
         "zh": "多尔多涅"
+      },
+      "city": null
+    },
+    {
+      "id": "altamira-cave",
+      "name": {
+        "en": "Altamira Cave",
+        "zh": "阿尔塔米拉洞"
+      },
+      "era": "~36000 BC",
+      "sortYear": -36000,
+      "eraKey": "prehistory",
+      "category": "cultural",
+      "coordinates": [
+        -4.1203,
+        43.3825
+      ],
+      "tags": [
+        "Prehistory"
+      ],
+      "shortDesc": {
+        "en": "First proven prehistoric cave paintings, the \"Sistine Chapel of Prehistory\"",
+        "zh": "首个被确认的史前壁画遗址，\"史前西斯廷教堂\""
+      },
+      "description": {
+        "en": "Near Santillana del Mar in Cantabria, northern Spain, the Altamira cave contains some of the most remarkable Paleolithic paintings in Europe, dating back approximately 36,000 years. The cave's Polychrome Ceiling features vivid charcoal and polychrome drawings of bison, horses, deer and wild boar, along with negative hand-prints. Artists skillfully used the natural rock formations to portray the muscular contours of animals, creating a striking sense of three-dimensionality. Altamira holds exceptional significance as the first European cave paintings whose prehistoric origin was formally accepted (after a famous 1902 resolution), proving that Ice Age humans possessed sophisticated artistic abilities. The cave was closed to the public in 1977 to preserve the paintings; nearby, a high-fidelity replica museum allows visitors to experience the art. 1985 UNESCO World Heritage Site.",
+        "zh": "阿尔塔米拉洞位于西班牙北部坎塔布里亚省的桑坦德附近，是欧洲最著名的旧石器时代壁画遗址之一，约有36000年历史。洞穴的彩色天花板以鲜明的木炭和多色彩绘野牛、马、鹿和野猪，以及阴纹手印而闻名。艺术家巧妙利用岩石天然的凸起来表现动物的肌肉轮廓，极具立体感。阿尔塔米拉洞具有里程碑意义——它是首个被正式承认源于史前时代的欧洲洞穴壁画（1902年争议平息后），证明了冰河时代人类已具备高度复杂的艺术能力。洞穴于1977年关闭以保护壁画，附近设有高保真复制博物馆供公众参观。1985年列入UNESCO世界遗产。"
+      },
+      "image": "altamira-cave.jpg",
+      "country": "ES",
+      "region": {
+        "en": "Cantabria",
+        "zh": "坎塔布里亚"
       },
       "city": null
     },
