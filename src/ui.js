@@ -39,7 +39,7 @@ let currentCardPoint = null;
 let isExpanded = false;
 let slideAnimTimer = null;
 
-const EXPAND_DELAY = 800; // ms before auto-expand
+const EXPAND_DELAY = 300; // ms before auto-expand
 
 // ==================== Card Functions ====================
 

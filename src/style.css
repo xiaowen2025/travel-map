@@ -165,7 +165,7 @@ body, html {
             max-height: 0;
             overflow: hidden;
             opacity: 0;
-            transition: max-height 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+            transition: max-height 0.1s cubic-bezier(0.16, 1, 0.3, 1),
                         opacity 0.4s ease 0.1s;
         }
         .card-expanded.revealed {
@@ -185,7 +185,7 @@ body, html {
             margin-bottom: 12px;
             opacity: 0;
             transform: scale(0.98);
-            transition: opacity 0.5s ease 0.15s, transform 0.5s ease 0.15s;
+            transition: opacity 0.25s ease 0.08s, transform 0.25s ease 0.08s;
         }
         .card-expanded.revealed .card-image {
             opacity: 1;
@@ -197,7 +197,7 @@ body, html {
             color: #bbb;
             opacity: 0;
             transform: translateY(10px);
-            transition: opacity 0.5s ease 0.25s, transform 0.5s ease 0.25s;
+            transition: opacity 0.25s ease 0.12s, transform 0.25s ease 0.12s;
         }
         .card-expanded.revealed .card-description {
             opacity: 1;
@@ -206,16 +206,16 @@ body, html {
 
         /* Card slide transition animations */
         .attraction-card.slide-out-up .card-compact {
-            animation: cardExitUp 0.25s ease-out forwards;
+            animation: cardExitUp 0.15s ease-out forwards;
         }
         .attraction-card.slide-in-up .card-compact {
-            animation: cardEnterUp 0.3s ease-out forwards;
+            animation: cardEnterUp 0.2s ease-out forwards;
         }
         .attraction-card.slide-out-down .card-compact {
-            animation: cardExitDown 0.25s ease-out forwards;
+            animation: cardExitDown 0.15s ease-out forwards;
         }
         .attraction-card.slide-in-down .card-compact {
-            animation: cardEnterDown 0.3s ease-out forwards;
+            animation: cardEnterDown 0.2s ease-out forwards;
         }
 
         @keyframes cardExitUp {
