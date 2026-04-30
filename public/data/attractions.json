@@ -37,7 +37,7 @@
       "id": "gobekli-tepe",
       "name": {
         "en": "Göbekli Tepe",
-        "zh": "哥贝克力石阵 Göbekli Tepe"
+        "zh": "哥贝克力石阵"
       },
       "era": "9500-8000 BC",
       "sortYear": -9500,
@@ -433,7 +433,7 @@
       "id": "maison-carree",
       "name": {
         "en": "Maison Carrée",
-        "zh": "四方神庙 Maison Carrée"
+        "zh": "四方神庙"
       },
       "era": "1st century",
       "sortYear": 1,
@@ -499,7 +499,7 @@
       "id": "arena-of-nimes",
       "name": {
         "en": "Arena of Nîmes",
-        "zh": "尼姆竞技场 Arena of Nîmes"
+        "zh": "尼姆竞技场"
       },
       "era": "1st century",
       "sortYear": 50,
@@ -928,7 +928,7 @@
       "id": "evora",
       "name": {
         "en": "Évora",
-        "zh": "埃武拉 Évora"
+        "zh": "埃武拉"
       },
       "era": "from 7th century",
       "sortYear": 700,
@@ -1126,7 +1126,7 @@
       "id": "lubeck",
       "name": {
         "en": "Lübeck Old Town & Holstentor",
-        "zh": "吕贝克老城与霍尔斯滕门 Lübeck"
+        "zh": "吕贝克老城与霍尔斯滕门"
       },
       "era": "rebuilt mid-12th century; peak 13th-15th century",
       "sortYear": 1150,
@@ -1324,7 +1324,7 @@
       "id": "cite-of-carcassonne",
       "name": {
         "en": "Cité of Carcassonne",
-        "zh": "卡尔卡松中世纪画城 Cité of Carcassonne"
+        "zh": "卡尔卡松中世纪画城"
       },
       "era": "medieval (mainly 13th century)",
       "sortYear": 1250,
@@ -1522,7 +1522,7 @@
       "id": "esk-krumlov",
       "name": {
         "en": "Český Krumlov",
-        "zh": "克鲁姆洛夫 Český Krumlov"
+        "zh": "克鲁姆洛夫"
       },
       "era": "13th century merchant town; peak 14th-16th century",
       "sortYear": 1350,
@@ -1654,7 +1654,7 @@
       "id": "krakow-old-town",
       "name": {
         "en": "Kraków Old Town",
-        "zh": "克拉科夫老城 Kraków Old Town"
+        "zh": "克拉科夫老城"
       },
       "era": "from 15th century",
       "sortYear": 1450,
@@ -1753,7 +1753,7 @@
       "id": "the-last-supper",
       "name": {
         "en": "The Last Supper",
-        "zh": "达·芬奇《最后的晚餐》 The Last Supper"
+        "zh": "达·芬奇《最后的晚餐》"
       },
       "era": "1495-1498",
       "sortYear": 1498,
@@ -2513,7 +2513,7 @@
       "id": "memorial-de-verdun",
       "name": {
         "en": "Mémorial de Verdun",
-        "zh": "凡尔登纪念馆与战场遗址 Mémorial de Verdun"
+        "zh": "凡尔登纪念馆与战场遗址"
       },
       "era": "1916(battle)",
       "sortYear": 1916,
