@@ -171,6 +171,7 @@ body, html {
         .card-expanded.revealed {
             max-height: 400px;
             opacity: 1;
+            overflow-y: auto;
         }
         .card-divider {
             height: 1px;
@@ -202,6 +203,18 @@ body, html {
         .card-expanded.revealed .card-description {
             opacity: 1;
             transform: translateY(0);
+        }
+
+        .card-expanded.revealed::-webkit-scrollbar {
+            width: 4px;
+        }
+        .card-expanded.revealed::-webkit-scrollbar-track {
+            background: rgba(232, 202, 136, 0.1);
+            border-radius: 2px;
+        }
+        .card-expanded.revealed::-webkit-scrollbar-thumb {
+            background: rgba(232, 202, 136, 0.3);
+            border-radius: 2px;
         }
 
         /* Card slide transition animations */

@@ -1,0 +1,416 @@
+[
+  {
+    "id": "altamira-cave",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "lascaux-cave",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "matera",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "megalithic-temples-of-malta",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "newgrange",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "hallstatt",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "su-nuraxi",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "maison-carree",
+    "rating": "尽量去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "colosseum",
+    "rating": "尽量去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "pompeii",
+    "rating": "尽量去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "aqueduct-of-segovia",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "pantheon",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "hadrians-wall",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "porta-nigra",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "edict-of-milan-milan-cathedral",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "hagia-sophia",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "ravenna-mosaics",
+    "rating": "尽量去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "toledo",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "piran",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "mont-saint-michel",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "bamberg",
+    "rating": "尽量去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "salzburg-altstadt",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": true
+  },
+  {
+    "id": "st-stephens-cathedral",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": true
+  },
+  {
+    "id": "lubeck",
+    "rating": "尽量去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "san-gimignano",
+    "rating": "尽量去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "ghent",
+    "rating": "尽量去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "troyes",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "sainte-chapelle",
+    "rating": "尽量去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "cologne-cathedral",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "cite-of-carcassonne",
+    "rating": "尽量去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "siena",
+    "rating": "尽量去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "rothenburg",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "bruges",
+    "rating": "尽量去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "alhambra",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "prague-old-town",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": true
+  },
+  {
+    "id": "esk-krumlov",
+    "rating": "尽量去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "dubrovnik-walls",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "doges-palace",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": true
+  },
+  {
+    "id": "florence-cathedral",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "krakow-old-town",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": true
+  },
+  {
+    "id": "sintra",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "nicolaus-copernicus-house",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "the-last-supper",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "salamanca",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "sistine-chapel",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "chateau-de-chenonceau",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "castle-church",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "chateau-de-chambord",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "quedlinburg",
+    "rating": "尽量去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "el-escorial",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "st-peters-basilica",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "chateau-de-cheverny",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "amsterdam-canals",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "sanssouci-palace",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "palace-of-versailles",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "schonbrunn-palace-hofburg-palace",
+    "rating": "尽量去",
+    "category": "attraction",
+    "visited": true
+  },
+  {
+    "id": "ironbridge-gorge",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "place-de-la-concorde-la-conciergerie",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "crystal-palace",
+    "rating": "尽量去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "palace-of-westminster",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "la-sagrada-familia",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "eiffel-tower",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": true
+  },
+  {
+    "id": "hungarian-parliament-building",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": true
+  },
+  {
+    "id": "latin-bridge",
+    "rating": "赶紧去",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "memorial-de-verdun",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "nazi-party-rally-grounds",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "westerplatte",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "auschwitz-birkenau-memorial-and-museum",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  },
+  {
+    "id": "normandy-beaches",
+    "rating": "看情况",
+    "category": "attraction",
+    "visited": false
+  }
+]

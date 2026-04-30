@@ -103,7 +103,7 @@ export function expandCard(p) {
     ui.cardDescription.innerText = getLoc(p, 'description', locale) || '';
 
     if (p.image) {
-        ui.cardImage.src = 'assets/' + p.image;
+        ui.cardImage.src = p.image;
         ui.cardImage.alt = getLoc(p, 'name', locale);
         ui.cardImage.style.display = 'block';
     } else {
