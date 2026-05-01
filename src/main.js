@@ -107,7 +107,7 @@ function handleMapDataAndInit(geoJson, attractionsData) {
     registerMap(geoJson);
     setupBaseOption();
 
-    state.set('data', attractionsData.timelinePoints);
+    state.set('data', attractionsData.timelinePoints.toSorted((a, b) => a.sortYear - b.sortYear));
 
     // Enable scroll manager for history mode
     // Enable history view by default
