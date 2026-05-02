@@ -32,6 +32,13 @@ app-travel-map/
 ├── refs/                   # 原始 Markdown 参考资料（已归档，非运行时依赖）
 ├── scripts/                # 空目录（旧解析脚本已删除）
 │
+├── wrangler.toml           # Cloudflare Pages 部署配置
+├── .github/
+│   └── workflows/
+│       └── deploy.yml       # GitHub Actions 自动部署工作流
+│
+├── dist/                    # Vite 构建输出目录（部署用）
+│
 ├── architecture.md         # 本文档
 ├── features.md             # 功能特性概述
 └── plan.md                 # 产品规划
@@ -82,7 +89,34 @@ UI 展现基于原生 CSS 和 DOM 操作：
 
 ---
 
-## 4. 已知问题与改进方向 (Known Issues & Next Steps)
+## 5. 部署 (Deployment)
+
+### Cloudflare Pages
+项目部署在 **Cloudflare Pages** 平台。
+
+**手动部署：**
+```bash
+npm run build
+wrangler pages deploy dist --project-name=travel-map
+```
+
+**自动化部署：**
+GitHub Actions 工作流 (`.github/workflows/deploy.yml`) 会在每次推送到 `main` 分支时自动：
+1. 签出代码
+2. 安装依赖 (`npm ci`)
+3. 构建 (`npm run build`)
+4. 部署到 Cloudflare Pages
+
+**首次设置需在 GitHub 仓库中添加密钥：**
+- 进入 `Settings → Secrets and variables → Actions`
+- 添加 `CLOUDFLARE_API_TOKEN`（从 [dash.cloudflare.com](https://dash.cloudflare.com) 创建）
+
+**配置文件：**
+- `wrangler.toml` - 包含项目名称、构建输出目录等配置
+
+---
+
+## 6. 已知问题与改进方向 (Known Issues & Next Steps)
 
 ### ⚠️ 需要清理的遗留物
 - `scripts/` 目录：旧的 `parse_refs.js` 已删除，但空目录仍然残留，应删除。

@@ -20,4 +20,8 @@
 - **关联高亮**：选中某景点时，自动高亮同一纪元或相关联的其他历史人文点。
 
 ## 5. 多维度探索模式 (Multi-mode Exploration)
-- 预留 **“历史纪元” (History)**、**“城市探索” (City)** 和 **“自然风光” (Nature)** 三个独立维度的切换支持。
+- 预留 **”历史纪元” (History)**、**”城市探索” (City)** 和 **”自然风光” (Nature)** 三个独立维度的切换支持。
+
+## 6. 自动化部署 (Automated Deployment)
+- **Cloudflare Pages** + **GitHub Actions** 实现每次推送到 `main` 分支自动部署
+- 部署地址：https://travel-map-dkr.pages.dev
