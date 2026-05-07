@@ -1,3 +1,5 @@
+my_list/
+
 # Dependencies
 node_modules/
 
@@ -10,3 +12,9 @@ dist/
 *.swo
 .idea/
 .vscode/
+
+# Local development
+.agent_history/
+.minimax/
+.wrangler/
+settings.local.json

@@ -1,39 +1,6 @@
 {
   "timelinePoints": [
     {
-      "id": "lascaux-cave",
-      "name": {
-        "en": "Lascaux Cave",
-        "zh": "拉斯科洞穴"
-      },
-      "era": "17,000-15,000 BC",
-      "sortYear": -17000,
-      "eraKey": "prehistory",
-      "category": "cultural",
-      "coordinates": [
-        1.1718,
-        45.0538
-      ],
-      "tags": [
-        "Prehistory"
-      ],
-      "shortDesc": {
-        "en": "Masterpiece of Paleolithic cave painting, the \"Sistine Chapel of Prehistory\"",
-        "zh": "旧石器时代壁画的巅峰之作，\"史前卢浮宫\""
-      },
-      "description": {
-        "en": "In prehistoric Europe, the limestone plateau of southwestern France conceals a stunning treasure of art. The Lascaux caves contain Ice Age animal paintings dating back twenty thousand years, depicting horses, bison, deer and other creatures with fluid lines and natural colors, earning it the nickname the \"Sistine Chapel of Prehistory\". These paintings prove that Ice Age humans possessed highly complex symbolic thinking abilities, marking the beginning of human art history.",
-        "zh": "在欧洲的史前时代，法国西南部的石灰岩高原隐藏着一个震撼人心的艺术宝库。拉斯科洞穴内保存着两万年历史的冰河时期动物群壁画，描绘了马、野牛、鹿等生物，线条流畅、色彩自然，被誉为\"史前卢浮宫\"。这些壁画证明冰河时代的人类已经具备了高度复杂的符号思维能力，是人类艺术史的开端。"
-      },
-      "image": "/assets/attractions/lascaux-cave.jpg",
-      "country": "FR",
-      "region": {
-        "en": "Dordogne",
-        "zh": "多尔多涅"
-      },
-      "city": null
-    },
-    {
       "id": "altamira-cave",
       "name": {
         "en": "Altamira Cave",
@@ -63,6 +30,39 @@
       "region": {
         "en": "Cantabria",
         "zh": "坎塔布里亚"
+      },
+      "city": null
+    },
+    {
+      "id": "lascaux-cave",
+      "name": {
+        "en": "Lascaux Cave",
+        "zh": "拉斯科洞穴"
+      },
+      "era": "17,000-15,000 BC",
+      "sortYear": -17000,
+      "eraKey": "prehistory",
+      "category": "cultural",
+      "coordinates": [
+        1.1718,
+        45.0538
+      ],
+      "tags": [
+        "Prehistory"
+      ],
+      "shortDesc": {
+        "en": "Masterpiece of Paleolithic cave painting, the \"Sistine Chapel of Prehistory\"",
+        "zh": "旧石器时代壁画的巅峰之作，\"史前卢浮宫\""
+      },
+      "description": {
+        "en": "In prehistoric Europe, the limestone plateau of southwestern France conceals a stunning treasure of art. The Lascaux caves contain Ice Age animal paintings dating back twenty thousand years, depicting horses, bison, deer and other creatures with fluid lines and natural colors, earning it the nickname the \"Sistine Chapel of Prehistory\". These paintings prove that Ice Age humans possessed highly complex symbolic thinking abilities, marking the beginning of human art history.",
+        "zh": "在欧洲的史前时代，法国西南部的石灰岩高原隐藏着一个震撼人心的艺术宝库。拉斯科洞穴内保存着两万年历史的冰河时期动物群壁画，描绘了马、野牛、鹿等生物，线条流畅、色彩自然，被誉为\"史前卢浮宫\"。这些壁画证明冰河时代的人类已经具备了高度复杂的符号思维能力，是人类艺术史的开端。"
+      },
+      "image": "/assets/attractions/lascaux-cave.jpg",
+      "country": "FR",
+      "region": {
+        "en": "Dordogne",
+        "zh": "多尔多涅"
       },
       "city": null
     },
@@ -127,7 +127,7 @@
       "country": "IT",
       "region": {
         "en": "Basilicata",
-        "zh": "巴西利卡塔大"
+        "zh": "巴西利卡塔"
       },
       "city": null,
       "image": "/assets/attractions/matera.jpg"
@@ -331,6 +331,39 @@
       "city": null
     },
     {
+      "id": "su-nuraxi",
+      "name": {
+        "en": "Su Nuraxi",
+        "zh": "苏努拉吉"
+      },
+      "era": "1600-1500 BC",
+      "sortYear": -1600,
+      "eraKey": "ancient",
+      "category": "cultural",
+      "coordinates": [
+        8.9912,
+        39.7056
+      ],
+      "tags": [
+        "Ancient"
+      ],
+      "shortDesc": {
+        "en": "Truncated conical stone fortress complex left by the Nuragic civilization",
+        "zh": "努拉吉文明遗留的截顶圆锥形石堡建筑群"
+      },
+      "description": {
+        "en": "On Sardinia, the second largest island in the Mediterranean, a unique Bronze Age civilization built thousands of magnificent truncated conical stone fortresses called 'nuraghi'. These distinctive conical stone towers spread across Sardinia, representing the most iconic remains of this unique culture. Su Nuraxi in Barumini is a large architectural complex centered around a massive tower, showcasing the astonishing creativity of prehistoric humans in architectural engineering. Listed as UNESCO World Heritage in 1997.",
+        "zh": "在地中海第二大岛撒丁岛上，一种独特的青铜时代文明建造了成千上万座宏伟的截顶圆锥形石堡，被称为\"努拉吉\"（nuraghi）。\"Su\"是撒丁语中的定冠词，相当于英语中的\"The\"。这些奇特的锥形石塔遍布撒丁岛全境，是这种独特文化的最具代表性遗存。其中巴鲁米尼的苏努拉吉是一个以巨大塔楼为中心的庞大建筑群，展示了史前人类在建筑工程上的惊人创造力。1997年列入UNESCO世界遗产。"
+      },
+      "image": "/assets/attractions/su-nuraxi.jpg",
+      "country": "IT",
+      "region": {
+        "en": "Sardinia",
+        "zh": "撒丁岛"
+      },
+      "city": null
+    },
+    {
       "id": "hallstatt",
       "name": {
         "en": "Hallstatt",
@@ -426,39 +459,6 @@
       "region": {
         "en": "Acropolis of Athens",
         "zh": "雅典卫城"
-      },
-      "city": null
-    },
-    {
-      "id": "su-nuraxi",
-      "name": {
-        "en": "Su Nuraxi",
-        "zh": "苏努拉吉"
-      },
-      "era": "1600-1500 BC",
-      "sortYear": -1600,
-      "eraKey": "ancient",
-      "category": "cultural",
-      "coordinates": [
-        8.9912,
-        39.7056
-      ],
-      "tags": [
-        "Ancient"
-      ],
-      "shortDesc": {
-        "en": "Truncated conical stone fortress complex left by the Nuragic civilization",
-        "zh": "努拉吉文明遗留的截顶圆锥形石堡建筑群"
-      },
-      "description": {
-        "en": "On Sardinia, the second largest island in the Mediterranean, a unique Bronze Age civilization built thousands of magnificent truncated conical stone fortresses called 'nuraghi'. These distinctive conical stone towers spread across Sardinia, representing the most iconic remains of this unique culture. Su Nuraxi in Barumini is a large architectural complex centered around a massive tower, showcasing the astonishing creativity of prehistoric humans in architectural engineering. Listed as UNESCO World Heritage in 1997.",
-        "zh": "在地中海第二大岛撒丁岛上，一种独特的青铜时代文明建造了成千上万座宏伟的截顶圆锥形石堡，被称为\"努拉吉\"（nuraghi）。这些奇特的锥形石塔遍布撒丁岛全境，是这种独特文化的最具代表性遗存。其中巴鲁米尼的苏努拉吉是一个以巨大塔楼为中心的庞大建筑群，展示了史前人类在建筑工程上的惊人创造力。1997年列入UNESCO世界遗产。"
-      },
-      "image": "/assets/attractions/su-nuraxi.jpg",
-      "country": "IT",
-      "region": {
-        "en": "Sardinia",
-        "zh": "撒丁岛"
       },
       "city": null
     },
@@ -661,6 +661,39 @@
       "city": null
     },
     {
+      "id": "evora",
+      "name": {
+        "en": "Évora",
+        "zh": "埃武拉"
+      },
+      "era": "1th century",
+      "sortYear": 100,
+      "eraKey": "medieval",
+      "category": "cultural",
+      "coordinates": [
+        -7.9068,
+        38.5711
+      ],
+      "tags": [
+        "Medieval"
+      ],
+      "shortDesc": {
+        "en": "Best-preserved Roman-era site in Portugal, UNESCO 1986",
+        "zh": "葡萄牙罗马时期最完整遗迹，1986年 UNESCO"
+      },
+      "description": {
+        "en": "Évora is the capital of the Alentejo region in Portugal's interior and the country's most well-preserved historic city. The city's core is the Temple of Diana (Templo de Diana) from the Roman period, a 1st-century temple that is one of the best-preserved Roman temples on the Iberian Peninsula. During the Middle Ages, the Moors reinforced the city walls and built castles; after the Reconquista, Christians built numerous churches, monasteries and noble palaces in the city. Évora's historic center was listed as UNESCO World Heritage in 1986.",
+        "zh": "埃武拉是葡萄牙内陆阿连特茹地区的首府，也是该国保存最完整的历史城市。城市的核心是罗马时期的狄安娜神庙（Templo de Diana），这座1世纪的神庙是伊比利亚半岛保存最完整的罗马神庙之一。中世纪时，摩尔人加固了城墙，建起了城堡；收复失地运动后，基督徒在城中建造了大量的教堂、修道院和贵族宫殿。1986年埃武拉历史中心被列入UNESCO世界遗产。"
+      },
+      "country": "PT",
+      "region": {
+        "en": "Évora District",
+        "zh": "埃武拉"
+      },
+      "city": null,
+      "image": "/assets/attractions/evora.jpg"
+    },
+    {
       "id": "pantheon",
       "name": {
         "en": "Pantheon",
@@ -793,39 +826,6 @@
       "city": null
     },
     {
-      "id": "edict-of-milan-milan-cathedral",
-      "name": {
-        "en": "Milan Cathedral",
-        "zh": "米兰大教堂"
-      },
-      "era": "Cathedral from 1386",
-      "sortYear": 1386,
-      "eraKey": "medieval",
-      "category": "cultural",
-      "coordinates": [
-        9.1919,
-        45.4642
-      ],
-      "tags": [
-        "Medieval"
-      ],
-      "shortDesc": {
-        "en": "Historic site of Christian legalization, one of Europe's largest Gothic cathedrals",
-        "zh": "欧洲最大的哥特式教堂之一，历经近600年完工"
-      },
-      "description": {
-        "en": "Milan Cathedral (Duomo di Milano) is one of the largest Gothic cathedrals in the world, a masterpiece that took nearly 600 years (1386-1965) to complete. With 135 spires and a rooftop terrace overlooking the entire city, it showcases the ultimate achievement of medieval engineering. Its lightweight flying buttress structures and exquisite stone carvings make it one of the most spectacular achievements of medieval European architecture.",
-        "zh": "米兰大教堂（Duomo di Milano）是世界上最大的哥特式教堂之一，历经近600年（1386-1965年）才完工，拥有135座尖塔和可俯瞰城市全景的屋顶露台，展示了中世纪工程学的极致成就。其轻盈的飞扶壁结构和精湛的石雕工艺，使其成为欧洲中世纪建筑最壮观的成就之一。"
-      },
-      "country": "IT",
-      "region": {
-        "en": "Milan",
-        "zh": "米兰"
-      },
-      "city": null,
-      "image": "/assets/attractions/milan-cathedral.jpg"
-    },
-    {
       "id": "hagia-sophia",
       "name": {
         "en": "Hagia Sophia",
@@ -956,39 +956,6 @@
       },
       "city": null,
       "image": "/assets/attractions/piran.jpg"
-    },
-    {
-      "id": "evora",
-      "name": {
-        "en": "Évora",
-        "zh": "埃武拉"
-      },
-      "era": "1th century",
-      "sortYear": 100,
-      "eraKey": "medieval",
-      "category": "cultural",
-      "coordinates": [
-        -7.9068,
-        38.5711
-      ],
-      "tags": [
-        "Medieval"
-      ],
-      "shortDesc": {
-        "en": "Best-preserved Roman-era site in Portugal, UNESCO 1986",
-        "zh": "葡萄牙罗马时期最完整遗迹，1986年 UNESCO"
-      },
-      "description": {
-        "en": "Évora is the capital of the Alentejo region in Portugal's interior and the country's most well-preserved historic city. The city's core is the Temple of Diana (Templo de Diana) from the Roman period, a 1st-century temple that is one of the best-preserved Roman temples on the Iberian Peninsula. During the Middle Ages, the Moors reinforced the city walls and built castles; after the Reconquista, Christians built numerous churches, monasteries and noble palaces in the city. Évora's historic center was listed as UNESCO World Heritage in 1986.",
-        "zh": "埃武拉是葡萄牙内陆阿连特茹地区的首府，也是该国保存最完整的历史城市。城市的核心是罗马时期的狄安娜神庙（Templo de Diana），这座1世纪的神庙是伊比利亚半岛保存最完整的罗马神庙之一。中世纪时，摩尔人加固了城墙，建起了城堡；收复失地运动后，基督徒在城中建造了大量的教堂、修道院和贵族宫殿。1986年埃武拉历史中心被列入UNESCO世界遗产。"
-      },
-      "country": "PT",
-      "region": {
-        "en": "Évora District",
-        "zh": "埃武拉"
-      },
-      "city": null,
-      "image": "/assets/attractions/evora.jpg"
     },
     {
       "id": "camino-de-santiago",
@@ -1585,6 +1552,72 @@
       "image": "/assets/attractions/esk-krumlov.jpg"
     },
     {
+      "id": "bryggen",
+      "name": {
+        "en": "Bryggen",
+        "zh": "卑尔根布吕根"
+      },
+      "era": "from 1360",
+      "sortYear": 1360,
+      "eraKey": "medieval",
+      "category": "cultural",
+      "coordinates": [
+        5.3231,
+        60.3972
+      ],
+      "tags": [
+        "Medieval"
+      ],
+      "shortDesc": {
+        "en": "Historic Hanseatic wharf, witness to medieval trade, UNESCO 1979",
+        "zh": "历史悠久的汉萨同盟码头，见证中世纪贸易，1979年 UNESCO"
+      },
+      "description": {
+        "en": "Bryggen is a historic wharf on the eastern side of the Vågen harbour in Bergen, Norway. In 1360, the Hanseatic League established a Kontor (trading post) here, dominating the trade of stockfish and grain for 400 years. The area is characterized by its iconic row of colorful, narrow-fronted wooden warehouses and winding narrow alleys. Despite being ravaged by numerous fires, most notably in 1702, it was rebuilt following original medieval patterns. It stands as an unequalled example of a northern European medieval trading port. Listed as UNESCO World Heritage in 1979.",
+        "zh": "布吕根（Bryggen）是位于挪威卑尔根瓦根港口东侧的历史悠久的码头。1360年，汉萨同盟在此设立了商站，在此后400年里主导了鳕鱼干和谷物的贸易。该地区以其标志性的一排色彩缤纷、临街面狭窄的木制仓库和蜿蜒狭窄的小巷为特色。尽管布吕根曾多次被大火烧毁（最严重的一次发生在1702年），但每次都在保留中世纪原有模式的基础上进行重建。它是北欧中世纪贸易港口无与伦比的实物典范。1979年列入UNESCO世界遗产。"
+      },
+      "country": "NO",
+      "region": {
+        "en": "Bergen",
+        "zh": "卑尔根"
+      },
+      "city": null,
+      "image": "/assets/attractions/bryggen.jpg"
+    },
+    {
+      "id": "edict-of-milan-milan-cathedral",
+      "name": {
+        "en": "Milan Cathedral",
+        "zh": "米兰大教堂"
+      },
+      "era": "Cathedral from 1386",
+      "sortYear": 1386,
+      "eraKey": "medieval",
+      "category": "cultural",
+      "coordinates": [
+        9.1919,
+        45.4642
+      ],
+      "tags": [
+        "Medieval"
+      ],
+      "shortDesc": {
+        "en": "Historic site of Christian legalization, one of Europe's largest Gothic cathedrals",
+        "zh": "欧洲最大的哥特式教堂之一，历经近600年完工"
+      },
+      "description": {
+        "en": "Milan Cathedral (Duomo di Milano) is one of the largest Gothic cathedrals in the world, a masterpiece that took nearly 600 years (1386-1965) to complete. With 135 spires and a rooftop terrace overlooking the entire city, it showcases the ultimate achievement of medieval engineering. Its lightweight flying buttress structures and exquisite stone carvings make it one of the most spectacular achievements of medieval European architecture.",
+        "zh": "米兰大教堂（Duomo di Milano）是世界上最大的哥特式教堂之一，历经近600年（1386-1965年）才完工，拥有135座尖塔和可俯瞰城市全景的屋顶露台，展示了中世纪工程学的极致成就。其轻盈的飞扶壁结构和精湛的石雕工艺，使其成为欧洲中世纪建筑最壮观的成就之一。"
+      },
+      "country": "IT",
+      "region": {
+        "en": "Milan",
+        "zh": "米兰"
+      },
+      "city": null,
+      "image": "/assets/attractions/milan-cathedral.jpg"
+    },
+    {
       "id": "dubrovnik-walls",
       "name": {
         "en": "Dubrovnik Walls",
@@ -2014,6 +2047,39 @@
       "image": "/assets/attractions/quedlinburg.jpg"
     },
     {
+      "id": "kronborg",
+      "name": {
+        "en": "Kronborg Castle",
+        "zh": "克伦堡城堡"
+      },
+      "era": "from 1574",
+      "sortYear": 1574,
+      "eraKey": "early_modern",
+      "category": "cultural",
+      "coordinates": [
+        12.6219,
+        56.0386
+      ],
+      "tags": [
+        "Renaissance"
+      ],
+      "shortDesc": {
+        "en": "Magnificent Renaissance castle, setting of Shakespeare's Hamlet, UNESCO 2000",
+        "zh": "宏伟的文艺复兴城堡，莎士比亚《哈姆雷特》的背景地，2000年 UNESCO"
+      },
+      "description": {
+        "en": "Kronborg Castle, located in Helsingør, Denmark, at the narrowest point of the Øresund strait, is one of Northern Europe's most significant Renaissance castles. Originally built as a stronghold in the 1420s to control Baltic Sea shipping and collect Sound Dues, it was radically transformed into a grand Renaissance palace by King Frederick II between 1574 and 1585. The castle is globally renowned as 'Elsinore', the immortal setting of William Shakespeare's tragedy Hamlet. Its strategic military architecture and lavish royal decorations symbolise the wealth and power of Denmark during that era. Listed as UNESCO World Heritage in 2000.",
+        "zh": "克伦堡城堡位于丹麦赫尔辛格的厄勒海峡最狭窄处，是北欧最重要的文艺复兴时期城堡之一。它最初建于1420年代，作为控制波罗的海航运和收取海峡通行费的据点，在1574至1585年间被国王弗雷德里克二世彻底改建为宏伟的文艺复兴宫殿。这座城堡作为莎士比亚悲剧《哈姆雷特》的背景地“埃尔西诺”而闻名于世。其战略性的军事建筑与奢华的皇家装饰，象征着当时丹麦的财富与权力。2000年列入UNESCO世界遗产。"
+      },
+      "country": "DK",
+      "region": {
+        "en": "Helsingør",
+        "zh": "赫尔辛格"
+      },
+      "city": null,
+      "image": "/assets/attractions/kronborg.jpg"
+    },
+    {
       "id": "el-escorial",
       "name": {
         "en": "El Escorial",
@@ -2146,6 +2212,40 @@
       "city": null
     },
     {
+      "id": "palace-of-versailles",
+      "name": {
+        "en": "Palace of Versailles",
+        "zh": "凡尔赛宫"
+      },
+      "era": "1682-1789",
+      "sortYear": 1682,
+      "eraKey": "early_modern",
+      "category": "cultural",
+      "coordinates": [
+        2.1204,
+        48.8049
+      ],
+      "tags": [
+        "Palace",
+        "Enlightenment"
+      ],
+      "shortDesc": {
+        "en": "The symbol of French monarchy absolutism, 'the Palace of the Sun King'",
+        "zh": "法国君主专制巅峰之作，\"太阳王\"的宫殿"
+      },
+      "description": {
+        "en": "The Palace of Versailles was built in the 17th century as a hunting lodge for Louis XIII, and later expanded by Louis XIV into the largest royal palace in the world. Known as the 'Palace of the Sun King' after the emblem of Apollo chosen by Louis XIV, Versailles became the center of French political power and a model of European absolutism. The Hall of Mirrors (Galerie des Glaces), the Royal Opera, and the formal gardens designed by Andre Le Notre are masterpieces of French Baroque architecture. The Treaty of Versailles was signed here in 1919, ending World War I. Listed as UNESCO World Heritage in 1979.",
+        "zh": "凡尔赛宫始建于17世纪，最初是路易十三的狩猎行宫，后被路易十四扩建为世界上最大的皇家宫殿。以路易十四选择的阿波罗标志被称为\"太阳王宫殿\"，凡尔赛宫成为法国政治权力的中心和欧洲君主专制的典范。镜厅（Galerie des Glaces）、皇家歌剧院以及安德烈·勒诺特设计的正式花园都是法国巴洛克建筑的巅峰之作。1919年《凡尔赛条约》在此签署，标志着第一次世界大战的结束。1979年列入UNESCO世界遗产。"
+      },
+      "image": "/assets/attractions/palace-of-versailles.jpg",
+      "country": "FR",
+      "region": {
+        "en": "Ile-de-France",
+        "zh": "法兰西岛大区"
+      },
+      "city": "Versailles"
+    },
+    {
       "id": "sanssouci-palace",
       "name": {
         "en": "Sanssouci Palace",
@@ -2179,38 +2279,37 @@
       "city": null
     },
     {
-      "id": "palace-of-versailles",
+      "id": "suomenlinna",
       "name": {
-        "en": "Palace of Versailles",
-        "zh": "凡尔赛宫"
+        "en": "Suomenlinna",
+        "zh": "芬兰堡"
       },
-      "era": "1682-1789",
-      "sortYear": 1682,
+      "era": "from 1748",
+      "sortYear": 1748,
       "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
-        2.1204,
-        48.8049
+        24.9844,
+        60.1436
       ],
       "tags": [
-        "Palace",
-        "Enlightenment"
+        "Fortification"
       ],
       "shortDesc": {
-        "en": "The symbol of French monarchy absolutism, 'the Palace of the Sun King'",
-        "zh": "法国君主专制巅峰之作，\"太阳王\"的宫殿"
+        "en": "18th-century maritime fortress spanning multiple islands, UNESCO 1991",
+        "zh": "横跨多座岛屿的18世纪海上要塞，1991年 UNESCO"
       },
       "description": {
-        "en": "The Palace of Versailles was built in the 17th century as a hunting lodge for Louis XIII, and later expanded by Louis XIV into the largest royal palace in the world. Known as the 'Palace of the Sun King' after the emblem of Apollo chosen by Louis XIV, Versailles became the center of French political power and a model of European absolutism. The Hall of Mirrors (Galerie des Glaces), the Royal Opera, and the formal gardens designed by Andre Le Notre are masterpieces of French Baroque architecture. The Treaty of Versailles was signed here in 1919, ending World War I. Listed as UNESCO World Heritage in 1979.",
-        "zh": "凡尔赛宫始建于17世纪，最初是路易十三的狩猎行宫，后被路易十四扩建为世界上最大的皇家宫殿。以路易十四选择的阿波罗标志被称为\"太阳王宫殿\"，凡尔赛宫成为法国政治权力的中心和欧洲君主专制的典范。镜厅（Galerie des Glaces）、皇家歌剧院以及安德烈·勒诺特设计的正式花园都是法国巴洛克建筑的巅峰之作。1919年《凡尔赛条约》在此签署，标志着第一次世界大战的结束。1979年列入UNESCO世界遗产。"
+        "en": "Suomenlinna (meaning 'Fortress of Finland') is a unique monument of military architecture spread across six fortified islands off the coast of Helsinki. Construction began in 1748 under the Swedish Crown to defend against Russian expansion, originally named Sveaborg. It surrendered to Russian forces in 1808 and served as a major naval base before being taken over by an independent Finland in 1918. Featuring about 6 kilometers of walls and 100 cannons, it represents the 18th-century 'bastion system' adapted to a rocky archipelago. Listed as UNESCO World Heritage in 1991.",
+        "zh": "芬兰堡（Suomenlinna）是一座横跨赫尔辛基海岸外六座要塞岛屿的独特军事建筑丰碑。它于1748年在瑞典王室统治下开始修建，最初名为斯韦阿堡（Sveaborg），旨在抵御俄罗斯的扩张。1808年，该要塞向俄罗斯军队投降，成为一个主要的海军基地，直到1918年芬兰独立后被接管。它拥有约6公里的城墙和100门大炮，代表了适应岩石群岛地形的18世纪“堡垒系统”。1991年列入UNESCO世界遗产。"
       },
-      "image": "/assets/attractions/palace-of-versailles.jpg",
-      "country": "FR",
+      "country": "FI",
       "region": {
-        "en": "Ile-de-France",
-        "zh": "法兰西岛大区"
+        "en": "Helsinki",
+        "zh": "赫尔辛基"
       },
-      "city": "Versailles"
+      "city": null,
+      "image": "/assets/attractions/suomenlinna.jpg"
     },
     {
       "id": "schonbrunn-palace-hofburg-palace",

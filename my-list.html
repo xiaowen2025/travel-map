@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My List</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body style="overflow: visible !important;">
+    <div id="list-container" class="list-container"></div>
+
+    <script type="module">
+        const [myList, attractionsData, countriesData, erasData] = await Promise.all([
+            fetch('data/my_list.json').then(r => r.json()),
+            fetch('data/attractions.json').then(r => r.json()),
+            fetch('data/countries.json').then(r => r.json()),
+            fetch('data/eras.json').then(r => r.json())
+        ]);
+
+        const attractionMap = {};
+        attractionsData.timelinePoints.forEach(p => attractionMap[p.id] = p);
+
+        const eraMap = {};
+        erasData.eras.forEach(e => eraMap[e.key] = e);
+        const getEraName = (eraKey, locale = 'zh') => eraMap[eraKey]?.name?.[locale] || '';
+
+        const countries = countriesData.countries;
+        const getCountryName = (code, locale = 'zh') => countries[code]?.[locale] || countries[code]?.en || code;
+
+        const container = document.getElementById('list-container');
+
+        const RATING_MUST_GO = '必须去';
+
+        const filteredList = myList.filter(item => item.rating === RATING_MUST_GO);
+
+        container.innerHTML = filteredList.map(item => {
+            const attr = attractionMap[item.id];
+            const name = attr ? attr.name.zh : item.name;
+            const description = attr ? (attr.description?.zh || '') : '';
+            const shortDesc = attr ? (attr.shortDesc?.zh || '') : '';
+            const era = attr ? attr.era : '';
+            const eraKey = attr ? attr.eraKey : '';
+            const eraName = eraKey ? getEraName(eraKey) : '';
+            const eraLabel = eraName ? eraName + ' · ' + era : era;
+            const countryName = attr ? getCountryName(attr.country || '') : '';
+            const region = attr && attr.region?.zh ? attr.region.zh : '';
+            const location = '📍 ' + countryName + (region ? ' · ' + region : '');
+            const image = attr ? attr.image : '';
+
+            return `
+            <div class="attraction-card visible" data-id="${item.id}">
+                <div class="card-compact">
+                    <span class="card-era">${eraLabel}</span>
+                    <h3 class="card-title">${name}</h3>
+                    <span class="card-location">${location}</span>
+                </div>
+                <div class="card-expanded revealed">
+                    <div class="card-divider"></div>
+                    ${image ? `<img class="card-image" src="${image}" alt="${name}" style="display:block;">` : ''}
+                    ${shortDesc ? `<p class="card-short-desc" style="margin:0 0 8px 0;">${shortDesc}</p>` : ''}
+                    ${description ? `<p class="card-description" style="margin:0 0 8px 0;font-size:13px;line-height:1.6;">${description}</p>` : ''}
+                    ${item.comment ? `<div class="card-description" style="font-style:italic;color:#E8CA88;font-family:'JasonWriting2','PingFang SC','Microsoft YaHei',sans-serif;">"${item.comment}"</div>` : ''}
+                </div>
+            </div>
+            `;
+        }).join('');
+    </script>
+
+    <style>
+        html, body {
+            height: auto !important;
+            overflow: visible !important;
+            background: #0a0a0f;
+            margin: 0;
+        }
+        .list-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 30px;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        .attraction-card {
+            position: relative !important;
+            bottom: auto !important;
+            right: auto !important;
+            left: auto !important;
+            transform: none !important;
+            opacity: 1 !important;
+            width: 100%;
+            max-width: 500px;
+        }
+        .card-expanded {
+            max-height: none !important;
+            overflow: visible !important;
+        }
+        .card-image {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            max-height: none;
+        }
+    </style>
+</body>
+</html>

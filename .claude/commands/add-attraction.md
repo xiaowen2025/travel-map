@@ -1,6 +1,4 @@
-# 添加景点指南 / Add Attraction Guideline
-
-## 1. 添加新景点
+## 景点管理
 
 在 `public/data/attractions.json` 的 `timelinePoints` 数组中添加新对象。
 
@@ -61,16 +59,6 @@ public/assets/attractions/
 - 与 `id` 字段保持一致
 - 格式：`.jpg` 或 `.png`
 
-**正确示例：**
-- `pantheon.jpg`
-- `colosseum.jpg`
-- `alhambra.jpg`
-
-**错误示例：**
-- `Pantheon.jpg` (大写)
-- `pantheon-box.jpg` (不必要的添加)
-- `pantheon-01.jpg` (多余序号)
-
 ### 图片获取步骤
 
 Prefer a high-angle panoramic view from an observation deck. Ensure high visibility and include primary landmarks. Filter for Creative Commons or Public Domain licenses via Bing or Wikimedia Commons.
@@ -100,14 +88,7 @@ Prefer a high-angle panoramic view from an observation deck. Ensure high visibil
 ### 信息查找步骤
 
 1. **Wikipedia**
-   - 中文维基：`https://zh.wikipedia.org/wiki/`
-   - 英文维基：`https://en.wikipedia.org/wiki/`
-
-2. **UNESCO 世界遗产**
-   - `https://whc.unesco.org/en/list/`
-   - 搜索景点名称，验证是否为世界遗产
-
-3. **必应/Google 学术**
+3. **Google 搜索**
    - 用于验证年代、历史事实
 
 ### 信息核实清单

@@ -1,416 +1,605 @@
 [
   {
     "id": "altamira-cave",
-    "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "name": "阿尔塔米拉洞",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "我的基因多进化了三万年，为什么我的艺术细胞多不了一点。周边可玩性也不错，有大海，有中世纪村庄Santillana del Mar，离首府桑坦德30分钟车程。当 1879 年业余考古学家马塞利诺发现阿尔塔米拉洞 时，学术界很震惊，根本没人相信这是真的。 当时的专家认为，几万年前的“野蛮人”不可能画出这么高水平的作品，甚至指责那是马塞利诺找人伪造的。直到 20 年后在法国发现了类似的拉斯科洞穴，人们才向已故的马塞利诺道歉，承认了阿尔塔米拉的真实性。",
+    "category": "attraction"
   },
   {
     "id": "lascaux-cave",
+    "name": "拉斯科洞穴",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "matera",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "马泰拉",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "让我想起土耳其的格雷梅小镇，想在日落时分找个高处看小城亮起灯光。",
+    "category": "attraction"
   },
   {
     "id": "megalithic-temples-of-malta",
-    "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "name": "马耳他巨石神庙",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "newgrange",
+    "name": "纽格莱奇墓",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
-  },
-  {
-    "id": "hallstatt",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "su-nuraxi",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "苏努拉吉 1600-1500 BC",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "而且撒丁岛的海被誉为“欧洲的马尔代夫”，其海水透明度极高，颜色从浅绿到深蓝层次分明。有跳岛游与浮潜，还有海上洞穴探险。",
+    "category": "attraction"
+  },
+  {
+    "id": "hallstatt",
+    "name": "哈尔施塔特 800BC",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "旧闻最美小镇的大名，原来历史这样久远。想起在波兰的维利奇卡盐矿体验当矿工也很有意思，在哈尔施塔特的盐矿好像还可以体验长达 64 米的欧洲最长木质滑梯。",
+    "category": "attraction"
+  },
+  {
+    "id": "athenian-agora",
+    "name": "雅典阿戈拉",
+    "rating": "必须去",
+    "visited": false,
+    "category": "attraction"
+  },
+  {
+    "id": "parthenon",
+    "name": "帕特农神庙",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "相关的建筑比如大英博物馆，美国最高法院 & 林肯纪念堂。",
+    "category": "attraction"
   },
   {
     "id": "maison-carree",
-    "rating": "尽量去",
-    "category": "attraction",
-    "visited": false
+    "name": "四方神庙",
+    "rating": "必须去",
+    "visited": false,
+    "category": "attraction"
+  },
+  {
+    "id": "pont-du-gard",
+    "name": "加尔桥",
+    "rating": "看情况",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "arena-of-nimes",
+    "name": "尼姆竞技场 Arena of Nîmes",
+    "rating": "看情况",
+    "visited": false,
+    "category": "attraction"
   },
   {
     "id": "colosseum",
-    "rating": "尽量去",
-    "category": "attraction",
-    "visited": false
+    "name": "罗马斗兽场",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "pompeii",
+    "name": "庞贝古城",
     "rating": "尽量去",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "aqueduct-of-segovia",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "塞哥维亚输水槽",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "Segovia本身也是西班牙最迷人的古城之一，以其宏伟的罗马建筑、中世纪城堡和地道的烤乳猪闻名。距离马德里仅需半小时车程。",
+    "category": "attraction"
   },
   {
     "id": "pantheon",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "万神殿",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "hadrians-wall",
+    "name": "哈德良长城",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "porta-nigra",
+    "name": "特里尔黑门",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
-    "id": "edict-of-milan-milan-cathedral",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "id": "diocletians-palace",
+    "name": "戴克里先宫",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "hagia-sophia",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "圣索菲亚大教堂",
+    "rating": "必须去",
+    "visited": true,
+    "category": "attraction"
   },
   {
     "id": "ravenna-mosaics",
+    "name": "拉文纳早期基督教镶嵌画",
     "rating": "尽量去",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "马赛克壁画",
+    "category": "attraction"
   },
   {
     "id": "toledo",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "托莱多",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "piran",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "皮兰",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "这里还可以去看海豚，从柏林出发的话飞到意大利的Trieste可以坐船去皮兰。",
+    "category": "attraction"
   },
   {
     "id": "mont-saint-michel",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "圣米歇尔山",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "bamberg",
+    "name": "班贝格",
     "rating": "尽量去",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "salzburg-altstadt",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": true
+    "name": "萨尔茨堡老城",
+    "rating": "必须去",
+    "visited": true,
+    "comment": ""
   },
   {
     "id": "st-stephens-cathedral",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": true
+    "name": "维也纳圣斯蒂芬大教堂",
+    "rating": "必须去",
+    "visited": true,
+    "comment": ""
   },
   {
     "id": "lubeck",
+    "name": "吕贝克老城与霍尔斯滕门",
     "rating": "尽量去",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "san-gimignano",
+    "name": "圣吉米尼亚诺",
     "rating": "尽量去",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "ghent",
+    "name": "根特",
     "rating": "尽量去",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "troyes",
+    "name": "特鲁瓦",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "sainte-chapelle",
+    "name": "圣礼拜堂",
     "rating": "尽量去",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "cologne-cathedral",
+    "name": "科隆大教堂",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "cite-of-carcassonne",
-    "rating": "尽量去",
-    "category": "attraction",
-    "visited": false
+    "name": "卡尔卡松中世纪画城",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "siena",
+    "name": "锡耶纳",
     "rating": "尽量去",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "rothenburg",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "罗滕堡",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "bruges",
+    "name": "布鲁日历史中心",
     "rating": "尽量去",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "alhambra",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "阿尔罕布拉宫",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "prague-old-town",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": true
+    "name": "布拉格老城",
+    "rating": "必须去",
+    "visited": true,
+    "comment": ""
   },
   {
     "id": "esk-krumlov",
+    "name": "克鲁姆洛夫",
     "rating": "尽量去",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "bryggen",
+    "name": "卑尔根布吕根",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "edict-of-milan-milan-cathedral",
+    "name": "米兰大教堂",
+    "rating": "必须去",
+    "visited": true,
+    "category": "attraction"
   },
   {
     "id": "dubrovnik-walls",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "杜布罗夫尼克城墙",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "doges-palace",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": true
+    "name": "威尼斯总督宫",
+    "rating": "必须去",
+    "visited": true,
+    "comment": ""
   },
   {
     "id": "florence-cathedral",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "佛罗伦萨主教座堂及洗礼堂",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "krakow-old-town",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": true
+    "name": "克拉科夫老城",
+    "rating": "必须去",
+    "visited": true,
+    "comment": ""
   },
   {
     "id": "sintra",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "辛特拉",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "nicolaus-copernicus-house",
+    "name": "哥白尼故居",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "the-last-supper",
+    "name": "达·芬奇《最后的晚餐》",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "salamanca",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "萨拉曼卡",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "sistine-chapel",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "西斯廷教堂",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "chateau-de-chenonceau",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "舍农索堡",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "castle-church",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "维滕贝格城堡教堂",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "chateau-de-chambord",
+    "name": "香波堡",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "quedlinburg",
+    "name": "奎德林堡",
     "rating": "尽量去",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "kronborg",
+    "name": "克伦堡城堡",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "从哥本哈根到奥斯陆的邮轮上就可以看到克伦堡城堡，晴天的时候城堡在蓝天和大海之间遥遥地现出轮廓非常梦幻",
+    "category": "attraction"
   },
   {
     "id": "el-escorial",
+    "name": "埃斯科里亚尔修道院",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "st-peters-basilica",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "圣彼得大教堂",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "chateau-de-cheverny",
+    "name": "雪瓦尼堡",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "amsterdam-canals",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
-  },
-  {
-    "id": "sanssouci-palace",
-    "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "name": "阿姆斯特丹运河带",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "palace-of-versailles",
+    "name": "凡尔赛宫",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "sanssouci-palace",
+    "name": "无忧宫",
+    "rating": "看情况",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "suomenlinna",
+    "name": "芬兰堡",
+    "rating": "尽量去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "schonbrunn-palace-hofburg-palace",
+    "name": "美泉宫与霍夫堡宫",
     "rating": "尽量去",
-    "category": "attraction",
-    "visited": true
+    "visited": true,
+    "comment": ""
   },
   {
     "id": "ironbridge-gorge",
+    "name": "铁桥峡谷",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "place-de-la-concorde-la-conciergerie",
+    "name": "协和广场与巴黎古监狱",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "crystal-palace",
+    "name": "水晶宫",
     "rating": "尽量去",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "palace-of-westminster",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "威斯敏斯特宫",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "la-sagrada-familia",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "圣家堂",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "eiffel-tower",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": true
+    "name": "埃菲尔铁塔",
+    "rating": "必须去",
+    "visited": true,
+    "comment": ""
   },
   {
     "id": "hungarian-parliament-building",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": true
+    "name": "匈牙利国会大厦",
+    "rating": "必须去",
+    "visited": true,
+    "comment": ""
   },
   {
     "id": "latin-bridge",
-    "rating": "赶紧去",
-    "category": "attraction",
-    "visited": false
+    "name": "萨拉热窝拉丁桥",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "memorial-de-verdun",
+    "name": "凡尔登纪念馆与战场遗址",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "nazi-party-rally-grounds",
+    "name": "纽伦堡纳粹党集会场",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "westerplatte",
+    "name": "西盘半岛",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "第二次世界大战的开始",
+    "category": "attraction"
   },
   {
     "id": "auschwitz-birkenau-memorial-and-museum",
+    "name": "奥斯维辛-比克瑙纪念馆",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   },
   {
     "id": "normandy-beaches",
+    "name": "诺曼底登陆海滩",
     "rating": "看情况",
-    "category": "attraction",
-    "visited": false
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
   }
 ]

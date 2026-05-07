@@ -8,7 +8,7 @@
     },
     {
       "key": "ancient",
-      "name": { "en": "Ancient History", "zh": "古代史" },
+      "name": { "en": "Classical Antiquity", "zh": "古典时代" },
       "dateRange": { "start": -3000, "end": 476 },
       "milestone": { "en": "Rise of civilizations to the Fall of Western Roman Empire", "zh": "文明兴起至西罗马帝国灭亡" }
     },
@@ -27,14 +27,8 @@
     {
       "key": "modern",
       "name": { "en": "Modern Period", "zh": "近代" },
-      "dateRange": { "start": 1789, "end": 1913 },
-      "milestone": { "en": "Industrial Revolution and the rise of Nation-States", "zh": "工业革命与民族国家兴起" }
-    },
-    {
-      "key": "world_wars",
-      "name": { "en": "Era of World Wars", "zh": "两次世界大战时期" },
-      "dateRange": { "start": 1914, "end": 1945 },
-      "milestone": { "en": "Global conflicts and the collapse of old empires", "zh": "全球冲突与旧帝国体系瓦解" }
+      "dateRange": { "start": 1789, "end": 1945 },
+      "milestone": { "en": "Industrial Revolution and World Wars", "zh": "工业革命与世界大战" }
     },
     {
       "key": "contemporary",
