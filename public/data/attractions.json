@@ -666,9 +666,9 @@
         "en": "Évora",
         "zh": "埃武拉"
       },
-      "era": "1th century",
+      "era": "1st century",
       "sortYear": 100,
-      "eraKey": "medieval",
+      "eraKey": "ancient",
       "category": "cultural",
       "coordinates": [
         -7.9068,
@@ -1723,7 +1723,7 @@
         "zh": "克拉科夫老城"
       },
       "era": "from 15th century",
-      "sortYear": 1450,
+      "sortYear": 1454,
       "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
@@ -1756,7 +1756,7 @@
         "zh": "辛特拉"
       },
       "era": "15th century",
-      "sortYear": 1450,
+      "sortYear": 1454,
       "eraKey": "early_modern",
       "category": "cultural",
       "coordinates": [
@@ -2616,7 +2616,7 @@
       },
       "era": "1914",
       "sortYear": 1914,
-      "eraKey": "world_wars",
+      "eraKey": "modern",
       "category": "cultural",
       "coordinates": [
         18.4286,
@@ -2649,7 +2649,7 @@
       },
       "era": "1916(battle)",
       "sortYear": 1916,
-      "eraKey": "world_wars",
+      "eraKey": "modern",
       "category": "cultural",
       "coordinates": [
         5.4343,
@@ -2682,7 +2682,7 @@
       },
       "era": "1927-1938",
       "sortYear": 1938,
-      "eraKey": "world_wars",
+      "eraKey": "modern",
       "category": "cultural",
       "coordinates": [
         11.1133,
@@ -2715,7 +2715,7 @@
       },
       "era": "1939",
       "sortYear": 1939,
-      "eraKey": "world_wars",
+      "eraKey": "modern",
       "category": "cultural",
       "coordinates": [
         18.6715,
@@ -2748,7 +2748,7 @@
       },
       "era": "mid 20th century",
       "sortYear": 1940,
-      "eraKey": "world_wars",
+      "eraKey": "modern",
       "category": "cultural",
       "coordinates": [
         19.204,
@@ -2781,7 +2781,7 @@
       },
       "era": "1944(D-Day)",
       "sortYear": 1944,
-      "eraKey": "world_wars",
+      "eraKey": "modern",
       "category": "cultural",
       "coordinates": [
         -0.8612,
@@ -2814,7 +2814,7 @@
       },
       "era": "1944",
       "sortYear": 1944,
-      "eraKey": "world_wars",
+      "eraKey": "modern",
       "category": "cultural",
       "coordinates": [
         21.0122,
@@ -2847,7 +2847,7 @@
       },
       "era": "1933-1945",
       "sortYear": 1945,
-      "eraKey": "world_wars",
+      "eraKey": "modern",
       "category": "cultural",
       "coordinates": [
         11.4683,

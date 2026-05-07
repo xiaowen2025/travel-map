@@ -1,6 +1,15 @@
 import { state } from './state.js';
 import { t, getLoc } from './i18n.js';
 import { getCountry } from './countries.js';
+import {
+    TOAST_DURATION_MS,
+    SLIDE_ANIM_DURATION_MS,
+    SYMBOL_SIZE_ACTIVE,
+    SYMBOL_SIZE_SELECTED,
+    LABEL_FONT_SIZE_NORMAL,
+    LABEL_FONT_SIZE_CITY,
+    LABEL_FONT_SIZE_EMPHASIS,
+} from './constants.js';
 
 // Find era by key directly from erasData
 function findEraByKey(key) {
@@ -34,12 +43,9 @@ const ui = {
 };
 
 // ==================== Idle Timer for Expand ====================
-let scrollIdleTimer = null;
 let currentCardPoint = null;
 let isExpanded = false;
 let slideAnimTimer = null;
-
-const EXPAND_DELAY = 300; // ms before auto-expand
 
 // ==================== Card Functions ====================
 
@@ -75,7 +81,7 @@ export function showCompactCard(p, direction = null) {
 
         slideAnimTimer = setTimeout(() => {
             ui.attractionCard.classList.remove(enterDir);
-        }, 300);
+        }, SLIDE_ANIM_DURATION_MS);
     }
 
     // Make card visible
@@ -124,24 +130,10 @@ export function collapseCard() {
 }
 
 /**
- * Start the idle timer. After EXPAND_DELAY ms without another call,
- * the card will expand.
+ * Trigger card expansion immediately.
  */
 export function startExpandTimer(p) {
-    clearExpandTimer();
-    scrollIdleTimer = setTimeout(() => {
-        expandCard(p);
-    }, EXPAND_DELAY);
-}
-
-/**
- * Clear the idle timer (called on every new scroll event).
- */
-export function clearExpandTimer() {
-    if (scrollIdleTimer) {
-        clearTimeout(scrollIdleTimer);
-        scrollIdleTimer = null;
-    }
+    expandCard(p);
 }
 
 // ==================== Legacy-compatible exports ====================
@@ -192,7 +184,7 @@ export function showEraToast(eraCat) {
     eraToastTimer = setTimeout(() => {
         toast.classList.remove('visible');
         toast.style.opacity = 0;
-    }, 3000);
+    }, TOAST_DURATION_MS);
 }
 
 // Show/hide scroll indicator and era panel based on view mode

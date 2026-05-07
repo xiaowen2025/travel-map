@@ -2,16 +2,9 @@ import { describe, it, expect } from 'vitest';
 import attractionsData from '../public/data/attractions.json';
 import erasData from '../public/data/eras.json';
 
-const ERAKeyRanges = {
-  'prehistory': { min: -30000, max: -3000 },
-  'ancient': { min: -3000, max: 476 },
-  'medieval': { min: 477, max: 1449 },
-  'renaissance': { min: 1450, max: 1599 },
-  'enlightenment': { min: 1600, max: 1788 },
-  'earlymodern': { min: 1789, max: 1913 },
-  'worldwars': { min: 1914, max: 1945 },
-  'contemporary': { min: 1945, max: 2100 }
-};
+const ERAKeyRanges = Object.fromEntries(
+  erasData.eras.map(e => [e.key, { min: e.dateRange.start, max: e.dateRange.end ?? Infinity }])
+);
 
 const I18N_FIELDS = ['name', 'shortDesc', 'description', 'region'];
 
@@ -94,10 +87,11 @@ describe('Attractions Data Validation', () => {
         const era = erasData.eras.find(e => e.key === point.eraKey);
         if (!era) continue;
         const { start, end } = era.dateRange;
-        expect(point.sortYear, `${point.id} sortYear ${point.sortYear} outside era "${point.eraKey}" range [${start}, ${end}]`)
+        const endVal = end ?? Infinity;
+        expect(point.sortYear, `${point.id} sortYear ${point.sortYear} outside era "${point.eraKey}" range [${start}, ${endVal}]`)
           .toBeGreaterThanOrEqual(start);
-        expect(point.sortYear, `${point.id} sortYear ${point.sortYear} outside era "${point.eraKey}" range [${start}, ${end}]`)
-          .toBeLessThanOrEqual(end);
+        expect(point.sortYear, `${point.id} sortYear ${point.sortYear} outside era "${point.eraKey}" range [${start}, ${endVal}]`)
+          .toBeLessThanOrEqual(endVal);
       }
     });
   });

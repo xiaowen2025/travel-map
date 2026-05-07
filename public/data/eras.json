@@ -3,7 +3,7 @@
     {
       "key": "prehistory",
       "name": { "en": "Prehistory", "zh": "史前时代" },
-      "dateRange": { "start": -50000, "end": -3000 },
+      "dateRange": { "start": -99999, "end": -3000 },
       "milestone": { "en": "Emergence of Homo sapiens to the invention of writing", "zh": "晚期智人出现至文字发明" }
     },
     {

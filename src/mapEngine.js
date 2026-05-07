@@ -2,6 +2,17 @@ import * as echarts from 'echarts';
 import { state } from './state.js';
 import { getLoc } from './i18n.js';
 import { getCountry } from './countries.js';
+import {
+    MAP_ZOOM_INITIAL,
+    MAP_ZOOM_FLYTO,
+    MAP_ANIMATION_DURATION_MS,
+    SYMBOL_SIZE_ACTIVE,
+    SYMBOL_SIZE_HISTORY,
+    SYMBOL_SIZE_OTHER,
+    LABEL_FONT_SIZE_NORMAL,
+    LABEL_FONT_SIZE_CITY,
+    LABEL_FONT_SIZE_EMPHASIS,
+} from './constants.js';
 
 let myChart = null;
 
@@ -52,7 +63,7 @@ export function setupBaseOption() {
         geo: {
             map: 'europe',
             roam: 'move',
-            zoom: 1.6,
+            zoom: MAP_ZOOM_INITIAL,
             center: [10, 52],
             label: { emphasis: { show: false } },
             itemStyle: {
@@ -75,11 +86,11 @@ export function setupBaseOption() {
                 type: 'effectScatter',
                 coordinateSystem: 'geo',
                 zlevel: 2,
-                symbolSize: 12,
+                symbolSize: SYMBOL_SIZE_HISTORY,
                 rippleEffect: { brushType: 'stroke', scale: 3 },
                 label: {
                     show: true, position: 'right', formatter: '{b}',
-                    color: '#E8CA88', fontSize: 13, distance: 10
+                    color: '#E8CA88', fontSize: LABEL_FONT_SIZE_NORMAL, distance: 10
                 },
                 itemStyle: {
                     color: '#E8CA88', shadowBlur: 10, shadowColor: '#E8CA88'
@@ -91,7 +102,7 @@ export function setupBaseOption() {
                 type: 'scatter',
                 coordinateSystem: 'geo',
                 zlevel: 1,
-                symbolSize: 6,
+                symbolSize: SYMBOL_SIZE_OTHER,
                 label: { show: false },
                 itemStyle: { color: 'rgba(232, 202, 136, 0.3)' },
                 data: []
@@ -102,14 +113,14 @@ export function setupBaseOption() {
 }
 
 // Fly camera to coordinates
-export function flyTo(coords, zoom = 3.5, animated = false) {
+export function flyTo(coords, zoom = MAP_ZOOM_FLYTO, animated = false) {
     if (!coords || coords[0] === 0) return;
     myChart.setOption({
         geo: {
             center: coords,
             zoom: zoom
         }
-    }, { animationDurationUpdate: animated ? 1200 : 0 });
+    }, { animationDurationUpdate: animated ? MAP_ANIMATION_DURATION_MS : 0 });
 }
 
 // Update map markers based on current point index
@@ -128,7 +139,7 @@ export function updateMarkers(currentPointIndex, data) {
         };
 
         if (index === currentPointIndex) {
-            pointData.symbolSize = 18;
+            pointData.symbolSize = SYMBOL_SIZE_ACTIVE;
             activePoints.push(pointData);
         } else if (index < currentPointIndex) {
             historyPoints.push(pointData);
@@ -156,7 +167,7 @@ export function highlightRelated(targetPoint, data) {
 
         if (isRelated) {
             if (p.id === targetPoint.id) {
-                pointData.symbolSize = 20;
+                pointData.symbolSize = SYMBOL_SIZE_SELECTED;
                 pointData.itemStyle = { color: '#ff5555', shadowColor: '#ff5555' };
             }
             activePoints.push(pointData);
@@ -193,7 +204,7 @@ export function showCityPoints(points) {
                         return params.data.showLabel ? params.name : '';
                     },
                     color: '#E8CA88',
-                    fontSize: 12,
+                    fontSize: LABEL_FONT_SIZE_CITY,
                     distance: 6,
                     textBorderColor: 'rgba(15, 16, 20, 0.8)',
                     textBorderWidth: 2
@@ -210,7 +221,7 @@ export function showCityPoints(points) {
                 },
                 emphasis: {
                     scale: true,
-                    label: { show: true, formatter: '{b}', fontSize: 14, fontWeight: 'bold' },
+                    label: { show: true, formatter: '{b}', fontSize: LABEL_FONT_SIZE_EMPHASIS, fontWeight: 'bold' },
                     itemStyle: { opacity: 1, borderColor: '#E8CA88', borderWidth: 2 }
                 },
                 data: points
@@ -230,7 +241,16 @@ export function showAllPoints(points) {
     });
 }
 
-// Resize handler
-export function resizeChart() {
-    myChart?.resize();
+// Simple debounce utility
+function debounce(fn, delay) {
+    let timeout;
+    return (...args) => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => fn(...args), delay);
+    };
 }
+
+// Resize handler (debounced)
+export const resizeChart = debounce(() => {
+    myChart?.resize();
+}, 150);

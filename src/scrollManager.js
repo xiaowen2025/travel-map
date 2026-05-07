@@ -1,10 +1,12 @@
+import { SCROLL_THROTTLE_MS } from './constants.js';
+
 // ==================== Scroll Manager ====================
 export class ScrollManager {
     #enabled = false;
     #timeout = null;
 
     constructor({
-        scrollThreshold = 400,
+        scrollThreshold = SCROLL_THROTTLE_MS,
         passive = true
     } = {}) {
         this.scrollThreshold = scrollThreshold;

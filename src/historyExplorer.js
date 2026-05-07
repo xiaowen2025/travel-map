@@ -4,7 +4,7 @@ import { flyTo, updateMarkers, highlightRelated } from './mapEngine.js';
 import {
     updateEraPanel, showEraToast,
     showCompactCard, expandCard, collapseCard,
-    startExpandTimer, clearExpandTimer
+    startExpandTimer
 } from './ui.js';
 
 let isActive = false;
@@ -49,8 +49,7 @@ state.addEventListener('change:currentPointIndex', (e) => {
         state.set('currentEraCategory', currentEraCat);
     }
 
-    // --- Card: compact + idle timer ---
-    clearExpandTimer();
+    // --- Card: compact ---
     collapseCard();
     showCompactCard(currentPoint, direction);
     startExpandTimer(currentPoint);
@@ -141,7 +140,6 @@ export function onMapHistoryClick(p) {
     
     // On map click, immediately show and expand (no timer)
     state.set('activePointId', p.id);
-    clearExpandTimer();
     showCompactCard(p);
     expandCard(p);
     highlightRelated(p, state.get('data'));
@@ -173,7 +171,6 @@ export function showHistoryExplorer() {
 
 export function hideHistoryExplorer() {
     isActive = false;
-    clearExpandTimer();
     collapseCard();
 }
 

@@ -1,8 +1,10 @@
 import { state } from './state.js';
 import { t } from './i18n.js';
 import { flyTo, showCityPoints } from './mapEngine.js';
+import { getCountryByFullName, getCountryCode } from './countries.js';
 
 // ==================== Country Flags ====================
+// Flag emojis must be manually assigned (no standard JSON source)
 const COUNTRY_FLAGS = {
     'Italy': '🇮🇹', 'Spain': '🇪🇸', 'France': '🇫🇷', 'Austria': '🇦🇹',
     'Belgium': '🇧🇪', 'Denmark': '🇩🇰', 'Germany': '🇩🇪', 'Monaco': '🇲🇨',
@@ -10,15 +12,6 @@ const COUNTRY_FLAGS = {
     'Sweden': '🇸🇪', 'Switzerland': '🇨🇭', 'Turkey': '🇹🇷', 'Ukraine': '🇺🇦',
     'United Kingdom': '🇬🇧', 'Luxembourg': '🇱🇺', 'Malta': '🇲🇹',
     'Iceland': '🇮🇸', 'Serbia': '🇷🇸'
-};
-
-const COUNTRY_NAMES_ZH = {
-    'Italy': '意大利', 'Spain': '西班牙', 'France': '法国', 'Austria': '奥地利',
-    'Belgium': '比利时', 'Denmark': '丹麦', 'Germany': '德国', 'Monaco': '摩纳哥',
-    'Russia': '俄罗斯', 'Greece': '希腊', 'Portugal': '葡萄牙', 'Norway': '挪威',
-    'Sweden': '瑞典', 'Switzerland': '瑞士', 'Turkey': '土耳其', 'Ukraine': '乌克兰',
-    'United Kingdom': '英国', 'Luxembourg': '卢森堡', 'Malta': '马耳他',
-    'Iceland': '冰岛', 'Serbia': '塞尔维亚'
 };
 
 // ==================== Helpers ====================
@@ -108,7 +101,7 @@ function label(key) {
 
 function countryName(country) {
     const locale = state.get('locale');
-    if (locale === 'zh') return COUNTRY_NAMES_ZH[country] || country;
+    if (locale === 'zh') return getCountryByFullName(country, 'zh');
     return country;
 }
 
@@ -197,7 +190,7 @@ function renderCityList(filter = '') {
                 const name = (c.name || c.Destination || '').toLowerCase();
                 const region = (c.Region || '').toLowerCase();
                 const countryLower = country.toLowerCase();
-                const countryZh = (COUNTRY_NAMES_ZH[country] || '').toLowerCase();
+                const countryZh = getCountryByFullName(country, 'zh').toLowerCase();
                 return name.includes(filterLower) ||
                        region.includes(filterLower) ||
                        countryLower.includes(filterLower) ||
@@ -352,81 +345,178 @@ function showCityDetail(city) {
 
     const overlay = document.createElement('div');
     overlay.className = 'city-detail-overlay';
-    overlay.innerHTML = `
-        <div class="city-detail-card">
-            <div class="city-detail-header">
-                <button class="city-detail-close" id="cityDetailClose">✕</button>
-                <div class="city-detail-country">${flag} ${countryName(country)}</div>
-                <h2 class="city-detail-name">${name}</h2>
-                <p class="city-detail-region">${region} ${tourists ? `· ${tourists} ${label('tourists')}` : ''}</p>
-            </div>
-            <div class="city-detail-body">
-                ${description ? `<p class="city-detail-description">${description}</p>` : ''}
-                ${cultural ? `<p class="city-detail-cultural">${cultural}</p>` : ''}
 
-                ${history ? `
-                    <div class="city-detail-history-section">
-                        <p class="city-detail-history-label">📖 ${label('history')}</p>
-                        <p class="city-detail-history-text">${history}</p>
-                    </div>
-                ` : ''}
+    const card = document.createElement('div');
+    card.className = 'city-detail-card';
 
-                <div class="city-detail-meta-grid">
-                    ${costOfLiving ? `
-                        <div class="city-meta-tile">
-                            <span class="city-meta-tile-icon">💰</span>
-                            <div class="city-meta-tile-label">${label('costOfLiving')}</div>
-                            <div class="city-meta-tile-value">${costOfLiving}</div>
-                        </div>
-                    ` : ''}
-                    ${safety ? `
-                        <div class="city-meta-tile">
-                            <span class="city-meta-tile-icon">🛡️</span>
-                            <div class="city-meta-tile-label">${label('safety')}</div>
-                            <div class="city-meta-tile-value">${safety}</div>
-                        </div>
-                    ` : ''}
-                    ${language ? `
-                        <div class="city-meta-tile">
-                            <span class="city-meta-tile-icon">🗣️</span>
-                            <div class="city-meta-tile-label">${label('language')}</div>
-                            <div class="city-meta-tile-value">${language}</div>
-                        </div>
-                    ` : ''}
-                    ${religion ? `
-                        <div class="city-meta-tile">
-                            <span class="city-meta-tile-icon">⛪</span>
-                            <div class="city-meta-tile-label">${label('religion')}</div>
-                            <div class="city-meta-tile-value">${religion}</div>
-                        </div>
-                    ` : ''}
-                    ${currency ? `
-                        <div class="city-meta-tile">
-                            <span class="city-meta-tile-icon">💱</span>
-                            <div class="city-meta-tile-label">${label('currency')}</div>
-                            <div class="city-meta-tile-value">${currency}</div>
-                        </div>
-                    ` : ''}
-                </div>
+    const header = document.createElement('div');
+    header.className = 'city-detail-header';
 
-                ${foods ? `
-                    <div class="city-detail-food-section">
-                        <p class="city-detail-food-label">🍽️ ${label('famousFoods')}</p>
-                        <div class="city-detail-food-tags">
-                            ${foods.split(',').map(f => `<span class="city-food-tag">${f.trim()}</span>`).join('')}
-                        </div>
-                    </div>
-                ` : ''}
+    const closeBtn = document.createElement('button');
+    closeBtn.className = 'city-detail-close';
+    closeBtn.id = 'cityDetailClose';
+    closeBtn.textContent = '✕';
+    header.appendChild(closeBtn);
 
-                ${bestTime ? `
-                    <div class="city-detail-best-time">
-                        <span class="city-detail-best-time-icon">📅</span>
-                        <span class="city-detail-best-time-text">${label('bestTimeToVisit')}: ${bestTime}</span>
-                    </div>
-                ` : ''}
-            </div>
-        </div>
-    `;
+    const countryDiv = document.createElement('div');
+    countryDiv.className = 'city-detail-country';
+    countryDiv.textContent = `${flag} ${countryName(country)}`;
+    header.appendChild(countryDiv);
+
+    const title = document.createElement('h2');
+    title.className = 'city-detail-name';
+    title.textContent = name;
+    header.appendChild(title);
+
+    const regionP = document.createElement('p');
+    regionP.className = 'city-detail-region';
+    regionP.textContent = tourists ? `${region} · ${tourists} ${label('tourists')}` : region;
+    header.appendChild(regionP);
+
+    card.appendChild(header);
+
+    const body = document.createElement('div');
+    body.className = 'city-detail-body';
+
+    if (description) {
+        const descP = document.createElement('p');
+        descP.className = 'city-detail-description';
+        descP.textContent = description;
+        body.appendChild(descP);
+    }
+    if (cultural) {
+        const culturalP = document.createElement('p');
+        culturalP.className = 'city-detail-cultural';
+        culturalP.textContent = cultural;
+        body.appendChild(culturalP);
+    }
+    if (history) {
+        const historySection = document.createElement('div');
+        historySection.className = 'city-detail-history-section';
+
+        const historyLabel = document.createElement('p');
+        historyLabel.className = 'city-detail-history-label';
+        historyLabel.textContent = `📖 ${label('history')}`;
+        historySection.appendChild(historyLabel);
+
+        const historyText = document.createElement('p');
+        historyText.className = 'city-detail-history-text';
+        historyText.textContent = history;
+        historySection.appendChild(historyText);
+
+        body.appendChild(historySection);
+    }
+
+    const metaGrid = document.createElement('div');
+    metaGrid.className = 'city-detail-meta-grid';
+
+    if (costOfLiving) {
+        const tile = document.createElement('div');
+        tile.className = 'city-meta-tile';
+        tile.innerHTML = '<span class="city-meta-tile-icon">💰</span>';
+        const tileLabel = document.createElement('div');
+        tileLabel.className = 'city-meta-tile-label';
+        tileLabel.textContent = label('costOfLiving');
+        const tileValue = document.createElement('div');
+        tileValue.className = 'city-meta-tile-value';
+        tileValue.textContent = costOfLiving;
+        tile.appendChild(tileLabel);
+        tile.appendChild(tileValue);
+        metaGrid.appendChild(tile);
+    }
+    if (safety) {
+        const tile = document.createElement('div');
+        tile.className = 'city-meta-tile';
+        tile.innerHTML = '<span class="city-meta-tile-icon">🛡️</span>';
+        const tileLabel = document.createElement('div');
+        tileLabel.className = 'city-meta-tile-label';
+        tileLabel.textContent = label('safety');
+        const tileValue = document.createElement('div');
+        tileValue.className = 'city-meta-tile-value';
+        tileValue.textContent = safety;
+        tile.appendChild(tileLabel);
+        tile.appendChild(tileValue);
+        metaGrid.appendChild(tile);
+    }
+    if (language) {
+        const tile = document.createElement('div');
+        tile.className = 'city-meta-tile';
+        tile.innerHTML = '<span class="city-meta-tile-icon">🗣️</span>';
+        const tileLabel = document.createElement('div');
+        tileLabel.className = 'city-meta-tile-label';
+        tileLabel.textContent = label('language');
+        const tileValue = document.createElement('div');
+        tileValue.className = 'city-meta-tile-value';
+        tileValue.textContent = language;
+        tile.appendChild(tileLabel);
+        tile.appendChild(tileValue);
+        metaGrid.appendChild(tile);
+    }
+    if (religion) {
+        const tile = document.createElement('div');
+        tile.className = 'city-meta-tile';
+        tile.innerHTML = '<span class="city-meta-tile-icon">⛪</span>';
+        const tileLabel = document.createElement('div');
+        tileLabel.className = 'city-meta-tile-label';
+        tileLabel.textContent = label('religion');
+        const tileValue = document.createElement('div');
+        tileValue.className = 'city-meta-tile-value';
+        tileValue.textContent = religion;
+        tile.appendChild(tileLabel);
+        tile.appendChild(tileValue);
+        metaGrid.appendChild(tile);
+    }
+    if (currency) {
+        const tile = document.createElement('div');
+        tile.className = 'city-meta-tile';
+        tile.innerHTML = '<span class="city-meta-tile-icon">💱</span>';
+        const tileLabel = document.createElement('div');
+        tileLabel.className = 'city-meta-tile-label';
+        tileLabel.textContent = label('currency');
+        const tileValue = document.createElement('div');
+        tileValue.className = 'city-meta-tile-value';
+        tileValue.textContent = currency;
+        tile.appendChild(tileLabel);
+        tile.appendChild(tileValue);
+        metaGrid.appendChild(tile);
+    }
+    body.appendChild(metaGrid);
+
+    if (foods) {
+        const foodSection = document.createElement('div');
+        foodSection.className = 'city-detail-food-section';
+
+        const foodLabel = document.createElement('p');
+        foodLabel.className = 'city-detail-food-label';
+        foodLabel.textContent = `🍽️ ${label('famousFoods')}`;
+        foodSection.appendChild(foodLabel);
+
+        const foodTags = document.createElement('div');
+        foodTags.className = 'city-detail-food-tags';
+        foods.split(',').forEach(f => {
+            const tag = document.createElement('span');
+            tag.className = 'city-food-tag';
+            tag.textContent = f.trim();
+            foodTags.appendChild(tag);
+        });
+        foodSection.appendChild(foodTags);
+
+        body.appendChild(foodSection);
+    }
+
+    if (bestTime) {
+        const bestTimeDiv = document.createElement('div');
+        bestTimeDiv.className = 'city-detail-best-time';
+        bestTimeDiv.innerHTML = '<span class="city-detail-best-time-icon">📅</span>';
+        const bestTimeText = document.createElement('span');
+        bestTimeText.className = 'city-detail-best-time-text';
+        bestTimeText.textContent = `${label('bestTimeToVisit')}: ${bestTime}`;
+        bestTimeDiv.appendChild(bestTimeText);
+        body.appendChild(bestTimeDiv);
+    }
+
+    card.appendChild(body);
+    overlay.appendChild(card);
 
     document.body.appendChild(overlay);
     detailOverlay = overlay;

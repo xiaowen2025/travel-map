@@ -21,6 +21,7 @@ const myChart = initMap(chartDom);
 
 // ==================== Scroll Manager ====================
 const scrollManager = new ScrollManager({ scrollThreshold: 400 });
+let scrollCleanup = null;
 
 // ==================== Data Loading ====================
 async function loadData(locale) {
@@ -142,12 +143,17 @@ loadData(state.get('locale')).then(({ geoJson, attractionsData, erasData, destin
     });
 
     // Setup scroll manager
-    scrollManager.onScroll((direction) => {
+    scrollCleanup = scrollManager.onScroll((direction) => {
         if (state.get('viewMode') === 'history') {
             handleScroll(direction);
         }
     });
     scrollManager.enable();
+
+// Cleanup scroll manager on page unload
+    window.addEventListener('beforeunload', () => {
+        if (scrollCleanup) scrollCleanup();
+    });
 
 }).catch(err => {
     console.error("Load failed:", err);
