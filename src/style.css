@@ -179,9 +179,9 @@ body, html {
         }
         .card-image {
             width: 100%;
-            max-height: 160px;
-            object-fit: cover;
-            border-radius: 8px;
+            height: auto;
+            object-fit: contain;
+            border-radius: 12px;
             margin-bottom: 12px;
             opacity: 0;
             transform: scale(0.98);
@@ -244,41 +244,6 @@ body, html {
         @keyframes cardEnterDown {
             from { transform: translateY(-20px); opacity: 0; }
             to   { transform: translateY(0); opacity: 1; }
-        }
-
-        .scroll-indicator {
-            position: absolute;
-            bottom: 30px;
-            right: 50px;
-            color: #555;
-            font-size: 12px;
-            letter-spacing: 1px;
-            pointer-events: none;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .mouse-icon {
-            width: 20px;
-            height: 30px;
-            border: 1px solid #555;
-            border-radius: 10px;
-            position: relative;
-        }
-        .mouse-wheel {
-            width: 2px;
-            height: 6px;
-            background: #555;
-            position: absolute;
-            top: 5px;
-            left: 50%;
-            transform: translateX(-50%);
-            border-radius: 2px;
-            animation: scroll 1.5s infinite;
-        }
-        @keyframes scroll {
-            0% { top: 5px; opacity: 1; }
-            100% { top: 15px; opacity: 0; }
         }
 
         /* Era Toast 提示 */
@@ -823,4 +788,400 @@ body, html {
             .city-detail-name {
                 font-size: 26px;
             }
+        }
+
+        /* ===== Nature Explorer Panel ===== */
+        .nature-explorer-panel {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 440px;
+            height: 100%;
+            z-index: 20;
+            background: rgba(12, 14, 18, 0.94);
+            border-right: 1px solid rgba(232, 202, 136, 0.12);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            overflow-y: auto;
+            overflow-x: hidden;
+            transform: translateX(-100%);
+            opacity: 0;
+            transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+                        opacity 0.4s ease;
+            pointer-events: none;
+            box-shadow: 4px 0 40px rgba(0, 0, 0, 0.5);
+        }
+        .nature-explorer-panel.visible {
+            transform: translateX(0);
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .nature-explorer-panel::-webkit-scrollbar { width: 5px; }
+        .nature-explorer-panel::-webkit-scrollbar-track { background: rgba(232, 202, 136, 0.05); }
+        .nature-explorer-panel::-webkit-scrollbar-thumb { background: rgba(232, 202, 136, 0.2); border-radius: 3px; }
+        .nature-explorer-panel::-webkit-scrollbar-thumb:hover { background: rgba(232, 202, 136, 0.35); }
+
+        /* Nature Panel Header */
+        .nature-explorer-panel .nature-panel-header {
+            position: sticky;
+            top: 0;
+            z-index: 5;
+            background: rgba(12, 14, 18, 0.97);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            padding: 28px 28px 16px 28px;
+            border-bottom: 1px solid rgba(232, 202, 136, 0.08);
+        }
+        .nature-explorer-panel .nature-panel-title {
+            font-size: 20px;
+            font-weight: 300;
+            letter-spacing: 3px;
+            color: #E8CA88;
+            margin: 0 0 4px 0;
+            text-transform: uppercase;
+        }
+        .nature-explorer-panel .nature-panel-subtitle {
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.3);
+            letter-spacing: 1px;
+            margin: 0 0 16px 0;
+        }
+
+        /* Nature Search */
+        .nature-search-wrapper { position: relative; }
+        .nature-search-icon {
+            position: absolute; left: 12px; top: 50%;
+            transform: translateY(-50%); font-size: 14px; opacity: 0.4; pointer-events: none;
+        }
+        .nature-search {
+            width: 100%;
+            padding: 10px 14px 10px 36px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(232, 202, 136, 0.15);
+            border-radius: 10px;
+            color: #fff;
+            font-size: 13px;
+            letter-spacing: 0.5px;
+            outline: none;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease, background 0.3s ease;
+        }
+        .nature-search::placeholder { color: rgba(255, 255, 255, 0.25); }
+        .nature-search:focus {
+            border-color: rgba(232, 202, 136, 0.4);
+            background: rgba(255, 255, 255, 0.06);
+        }
+
+        /* Filter Chips */
+        .nature-filter-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 14px;
+            padding-bottom: 4px;
+        }
+        .nature-filter-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 5px 12px;
+            border-radius: 16px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 11px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            letter-spacing: 0.3px;
+        }
+        .nature-filter-chip:hover {
+            background: rgba(232, 202, 136, 0.08);
+            border-color: rgba(232, 202, 136, 0.2);
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .nature-filter-chip.active {
+            background: rgba(232, 202, 136, 0.12);
+            border-color: rgba(232, 202, 136, 0.35);
+            color: #E8CA88;
+        }
+        .nature-filter-count {
+            font-size: 10px;
+            opacity: 0.5;
+            margin-left: 2px;
+        }
+
+        /* Nature Type Group */
+        .nature-type-group {
+            padding: 0 20px;
+            margin-bottom: 6px;
+        }
+        .nature-type-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 16px 8px 8px 8px;
+        }
+        .nature-type-icon { font-size: 18px; }
+        .nature-type-name {
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            flex: 1;
+        }
+        .nature-type-count {
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Nature Panel - Attraction Card */
+        .nature-explorer-panel .attraction-card {
+            position: relative !important;
+            bottom: auto !important;
+            right: auto !important;
+            width: auto !important;
+            z-index: auto !important;
+            margin: 4px 0;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+            opacity: 0;
+            transform: translateY(12px);
+            animation: natureCardEnter 0.4s ease forwards;
+            border: none;
+            border-left: 3px solid transparent;
+            padding: 14px 16px;
+            background: rgba(30, 32, 40, 0.9);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            backdrop-filter: none;
+        }
+        .nature-explorer-panel .attraction-card:hover {
+            background: rgba(232, 202, 136, 0.06);
+            border-left: 3px solid rgba(232, 202, 136, 0.3);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+        .nature-explorer-panel .attraction-card.active {
+            background: rgba(232, 202, 136, 0.1);
+            border-left: 3px solid #E8CA88;
+        }
+        .nature-explorer-panel .card-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 8px;
+        }
+        .nature-explorer-panel .card-title {
+            font-size: 16px;
+            font-weight: 400;
+            color: #fff;
+            margin: 0;
+            letter-spacing: 0.3px;
+            line-height: 1.3;
+        }
+        .nature-explorer-panel .card-meta {
+            font-size: 12px;
+            color: #888;
+            margin: 4px 0 0 0;
+            letter-spacing: 0.5px;
+        }
+        .nature-explorer-panel .card-short-desc {
+            font-size: 13px;
+            font-style: italic;
+            color: #E8CA88;
+            margin: 8px 0 0 0;
+            line-height: 1.5;
+            border-left: 2px solid rgba(232, 202, 136, 0.4);
+            padding-left: 10px;
+        }
+        .nature-explorer-panel .card-image-wrapper {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .nature-explorer-panel .card-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 1;
+            transform: none;
+            transition: none;
+            border-radius: 8px;
+        }
+
+        @keyframes natureCardEnter {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Nature Detail Overlay */
+        .nature-detail-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            z-index: 50;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.35s ease;
+        }
+        .nature-detail-overlay.visible {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .nature-detail-card {
+            width: 560px;
+            max-width: 92vw;
+            max-height: 85vh;
+            background: rgba(14, 20, 16, 0.97);
+            border: 1px solid rgba(232, 202, 136, 0.18);
+            border-radius: 20px;
+            overflow-y: auto;
+            box-shadow: 0 24px 80px rgba(0, 0, 0, 0.6),
+                        0 0 0 1px rgba(232, 202, 136, 0.06) inset;
+            transform: translateY(30px) scale(0.96);
+            transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .nature-detail-overlay.visible .nature-detail-card {
+            transform: translateY(0) scale(1);
+        }
+        .nature-detail-card::-webkit-scrollbar { width: 4px; }
+        .nature-detail-card::-webkit-scrollbar-track { background: transparent; }
+        .nature-detail-card::-webkit-scrollbar-thumb { background: rgba(232, 202, 136, 0.2); border-radius: 2px; }
+
+        /* Detail Header */
+        .nature-detail-header {
+            padding: 32px 32px 20px 32px;
+            border-bottom: 1px solid rgba(232, 202, 136, 0.08);
+        }
+        .nature-detail-close {
+            float: right;
+            background: none;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.5);
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 16px;
+            display: flex; align-items: center; justify-content: center;
+            transition: all 0.2s ease;
+        }
+        .nature-detail-close:hover {
+            background: rgba(255, 255, 255, 0.08);
+            color: #fff;
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+        .nature-detail-ecosystem {
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+        .nature-detail-name {
+            font-size: 28px;
+            font-weight: 300;
+            color: #fff;
+            margin: 0 0 4px 0;
+            letter-spacing: 1px;
+            line-height: 1.2;
+        }
+        .nature-detail-country {
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.35);
+            margin: 0;
+        }
+
+        /* Detail Image */
+        .nature-detail-image-wrapper {
+            width: 100%;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+        .nature-detail-image {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            display: block;
+        }
+
+        /* Detail Body */
+        .nature-detail-body {
+            padding: 24px 32px 32px 32px;
+        }
+        .nature-detail-short-desc {
+            font-size: 14px;
+            line-height: 1.8;
+            color: rgba(255, 255, 255, 0.7);
+            margin: 0 0 20px 0;
+            padding-left: 12px;
+            border-left: 2px solid rgba(232, 202, 136, 0.4);
+        }
+        .nature-detail-desc-section {
+            background: rgba(232, 202, 136, 0.04);
+            border: 1px solid rgba(232, 202, 136, 0.1);
+            border-radius: 12px;
+            padding: 16px 18px;
+            margin-bottom: 20px;
+        }
+        .nature-detail-desc-label {
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: rgba(232, 202, 136, 0.6);
+            margin: 0 0 8px 0;
+        }
+        .nature-detail-desc-text {
+            font-size: 13px;
+            line-height: 1.8;
+            color: rgba(255, 255, 255, 0.6);
+            margin: 0;
+        }
+        .nature-detail-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .nature-meta-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 6px 14px;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.6);
+            letter-spacing: 0.3px;
+        }
+
+        .nature-no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: rgba(255, 255, 255, 0.25);
+            font-size: 14px;
+        }
+        .nature-no-results-icon {
+            font-size: 40px;
+            display: block;
+            margin-bottom: 12px;
+            opacity: 0.4;
+        }
+        .nature-explorer-panel .nature-panel-footer { height: 40px; }
+
+        @media (max-width: 768px) {
+            .nature-explorer-panel { width: 100%; }
+            .nature-detail-card {
+                width: 95vw;
+                border-radius: 14px;
+            }
+            .nature-detail-header { padding: 24px 20px 16px 20px; }
+            .nature-detail-body { padding: 16px 20px 24px 20px; }
+            .nature-detail-name { font-size: 22px; }
         }
