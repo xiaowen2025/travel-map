@@ -23,7 +23,7 @@ const myChart = initMap(chartDom);
 // ==================== Scroll Manager ====================
 const scrollManager = new ScrollManager({
     scrollThreshold: 400,
-    excludeSelector: '#attractionCard, #attractionCard *'
+    excludeSelector: '#attractionCard, #attractionCard *, #cityExplorer, #cityExplorer *, #natureExplorer, #natureExplorer *'
 });
 let scrollCleanup = null;
 

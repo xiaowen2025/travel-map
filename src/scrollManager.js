@@ -28,6 +28,7 @@ export class ScrollManager {
         const handler = (e) => {
             if (!this.#enabled) return;
             if (this.#timeout) return;
+            if (e.ctrlKey) return; // Ignore zoom gestures
             if (this.#excludeSelector && e.target.closest(this.#excludeSelector)) return;
 
             this.#timeout = setTimeout(() => {
