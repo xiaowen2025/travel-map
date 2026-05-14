@@ -77,5 +77,5 @@
 ```
 
 - `category`: string — "Natural"
-- `tags`: array of strings — `["key:value"]`, e.g., `["range:Alps", "feature:Mountain", "unesco:world-heritage"]`
+- `tags`: array of strings — `["key:value"]`, e.g., `["range:Alps", "feature:Mountain", "unesco:natural"]`
 - `coordinates`: [lng, lat]

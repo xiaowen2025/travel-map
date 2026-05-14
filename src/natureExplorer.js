@@ -427,7 +427,7 @@ function showNatureDetail(site) {
             <div class="nature-detail-meta">
                 <span class="nature-meta-chip">${icon} ${eco}</span>
                 <span class="nature-meta-chip">📍 ${site.country}</span>
-                ${site.tags && site.tags.includes('unesco:world-heritage') ? `<span class="nature-meta-chip">🏛️ UNESCO World Heritage</span>` : ''}
+                ${site.tags && site.tags.some(t => t.startsWith('unesco:')) ? `<span class="nature-meta-chip">🏛️ UNESCO ${site.tags.find(t => t.startsWith('unesco:')).split(':')[1].replace('-', ' ')}</span>` : ''}
             </div>
         </div>
     `;
