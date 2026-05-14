@@ -66,7 +66,7 @@ export function setupBaseOption() {
         },
         geo: {
             map: 'europe',
-            roam: 'move',
+            roam: true,
             zoom: MAP_ZOOM_INITIAL,
             center: [10, 52],
             label: { emphasis: { show: false } },
@@ -115,22 +115,34 @@ export function setupBaseOption() {
                 name: 'GeographyPoints',
                 type: 'scatter',
                 coordinateSystem: 'geo',
-                zlevel: 1,
-                symbolSize: SYMBOL_SIZE_GEOGRAPHY,
+                zlevel: 3,
+                symbolSize: 6,
+                itemStyle: {
+                    color: 'transparent'
+                },
                 label: {
                     show: true,
                     position: 'bottom',
                     formatter: '{b}',
-                    color: 'rgba(200, 200, 200, 0.6)',
+                    color: 'rgba(255, 255, 255, 0.7)',
                     fontSize: LABEL_FONT_SIZE_GEOGRAPHY,
-                    distance: 2,
-                    textBorderColor: 'rgba(15, 16, 20, 0.8)',
-                    textBorderWidth: 1
-                },
-                itemStyle: {
-                    opacity: 0.6
+                    distance: 3,
+                    textBorderColor: 'rgba(15, 16, 20, 0.9)',
+                    textBorderWidth: 2
                 },
                 silent: true,
+                data: []
+            },
+            {
+                name: 'GeographyLines',
+                type: 'lines',
+                coordinateSystem: 'geo',
+                zlevel: 2,
+                silent: true,
+                lineStyle: {
+                    curveness: 0.1,
+                    opacity: 0.5
+                },
                 data: []
             }
         ]
@@ -274,25 +286,51 @@ export function showAllPoints(points) {
 // Show geography features (mountains, rivers)
 export function showGeographyPoints(geographyData, locale) {
     if (!geographyData || !geographyData.features) {
-        myChart.setOption({ series: [{ name: 'GeographyPoints', data: [] }] });
+        myChart.setOption({
+            series: [
+                { name: 'GeographyPoints', data: [] },
+                { name: 'GeographyLines', data: [] }
+            ]
+        });
         return;
     }
 
-    const points = geographyData.features.map(f => ({
-        name: f.name[locale] || f.name.en,
-        value: f.coordinates,
-        symbol: 'path://M0,0 L0,0', // Invisible symbol, we use label/icon
-        label: {
-            show: true,
-            formatter: `${f.icon} ${f.name[locale] || f.name.en}`,
-            fontSize: f.type === 'mountain' ? LABEL_FONT_SIZE_GEOGRAPHY + 1 : LABEL_FONT_SIZE_GEOGRAPHY,
-            color: f.type === 'mountain' ? '#94a3b8' : '#38bdf8'
+    const scatterPoints = [];
+    const lineData = [];
+
+    geographyData.features.forEach(f => {
+        // Label/Icon point
+        scatterPoints.push({
+            name: f.name[locale] || f.name.en,
+            value: f.coordinates,
+            label: {
+                show: true,
+                formatter: `${f.icon} ${f.name[locale] || f.name.en}`,
+                fontSize: f.type === 'mountain' ? LABEL_FONT_SIZE_GEOGRAPHY + 2 : LABEL_FONT_SIZE_GEOGRAPHY,
+                color: f.type === 'mountain' ? '#f8fafc' : '#7dd3fc',
+                fontWeight: f.type === 'mountain' ? 'bold' : 'normal'
+            }
+        });
+
+        // Path as lines
+        if (f.path && f.path.length > 1) {
+            for (let i = 0; i < f.path.length - 1; i++) {
+                lineData.push({
+                    coords: [f.path[i], f.path[i + 1]],
+                    lineStyle: {
+                        color: f.type === 'mountain' ? '#94a3b8' : '#38bdf8',
+                        width: f.type === 'mountain' ? 3 : 2,
+                        opacity: f.type === 'mountain' ? 0.4 : 0.6
+                    }
+                });
+            }
         }
-    }));
+    });
 
     myChart.setOption({
         series: [
-            { name: 'GeographyPoints', data: points }
+            { name: 'GeographyPoints', data: scatterPoints },
+            { name: 'GeographyLines', data: lineData }
         ]
     });
 }
