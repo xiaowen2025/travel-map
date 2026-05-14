@@ -1,5 +1,5 @@
 import { state } from './state.js';
-import { t } from './i18n.js';
+import { t, loc } from './i18n.js';
 import { flyTo, showCityPoints } from './mapEngine.js';
 import { getCountryByFullName, getCountryCode } from './countries.js';
 
@@ -15,18 +15,6 @@ const COUNTRY_FLAGS = {
 };
 
 // ==================== Helpers ====================
-
-/**
- * Get a locale-aware value from a destination field.
- * Supports plain strings and { en, zh } objects.
- */
-function loc(value, locale) {
-    if (value === null || value === undefined) return '';
-    if (typeof value === 'object' && ('en' in value || 'zh' in value)) {
-        return value[locale] ?? value.en ?? '';
-    }
-    return value;
-}
 
 /**
  * Get city type as a string
@@ -49,7 +37,7 @@ function isCity(dest) {
 let allCities = [];
 let groupedCities = {};
 let activeCardId = null;
-let detailOverlay = null;
+let detailController = null;
 let panelEl = null;
 let searchInput = null;
 let collapsedGroups = new Set();
@@ -185,12 +173,12 @@ function renderCityList(filter = '') {
         const flag = COUNTRY_FLAGS[country] || '🏳️';
 
         // Filter cities
+        const countryZh = getCountryByFullName(country, 'zh').toLowerCase();
         const filtered = filter
             ? cities.filter(c => {
                 const name = (c.name || c.Destination || '').toLowerCase();
                 const region = (c.Region || '').toLowerCase();
                 const countryLower = country.toLowerCase();
-                const countryZh = getCountryByFullName(country, 'zh').toLowerCase();
                 return name.includes(filterLower) ||
                        region.includes(filterLower) ||
                        countryLower.includes(filterLower) ||
@@ -324,7 +312,9 @@ function onSearch(e) {
 // ==================== Detail Modal ====================
 
 function showCityDetail(city) {
-    closeCityDetail();
+    if (detailController) {
+        detailController.close();
+    }
 
     const locale = state.get('locale');
     const name = city.name || city.Destination;
@@ -343,214 +333,87 @@ function showCityDetail(city) {
     const foods = city['Famous Foods'] || '';
     const bestTime = loc(city['Best Time to Visit'], locale);
 
-    const overlay = document.createElement('div');
-    overlay.className = 'city-detail-overlay';
+    const renderContent = () => `
+        <button class="detail-close city-detail-close">✕</button>
+        <div class="city-detail-header">
+            <div class="city-detail-country">${flag} ${countryName(country)}</div>
+            <h2 class="city-detail-name">${name}</h2>
+            <p class="city-detail-region">${tourists ? `${region} · ${tourists} ${label('tourists')}` : region}</p>
+        </div>
+        <div class="city-detail-body">
+            ${description ? `<p class="city-detail-description">${description}</p>` : ''}
+            ${cultural ? `<p class="city-detail-cultural">${cultural}</p>` : ''}
+            ${history ? `
+                <div class="city-detail-history-section">
+                    <p class="city-detail-history-label">📖 ${label('history')}</p>
+                    <p class="city-detail-history-text">${history}</p>
+                </div>
+            ` : ''}
+            <div class="city-detail-meta-grid">
+                ${costOfLiving ? `
+                    <div class="city-meta-tile">
+                        <span class="city-meta-tile-icon">💰</span>
+                        <div class="city-meta-tile-label">${label('costOfLiving')}</div>
+                        <div class="city-meta-tile-value">${costOfLiving}</div>
+                    </div>
+                ` : ''}
+                ${safety ? `
+                    <div class="city-meta-tile">
+                        <span class="city-meta-tile-icon">🛡️</span>
+                        <div class="city-meta-tile-label">${label('safety')}</div>
+                        <div class="city-meta-tile-value">${safety}</div>
+                    </div>
+                ` : ''}
+                ${language ? `
+                    <div class="city-meta-tile">
+                        <span class="city-meta-tile-icon">🗣️</span>
+                        <div class="city-meta-tile-label">${label('language')}</div>
+                        <div class="city-meta-tile-value">${language}</div>
+                    </div>
+                ` : ''}
+                ${religion ? `
+                    <div class="city-meta-tile">
+                        <span class="city-meta-tile-icon">⛪</span>
+                        <div class="city-meta-tile-label">${label('religion')}</div>
+                        <div class="city-meta-tile-value">${religion}</div>
+                    </div>
+                ` : ''}
+                ${currency ? `
+                    <div class="city-meta-tile">
+                        <span class="city-meta-tile-icon">💱</span>
+                        <div class="city-meta-tile-label">${label('currency')}</div>
+                        <div class="city-meta-tile-value">${currency}</div>
+                    </div>
+                ` : ''}
+            </div>
+            ${foods ? `
+                <div class="city-detail-food-section">
+                    <p class="city-detail-food-label">🍽️ ${label('famousFoods')}</p>
+                    <div class="city-detail-food-tags">
+                        ${foods.split(',').map(f => `<span class="city-food-tag">${f.trim()}</span>`).join('')}
+                    </div>
+                </div>
+            ` : ''}
+            ${bestTime ? `
+                <div class="city-detail-best-time">
+                    <span class="city-detail-best-time-icon">📅</span>
+                    <span class="city-detail-best-time-text">${label('bestTimeToVisit')}: ${bestTime}</span>
+                </div>
+            ` : ''}
+        </div>
+    `;
 
-    const card = document.createElement('div');
-    card.className = 'city-detail-card';
-
-    const header = document.createElement('div');
-    header.className = 'city-detail-header';
-
-    const closeBtn = document.createElement('button');
-    closeBtn.className = 'city-detail-close';
-    closeBtn.id = 'cityDetailClose';
-    closeBtn.textContent = '✕';
-    header.appendChild(closeBtn);
-
-    const countryDiv = document.createElement('div');
-    countryDiv.className = 'city-detail-country';
-    countryDiv.textContent = `${flag} ${countryName(country)}`;
-    header.appendChild(countryDiv);
-
-    const title = document.createElement('h2');
-    title.className = 'city-detail-name';
-    title.textContent = name;
-    header.appendChild(title);
-
-    const regionP = document.createElement('p');
-    regionP.className = 'city-detail-region';
-    regionP.textContent = tourists ? `${region} · ${tourists} ${label('tourists')}` : region;
-    header.appendChild(regionP);
-
-    card.appendChild(header);
-
-    const body = document.createElement('div');
-    body.className = 'city-detail-body';
-
-    if (description) {
-        const descP = document.createElement('p');
-        descP.className = 'city-detail-description';
-        descP.textContent = description;
-        body.appendChild(descP);
-    }
-    if (cultural) {
-        const culturalP = document.createElement('p');
-        culturalP.className = 'city-detail-cultural';
-        culturalP.textContent = cultural;
-        body.appendChild(culturalP);
-    }
-    if (history) {
-        const historySection = document.createElement('div');
-        historySection.className = 'city-detail-history-section';
-
-        const historyLabel = document.createElement('p');
-        historyLabel.className = 'city-detail-history-label';
-        historyLabel.textContent = `📖 ${label('history')}`;
-        historySection.appendChild(historyLabel);
-
-        const historyText = document.createElement('p');
-        historyText.className = 'city-detail-history-text';
-        historyText.textContent = history;
-        historySection.appendChild(historyText);
-
-        body.appendChild(historySection);
-    }
-
-    const metaGrid = document.createElement('div');
-    metaGrid.className = 'city-detail-meta-grid';
-
-    if (costOfLiving) {
-        const tile = document.createElement('div');
-        tile.className = 'city-meta-tile';
-        tile.innerHTML = '<span class="city-meta-tile-icon">💰</span>';
-        const tileLabel = document.createElement('div');
-        tileLabel.className = 'city-meta-tile-label';
-        tileLabel.textContent = label('costOfLiving');
-        const tileValue = document.createElement('div');
-        tileValue.className = 'city-meta-tile-value';
-        tileValue.textContent = costOfLiving;
-        tile.appendChild(tileLabel);
-        tile.appendChild(tileValue);
-        metaGrid.appendChild(tile);
-    }
-    if (safety) {
-        const tile = document.createElement('div');
-        tile.className = 'city-meta-tile';
-        tile.innerHTML = '<span class="city-meta-tile-icon">🛡️</span>';
-        const tileLabel = document.createElement('div');
-        tileLabel.className = 'city-meta-tile-label';
-        tileLabel.textContent = label('safety');
-        const tileValue = document.createElement('div');
-        tileValue.className = 'city-meta-tile-value';
-        tileValue.textContent = safety;
-        tile.appendChild(tileLabel);
-        tile.appendChild(tileValue);
-        metaGrid.appendChild(tile);
-    }
-    if (language) {
-        const tile = document.createElement('div');
-        tile.className = 'city-meta-tile';
-        tile.innerHTML = '<span class="city-meta-tile-icon">🗣️</span>';
-        const tileLabel = document.createElement('div');
-        tileLabel.className = 'city-meta-tile-label';
-        tileLabel.textContent = label('language');
-        const tileValue = document.createElement('div');
-        tileValue.className = 'city-meta-tile-value';
-        tileValue.textContent = language;
-        tile.appendChild(tileLabel);
-        tile.appendChild(tileValue);
-        metaGrid.appendChild(tile);
-    }
-    if (religion) {
-        const tile = document.createElement('div');
-        tile.className = 'city-meta-tile';
-        tile.innerHTML = '<span class="city-meta-tile-icon">⛪</span>';
-        const tileLabel = document.createElement('div');
-        tileLabel.className = 'city-meta-tile-label';
-        tileLabel.textContent = label('religion');
-        const tileValue = document.createElement('div');
-        tileValue.className = 'city-meta-tile-value';
-        tileValue.textContent = religion;
-        tile.appendChild(tileLabel);
-        tile.appendChild(tileValue);
-        metaGrid.appendChild(tile);
-    }
-    if (currency) {
-        const tile = document.createElement('div');
-        tile.className = 'city-meta-tile';
-        tile.innerHTML = '<span class="city-meta-tile-icon">💱</span>';
-        const tileLabel = document.createElement('div');
-        tileLabel.className = 'city-meta-tile-label';
-        tileLabel.textContent = label('currency');
-        const tileValue = document.createElement('div');
-        tileValue.className = 'city-meta-tile-value';
-        tileValue.textContent = currency;
-        tile.appendChild(tileLabel);
-        tile.appendChild(tileValue);
-        metaGrid.appendChild(tile);
-    }
-    body.appendChild(metaGrid);
-
-    if (foods) {
-        const foodSection = document.createElement('div');
-        foodSection.className = 'city-detail-food-section';
-
-        const foodLabel = document.createElement('p');
-        foodLabel.className = 'city-detail-food-label';
-        foodLabel.textContent = `🍽️ ${label('famousFoods')}`;
-        foodSection.appendChild(foodLabel);
-
-        const foodTags = document.createElement('div');
-        foodTags.className = 'city-detail-food-tags';
-        foods.split(',').forEach(f => {
-            const tag = document.createElement('span');
-            tag.className = 'city-food-tag';
-            tag.textContent = f.trim();
-            foodTags.appendChild(tag);
-        });
-        foodSection.appendChild(foodTags);
-
-        body.appendChild(foodSection);
-    }
-
-    if (bestTime) {
-        const bestTimeDiv = document.createElement('div');
-        bestTimeDiv.className = 'city-detail-best-time';
-        bestTimeDiv.innerHTML = '<span class="city-detail-best-time-icon">📅</span>';
-        const bestTimeText = document.createElement('span');
-        bestTimeText.className = 'city-detail-best-time-text';
-        bestTimeText.textContent = `${label('bestTimeToVisit')}: ${bestTime}`;
-        bestTimeDiv.appendChild(bestTimeText);
-        body.appendChild(bestTimeDiv);
-    }
-
-    card.appendChild(body);
-    overlay.appendChild(card);
-
-    document.body.appendChild(overlay);
-    detailOverlay = overlay;
-
-    // Animate in
-    requestAnimationFrame(() => {
-        overlay.classList.add('visible');
+    detailController = createDetailOverlay({
+        renderContent,
+        onClose: () => { detailController = null; },
+        overlayClass: 'city-detail-overlay',
+        cardClass: 'city-detail-card'
     });
-
-    // Close button
-    overlay.querySelector('#cityDetailClose').addEventListener('click', closeCityDetail);
-
-    // Close on backdrop click
-    overlay.addEventListener('click', (e) => {
-        if (e.target === overlay) closeCityDetail();
-    });
-
-    // Close on Escape
-    const escHandler = (e) => {
-        if (e.key === 'Escape') {
-            closeCityDetail();
-            window.removeEventListener('keydown', escHandler);
-        }
-    };
-    window.addEventListener('keydown', escHandler);
+    detailController.show();
 }
 
 function closeCityDetail() {
-    if (!detailOverlay) return;
-    detailOverlay.classList.remove('visible');
-    setTimeout(() => {
-        detailOverlay?.remove();
-        detailOverlay = null;
-    }, 400);
+    detailController?.close();
 }
 
 // ==================== Map Sync ====================

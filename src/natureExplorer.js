@@ -1,86 +1,52 @@
 import { state } from './state.js';
-import { t, loc } from './i18n.js';
-import { flyTo, showCityPoints } from './mapEngine.js';
-import { createDetailOverlay, closeActiveOverlay } from './detailOverlay.js';
-import { createKeyboardNavigation } from './keyboardNavigation.js';
+import { t, getLoc, loc } from './i18n.js';
+import { flyTo, showAllPoints, updateMarkers } from './mapEngine.js';
+import { createDetailOverlay } from './detailOverlay.js';
+import {
+    showCompactCard, collapseCard, startExpandTimer
+} from './ui.js';
 
-// ==================== Ecosystem Icons ====================
+// ==================== Ecosystem Config ====================
 const ECOSYSTEM_ICONS = {
-    'Forest': '🌲',
-    'Mountain': '⛰️',
-    'Coastal': '🌊',
-    'Volcanic': '🌋',
-    'Cave': '🦇',
-    'Glacial': '🏔️',
-    'Wetland': '🦆',
-    'Lakes': '💧',
-    'Geological': '💎',
-    'Fossil': '🦴'
+    'Forest': '🌲', 'Mountain': '⛰️', 'Coastal': '🌊',
+    'Volcanic': '🌋', 'Cave': '🦇', 'Glacial': '🏔️',
+    'Wetland': '🦆', 'Lakes': '💧', 'Geological': '💎', 'Fossil': '🦴'
 };
 
 const ECOSYSTEM_COLORS = {
-    'Forest': '#4CAF50',
-    'Mountain': '#8D6E63',
-    'Coastal': '#29B6F6',
-    'Volcanic': '#FF7043',
-    'Cave': '#7E57C2',
-    'Glacial': '#80DEEA',
-    'Wetland': '#66BB6A',
-    'Lakes': '#42A5F5',
-    'Geological': '#FFB74D',
-    'Fossil': '#A1887F'
+    'Forest': '#4ade80',
+    'Mountain': '#94a3b8',
+    'Coastal': '#38bdf8',
+    'Volcanic': '#f87171',
+    'Cave': '#a78bfa',
+    'Glacial': '#cbd5e1',
+    'Wetland': '#fbbf24',
+    'Lakes': '#60a5fa',
+    'Geological': '#fb923c',
+    'Fossil': '#d97706'
 };
-
-// ==================== State ====================
-let allSites = [];
-let groupedSites = {};
-let activeCardId = null;
-let activeFilter = null;
-let detailController = null;
-let panelEl = null;
-let searchInput = null;
 
 // ==================== i18n labels ====================
 const labels = {
     zh: {
-        panelTitle: '自然探索',
-        panelSubtitle: '探索欧洲自然遗产',
-        searchPlaceholder: '搜索自然遗产...',
-        description: '简介',
+        panelTitle: '自然风光',
+        panelSubtitle: '探索欧洲壮丽的自然遗产',
+        searchPlaceholder: '搜索自然景观...',
+        all: '全部',
+        ecosystem: '生态系统',
         country: '国家',
-        category: '类别',
-        ecosystem: '生态类型',
-        noResults: '未找到匹配的遗产地',
-        sites: '处遗产',
-        allTypes: '全部',
-        natural: '自然遗产',
-        mixed: '混合遗产',
-        ecosystemTypes: {
-            'Forest': '森林', 'Mountain': '山脉', 'Coastal': '海岸',
-            'Volcanic': '火山', 'Cave': '洞穴', 'Glacial': '冰川',
-            'Wetland': '湿地', 'Lakes': '湖泊', 'Geological': '地质',
-            'Fossil': '化石'
-        }
+        noResults: '未找到匹配的自然景观',
+        sites: '处景观'
     },
     en: {
-        panelTitle: 'Nature',
-        panelSubtitle: 'Explore European Natural Heritage',
-        searchPlaceholder: 'Search heritage sites...',
-        description: 'Description',
-        country: 'Country',
-        category: 'Category',
+        panelTitle: 'Nature Explorer',
+        panelSubtitle: 'Discover Europe\'s natural heritage',
+        searchPlaceholder: 'Search natural sites...',
+        all: 'All',
         ecosystem: 'Ecosystem',
-        noResults: 'No heritage sites found',
-        sites: 'sites',
-        allTypes: 'All',
-        natural: 'Natural',
-        mixed: 'Mixed',
-        ecosystemTypes: {
-            'Forest': 'Forest', 'Mountain': 'Mountain', 'Coastal': 'Coastal',
-            'Volcanic': 'Volcanic', 'Cave': 'Cave', 'Glacial': 'Glacial',
-            'Wetland': 'Wetland', 'Lakes': 'Lakes', 'Geological': 'Geological',
-            'Fossil': 'Fossil'
-        }
+        country: 'Country',
+        noResults: 'No natural sites found',
+        sites: 'sites'
     }
 };
 
@@ -89,76 +55,174 @@ function label(key) {
     return labels[locale]?.[key] || labels.en[key] || key;
 }
 
-function ecosystemLabel(type) {
-    const locale = state.get('locale');
-    return labels[locale]?.ecosystemTypes?.[type] || type;
-}
+// ==================== State ====================
+let isActive = false;
+let allSites = [];
+let activeSiteId = null;
+let detailController = null;
+let panelEl = null;
+let currentFilter = 'all';
 
-// ==================== Init ====================
+// ==================== State Subscriptions ====================
+
+state.addEventListener('change:currentPointIndex', (e) => {
+    if (!isActive) return;
+
+    const { value, oldValue } = e.detail;
+    const data = state.get('natureData');
+    if (!data) return;
+
+    const isScroll = oldValue !== undefined && Math.abs(value - oldValue) === 1;
+    const direction = isScroll ? (value > oldValue ? 'down' : 'up') : null;
+
+    updateMarkers(value, data);
+
+    const currentPoint = data[value];
+    if (currentPoint?.coordinates[0] !== 0) {
+        flyTo(currentPoint.coordinates, 5, isScroll);
+    }
+
+    // Update side panel highlight
+    setActiveSite(currentPoint.id, false); // false to avoid scrolling panel if we're keyboard navigating? 
+    // Actually, we probably want to scroll the panel too.
+    const card = panelEl?.querySelector(`.attraction-card[data-id="${currentPoint.id}"]`);
+    if (card && isScroll) {
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    // Card: compact
+    collapseCard();
+    showCompactCard(currentPoint, direction);
+    startExpandTimer(currentPoint);
+});
+
+state.addEventListener('change:activePointId', (e) => {
+    if (!isActive) return;
+    const { value } = e.detail;
+    if (value === null) {
+        updateMarkers(state.get('currentPointIndex'), state.get('natureData'));
+    }
+});
+
+// ==================== Lifecycle ====================
 
 export function initNatureExplorer(natureData) {
     panelEl = document.getElementById('natureExplorer');
-    allSites = natureData.sites || [];
-    groupSites();
+    allSites = Array.isArray(natureData) ? natureData : (natureData.sites || []);
+    allSites = allSites.map(site => ({
+        ...site,
+        eraKey: site.ecosystemType
+    }));
+    state.set('natureData', allSites);
 }
 
-function groupSites() {
-    groupedSites = {};
-    const filtered = activeFilter
-        ? allSites.filter(s => s.ecosystemType === activeFilter)
-        : allSites;
-    filtered.forEach(site => {
-        const type = site.ecosystemType || 'Other';
-        if (!groupedSites[type]) groupedSites[type] = [];
-        groupedSites[type].push(site);
-    });
+export function showNatureExplorer() {
+    isActive = true;
+    if (panelEl) {
+        renderPanel();
+        panelEl.classList.add('visible');
+    }
+    
+    const data = state.get('natureData');
+    if (data) {
+        // Use existing index or reset to 0
+        const idx = state.get('currentPointIndex') || 0;
+        if (idx >= data.length) state.set('currentPointIndex', 0);
+        else {
+            // Trigger update manually for initial show
+            updateMarkers(idx, data);
+            const currentPoint = data[idx];
+            if (currentPoint) {
+                showCompactCard(currentPoint);
+                startExpandTimer(currentPoint);
+                setActiveSite(currentPoint.id);
+            }
+        }
+    }
 }
 
-// ==================== Show / Hide ====================
-
-export function showNaturePanel() {
-    if (!panelEl) return;
-    renderPanel();
-    panelEl.classList.add('visible');
-    syncMapWithSites();
-}
-
-export function hideNaturePanel() {
-    if (!panelEl) return;
-    panelEl.classList.remove('visible');
+export function hideNatureExplorer() {
+    isActive = false;
+    if (panelEl) {
+        panelEl.classList.remove('visible');
+    }
+    collapseCard();
     closeNatureDetail();
+}
+
+export function refreshNatureExplorer() {
+    if (!isActive) return;
+    renderPanel();
+    
+    const data = state.get('natureData');
+    const idx = state.get('currentPointIndex');
+    if (data && data[idx]) {
+        updateMarkers(idx, data);
+        showCompactCard(data[idx]);
+        startExpandTimer(data[idx]);
+        setActiveSite(data[idx].id);
+    }
+}
+
+// ==================== Navigation ====================
+
+function navigateTo(index) {
+    if (!isActive) return;
+    const data = state.get('natureData');
+    if (!data || index < 0 || index >= data.length) return;
+    state.set('currentPointIndex', index);
+}
+
+export function handleScroll(direction) {
+    if (!isActive) return;
+    if (direction === 'down') {
+        navigateTo(state.get('currentPointIndex') + 1);
+    } else {
+        navigateTo(state.get('currentPointIndex') - 1);
+    }
+}
+
+export function handleKeydown(e) {
+    if (!isActive) return;
+    const data = state.get('natureData');
+    if (!data || data.length === 0) return;
+
+    if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        navigateTo(state.get('currentPointIndex') + 1);
+    } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        navigateTo(state.get('currentPointIndex') - 1);
+    } else if (e.key === 'Escape') {
+        collapseCard();
+        closeNatureDetail();
+    }
 }
 
 // ==================== Render Panel ====================
 
 function renderPanel() {
     const locale = state.get('locale');
-
-    // Count ecosystem types
-    const typeCounts = {};
-    allSites.forEach(s => {
-        const type = s.ecosystemType || 'Other';
-        typeCounts[type] = (typeCounts[type] || 0) + 1;
-    });
+    const ecosystems = [...new Set(allSites.map(s => s.ecosystemType))].sort();
 
     panelEl.innerHTML = `
         <div class="nature-panel-header">
             <h2 class="nature-panel-title">${label('panelTitle')}</h2>
-            <p class="nature-panel-subtitle">${allSites.length} ${label('sites')} · UNESCO World Heritage</p>
+            <p class="nature-panel-subtitle">${allSites.length} ${label('sites')}</p>
             <div class="nature-search-wrapper">
                 <span class="nature-search-icon">🔍</span>
                 <input type="text" class="nature-search" id="natureSearchInput"
                        placeholder="${label('searchPlaceholder')}" autocomplete="off">
             </div>
-            <div class="nature-filter-row" id="natureFilterRow">
-                <button class="nature-filter-chip ${!activeFilter ? 'active' : ''}" data-filter="">
-                    ${label('allTypes')} <span class="nature-filter-count">${allSites.length}</span>
-                </button>
-                ${Object.entries(typeCounts).sort((a,b) => b[1]-a[1]).map(([type, count]) => `
-                    <button class="nature-filter-chip ${activeFilter === type ? 'active' : ''}" data-filter="${type}">
-                        ${ECOSYSTEM_ICONS[type] || '🌍'} ${ecosystemLabel(type)}
-                        <span class="nature-filter-count">${count}</span>
-                    </button>
+            <div class="nature-filter-row">
+                <div class="nature-filter-chip ${currentFilter === 'all' ? 'active' : ''}" data-filter="all">
+                    ${label('all')}
+                </div>
+                ${ecosystems.map(eco => `
+                    <div class="nature-filter-chip ${currentFilter === eco ? 'active' : ''}" data-filter="${eco}">
+                        <span class="nature-type-icon">${ECOSYSTEM_ICONS[eco] || '🌍'}</span>
+                        ${eco}
+                    </div>
                 `).join('')}
             </div>
         </div>
@@ -166,189 +230,160 @@ function renderPanel() {
         <div class="nature-panel-footer"></div>
     `;
 
-    searchInput = panelEl.querySelector('#natureSearchInput');
-    searchInput.addEventListener('input', onSearch);
+    const searchInput = panelEl.querySelector('#natureSearchInput');
+    searchInput.addEventListener('input', (e) => renderNatureList(e.target.value.trim(), currentFilter));
 
-    // Filter chip clicks
     panelEl.querySelectorAll('.nature-filter-chip').forEach(chip => {
         chip.addEventListener('click', () => {
-            const filter = chip.dataset.filter || null;
-            activeFilter = filter;
-            groupSites();
-            renderPanel();
-            syncMapWithSites();
+            currentFilter = chip.dataset.filter;
+            panelEl.querySelectorAll('.nature-filter-chip').forEach(c => c.classList.toggle('active', c === chip));
+            renderNatureList(searchInput.value.trim(), currentFilter);
         });
     });
 
-    renderSiteList();
+    renderNatureList();
 }
 
-function renderSiteList(filter = '') {
+function renderNatureList(search = '', filter = 'all') {
     const container = panelEl.querySelector('#natureListContainer');
     if (!container) return;
 
     const locale = state.get('locale');
-    const filterLower = filter.toLowerCase();
+    const searchLower = search.toLowerCase();
 
-    // Sort ecosystem types
-    const sortedTypes = Object.keys(groupedSites).sort();
+    let filtered = allSites.filter(site => {
+        const matchesSearch = !search ||
+            getLoc(site, 'name', locale).toLowerCase().includes(searchLower) ||
+            site.country.toLowerCase().includes(searchLower) ||
+            site.ecosystemType.toLowerCase().includes(searchLower);
+        
+        const matchesFilter = filter === 'all' || site.ecosystemType === filter;
+        
+        return matchesSearch && matchesFilter;
+    });
 
-    let html = '';
-    let hasAny = false;
-    let cardIndex = 0;
-
-    for (const type of sortedTypes) {
-        const sites = groupedSites[type];
-        const icon = ECOSYSTEM_ICONS[type] || '🌍';
-        const color = ECOSYSTEM_COLORS[type] || '#4CAF50';
-
-        // Filter sites
-        const filtered = filter
-            ? sites.filter(s => {
-                const name = loc(s.name, locale).toLowerCase();
-                const country = (s.country || '').toLowerCase();
-                const shortDesc = loc(s.shortDesc, locale).toLowerCase();
-                return name.includes(filterLower) ||
-                       country.includes(filterLower) ||
-                       shortDesc.includes(filterLower);
-            })
-            : sites;
-
-        if (filtered.length === 0) continue;
-        hasAny = true;
-
-        html += `<div class="nature-type-group">`;
-        html += `<div class="nature-type-header">
-                    <span class="nature-type-icon">${icon}</span>
-                    <span class="nature-type-name" style="color: ${color}">${ecosystemLabel(type)}</span>
-                    <span class="nature-type-count">${filtered.length}</span>
-                 </div>`;
-
-        for (const site of filtered) {
-            const name = loc(site.name, locale);
-            const shortDesc = loc(site.shortDesc, locale);
-            const country = site.country || '';
-            const id = site.id;
-            const delay = Math.min(cardIndex * 35, 500);
-            const categoryBadge = site.category === 'Mixed' ? '🔷' : '🟢';
-
-            html += `<div class="attraction-card ${activeCardId === id ? 'active' : ''}"
-                          data-site-id="${id}"
-                          data-lng="${site.coordinates[0]}"
-                          data-lat="${site.coordinates[1]}"
-                          style="animation-delay: ${delay}ms">
-                        ${site.image ? `<div class="card-image-wrapper"><img class="card-image" src="${site.image}" alt="${name}" loading="lazy"></div>` : ''}
-                        <div class="card-header">
-                            <div>
-                                <h4 class="card-title">${name}</h4>
-                                <p class="card-meta">${categoryBadge} ${country}</p>
-                            </div>
-                        </div>
-                        ${shortDesc ? `<p class="card-short-desc">${shortDesc.substring(0, 100)}${shortDesc.length > 100 ? '...' : ''}</p>` : ''}
-                     </div>`;
-            cardIndex++;
-        }
-
-        html += `</div>`;
+    if (filtered.length === 0) {
+        container.innerHTML = `
+            <div class="nature-no-results">
+                <span class="nature-no-results-icon">🍃</span>
+                ${label('noResults')}
+            </div>
+        `;
+        return;
     }
 
-    if (!hasAny) {
-        html = `<div class="nature-no-results">
-                    <span class="nature-no-results-icon">🌍</span>
-                    ${label('noResults')}
-                </div>`;
+    // Group by ecosystem if in "all" view, otherwise just show list
+    let html = '';
+    if (filter === 'all' && !search) {
+        const grouped = {};
+        filtered.forEach(site => {
+            if (!grouped[site.ecosystemType]) grouped[site.ecosystemType] = [];
+            grouped[site.ecosystemType].push(site);
+        });
+
+        Object.keys(grouped).sort().forEach(eco => {
+            html += `
+                <div class="nature-type-group">
+                    <div class="nature-type-header">
+                        <span class="nature-type-icon">${ECOSYSTEM_ICONS[eco] || '🌍'}</span>
+                        <span class="nature-type-name">${eco}</span>
+                        <span class="nature-type-count">${grouped[eco].length}</span>
+                    </div>
+                    ${grouped[eco].map(site => renderSiteCard(site, locale)).join('')}
+                </div>
+            `;
+        });
+    } else {
+        html = `<div style="padding: 0 20px;">${filtered.map(site => renderSiteCard(site, locale)).join('')}</div>`;
     }
 
     container.innerHTML = html;
 
-    // Attach click events
+    // Click events
     container.querySelectorAll('.attraction-card').forEach(card => {
         card.addEventListener('click', () => {
-            const id = card.dataset.siteId;
-            const lng = parseFloat(card.dataset.lng);
-            const lat = parseFloat(card.dataset.lat);
-
-            setActiveCard(id);
-            flyTo([lng, lat], 5, true);
-
-            const site = allSites.find(s => s.id === id);
-            if (site) showNatureDetail(site);
+            const id = card.dataset.id;
+            const index = allSites.findIndex(s => s.id === id);
+            if (index !== -1) {
+                navigateTo(index);
+            }
         });
     });
 }
 
-function setActiveCard(id) {
-    activeCardId = id;
+function renderSiteCard(site, locale) {
+    const id = site.id;
+    const isActiveCard = activeSiteId === id;
+
+    return `
+        <div class="attraction-card ${isActiveCard ? 'active' : ''}" data-id="${id}">
+            <div class="card-header">
+                <h4 class="card-title">${getLoc(site, 'name', locale)}</h4>
+            </div>
+            <p class="card-meta">${site.country}</p>
+            ${getLoc(site, 'shortDesc', locale) ? `<p class="card-short-desc">${getLoc(site, 'shortDesc', locale)}</p>` : ''}
+        </div>
+    `;
+}
+
+function setActiveSite(id, scrollIntoView = true) {
+    activeSiteId = id;
     if (!panelEl) return;
     panelEl.querySelectorAll('.attraction-card').forEach(card => {
-        card.classList.toggle('active', card.dataset.siteId === id);
+        card.classList.toggle('active', card.dataset.id === id);
     });
-}
-
-// ==================== Search ====================
-
-function onSearch(e) {
-    const query = e.target.value.trim();
-    if (query) {
-        activeFilter = null;
-        groupSites();
+    
+    if (scrollIntoView) {
+        const activeCard = panelEl.querySelector(`.attraction-card[data-id="${id}"]`);
+        activeCard?.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
-    renderSiteList(query);
 }
 
-// ==================== Detail Modal ====================
+// ==================== Detail Overlay ====================
 
 function showNatureDetail(site) {
-    if (detailController) {
-        detailController.close();
-    }
+    if (detailController) detailController.close();
 
     const locale = state.get('locale');
-    const name = loc(site.name, locale);
-    const shortDesc = loc(site.shortDesc, locale);
-    const description = loc(site.description, locale);
-    const country = site.country || '';
-    const category = site.category || 'Natural';
-    const ecosystem = site.ecosystemType || '';
-    const icon = ECOSYSTEM_ICONS[ecosystem] || '🌍';
-    const color = ECOSYSTEM_COLORS[ecosystem] || '#4CAF50';
+    const name = getLoc(site, 'name', locale);
+    const eco = site.ecosystemType;
+    const icon = ECOSYSTEM_ICONS[eco] || '🌍';
+    const description = getLoc(site, 'description', locale);
+    const shortDesc = getLoc(site, 'shortDesc', locale);
 
     const renderContent = () => `
-        <button class="detail-close nature-detail-close">✕</button>
+        <button class="nature-detail-close">✕</button>
         <div class="nature-detail-header">
-            <div class="nature-detail-ecosystem" style="color: ${color}">
-                ${icon} ${ecosystemLabel(ecosystem)} · ${category}
-            </div>
+            <div class="nature-detail-ecosystem">${icon} ${eco}</div>
             <h2 class="nature-detail-name">${name}</h2>
-            <p class="nature-detail-country">📍 ${country}</p>
+            <p class="nature-detail-country">${site.country}</p>
         </div>
         ${site.image ? `
             <div class="nature-detail-image-wrapper">
-                <img class="nature-detail-image" src="${site.image}" alt="${name}" loading="lazy">
+                <img src="${site.image}" alt="${name}" class="nature-detail-image">
             </div>
         ` : ''}
         <div class="nature-detail-body">
             ${shortDesc ? `<p class="nature-detail-short-desc">${shortDesc}</p>` : ''}
             ${description ? `
                 <div class="nature-detail-desc-section">
-                    <p class="nature-detail-desc-label">📖 ${label('description')}</p>
+                    <p class="nature-detail-desc-label">${label('description')}</p>
                     <p class="nature-detail-desc-text">${description}</p>
                 </div>
             ` : ''}
             <div class="nature-detail-meta">
-                <div class="nature-meta-chip" style="border-color: ${color}30; color: ${color}">
-                    ${icon} ${ecosystemLabel(ecosystem)}
-                </div>
-                <div class="nature-meta-chip">
-                    ${category === 'Mixed' ? '🔷' : '🟢'} ${category}
-                </div>
+                <span class="nature-meta-chip">${icon} ${eco}</span>
+                <span class="nature-meta-chip">📍 ${site.country}</span>
+                ${site.whcId ? `<span class="nature-meta-chip">🏛️ WHC #${site.whcId}</span>` : ''}
             </div>
         </div>
     `;
 
     detailController = createDetailOverlay({
         renderContent,
-        onClose: () => { detailController = null; }
+        onClose: () => { detailController = null; },
+        overlayClass: 'nature-detail-overlay',
+        cardClass: 'nature-detail-card'
     });
     detailController.show();
 }
@@ -359,90 +394,32 @@ function closeNatureDetail() {
 
 // ==================== Map Sync ====================
 
-function syncMapWithSites() {
+function syncMapWithNature() {
     const locale = state.get('locale');
-    const sitesToShow = activeFilter
-        ? allSites.filter(s => s.ecosystemType === activeFilter)
-        : allSites;
-
-    const points = sitesToShow.map(s => {
-        const color = ECOSYSTEM_COLORS[s.ecosystemType] || '#4CAF50';
+    const points = allSites.map(s => {
         return {
-            name: loc(s.name, locale),
+            name: getLoc(s, 'name', locale),
             value: s.coordinates,
             symbolSize: 10,
-            color: color,
-            showLabel: true,
-            rawData: {
-                id: s.id,
-                name: s.name,
-                coordinates: s.coordinates,
-                country: s.country
-            }
+            itemStyle: {
+                color: ECOSYSTEM_COLORS[s.ecosystemType] || '#E8CA88',
+                shadowColor: ECOSYSTEM_COLORS[s.ecosystemType] || '#E8CA88',
+                shadowBlur: 10
+            },
+            rawData: s
         };
     });
 
-    showCityPoints(points);
+    showAllPoints(points);
 }
 
-// ==================== Re-render on locale change ====================
+// ==================== Event Listeners ====================
 
-export function refreshNaturePanel() {
-    if (!panelEl || !panelEl.classList.contains('visible')) return;
-    renderPanel();
-    syncMapWithSites();
-}
-
-// ==================== Map click → panel highlight ====================
-
-export function onMapNatureClick(siteName) {
-    const site = allSites.find(s =>
-        s.name?.en === siteName || s.name?.zh === siteName || s.id === siteName
-    );
-    if (!site) return;
-
-    setActiveCard(site.id);
-
-    const card = panelEl?.querySelector(`.attraction-card[data-site-id="${site.id}"]`);
-    if (card) {
-        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+export function onMapNatureClick(p) {
+    if (!isActive) return;
+    const index = allSites.findIndex(s => s.id === p.id);
+    if (index !== -1) {
+        navigateTo(index);
     }
-
-    showNatureDetail(site);
-}
-
-// ==================== Keyboard Navigation ====================
-
-export function handleKeydown(e) {
-    if (!panelEl || !panelEl.classList.contains('visible')) return;
-
-    const getCards = () => panelEl.querySelectorAll('.attraction-card');
-    const getGroups = () => panelEl.querySelectorAll('.nature-type-group');
-
-    const onSelect = (card) => {
-        const site = allSites.find(s => s.id === card.dataset.siteId);
-        if (site) {
-            setActiveCard(site.id);
-            flyTo(site.coordinates, 5, true);
-            showNatureDetail(site);
-            card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }
-    };
-
-    const onGroupSelect = (group) => {
-        const firstCard = group.querySelector('.attraction-card');
-        if (firstCard) {
-            onSelect(firstCard);
-        }
-    };
-
-    const { handleKeydown: navHandler } = createKeyboardNavigation({
-        getCards,
-        getGroups,
-        onSelect,
-        onGroupSelect,
-        onEscape: closeNatureDetail
-    });
-
-    navHandler(e);
+    showNatureDetail(p);
 }

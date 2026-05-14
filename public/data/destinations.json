@@ -5,10 +5,7 @@
       "name": "Rome",
       "Region": "Lazio",
       "Country": "Italy",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 41.902782,
       "Longitude": 12.496366,
       "Approximate Annual Tourists": "14 million",
@@ -45,10 +42,7 @@
       "name": "Florence",
       "Region": "Tuscany",
       "Country": "Italy",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 43.769581,
       "Longitude": 11.255772,
       "Approximate Annual Tourists": "10 million",
@@ -72,7 +66,7 @@
         "zh": "总体安全，但需注意扒手"
       },
       "Cultural Significance": "A Renaissance city famous for its art, architecture, and historical significance.",
-      "Description": "Home to world-class museums, including the Uffizi Gallery and Michelangelo?s David.",
+      "Description": "Home to world-class museums, including the Uffizi Gallery and Michelangelo's David.",
       "history": {
         "zh": "文艺复兴发源地，15-16世纪美第奇家族统治时期涌现大量艺术杰作，城市至今保留大量文艺复兴建筑。"
       }
@@ -82,10 +76,7 @@
       "name": "Venice",
       "Region": "Veneto",
       "Country": "Italy",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 45.435559,
       "Longitude": 12.336196,
       "Approximate Annual Tourists": "10 million",
@@ -122,10 +113,7 @@
       "name": "Milan",
       "Region": "Lombardy",
       "Country": "Italy",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 45.464643,
       "Longitude": 9.18854,
       "Approximate Annual Tourists": "7 million",
@@ -162,10 +150,7 @@
       "name": "Naples",
       "Region": "Campania",
       "Country": "Italy",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 40.85133,
       "Longitude": 14.25472,
       "Approximate Annual Tourists": "5 million",
@@ -240,10 +225,7 @@
       "name": "Pisa",
       "Region": "Tuscany",
       "Country": "Italy",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 43.715899,
       "Longitude": 10.996557,
       "Approximate Annual Tourists": "1.5 million",
@@ -299,10 +281,7 @@
       "name": "Verona",
       "Region": "Veneto",
       "Country": "Italy",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 45.439559,
       "Longitude": 10.996557,
       "Approximate Annual Tourists": "1 million",
@@ -339,10 +318,7 @@
       "name": "Barcelona",
       "Region": "Catalonia",
       "Country": "Spain",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 41.385064,
       "Longitude": 2.173135,
       "Approximate Annual Tourists": "12.7 million",
@@ -379,10 +355,7 @@
       "name": "Madrid",
       "Region": "Community of Madrid",
       "Country": "Spain",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 40.416775,
       "Longitude": -3.70379,
       "Approximate Annual Tourists": "7 million",
@@ -419,10 +392,7 @@
       "name": "Seville",
       "Region": "Andalusia",
       "Country": "Spain",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 37.38908,
       "Longitude": -5.98398,
       "Approximate Annual Tourists": "3.5 million",
@@ -459,10 +429,7 @@
       "name": "Valencia",
       "Region": "Valencian Community",
       "Country": "Spain",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 39.472925,
       "Longitude": -0.378464,
       "Approximate Annual Tourists": "2.5 million",
@@ -499,10 +466,7 @@
       "name": "Granada",
       "Region": "Andalusia",
       "Country": "Spain",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 37.187222,
       "Longitude": -3.60531,
       "Approximate Annual Tourists": "2 million",
@@ -561,10 +525,7 @@
       "name": "Bilbao",
       "Region": "Basque Country",
       "Country": "Spain",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 43.257158,
       "Longitude": -2.936487,
       "Approximate Annual Tourists": "1.5 million",
@@ -658,10 +619,7 @@
       "name": "Paris",
       "Region": "?le-de-France",
       "Country": "France",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 48.856614,
       "Longitude": 2.352222,
       "Approximate Annual Tourists": "35-40 million",
@@ -736,10 +694,7 @@
       "name": "Lyon",
       "Region": "Auvergne-Rhne-Alpes",
       "Country": "France",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 45.764048,
       "Longitude": 4.835656,
       "Approximate Annual Tourists": "2 million",
@@ -776,10 +731,7 @@
       "name": "Bordeaux",
       "Region": "Nouvelle-Aquitaine",
       "Country": "France",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 44.837789,
       "Longitude": -0.57918,
       "Approximate Annual Tourists": "1.5 million",
@@ -819,10 +771,7 @@
       "name": "Strasbourg",
       "Region": "Grand Est",
       "Country": "France",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 48.572935,
       "Longitude": 7.751936,
       "Approximate Annual Tourists": "1 million",
@@ -897,10 +846,7 @@
       "name": "Loire Valley",
       "Region": "Centre-Val de Loire",
       "Country": "France",
-      "type": {
-        "en": "Region",
-        "zh": "地区"
-      },
+      "type": "Region",
       "Latitude": 47.6268,
       "Longitude": -0.9361,
       "Approximate Annual Tourists": "10 million (region-wide)",
@@ -956,10 +902,7 @@
       "name": "Vienna",
       "Region": "Vienna",
       "Country": "Austria",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 48.208171,
       "Longitude": 16.373869,
       "Approximate Annual Tourists": "7.5 million",
@@ -996,10 +939,7 @@
       "name": "Salzburg",
       "Region": "Salzburg",
       "Country": "Austria",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 47.697994,
       "Longitude": 13.040555,
       "Approximate Annual Tourists": "3 million",
@@ -1036,10 +976,7 @@
       "name": "Innsbruck",
       "Region": "Tyrol",
       "Country": "Austria",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 47.269219,
       "Longitude": 11.397277,
       "Approximate Annual Tourists": "2 million",
@@ -1076,10 +1013,7 @@
       "name": "Hallstatt",
       "Region": "Upper Austria",
       "Country": "Austria",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 47.556733,
       "Longitude": 13.649528,
       "Approximate Annual Tourists": "1 million",
@@ -1116,10 +1050,7 @@
       "name": "Graz",
       "Region": "Styria",
       "Country": "Austria",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 47.070593,
       "Longitude": 15.438261,
       "Approximate Annual Tourists": "1 million",
@@ -1156,10 +1087,7 @@
       "name": "Zell am See",
       "Region": "Salzburg",
       "Country": "Austria",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 47.516804,
       "Longitude": 13.032121,
       "Approximate Annual Tourists": "800,000",
@@ -1215,10 +1143,7 @@
       "name": "Bregenz",
       "Region": "Vorarlberg",
       "Country": "Austria",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 47.510488,
       "Longitude": 9.741326,
       "Approximate Annual Tourists": "400,000",
@@ -1271,10 +1196,7 @@
       "name": "Bad Gastein",
       "Region": "Salzburg",
       "Country": "Austria",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 47.320594,
       "Longitude": 13.426595,
       "Approximate Annual Tourists": "200,000",
@@ -1311,10 +1233,7 @@
       "name": "Brussels",
       "Region": "Brussels Capital",
       "Country": "Belgium",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 50.850441,
       "Longitude": 4.356949,
       "Approximate Annual Tourists": "10 million",
@@ -1351,10 +1270,7 @@
       "name": "Bruges",
       "Region": "West Flanders",
       "Country": "Belgium",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 51.205937,
       "Longitude": 3.210851,
       "Approximate Annual Tourists": "8 million",
@@ -1391,10 +1307,7 @@
       "name": "Ghent",
       "Region": "East Flanders",
       "Country": "Belgium",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 51.057089,
       "Longitude": 3.715678,
       "Approximate Annual Tourists": "5 million",
@@ -1431,10 +1344,7 @@
       "name": "Antwerp",
       "Region": "Antwerp",
       "Country": "Belgium",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 51.223581,
       "Longitude": 4.415875,
       "Approximate Annual Tourists": "4 million",
@@ -1471,10 +1381,7 @@
       "name": "Leuven",
       "Region": "Flemish Brabant",
       "Country": "Belgium",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 50.872166,
       "Longitude": 4.686716,
       "Approximate Annual Tourists": "2 million",
@@ -1511,10 +1418,7 @@
       "name": "Dinant",
       "Region": "Namur",
       "Country": "Belgium",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 50.275573,
       "Longitude": 5.024897,
       "Approximate Annual Tourists": "1 million",
@@ -1551,10 +1455,7 @@
       "name": "Ypres",
       "Region": "West Flanders",
       "Country": "Belgium",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 50.841984,
       "Longitude": 2.863538,
       "Approximate Annual Tourists": "500,000",
@@ -1591,10 +1492,7 @@
       "name": "Spa",
       "Region": "Lige",
       "Country": "Belgium",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 50.451977,
       "Longitude": 5.965836,
       "Approximate Annual Tourists": "300,000",
@@ -1631,10 +1529,7 @@
       "name": "Ostend",
       "Region": "West Flanders",
       "Country": "Belgium",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 51.333563,
       "Longitude": 2.902675,
       "Approximate Annual Tourists": "200,000",
@@ -1671,10 +1566,7 @@
       "name": "Namur",
       "Region": "Namur",
       "Country": "Belgium",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 50.467063,
       "Longitude": 4.886067,
       "Approximate Annual Tourists": "100,000",
@@ -1711,10 +1603,7 @@
       "name": "Copenhagen",
       "Region": "Region Hovedstaden",
       "Country": "Denmark",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 55.676098,
       "Longitude": 12.568337,
       "Approximate Annual Tourists": "10 million",
@@ -1723,7 +1612,7 @@
         "en": "Protestant",
         "zh": "新教"
       },
-      "Famous Foods": "Sm?rrebr?d, Frikadeller, blekage",
+      "Famous Foods": "Smørrebrød, Frikadeller, Æblekage",
       "Language": "Danish",
       "Best Time to Visit": {
         "en": "Spring (April-May) or Fall (Sept-Oct)",
@@ -1751,10 +1640,7 @@
       "name": "Aarhus",
       "Region": "Region Midtjylland",
       "Country": "Denmark",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 56.150947,
       "Longitude": 10.217696,
       "Approximate Annual Tourists": "2.5 million",
@@ -1763,7 +1649,7 @@
         "en": "Protestant",
         "zh": "新教"
       },
-      "Famous Foods": "Sm?rrebr?d, Frikadeller, blekage",
+      "Famous Foods": "Smørrebrød, Frikadeller, Æblekage",
       "Language": "Danish",
       "Best Time to Visit": {
         "en": "Spring (April-May) or Fall (Sept-Oct)",
@@ -1791,10 +1677,7 @@
       "name": "Odense",
       "Region": "Region Syddanmark",
       "Country": "Denmark",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 55.397081,
       "Longitude": 10.395973,
       "Approximate Annual Tourists": "1.5 million",
@@ -1803,7 +1686,7 @@
         "en": "Protestant",
         "zh": "新教"
       },
-      "Famous Foods": "Sm?rrebr?d, Frikadeller, blekage",
+      "Famous Foods": "Smørrebrød, Frikadeller, Æblekage",
       "Language": "Danish",
       "Best Time to Visit": {
         "en": "Spring (April-May) or Fall (Sept-Oct)",
@@ -1850,10 +1733,7 @@
       "name": "Ribe",
       "Region": "Region Syddanmark",
       "Country": "Denmark",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 55.200525,
       "Longitude": 8.777081,
       "Approximate Annual Tourists": "500,000",
@@ -1862,7 +1742,7 @@
         "en": "Protestant",
         "zh": "新教"
       },
-      "Famous Foods": "Sm?rrebr?d, Frikadeller, blekage",
+      "Famous Foods": "Smørrebrød, Frikadeller, Æblekage",
       "Language": "Danish",
       "Best Time to Visit": {
         "en": "Spring (April-May) or Fall (Sept-Oct)",
@@ -1890,10 +1770,7 @@
       "name": "Roskilde",
       "Region": "Region Sjlland",
       "Country": "Denmark",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 55.652853,
       "Longitude": 12.091578,
       "Approximate Annual Tourists": "500,000",
@@ -1902,7 +1779,7 @@
         "en": "Protestant",
         "zh": "新教"
       },
-      "Famous Foods": "Sm?rrebr?d, Frikadeller, blekage",
+      "Famous Foods": "Smørrebrød, Frikadeller, Æblekage",
       "Language": "Danish",
       "Best Time to Visit": {
         "en": "Spring (April-May) or Fall (Sept-Oct)",
@@ -1926,14 +1803,11 @@
       }
     },
     {
-      "Destination": "Helsing?r",
-      "name": "Helsing?r",
+      "Destination": "Helsingør",
+      "name": "Helsingør",
       "Region": "Region Hovedstaden",
       "Country": "Denmark",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 56.033245,
       "Longitude": 12.614037,
       "Approximate Annual Tourists": "400,000",
@@ -1942,7 +1816,7 @@
         "en": "Protestant",
         "zh": "新教"
       },
-      "Famous Foods": "Sm?rrebr?d, Frikadeller, blekage",
+      "Famous Foods": "Smørrebrød, Frikadeller, Æblekage",
       "Language": "Danish",
       "Best Time to Visit": {
         "en": "Spring (April-May) or Fall (Sept-Oct)",
@@ -1970,10 +1844,7 @@
       "name": "Aalborg",
       "Region": "Region Nordjylland",
       "Country": "Denmark",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 57.033361,
       "Longitude": 9.920094,
       "Approximate Annual Tourists": "300,000",
@@ -1982,7 +1853,7 @@
         "en": "Protestant",
         "zh": "新教"
       },
-      "Famous Foods": "Sm?rrebr?d, Frikadeller, blekage",
+      "Famous Foods": "Smørrebrød, Frikadeller, Æblekage",
       "Language": "Danish",
       "Best Time to Visit": {
         "en": "Spring (April-May) or Fall (Sept-Oct)",
@@ -2048,10 +1919,7 @@
       "name": "Berlin",
       "Region": "Berlin",
       "Country": "Germany",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 52.520008,
       "Longitude": 13.404954,
       "Approximate Annual Tourists": "13.5 million",
@@ -2088,10 +1956,7 @@
       "name": "Munich",
       "Region": "Bavaria",
       "Country": "Germany",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 48.137152,
       "Longitude": 11.576123,
       "Approximate Annual Tourists": "10 million",
@@ -2128,10 +1993,7 @@
       "name": "Frankfurt",
       "Region": "Hesse",
       "Country": "Germany",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 50.110922,
       "Longitude": 8.682127,
       "Approximate Annual Tourists": "7 million",
@@ -2168,10 +2030,7 @@
       "name": "Cologne",
       "Region": "North Rhine-Westphalia",
       "Country": "Germany",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 50.936662,
       "Longitude": 6.959955,
       "Approximate Annual Tourists": "5 million",
@@ -2195,7 +2054,7 @@
         "zh": "总体安全"
       },
       "Cultural Significance": "A historic city on the Rhine, known for its Gothic cathedral, chocolate, and museums.",
-      "Description": "The Cologne Cathedral is a UNESCO World Heritage site and one of Germany?s most iconic landmarks.",
+      "Description": "The Cologne Cathedral is a UNESCO World Heritage site and one of Germany's most iconic landmarks.",
       "history": {
         "zh": "德国科隆，公元前50年罗马人建立，莱茵兰地区最大城市，以哥特式大教堂闻名。"
       }
@@ -2205,10 +2064,7 @@
       "name": "Hamburg",
       "Region": "Hamburg",
       "Country": "Germany",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 53.550278,
       "Longitude": 9.993681,
       "Approximate Annual Tourists": "5 million",
@@ -2245,10 +2101,7 @@
       "name": "Dresden",
       "Region": "Saxony",
       "Country": "Germany",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 51.051005,
       "Longitude": 13.737234,
       "Approximate Annual Tourists": "3 million",
@@ -2285,10 +2138,7 @@
       "name": "Heidelberg",
       "Region": "Baden-Wrttemberg",
       "Country": "Germany",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 49.405154,
       "Longitude": 8.691038,
       "Approximate Annual Tourists": "2 million",
@@ -2325,10 +2175,7 @@
       "name": "Rothenburg ob der Tauber",
       "Region": "Bavaria",
       "Country": "Germany",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 49.443589,
       "Longitude": 10.090444,
       "Approximate Annual Tourists": "1 million",
@@ -2377,17 +2224,14 @@
       "Cost of Living": "Medium-high",
       "Safety": "Generally safe",
       "Cultural Significance": "A fairytale castle built by King Ludwig II, known for its stunning architecture and scenic views.",
-      "Description": "One of the most famous castles in the world, inspiring Disney?s Cinderella Castle."
+      "Description": "One of the most famous castles in the world, inspiring Disney's Cinderella Castle."
     },
     {
       "Destination": "Black Forest",
       "name": "Black Forest",
       "Region": "Baden-Wrttemberg",
       "Country": "Germany",
-      "type": {
-        "en": "Region",
-        "zh": "地区"
-      },
+      "type": "Region",
       "Latitude": 48.180233,
       "Longitude": 8.322533,
       "Approximate Annual Tourists": "5 million",
@@ -2424,10 +2268,7 @@
       "name": "Monaco-Ville",
       "Region": "Monaco-Ville",
       "Country": "Monaco",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 45.437078,
       "Longitude": 7.426435,
       "Approximate Annual Tourists": "3 million",
@@ -2631,327 +2472,11 @@
       "Description": "A major venue for cultural events and exhibitions in Monaco."
     },
     {
-      "Destination": "Moscow",
-      "name": "Moscow",
-      "Region": "Moscow Oblast",
-      "Country": "Russia",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
-      "Latitude": 55.755796,
-      "Longitude": 37.617315,
-      "Approximate Annual Tourists": "12.5 million",
-      "Currency": "Russian Ruble (RUB)",
-      "Majority Religion": {
-        "en": "Russian Orthodox",
-        "zh": "俄罗斯东正教"
-      },
-      "Famous Foods": "Borscht, Pelmeni, Blini",
-      "Language": "Russian",
-      "Best Time to Visit": {
-        "en": "Spring (May-June) or Fall (Sept-Oct)",
-        "zh": "春季（五月至六月）或秋季（九月至十月）"
-      },
-      "Cost of Living": {
-        "en": "Medium-high",
-        "zh": "中等偏高"
-      },
-      "Safety": {
-        "en": "Generally safe, but be aware of pickpockets",
-        "zh": "总体安全，但需注意扒手"
-      },
-      "Cultural Significance": "Capital city known for the Kremlin, Red Square, and St. Basil's Cathedral.",
-      "Description": {
-        "en": "Russia's bustling capital with a rich history and impressive landmarks.",
-        "zh": "俄罗斯繁华的首都，拥有丰富的历史和令人印象深刻的地标。"
-      },
-      "history": {
-        "zh": "俄罗斯首都，1147年首次记载于史册，13世纪起为莫斯科公国中心，现为俄罗斯联邦首都。"
-      }
-    },
-    {
-      "Destination": "St. Petersburg",
-      "name": "St. Petersburg",
-      "Region": "Leningrad Oblast",
-      "Country": "Russia",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
-      "Latitude": 59.934083,
-      "Longitude": 30.335285,
-      "Approximate Annual Tourists": "8 million",
-      "Currency": "Russian Ruble (RUB)",
-      "Majority Religion": {
-        "en": "Russian Orthodox",
-        "zh": "俄罗斯东正教"
-      },
-      "Famous Foods": "Borscht, Pelmeni, Blini",
-      "Language": "Russian",
-      "Best Time to Visit": {
-        "en": "Spring (May-June) or Fall (Sept-Oct)",
-        "zh": "春季（五月至六月）或秋季（九月至十月）"
-      },
-      "Cost of Living": {
-        "en": "Medium-high",
-        "zh": "中等偏高"
-      },
-      "Safety": {
-        "en": "Generally safe, but be aware of pickpockets",
-        "zh": "总体安全，但需注意扒手"
-      },
-      "Cultural Significance": "Historic city known for imperial palaces, canals, and museums.",
-      "Description": {
-        "en": "Known for its stunning architecture and cultural heritage.",
-        "zh": "以其令人惊叹的建筑和文化遗产闻名。"
-      },
-      "history": {
-        "zh": "俄罗斯圣彼得堡，1703年彼得大帝建立，1917年革命发源地，曾为俄罗斯帝国首都。"
-      }
-    },
-    {
-      "Destination": "Sochi",
-      "name": "Sochi",
-      "Region": "Krasnodar Krai",
-      "Country": "Russia",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
-      "Latitude": 43.565133,
-      "Longitude": 39.60304,
-      "Approximate Annual Tourists": "3 million",
-      "Currency": "Russian Ruble (RUB)",
-      "Majority Religion": {
-        "en": "Russian Orthodox",
-        "zh": "俄罗斯东正教"
-      },
-      "Famous Foods": "Borscht, Pelmeni, Blini",
-      "Language": "Russian",
-      "Best Time to Visit": {
-        "en": "Summer (June-August)",
-        "zh": "夏季（六月至八月）"
-      },
-      "Cost of Living": {
-        "en": "Medium-high",
-        "zh": "中等偏高"
-      },
-      "Safety": {
-        "en": "Generally safe, but be aware of pickpockets",
-        "zh": "总体安全，但需注意扒手"
-      },
-      "Cultural Significance": "Black Sea resort city known for beaches, mountains, and Olympic venues.",
-      "Description": {
-        "en": "Popular destination for beachgoers and winter sports enthusiasts.",
-        "zh": "海滩游客和冬季运动爱好者的热门目的地。"
-      },
-      "history": {
-        "zh": "俄罗斯索契，高加索山脉黑海度假胜地，2014年冬奥会举办地，亚热带气候城市。"
-      }
-    },
-    {
-      "Destination": "Kazan",
-      "name": "Kazan",
-      "Region": "Republic of Tatarstan",
-      "Country": "Russia",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
-      "Latitude": 55.794722,
-      "Longitude": 49.111389,
-      "Approximate Annual Tourists": "2 million",
-      "Currency": "Russian Ruble (RUB)",
-      "Majority Religion": "Muslim, Russian Orthodox",
-      "Famous Foods": "Borscht, Pelmeni, Blini",
-      "Language": "Russian, Tatar",
-      "Best Time to Visit": {
-        "en": "Spring (May-June) or Fall (Sept-Oct)",
-        "zh": "春季（五月至六月）或秋季（九月至十月）"
-      },
-      "Cost of Living": {
-        "en": "Medium",
-        "zh": "中等"
-      },
-      "Safety": {
-        "en": "Generally safe",
-        "zh": "总体安全"
-      },
-      "Cultural Significance": "Historic city with a diverse cultural heritage, including a Kremlin and mosques.",
-      "Description": {
-        "en": "Known for its rich history and cultural diversity.",
-        "zh": "以其丰富的历史和文化多样性闻名。"
-      },
-      "history": {
-        "zh": "俄罗斯鞑靼斯坦共和国首都，1005年建城，1556年并入俄罗斯，伏尔加鞑靼文化中心。"
-      }
-    },
-    {
-      "Destination": "Vladivostok",
-      "name": "Vladivostok",
-      "Region": "Primorsky Krai",
-      "Country": "Russia",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
-      "Latitude": 43.565133,
-      "Longitude": 131.885929,
-      "Approximate Annual Tourists": "1 million",
-      "Currency": "Russian Ruble (RUB)",
-      "Majority Religion": {
-        "en": "Russian Orthodox",
-        "zh": "俄罗斯东正教"
-      },
-      "Famous Foods": "Borscht, Pelmeni, Blini",
-      "Language": "Russian",
-      "Best Time to Visit": {
-        "en": "Spring (May-June) or Fall (Sept-Oct)",
-        "zh": "春季（五月至六月）或秋季（九月至十月）"
-      },
-      "Cost of Living": {
-        "en": "Medium-high",
-        "zh": "中等偏高"
-      },
-      "Safety": {
-        "en": "Generally safe",
-        "zh": "总体安全"
-      },
-      "Cultural Significance": "Port city on the Pacific Ocean known for seafood, museums, and scenic views.",
-      "Description": {
-        "en": "Offers stunning coastal landscapes and a unique cultural experience.",
-        "zh": "提供壮观的海滨景观和独特的文化体验。"
-      },
-      "history": {
-        "zh": "俄罗斯符拉迪沃斯托克，1859年命名建城，太平洋舰队驻地，中俄贸易重要港口。"
-      }
-    },
-    {
-      "Destination": "Lake Baikal",
-      "name": "Lake Baikal",
-      "Region": "Irkutsk Oblast",
-      "Country": "Russia",
-      "type": "Lake",
-      "Latitude": 53.151074,
-      "Longitude": 105.257548,
-      "Approximate Annual Tourists": "2.5 million",
-      "Currency": "Russian Ruble (RUB)",
-      "Majority Religion": "Russian Orthodox",
-      "Famous Foods": "Borscht, Pelmeni, Blini",
-      "Language": "Russian",
-      "Best Time to Visit": "Summer (June-August)",
-      "Cost of Living": "Medium",
-      "Safety": "Generally safe",
-      "Cultural Significance": "World's deepest lake known for its natural beauty, wildlife, and outdoor activities.",
-      "Description": "A must-visit for nature enthusiasts and adventure seekers."
-    },
-    {
-      "Destination": "Kamchatka Peninsula",
-      "name": "Kamchatka Peninsula",
-      "Region": "Kamchatka Krai",
-      "Country": "Russia",
-      "type": "Peninsula",
-      "Latitude": 56.021562,
-      "Longitude": 158.624312,
-      "Approximate Annual Tourists": "1 million",
-      "Currency": "Russian Ruble (RUB)",
-      "Majority Religion": "Russian Orthodox",
-      "Famous Foods": "Borscht, Pelmeni, Blini",
-      "Language": "Russian",
-      "Best Time to Visit": "Summer (June-August)",
-      "Cost of Living": "Medium-high",
-      "Safety": "Generally safe, but be aware of bears",
-      "Cultural Significance": "Remote peninsula known for volcanoes, glaciers, and unique wildlife.",
-      "Description": "Offers dramatic landscapes and natural wonders."
-    },
-    {
-      "Destination": "Golden Ring",
-      "name": "Golden Ring",
-      "Region": "Central Russia",
-      "Country": "Russia",
-      "type": {
-        "en": "Region",
-        "zh": "地区"
-      },
-      "Latitude": 56.021562,
-      "Longitude": 39.624312,
-      "Approximate Annual Tourists": "10 million (region-wide)",
-      "Currency": "Russian Ruble (RUB)",
-      "Majority Religion": {
-        "en": "Russian Orthodox",
-        "zh": "俄罗斯东正教"
-      },
-      "Famous Foods": "Borscht, Pelmeni, Blini",
-      "Language": "Russian",
-      "Best Time to Visit": {
-        "en": "Spring (May-June) or Fall (Sept-Oct)",
-        "zh": "春季（五月至六月）或秋季（九月至十月）"
-      },
-      "Cost of Living": {
-        "en": "Medium",
-        "zh": "中等"
-      },
-      "Safety": {
-        "en": "Generally safe",
-        "zh": "总体安全"
-      },
-      "Cultural Significance": "Group of historic cities known for medieval architecture and cultural heritage.",
-      "Description": {
-        "en": "A historic route offering insights into Russia's medieval past.",
-        "zh": "提供俄罗斯中世纪历史见解的历史路线。"
-      },
-      "history": {
-        "zh": "俄罗斯金环古城群，包括弗拉基米尔、苏兹达尔等8古城，12-13世纪东北罗斯重要城市。"
-      }
-    },
-    {
-      "Destination": "Trans-Siberian Railway",
-      "name": "Trans-Siberian Railway",
-      "Region": "Russia",
-      "Country": "Russia",
-      "type": "Railway",
-      "Latitude": 56.021562,
-      "Longitude": 105.624312,
-      "Approximate Annual Tourists": "2 million (tourists)",
-      "Currency": "Russian Ruble (RUB)",
-      "Majority Religion": "Russian Orthodox",
-      "Famous Foods": "Borscht, Pelmeni, Blini",
-      "Language": "Russian",
-      "Best Time to Visit": "Summer (June-August)",
-      "Cost of Living": "Medium-high",
-      "Safety": "Generally safe",
-      "Cultural Significance": "Famous railway route spanning Russia, known for its scenic and cultural experiences.",
-      "Description": "An iconic journey showcasing Russia's vast landscapes and diverse cultures."
-    },
-    {
-      "Destination": "St. Basil's Cathedral",
-      "name": "St. Basil's Cathedral",
-      "Region": "Moscow",
-      "Country": "Russia",
-      "type": "Church",
-      "Latitude": 55.755796,
-      "Longitude": 37.617315,
-      "Approximate Annual Tourists": "2 million",
-      "Currency": "Russian Ruble (RUB)",
-      "Majority Religion": "Russian Orthodox",
-      "Famous Foods": "Borscht, Pelmeni, Blini",
-      "Language": "Russian",
-      "Best Time to Visit": "Spring (May-June) or Fall (Sept-Oct)",
-      "Cost of Living": "Free",
-      "Safety": "Generally safe",
-      "Cultural Significance": "Iconic cathedral known for its colorful domes and intricate architecture.",
-      "Description": "A symbol of Russia's rich cultural and religious heritage."
-    },
-    {
       "Destination": "Athens",
       "name": "Athens",
       "Region": "Attica",
       "Country": "Greece",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 37.979452,
       "Longitude": 23.716217,
       "Approximate Annual Tourists": "10 million",
@@ -3121,10 +2646,7 @@
       "name": "Nafplio",
       "Region": "Peloponnese",
       "Country": "Greece",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 37.571111,
       "Longitude": 22.767778,
       "Approximate Annual Tourists": "500,000",
@@ -3180,10 +2702,7 @@
       "name": "Lisbon",
       "Region": "Lisbon",
       "Country": "Portugal",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 38.710825,
       "Longitude": -9.136136,
       "Approximate Annual Tourists": "3.5 million",
@@ -3220,10 +2739,7 @@
       "name": "Porto",
       "Region": "Porto",
       "Country": "Portugal",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 41.149631,
       "Longitude": -8.610975,
       "Approximate Annual Tourists": "2.5 million",
@@ -3260,10 +2776,7 @@
       "name": "Algarve",
       "Region": "Algarve",
       "Country": "Portugal",
-      "type": {
-        "en": "Region",
-        "zh": "地区"
-      },
+      "type": "Region",
       "Latitude": 37.044335,
       "Longitude": -7.774026,
       "Approximate Annual Tourists": "3 million",
@@ -3319,10 +2832,7 @@
       "name": "Sintra",
       "Region": "Lisbon",
       "Country": "Portugal",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 38.730825,
       "Longitude": -9.360576,
       "Approximate Annual Tourists": "1 million",
@@ -3359,10 +2869,7 @@
       "name": "?bidos",
       "Region": "Leiria",
       "Country": "Portugal",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 39.382114,
       "Longitude": -8.895664,
       "Approximate Annual Tourists": "500,000",
@@ -3399,10 +2906,7 @@
       "name": "Aveiro",
       "Region": "Aveiro",
       "Country": "Portugal",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 40.64275,
       "Longitude": -8.65109,
       "Approximate Annual Tourists": "300,000",
@@ -3439,10 +2943,7 @@
       "name": "Braga",
       "Region": "Braga",
       "Country": "Portugal",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 41.537114,
       "Longitude": -8.422754,
       "Approximate Annual Tourists": "200,000",
@@ -3479,10 +2980,7 @@
       "name": "Coimbra",
       "Region": "Coimbra",
       "Country": "Portugal",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 40.205978,
       "Longitude": -8.410443,
       "Approximate Annual Tourists": "150,000",
@@ -3519,10 +3017,7 @@
       "name": "Douro Valley",
       "Region": "Douro Valley",
       "Country": "Portugal",
-      "type": {
-        "en": "Region",
-        "zh": "地区"
-      },
+      "type": "Region",
       "Latitude": 41.086758,
       "Longitude": -7.791548,
       "Approximate Annual Tourists": "500,000",
@@ -3559,10 +3054,7 @@
       "name": "Oslo",
       "Region": "Oslo",
       "Country": "Norway",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 59.913868,
       "Longitude": 10.751964,
       "Approximate Annual Tourists": "2.5 million",
@@ -3596,10 +3088,7 @@
       "name": "Bergen",
       "Region": "Vestland",
       "Country": "Norway",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 60.395186,
       "Longitude": 5.324015,
       "Approximate Annual Tourists": "1.5 million",
@@ -3650,7 +3139,7 @@
     {
       "Destination": "Geirangerfjord",
       "name": "Geirangerfjord",
-      "Region": "M?re og Romsdal",
+      "Region": "Møre og Romsdal",
       "Country": "Norway",
       "type": "Fjord",
       "Latitude": 62.103056,
@@ -3690,10 +3179,7 @@
       "name": "Troms?",
       "Region": "Troms",
       "Country": "Norway",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 69.649328,
       "Longitude": 18.955689,
       "Approximate Annual Tourists": "300,000",
@@ -3803,10 +3289,7 @@
       "name": "Stockholm",
       "Region": "Stockholm County",
       "Country": "Sweden",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 59.329302,
       "Longitude": 18.068581,
       "Approximate Annual Tourists": "2.5 million",
@@ -3840,10 +3323,7 @@
       "name": "Gothenburg",
       "Region": "Vstra Gtaland County",
       "Country": "Sweden",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 57.708863,
       "Longitude": 11.973339,
       "Approximate Annual Tourists": "1.5 million",
@@ -3896,10 +3376,7 @@
       "name": "Lapland",
       "Region": "Norrbotten County",
       "Country": "Sweden",
-      "type": {
-        "en": "Region",
-        "zh": "地区"
-      },
+      "type": "Region",
       "Latitude": 67.005472,
       "Longitude": 20.033294,
       "Approximate Annual Tourists": "500,000",
@@ -3952,10 +3429,7 @@
       "name": "Visby",
       "Region": "Gotland County",
       "Country": "Sweden",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 57.744674,
       "Longitude": 18.285443,
       "Approximate Annual Tourists": "200,000",
@@ -3989,10 +3463,7 @@
       "name": "Uppsala",
       "Region": "Uppsala County",
       "Country": "Sweden",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 59.858134,
       "Longitude": 17.638943,
       "Approximate Annual Tourists": "150,000",
@@ -4026,10 +3497,7 @@
       "name": "Kiruna",
       "Region": "Norrbotten County",
       "Country": "Sweden",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 67.853244,
       "Longitude": 20.236394,
       "Approximate Annual Tourists": "100,000",
@@ -4101,10 +3569,7 @@
       "name": "Zurich",
       "Region": "Zurich",
       "Country": "Switzerland",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 47.376881,
       "Longitude": 8.541694,
       "Approximate Annual Tourists": "3 million",
@@ -4138,10 +3603,7 @@
       "name": "Geneva",
       "Region": "Geneva",
       "Country": "Switzerland",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 46.204391,
       "Longitude": 6.147435,
       "Approximate Annual Tourists": "2 million",
@@ -4175,10 +3637,7 @@
       "name": "Lucerne",
       "Region": "Central Switzerland",
       "Country": "Switzerland",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 47.051389,
       "Longitude": 8.306944,
       "Approximate Annual Tourists": "1.5 million",
@@ -4212,10 +3671,7 @@
       "name": "Interlaken",
       "Region": "Bern",
       "Country": "Switzerland",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 46.680278,
       "Longitude": 7.855833,
       "Approximate Annual Tourists": "1 million",
@@ -4249,10 +3705,7 @@
       "name": "Zermatt",
       "Region": "Valais",
       "Country": "Switzerland",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 46.051389,
       "Longitude": 7.7025,
       "Approximate Annual Tourists": "500,000",
@@ -4359,10 +3812,7 @@
       "name": "Montreux",
       "Region": "Vaud",
       "Country": "Switzerland",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 46.520278,
       "Longitude": 6.923611,
       "Approximate Annual Tourists": "100,000",
@@ -4396,10 +3846,7 @@
       "name": "Istanbul",
       "Region": "Istanbul",
       "Country": "Turkey",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 41.008238,
       "Longitude": 28.978359,
       "Approximate Annual Tourists": "15 million",
@@ -4433,10 +3880,7 @@
       "name": "Antalya",
       "Region": "Antalya",
       "Country": "Turkey",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 36.522512,
       "Longitude": 30.703761,
       "Approximate Annual Tourists": "10 million",
@@ -4470,10 +3914,7 @@
       "name": "Cappadocia",
       "Region": "Central Anatolia",
       "Country": "Turkey",
-      "type": {
-        "en": "Region",
-        "zh": "地区"
-      },
+      "type": "Region",
       "Latitude": 38.711845,
       "Longitude": 35.156845,
       "Approximate Annual Tourists": "2 million",
@@ -4545,10 +3986,7 @@
       "name": "Bodrum",
       "Region": "Aegean Region",
       "Country": "Turkey",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 37.134596,
       "Longitude": 27.384188,
       "Approximate Annual Tourists": "1 million",
@@ -4582,10 +4020,7 @@
       "name": "Fethiye",
       "Region": "Aegean Region",
       "Country": "Turkey",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 36.686944,
       "Longitude": 28.9575,
       "Approximate Annual Tourists": "500,000",
@@ -4676,10 +4111,7 @@
       "name": "Kyiv",
       "Region": "Kyiv Oblast",
       "Country": "Ukraine",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 50.45466,
       "Longitude": 30.523842,
       "Approximate Annual Tourists": "3.5 million",
@@ -4710,10 +4142,7 @@
       "name": "Lviv",
       "Region": "Lviv Oblast",
       "Country": "Ukraine",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 49.839973,
       "Longitude": 23.989223,
       "Approximate Annual Tourists": "2 million",
@@ -4747,10 +4176,7 @@
       "name": "Odessa",
       "Region": "Odesa Oblast",
       "Country": "Ukraine",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 46.483333,
       "Longitude": 30.733333,
       "Approximate Annual Tourists": "1 million",
@@ -4822,10 +4248,7 @@
       "name": "Kharkiv",
       "Region": "Kharkiv Oblast",
       "Country": "Ukraine",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 50.0,
       "Longitude": 36.25,
       "Approximate Annual Tourists": "500,000",
@@ -4859,10 +4282,7 @@
       "name": "Dnipro",
       "Region": "Dnipropetrovsk Oblast",
       "Country": "Ukraine",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 48.461667,
       "Longitude": 34.976667,
       "Approximate Annual Tourists": "500,000",
@@ -4953,10 +4373,7 @@
       "name": "London",
       "Region": "Greater London",
       "Country": "United Kingdom",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 51.507351,
       "Longitude": -0.127758,
       "Approximate Annual Tourists": "25 million",
@@ -4990,10 +4407,7 @@
       "name": "Edinburgh",
       "Region": "Scotland",
       "Country": "United Kingdom",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 55.953252,
       "Longitude": -3.188267,
       "Approximate Annual Tourists": "3 million",
@@ -5027,10 +4441,7 @@
       "name": "Manchester",
       "Region": "England",
       "Country": "United Kingdom",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 53.480958,
       "Longitude": -2.241509,
       "Approximate Annual Tourists": "2 million",
@@ -5064,10 +4475,7 @@
       "name": "Liverpool",
       "Region": "England",
       "Country": "United Kingdom",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 53.408371,
       "Longitude": -2.987576,
       "Approximate Annual Tourists": "1.5 million",
@@ -5101,10 +4509,7 @@
       "name": "Cambridge",
       "Region": "England",
       "Country": "United Kingdom",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 52.204772,
       "Longitude": 0.120972,
       "Approximate Annual Tourists": "1 million",
@@ -5176,10 +4581,7 @@
       "name": "The Cotswolds",
       "Region": "England",
       "Country": "United Kingdom",
-      "type": {
-        "en": "Region",
-        "zh": "地区"
-      },
+      "type": "Region",
       "Latitude": 51.793333,
       "Longitude": -1.875,
       "Approximate Annual Tourists": "1 million",
@@ -5232,10 +4634,7 @@
       "name": "Scottish Highlands",
       "Region": "Scotland",
       "Country": "United Kingdom",
-      "type": {
-        "en": "Region",
-        "zh": "地区"
-      },
+      "type": "Region",
       "Latitude": 57.051528,
       "Longitude": -4.213333,
       "Approximate Annual Tourists": "1 million",
@@ -5269,10 +4668,7 @@
       "name": "Luxembourg City",
       "Region": "Luxembourg District",
       "Country": "Luxembourg",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 49.611668,
       "Longitude": 6.130237,
       "Approximate Annual Tourists": "1.5 million",
@@ -5306,10 +4702,7 @@
       "name": "Vianden",
       "Region": "Vianden",
       "Country": "Luxembourg",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 49.923611,
       "Longitude": 6.25,
       "Approximate Annual Tourists": "500,000",
@@ -5343,10 +4736,7 @@
       "name": "Esch-sur-Alzette",
       "Region": "Esch-sur-Alzette",
       "Country": "Luxembourg",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 49.517222,
       "Longitude": 5.964444,
       "Approximate Annual Tourists": "300,000",
@@ -5399,10 +4789,7 @@
       "name": "Mullerthal",
       "Region": "Mullerthal",
       "Country": "Luxembourg",
-      "type": {
-        "en": "Region",
-        "zh": "地区"
-      },
+      "type": "Region",
       "Latitude": 49.752778,
       "Longitude": 6.576667,
       "Approximate Annual Tourists": "50,000",
@@ -5493,10 +4880,7 @@
       "name": "Bettembourg",
       "Region": "Bettembourg",
       "Country": "Luxembourg",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 49.505556,
       "Longitude": 6.044444,
       "Approximate Annual Tourists": "25,000",
@@ -5530,10 +4914,7 @@
       "name": "Valletta",
       "Region": "Central Region",
       "Country": "Malta",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 35.897778,
       "Longitude": 14.5075,
       "Approximate Annual Tourists": "1.5 million",
@@ -5567,10 +4948,7 @@
       "name": "Mdina",
       "Region": "Central Region",
       "Country": "Malta",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 35.884167,
       "Longitude": 14.493889,
       "Approximate Annual Tourists": "1 million",
@@ -5623,10 +5001,7 @@
       "name": "Marsaxlokk",
       "Region": "Southern Region",
       "Country": "Malta",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 35.734722,
       "Longitude": 14.558611,
       "Approximate Annual Tourists": "500,000",
@@ -5660,10 +5035,7 @@
       "name": "St. Paul's Bay",
       "Region": "Northern Region",
       "Country": "Malta",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 35.921667,
       "Longitude": 14.474167,
       "Approximate Annual Tourists": "500,000",
@@ -5697,10 +5069,7 @@
       "name": "Rabat",
       "Region": "Northern Region",
       "Country": "Malta",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 35.879444,
       "Longitude": 14.463056,
       "Approximate Annual Tourists": "200,000",
@@ -5734,10 +5103,7 @@
       "name": "Mosta",
       "Region": "Central Region",
       "Country": "Malta",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 35.871944,
       "Longitude": 14.451389,
       "Approximate Annual Tourists": "200,000",
@@ -5771,10 +5137,7 @@
       "name": "Marsaskala",
       "Region": "Southern Region",
       "Country": "Malta",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 35.728333,
       "Longitude": 14.569167,
       "Approximate Annual Tourists": "100,000",
@@ -5846,10 +5209,7 @@
       "name": "Reykjavik",
       "Region": "Capital Region",
       "Country": "Iceland",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 64.147778,
       "Longitude": -21.915556,
       "Approximate Annual Tourists": "2.5 million",
@@ -5902,10 +5262,7 @@
       "name": "Golden Circle",
       "Region": "South Iceland",
       "Country": "Iceland",
-      "type": {
-        "en": "Region",
-        "zh": "地区"
-      },
+      "type": "Region",
       "Latitude": 64.006944,
       "Longitude": -21.1325,
       "Approximate Annual Tourists": "1 million",
@@ -5977,10 +5334,7 @@
       "name": "Akureyri",
       "Region": "North Iceland",
       "Country": "Iceland",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 65.668611,
       "Longitude": -18.081389,
       "Approximate Annual Tourists": "200,000",
@@ -6033,10 +5387,7 @@
       "name": "Westfjords",
       "Region": "Westfjords",
       "Country": "Iceland",
-      "type": {
-        "en": "Region",
-        "zh": "地区"
-      },
+      "type": "Region",
       "Latitude": 65.640556,
       "Longitude": -20.189722,
       "Approximate Annual Tourists": "50,000",
@@ -6108,10 +5459,7 @@
       "name": "Belgrade",
       "Region": "Central Serbia",
       "Country": "Serbia",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 44.816667,
       "Longitude": 20.448889,
       "Approximate Annual Tourists": "1.5 million",
@@ -6142,10 +5490,7 @@
       "name": "Novi Sad",
       "Region": "Vojvodina",
       "Country": "Serbia",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 45.263333,
       "Longitude": 19.846667,
       "Approximate Annual Tourists": "500,000",
@@ -6176,10 +5521,7 @@
       "name": "Ni?",
       "Region": "Southern Serbia",
       "Country": "Serbia",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 43.322222,
       "Longitude": 21.888889,
       "Approximate Annual Tourists": "300,000",
@@ -6286,10 +5628,7 @@
       "name": "Sremski Karlovci",
       "Region": "Vojvodina",
       "Country": "Serbia",
-      "type": {
-        "en": "Town",
-        "zh": "城镇"
-      },
+      "type": "Town",
       "Latitude": 45.263333,
       "Longitude": 19.846667,
       "Approximate Annual Tourists": "25,000",
@@ -6320,10 +5659,7 @@
       "name": "Subotica",
       "Region": "North Backa",
       "Country": "Serbia",
-      "type": {
-        "en": "City",
-        "zh": "城市"
-      },
+      "type": "City",
       "Latitude": 46.083333,
       "Longitude": 18.966667,
       "Approximate Annual Tourists": "20,000",
@@ -6350,9 +5686,9 @@
       }
     },
     {
-      "Destination": "Vrnja?ka Banja",
-      "name": "Vrnja?ka Banja",
-      "Region": "Ra?ka",
+      "Destination": "Vrnjačka Banja",
+      "name": "Vrnjačka Banja",
+      "Region": "Raška",
       "Country": "Serbia",
       "type": "Spa Town",
       "Latitude": 43.519722,

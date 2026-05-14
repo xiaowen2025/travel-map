@@ -4,13 +4,16 @@ import { SCROLL_THROTTLE_MS } from './constants.js';
 export class ScrollManager {
     #enabled = false;
     #timeout = null;
+    #excludeSelector = null;
 
     constructor({
         scrollThreshold = SCROLL_THROTTLE_MS,
-        passive = true
+        passive = true,
+        excludeSelector = null
     } = {}) {
         this.scrollThreshold = scrollThreshold;
         this.passive = passive;
+        this.#excludeSelector = excludeSelector;
     }
 
     enable() {
@@ -24,8 +27,8 @@ export class ScrollManager {
     onScroll(callback) {
         const handler = (e) => {
             if (!this.#enabled) return;
-
             if (this.#timeout) return;
+            if (this.#excludeSelector && e.target.closest(this.#excludeSelector)) return;
 
             this.#timeout = setTimeout(() => {
                 const direction = e.deltaY > 0 ? 'down' : 'up';

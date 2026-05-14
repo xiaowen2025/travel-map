@@ -1,7 +1,7 @@
 # my-list.html Documentation
 
 ## Overview
-`my-list.html` is a standalone page that displays a filtered list of attractions marked as "必须去" (must-visit) from `my_list.json`. Each card shows the attraction with era prefix, location, image, description, and personal comments.
+`my-list.html` is a standalone page that displays a filtered list of attractions marked as "必须去" (must-visit) from `my_attraction_list.json`. Each card shows the attraction with era prefix, location, image, description, and personal comments.
 
 ## File Structure
 ```
@@ -9,7 +9,7 @@ travel-map/
 ├── my-list.html              # Standalone page (no bundler needed)
 ├── public/
 │   └── data/
-│       ├── my_list.json      # List data with ratings and comments
+│       ├── my_attraction_list.json      # List data with ratings and comments
 │       ├── attractions.json  # Attraction details (timeline points)
 │       ├── eras.json         # Era definitions and names
 │       └── countries.json    # Country code to name mapping
@@ -20,7 +20,7 @@ travel-map/
 ## Data Flow
 
 1. **Parallel Fetch** — 4 JSON files loaded simultaneously via `Promise.all`:
-   - `my_list.json` — user's list with ratings
+   - `my_attraction_list.json` — user's list with ratings
    - `attractions.json` — timeline points with full attraction data
    - `eras.json` — era categories (史前时代, 古典时代, etc.)
    - `countries.json` — ISO country codes to names
@@ -31,7 +31,7 @@ travel-map/
 
 4. **Render** — Each item mapped to HTML card with era prefix, location, image, description
 
-## Rating Values (my_list.json)
+## Rating Values (my_attraction_list.json)
 | Rating | Meaning |
 |--------|---------|
 | `必须去` | Must visit |

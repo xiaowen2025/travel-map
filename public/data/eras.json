@@ -25,14 +25,14 @@
       "milestone": { "en": "Renaissance, Age of Discovery, and Enlightenment", "zh": "文艺复兴、大航海时代与启蒙运动" }
     },
     {
-      "key": "modern",
-      "name": { "en": "Modern Period", "zh": "近代" },
+      "key": "late_modern",
+      "name": { "en": "Late Modern Period", "zh": "近代晚期" },
       "dateRange": { "start": 1789, "end": 1945 },
       "milestone": { "en": "Industrial Revolution and World Wars", "zh": "工业革命与世界大战" }
     },
     {
       "key": "contemporary",
-      "name": { "en": "Contemporary Period", "zh": "当代" },
+      "name": { "en": "Contemporary Period", "zh": "现代" },
       "dateRange": { "start": 1946, "end": null },
       "milestone": { "en": "Atomic Age, Cold War, and Digital Revolution", "zh": "原子能时代、冷战与数字革命" }
     }

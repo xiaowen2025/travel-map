@@ -28,7 +28,6 @@ const ui = {
     eraPanel: document.getElementById('eraPanel'),
     modeBtns: document.querySelectorAll('.mode-btn'),
     langToggle: document.getElementById('langToggle'),
-    scrollIndicator: document.querySelector('.scroll-indicator'),
     headerSubtitle: document.querySelector('.header p'),
 
     // New card elements
@@ -89,7 +88,8 @@ export function showCompactCard(p, direction = null) {
 }
 
 function fillCompactContent(p, eraName, locale) {
-    ui.cardEra.innerText = eraName + ' · ' + getLoc(p, 'era', locale);
+    const eraSuffix = getLoc(p, 'era', locale);
+    ui.cardEra.innerText = eraName + (eraSuffix ? ' · ' + eraSuffix : '');
     ui.cardTitle.innerText = getLoc(p, 'name', locale);
     ui.cardShortDesc.innerText = getLoc(p, 'shortDesc', locale) || '';
     ui.cardLocation.innerText = '📍 ' + getCountry(p, locale) + (getLoc(p, 'region', locale) ? ' · ' + getLoc(p, 'region', locale) : '');
@@ -187,19 +187,19 @@ export function showEraToast(eraCat) {
     }, TOAST_DURATION_MS);
 }
 
-// Show/hide scroll indicator and era panel based on view mode
+// Show/hide era panel based on view mode
 export function setViewMode(mode) {
     if (mode === 'history') {
         ui.eraPanel.style.opacity = 1;
-        ui.scrollIndicator.style.opacity = 1;
         ui.attractionCard.style.display = '';
-    } else {
+    } else if (mode === 'city') {
         ui.eraPanel.style.opacity = 0;
-        ui.scrollIndicator.style.opacity = 0;
-        // Hide attraction card in non-history modes
         ui.attractionCard.classList.remove('visible');
         ui.attractionCard.style.display = 'none';
         collapseCard();
+    } else if (mode === 'nature') {
+        ui.eraPanel.style.opacity = 0;
+        ui.attractionCard.style.display = '';
     }
 }
 
@@ -211,7 +211,6 @@ export function updateLangToggle(locale) {
 // Update static UI labels
 export function updateStaticLabels(locale) {
     ui.headerSubtitle.innerText = t('subtitle', locale);
-    ui.scrollIndicator.querySelector('span').innerText = t('scrollHint', locale);
 }
 
 // Update mode button labels
@@ -236,7 +235,8 @@ export function setupEventListeners(handlers) {
 
     // Keyboard handler
     window.addEventListener('keydown', (e) => {
-        if (state.get('viewMode') !== 'history') return;
+        const mode = state.get('viewMode');
+        if (mode !== 'history' && mode !== 'nature') return;
         handlers.onKeydown?.(e);
     });
 }

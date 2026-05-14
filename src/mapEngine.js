@@ -128,6 +128,7 @@ export function updateMarkers(currentPointIndex, data) {
     if (!data || data.length === 0) return;
 
     const locale = state.get('locale');
+    const mode = state.get('viewMode');
     const activePoints = [];
     const historyPoints = [];
 
@@ -142,6 +143,9 @@ export function updateMarkers(currentPointIndex, data) {
             pointData.symbolSize = SYMBOL_SIZE_ACTIVE;
             activePoints.push(pointData);
         } else if (index < currentPointIndex) {
+            historyPoints.push(pointData);
+        } else if (mode === 'nature') {
+            // In nature mode, show future points as well, but styled as other/history
             historyPoints.push(pointData);
         }
     });

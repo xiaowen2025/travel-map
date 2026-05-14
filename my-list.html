@@ -11,7 +11,7 @@
 
     <script type="module">
         const [myList, attractionsData, countriesData, erasData] = await Promise.all([
-            fetch('data/my_list.json').then(r => r.json()),
+            fetch('data/my_attraction_list.json').then(r => r.json()),
             fetch('data/attractions.json').then(r => r.json()),
             fetch('data/countries.json').then(r => r.json()),
             fetch('data/eras.json').then(r => r.json())

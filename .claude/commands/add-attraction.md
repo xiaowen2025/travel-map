@@ -1,6 +1,7 @@
 ## 景点管理
 
 在 `public/data/attractions.json` 的 `timelinePoints` 数组中添加新对象。
+如果提供了多个景点，平行启动多个subagents处理。
 
 ### 必填字段
 
@@ -23,29 +24,14 @@
 | `eraCategory_en` | 英文时代分类 | `Ancient Era` |
 | `shortDesc_en` | 英文短描述 | `...` |
 | `description_en` | 英文详细描述 | `...` |
+| `image` | 图片文件名| `pantheon.jpg` |
 
 **注意：** 所有 `*_en` 字段必须使用**纯英文**，不要使用 `[EN]` 前缀，不要填写中文内容。
 
-### 可选字段
-
-| 字段 | 说明 |
-|------|------|
-| `image` | 图片文件名，如 `pantheon.jpg` |
-
----
 
 ## 2. 时代分类 / Era Categories
 
-| 中文 | English | sortYear 范围 |
-|------|---------|---------------|
-| 史前与青铜时代 | Prehistoric Bronze Age | ~ -10000 ~ -800 |
-| 古代 | Ancient Era | ~ -700 ~ 500 |
-| 中世纪贸易 | Medieval Trade | ~ 500 ~ 1400 |
-| 文艺复兴与宗教改革 | Renaissance Reformation | ~ 1400 ~ 1600 |
-| 帝国、启蒙与革命 | Empires Enlightenment Revolution | ~ 1600 ~ 1800 |
-| 世界大战与冷战 | World Wars Cold War | ~ 1800 ~ 1990 |
-
----
+see eras.json
 
 ## 3. 图片要求
 
@@ -107,39 +93,6 @@ Prefer a high-angle panoramic view from an observation deck. Ensure high visibil
   - 20世纪建筑用4位数：`1940`
 - [ ] 负数表示公元前：`sortYear: -500` = 公元前500年
 - [ ] 不要使用 `999999` 作为占位符
-
----
-
-## 5. JSON 格式规范
-
-```json
-{
-  "timelinePoints": [
-    {
-      "id": "example-attraction",
-      "name": "示例景点",
-      "location": "国家 城市",
-      "era": "年代描述",
-      "sortYear": 1500,
-      "eraCategory": "时代分类",
-      "category": "cultural",
-      "coordinates": [12.3456, 41.9876],
-      "tags": ["时代分类"],
-      "shortDesc": "一句话描述",
-      "description": "详细描述...",
-      "name_en": "Example Attraction",
-      "location_en": "Country City",
-      "era_en": "Description in English",
-      "eraCategory_en": "Era Category",
-      "shortDesc_en": "One sentence description",
-      "description_en": "Detailed description in English...",
-      "image": "example-attraction.jpg"
-    }
-  ]
-}
-```
-
----
 
 ## 6. 添加后检查
 
