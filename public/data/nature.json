@@ -1,157 +1,6 @@
 {
   "sites": [
     {
-      "id": "plitvice-lakes",
-      "name": {
-        "en": "Plitvice Lakes National Park",
-        "zh": "普利特维采湖群国家公园"
-      },
-      "category": "Natural",
-      "country": "Croatia",
-      "coordinates": [
-        15.621,
-        44.88
-      ],
-      "shortDesc": {
-        "en": "16 cascading emerald lakes connected by waterfalls",
-        "zh": "16个阶梯式翠绿湖泊与瀑布群"
-      },
-      "description": {
-        "en": "Known as the 'Plitvice Lakes', this is Croatia's most famous natural wonder. It consists of 16 emerald lakes interconnected by a series of waterfalls and travertine dams, with colors shifting from turquoise to deep blue depending on the sunlight and mineral content.",
-        "zh": "俗称“十六湖”，被誉为欧洲的九寨沟。由16个翠绿色的湖泊通过无数瀑布 and 钙化堤坝相连而成，湖水随矿物质和阳光呈现迷人色彩。"
-      },
-      "image": "/assets/attractions/plitvice-lakes.jpg",
-      "bestTimeToVisit": "May to September",
-      "recommendedDuration": "1-2 days",
-      "officialWebsite": "https://np-plitvicka-jezera.hr/en/",
-      "tickets": "Adults €23 - €40 (varies by season)",
-      "tags": [
-        "feature:Lakes",
-        "range:Dinaric Alps",
-        "unesco:natural"
-      ]
-    },
-    {
-      "id": "bia-owie-a-forest",
-      "name": {
-        "en": "Białowieża Forest",
-        "zh": "比亚沃维耶扎原始森林"
-      },
-      "category": "Natural",
-      "country": "Poland / Belarus",
-      "coordinates": [
-        23.87,
-        52.75
-      ],
-      "shortDesc": {
-        "en": "The last remaining primeval lowland forest in Europe",
-        "zh": "欧洲最后的一片低地原始森林"
-      },
-      "description": {
-        "en": "The last primary forest in the European lowlands, home to the European bison and ancient trees. It represents the immense range of primary forest that once covered the European continent thousands of years ago.",
-        "zh": "横跨波兰与白俄罗斯，是欧洲现存唯一的低地原始森林。作为欧洲野牛的最后栖息地，拥有数百年树龄的巨木，展现了数千年前欧洲的原始面貌。"
-      },
-      "image": "/assets/attractions/bia-owie-a-forest.jpg",
-      "bestTimeToVisit": "May to October",
-      "recommendedDuration": "1-2 days",
-      "officialWebsite": "https://bpn.com.pl/",
-      "tickets": "Park entry €2 - €5, Guided tours extra",
-      "tags": [
-        "feature:Forest",
-        "unesco:natural"
-      ]
-    },
-    {
-      "id": "giants-causeway-and-causeway-coast",
-      "name": {
-        "en": "Giant's Causeway and Causeway Coast",
-        "zh": "“巨人之路”及其海岸"
-      },
-      "category": "Natural",
-      "country": "United Kingdom",
-      "coordinates": [
-        -6.512,
-        55.241
-      ],
-      "shortDesc": {
-        "en": "40,000 interlocking basalt columns from volcanic activity",
-        "zh": "四万根规则的六角形玄武岩柱"
-      },
-      "description": {
-        "en": "Located on the Antrim coast of Northern Ireland, it features about 40,000 interlocking basalt columns, the result of an ancient volcanic eruption. Local legend says it was built by the giant Finn McCool to reach Scotland.",
-        "zh": "位于北爱尔兰安特里姆海岸，由约4万根火山喷发冷却形成的六角形玄武岩柱组成。民间传说这是巨人芬·麦库尔为挑战对手修筑的堤道。"
-      },
-      "image": "/assets/attractions/giants-causeway-and-causeway-coast.jpg",
-      "bestTimeToVisit": "April to September",
-      "recommendedDuration": "Half day",
-      "officialWebsite": "https://www.nationaltrust.org.uk/giants-causeway",
-      "tickets": "Visitor Experience: ~€16 (Site access is free)",
-      "tags": [
-        "feature:Coastal",
-        "unesco:natural"
-      ]
-    },
-    {
-      "id": "pirin-national-park",
-      "name": {
-        "en": "Pirin National Park",
-        "zh": "皮林国家公园"
-      },
-      "category": "Natural",
-      "country": "Bulgaria",
-      "coordinates": [
-        23.433,
-        41.75
-      ],
-      "shortDesc": {
-        "en": "Spectacular glacial lakes and 1,300-year-old pine forests",
-        "zh": "壮丽的高山冰川湖与千年古松林"
-      },
-      "description": {
-        "en": "Located in southwest Bulgaria, the park features a diverse limestone landscape with glacial lakes, waterfalls, and ancient pine forests including trees over 1,300 years old. It is a major destination for hiking and skiing.",
-        "zh": "位于保加利亚西南部，以石灰岩高山景观、冰川湖泊和茂密松林著称。拥有树龄超1300年的古松，夏季适合徒步，冬季则是顶级滑雪胜地。"
-      },
-      "image": "/assets/attractions/pirin-national-park.jpg",
-      "bestTimeToVisit": "June to September (Hiking) / Dec to March (Skiing)",
-      "recommendedDuration": "1-3 days",
-      "officialWebsite": "https://www.pirin.bg/",
-      "tickets": "Free",
-      "tags": [
-        "feature:Mountain",
-        "range:Balkans"
-      ]
-    },
-    {
-      "id": "srebarna-nature-reserve",
-      "name": {
-        "en": "Srebarna Nature Reserve",
-        "zh": "斯雷巴尔纳自然保护区"
-      },
-      "category": "Natural",
-      "country": "Bulgaria",
-      "coordinates": [
-        27.073,
-        44.107
-      ],
-      "shortDesc": {
-        "en": "Key migratory stopover on the Danube for rare birds",
-        "zh": "多瑙河畔重要的候鸟迁徙中转站"
-      },
-      "description": {
-        "en": "A freshwater lake on the Danube, serving as a vital breeding and stopover ground for over 100 bird species, notably the rare Dalmatian Pelican. It includes an ecological trail and a natural history museum.",
-        "zh": "位于多瑙河畔的淡水湖泊，是欧洲重要的候鸟中转站。作为卷羽鹈鹕在保加利亚唯一的繁殖地，这里栖息着百余种鸟类，设有自然博物馆。"
-      },
-      "image": "/assets/attractions/srebarna-nature-reserve.jpg",
-      "bestTimeToVisit": "April to September",
-      "recommendedDuration": "Half day",
-      "officialWebsite": "https://whc.unesco.org/en/list/219/",
-      "tickets": "Museum entry ~€2",
-      "tags": [
-        "feature:Wetland",
-        "unesco:natural"
-      ]
-    },
-    {
       "id": "kocjan-caves",
       "name": {
         "en": "Škocjan Caves",
@@ -182,126 +31,34 @@
       ]
     },
     {
-      "id": "durmitor-national-park",
+      "id": "vjetrenica-cave-ravno",
       "name": {
-        "en": "Durmitor National Park",
-        "zh": "杜米托尔国家公园"
+        "en": "Vjetrenica Cave, Ravno",
+        "zh": "拉夫诺的岩溶风洞"
       },
       "category": "Natural",
-      "country": "Montenegro",
+      "country": "Bosnia and Herzegovina",
       "coordinates": [
-        19.028,
-        43.151
+        17.989,
+        42.847
       ],
       "shortDesc": {
-        "en": "Glacial landscapes and the deep Tara River Canyon",
-        "zh": "冰川地貌、塔拉大峡谷与“山之眼”"
+        "en": "One of the world's most biodiverse cave systems",
+        "zh": "迪纳拉山脉生物多样性最富集的风洞"
       },
       "description": {
-        "en": "A breathtaking park shaped by glaciers, featuring Europe's deepest canyon (Tara River) and 18 glacial lakes known as 'mountain eyes'. It offers world-class hiking, rafting, and skiing.",
-        "zh": "位于黑山西北部，以冰川地貌著称。拥有欧洲最深的塔拉河大峡谷以及18个被称为“山之眼”的冰蚀湖，是徒步、漂流与滑雪的绝佳场所。"
+        "en": "Located in the Dinaric Alps, this cave is famous for its incredible biodiversity, home to over 200 endemic species including the 'human fish' (Olm). It is known for its constant strong cool wind at the entrance.",
+        "zh": "位于波黑，是世界著名的喀斯特溶洞系统。洞口常年吹出强劲冷风，洞内栖息着包括“人鱼”洞螈在内的200多种特有生物，是地下生物多样性的全球热点地区。"
       },
-      "image": "/assets/attractions/durmitor-national-park.jpg",
-      "bestTimeToVisit": "June to September",
-      "recommendedDuration": "2-3 days",
-      "officialWebsite": "https://nparkovi.me/np-durmitor/",
-      "tickets": "Park entry €5",
-      "tags": [
-        "feature:Mountain",
-        "range:Dinaric Alps",
-        "unesco:natural"
-      ]
-    },
-    {
-      "id": "the-dolomites",
-      "name": {
-        "en": "The Dolomites",
-        "zh": "多洛米蒂山脉"
-      },
-      "category": "Natural",
-      "country": "Italy",
-      "coordinates": [
-        12.16,
-        46.61
-      ],
-      "shortDesc": {
-        "en": "Iconic jagged peaks and stunning alpine lakes",
-        "zh": "独特的白云石锯齿峰与碧绿湖泊"
-      },
-      "description": {
-        "en": "A mountain range in the northern Italian Alps, famous for its vertical walls, sheer cliffs, and jagged peaks. It features some of the most beautiful mountain landscapes in the world, with vibrant alpine meadows and crystal-clear lakes.",
-        "zh": "位于意大利北部的阿尔卑斯山区，被誉为“世界上最美的山脉”。以独特的白云石锯齿状山峰、高山草甸和如镜般的湖泊闻名，四季皆有绝美景致。"
-      },
-      "image": "/assets/attractions/the-dolomites.jpg",
-      "bestTimeToVisit": "June to September / December to March",
-      "recommendedDuration": "3-5 days",
-      "officialWebsite": "https://www.dolomitisuperski.com/",
-      "tickets": "Free (Cable cars/ski passes €30 - €70+)",
-      "tags": [
-        "feature:Mountain",
-        "range:Alps",
-        "range:Dolomites",
-        "unesco:natural"
-      ]
-    },
-    {
-      "id": "mount-etna",
-      "name": {
-        "en": "Mount Etna",
-        "zh": "埃特纳火山"
-      },
-      "category": "Natural",
-      "country": "Italy",
-      "coordinates": [
-        14.993,
-        37.751
-      ],
-      "shortDesc": {
-        "en": "The highest and most active volcano in Europe",
-        "zh": "欧洲最高且最活跃的活火山"
-      },
-      "description": {
-        "en": "Located on the island of Sicily, Mount Etna is the most active stratovolcano in the world and the highest peak in Italy south of the Alps. Its landscape is constantly reshaped by eruptions, featuring lava flows, craters, and unique volcanic ecosystems.",
-        "zh": "位于西西里岛，是欧洲最高且最活跃的活火山。地貌随喷发不断演变，拥有荒凉的熔岩原与多个火山口，游客可乘坐越野车近距离感受大自然的威力。"
-      },
-      "image": "/assets/attractions/mount-etna.jpg",
-      "bestTimeToVisit": "April to June, September to October",
-      "recommendedDuration": "1 day",
-      "officialWebsite": "https://www.parcoetna.it/",
-      "tickets": "Free access to lower areas, Cable car/Jeep tours ~€30 - €70",
-      "tags": [
-        "feature:Volcanic",
-        "range:Alps",
-        "unesco:natural"
-      ]
-    },
-    {
-      "id": "aeolian-islands",
-      "name": {
-        "en": "Isole Eolie (Aeolian Islands)",
-        "zh": "伊奥利亚群岛"
-      },
-      "category": "Natural",
-      "country": "Italy",
-      "coordinates": [
-        14.96,
-        38.53
-      ],
-      "shortDesc": {
-        "en": "Archipelago of seven volcanic islands with active craters",
-        "zh": "七座风格各异的火山喷发岛屿"
-      },
-      "description": {
-        "en": "A volcanic archipelago in the Tyrrhenian Sea, north of Sicily. The islands provide an outstanding record of volcanic island-building and destruction, with active volcanoes like Stromboli providing spectacular 'natural fireworks'.",
-        "zh": "位于西西里北部，由7个火山岛组成，是火山学研究的摇篮。斯特龙博利岛至今频繁喷发“岩浆烟花”，武尔卡诺岛则以天然泥浴 and 硫磺泉著称。"
-      },
-      "image": "/assets/attractions/aeolian-islands.jpg",
+      "image": "/assets/attractions/vjetrenica-cave-ravno.jpg",
       "bestTimeToVisit": "May to October",
-      "recommendedDuration": "2-4 days",
-      "officialWebsite": "http://www.unesco.it/it/PatrimonioMondiale/Detail/135",
-      "tickets": "Free (Ferry/Boat tours vary €20 - €50+)",
+      "recommendedDuration": "Half day",
+      "officialWebsite": "https://vjetrenica.ba/",
+      "tickets": "Adults ~€8",
       "tags": [
-        "feature:Volcanic"
+        "feature:Cave",
+        "range:Alps",
+        "range:Dinaric Alps"
       ]
     },
     {
@@ -336,302 +93,123 @@
       ]
     },
     {
-      "id": "monte-san-giorgio",
+      "id": "caves-of-aggtelek-karst-and-slovak-karst",
       "name": {
-        "en": "Monte San Giorgio",
-        "zh": "圣乔治山"
+        "en": "Caves of Aggtelek Karst and Slovak Karst",
+        "zh": "阿格泰列克洞穴和斯洛伐克喀斯特地貌"
       },
       "category": "Natural",
-      "country": "Italy / Switzerland",
+      "country": "Hungary / Slovakia",
       "coordinates": [
-        8.95,
-        45.91
+        20.49,
+        48.49
       ],
       "shortDesc": {
-        "en": "The best fossil record of Triassic marine life",
-        "zh": "记录三叠纪海洋生物的化石圣地"
+        "en": "Vast transboundary cave system with unique formations",
+        "zh": "跨越两国的巨大钟乳石洞穴系统"
       },
       "description": {
-        "en": "A wooded mountain beside Lake Lugano, considered the best record of marine life from the Triassic Period (245–230 million years ago). Its fossils of reptiles, fish, and plants provide crucial insights into early evolution.",
-        "zh": "位于瑞士与意大利交界，拥有世界上最完整、最集中的三叠纪（约2.4亿年前）海洋生物化石记录。化石精美地保留了鱼类、爬行类及昆虫的演化细节。"
+        "en": "A complex of over 700 caves across Hungary and Slovakia, including the massive Baradla-Domica system. It showcases millions of years of geological history with incredible stalactites and underground rivers.",
+        "zh": "匈牙利与斯洛伐克边境的喀斯特遗址，包含700多个形态各异的洞穴。巨大的巴拉德拉洞穴以宏伟的石柱与音乐厅著称，展示了数百万年的地球地质变迁。"
       },
-      "image": "/assets/attractions/monte-san-giorgio.jpg",
-      "bestTimeToVisit": "May to October",
+      "image": "/assets/attractions/caves-of-aggtelek-karst-and-slovak-karst.jpg",
+      "bestTimeToVisit": "April to October",
       "recommendedDuration": "1 day",
-      "officialWebsite": "https://www.montesangiorgio.org/",
-      "tickets": "Free access to mountain, Museum €12",
+      "officialWebsite": "https://anp.hu/en",
+      "tickets": "Cave tours €10 - €20",
       "tags": [
-        "feature:Mountain",
-        "range:Alps"
-      ]
-    },
-    {
-      "id": "swiss-alps-jungfrau-aletsch",
-      "name": {
-        "en": "Swiss Alps Jungfrau-Aletsch",
-        "zh": "少女峰–阿雷奇冰河–毕奇霍恩峰"
-      },
-      "category": "Natural",
-      "country": "Switzerland",
-      "coordinates": [
-        7.98,
-        46.54
-      ],
-      "shortDesc": {
-        "en": "Home to the largest glacier in the Alps",
-        "zh": "阿尔卑斯山最大的阿雷奇冰河景观"
-      },
-      "description": {
-        "en": "Centering on the Great Aletsch Glacier, the largest in Eurasia, this site features iconic peaks like the Jungfrau and Eiger. It showcases spectacular glacial formation and the ongoing effects of climate change.",
-        "zh": "汇集了少女峰、艾格峰等名峰，核心是欧亚大陆西部最大的大阿雷奇冰河。这里展现了壮丽的冰川消融过程，是高山冰川地貌与生态演替的典范。"
-      },
-      "image": "/assets/attractions/swiss-alps-jungfrau-aletsch.jpg",
-      "bestTimeToVisit": "June to September / December to April",
-      "recommendedDuration": "2-3 days",
-      "officialWebsite": "https://jungfraualetsch.ch/",
-      "tickets": "Jungfraujoch train ~€200+",
-      "tags": [
-        "feature:Glacial",
-        "range:Alps",
+        "feature:Cave",
+        "range:Carpathians",
         "unesco:natural"
       ]
     },
     {
-      "id": "swiss-tectonic-arena-sardona",
+      "id": "giants-causeway-and-causeway-coast",
       "name": {
-        "en": "Swiss Tectonic Arena Sardona",
-        "zh": "萨尔多纳地质结构区"
+        "en": "Giant's Causeway and Causeway Coast",
+        "zh": "“巨人之路”及其海岸"
       },
       "category": "Natural",
-      "country": "Switzerland",
+      "country": "United Kingdom",
       "coordinates": [
-        9.22,
-        46.93
+        -6.512,
+        55.241
       ],
       "shortDesc": {
-        "en": "Visible evidence of mountain building and tectonic thrust",
-        "zh": "清晰展示板块碰撞与造山运动的地质区"
+        "en": "40,000 interlocking basalt columns from volcanic activity",
+        "zh": "四万根规则的六角形玄武岩柱"
       },
       "description": {
-        "en": "A mountainous area showcasing the 'Glarus Thrust', where older rocks were carried over younger ones during continental collision. It provides clear visual evidence of the tectonic processes that build mountain ranges.",
-        "zh": "位于瑞士东北部，以“格拉鲁斯推覆体”闻名。老岩层推挤至年轻岩层之上的地质线清晰可见，生动展示了板块碰撞造就山脉的壮阔过程。"
+        "en": "Located on the Antrim coast of Northern Ireland, it features about 40,000 interlocking basalt columns, the result of an ancient volcanic eruption. Local legend says it was built by the giant Finn McCool to reach Scotland.",
+        "zh": "位于北爱尔兰安特里姆海岸，由约4万根火山喷发冷却形成的六角形玄武岩柱组成。民间传说这是巨人芬·麦库尔为挑战对手修筑的堤道。"
       },
-      "image": "/assets/attractions/swiss-tectonic-arena-sardona.jpg",
-      "bestTimeToVisit": "July to October",
-      "recommendedDuration": "1-2 days",
-      "officialWebsite": "https://unesco-sardona.ch/",
-      "tickets": "Free",
-      "tags": [
-        "feature:Mountain",
-        "range:Alps"
-      ]
-    },
-    {
-      "id": "vatnaj-kull-national-park-dynamic-nature-of-fire-and-ice",
-      "name": {
-        "en": "Vatnajökull National Park - Dynamic Nature of Fire and Ice",
-        "zh": "瓦特纳冰川国家公园-火与冰的动态"
-      },
-      "category": "Natural",
-      "country": "Iceland",
-      "coordinates": [
-        -16.77,
-        64.42
-      ],
-      "shortDesc": {
-        "en": "Dynamic interaction between massive glaciers and active volcanoes",
-        "zh": "“冰与火”共存的巨大冰川与火山区"
-      },
-      "description": {
-        "en": "Iceland's largest national park, covering 14% of the country. It features massive glaciers overlying active volcanoes, leading to spectacular subglacial eruptions and catastrophic floods that shape the unique landscape.",
-        "zh": "冰岛最大的国家公园，涵盖约14%的领土.冰盖下覆盖多座活跃火山，频繁的喷发与冰川融化造就了黑沙滩、冲积平原 and 震撼的蓝冰洞奇观。"
-      },
-      "image": "/assets/attractions/vatnaj-kull-national-park-dynamic-nature-of-fire-and-ice.jpg",
-      "bestTimeToVisit": "June to August (Summer) / Nov to March (Ice caves)",
-      "recommendedDuration": "2-3 days",
-      "officialWebsite": "https://www.vatnajokulsthjodgardur.is/",
-      "tickets": "Free (Parking/Tours cost extra)",
-      "tags": [
-        "feature:Glacial"
-      ]
-    },
-    {
-      "id": "surtsey",
-      "name": {
-        "en": "Surtsey",
-        "zh": "叙尔特塞岛"
-      },
-      "category": "Natural",
-      "country": "Iceland",
-      "coordinates": [
-        -20.605,
-        63.303
-      ],
-      "shortDesc": {
-        "en": "A pristine volcanic island and natural laboratory",
-        "zh": "诞生于20世纪60年代的火山岛实验室"
-      },
-      "description": {
-        "en": "Formed by eruptions from 1963 to 1967, Surtsey is a 'natural laboratory' protected from human interference. It allows scientists to observe how life colonizes new land through wind, sea currents, and birds.",
-        "zh": "位于冰岛南岸，是1963-1967年海底火山喷发形成的年轻岛屿。作为“天然实验室”，这里严禁游客进入，旨在观察动植物如何在无人类干预下建立生态系统。"
-      },
-      "image": "/assets/attractions/surtsey.jpg",
-      "bestTimeToVisit": "Not open to the public",
-      "recommendedDuration": "N/A",
-      "officialWebsite": "http://www.surtsey.is/",
-      "tickets": "Strictly restricted to scientists",
-      "tags": [
-        "feature:Volcanic",
-        "unesco:natural"
-      ]
-    },
-    {
-      "id": "do-ana-national-park",
-      "name": {
-        "en": "Doñana National Park",
-        "zh": "多南那国家公园"
-      },
-      "category": "Natural",
-      "country": "Spain",
-      "coordinates": [
-        -6.44,
-        36.98
-      ],
-      "shortDesc": {
-        "en": "Europe's most important wetland for migratory birds",
-        "zh": "欧洲规模最大的候鸟越冬沼泽地"
-      },
-      "description": {
-        "en": "A vast wetland in Andalusia featuring lagoons, marshes, and sand dunes. It is a vital wintering site for half a million waterbirds and a refuge for the endangered Iberian lynx and Spanish imperial eagle.",
-        "zh": "位于西班牙瓜达尔基维尔河口，拥有极其多样的生态系统。它是欧洲最重要的候鸟越冬地之一，也是濒危物种伊比利亚猞猁和西班牙帝雕的关键栖息地。"
-      },
-      "image": "/assets/attractions/do-ana-national-park.jpg",
-      "bestTimeToVisit": "March to May, September to November",
-      "recommendedDuration": "1-2 days",
-      "officialWebsite": "https://www.miteco.gob.es/es/red-parques-nacionales/nuestros-parques/donana/",
-      "tickets": "Free access, Guided tours ~€30",
-      "tags": [
-        "feature:Wetland",
-        "unesco:natural"
-      ]
-    },
-    {
-      "id": "teide-national-park",
-      "name": {
-        "en": "Teide National Park",
-        "zh": "泰德国家公园"
-      },
-      "category": "Natural",
-      "country": "Spain",
-      "coordinates": [
-        -16.642,
-        28.272
-      ],
-      "shortDesc": {
-        "en": "Spain's highest peak with surreal volcanic landscapes",
-        "zh": "西班牙最高峰与宛如外星的火山地貌"
-      },
-      "description": {
-        "en": "Located on Tenerife, it centers on Mount Teide, a 3,718m stratovolcano that is the highest point in Spain. The park features a dramatic landscape of craters, lava flows, and unique endemic flora.",
-        "zh": "位于特内里费岛，核心是海拔3718米的泰德峰.公园展现了壮丽的火山地貌，包括巨型火山口和凝固的熔岩流，景观独特，是研究海洋岛屿演化的重要基地。"
-      },
-      "image": "/assets/attractions/teide-national-park.jpg",
-      "bestTimeToVisit": "May to October",
-      "recommendedDuration": "1 day",
-      "officialWebsite": "https://www.volcanoteide.com/",
-      "tickets": "Free access, Cable car ~€40",
-      "tags": [
-        "feature:Volcanic",
-        "unesco:natural"
-      ]
-    },
-    {
-      "id": "garajonay-national-park",
-      "name": {
-        "en": "Garajonay National Park",
-        "zh": "加拉霍艾国家公园"
-      },
-      "category": "Natural",
-      "country": "Spain",
-      "coordinates": [
-        -17.23,
-        28.12
-      ],
-      "shortDesc": {
-        "en": "Misty relic of prehistoric laurel forests",
-        "zh": "云雾缭绕的史前月桂树森林遗迹"
-      },
-      "description": {
-        "en": "Located on La Gomera, the park is covered by ancient laurel forest, a relic from the Tertiary period. The mist-shrouded trees and diverse streams create a lush, prehistoric atmosphere.",
-        "zh": "位于加那利群岛，覆盖着约70%的月桂树森林。这种森林是第三纪植被的遗迹，在欧洲大陆已基本消失，但在该岛的云雾带得以幸存，景观如史前世界。"
-      },
-      "image": "/assets/attractions/garajonay-national-park.jpg",
-      "bestTimeToVisit": "April to November",
-      "recommendedDuration": "1-2 days",
-      "officialWebsite": "https://www.miteco.gob.es/es/red-parques-nacionales/nuestros-parques/garajonay/",
-      "tickets": "Free",
-      "tags": [
-        "feature:Forest",
-        "unesco:natural"
-      ]
-    },
-    {
-      "id": "gulf-of-porto-calanche-of-piana-gulf-of-girolata-scandola-reserve",
-      "name": {
-        "en": "Gulf of Porto: Calanche of Piana, Gulf of Girolata, Scandola Reserve",
-        "zh": "波尔托湾：皮亚纳－卡兰切斯、基罗拉塔湾、斯康多拉保护区"
-      },
-      "category": "Natural",
-      "country": "France",
-      "coordinates": [
-        8.58,
-        42.35
-      ],
-      "shortDesc": {
-        "en": "Dramatic red granite cliffs and pristine marine reserve",
-        "zh": "壮丽的红色花岗岩悬崖与清澈海湾"
-      },
-      "description": {
-        "en": "A stunning coastal area in Corsica featuring red granite cliffs, deep blue waters, and the Scandola Reserve. It is famous for its unique rock formations and rich marine life, including ospreys and dolphins.",
-        "zh": "位于科西嘉岛，由红色花岗岩悬崖、清澈海湾和斯康多拉自然保护区组成。这里以独特的火山岩构造和丰富的海洋生物著称，是欧洲陆海综合保护的典范。"
-      },
-      "image": "/assets/attractions/gulf-of-porto-calanche-of-piana-gulf-of-girolata-scandola-reserve.jpg",
-      "bestTimeToVisit": "May to September",
-      "recommendedDuration": "1-2 days",
-      "officialWebsite": "https://www.corsica.co.uk/",
-      "tickets": "Free (Boat tours ~€30 - €60)",
+      "image": "/assets/attractions/giants-causeway-and-causeway-coast.jpg",
+      "bestTimeToVisit": "April to September",
+      "recommendedDuration": "Half day",
+      "officialWebsite": "https://www.nationaltrust.org.uk/giants-causeway",
+      "tickets": "Visitor Experience: ~€16 (Site access is free)",
       "tags": [
         "feature:Coastal",
         "unesco:natural"
       ]
     },
     {
-      "id": "cha-ne-des-puys-limagne-fault-tectonic-arena",
+      "id": "dorset-and-east-devon-coast",
       "name": {
-        "en": "Chaîne des Puys - Limagne fault tectonic arena",
-        "zh": "多姆山链，利马涅断层构造区"
+        "en": "Dorset and East Devon Coast",
+        "zh": "多塞特和东德文海岸"
       },
       "category": "Natural",
-      "country": "France",
+      "country": "United Kingdom",
       "coordinates": [
-        2.96,
-        45.774
+        -2.61,
+        50.62
       ],
       "shortDesc": {
-        "en": "Iconic volcanic chain illustrating continental rifting",
-        "zh": "展示大陆裂谷过程的标志性火山群"
+        "en": "The 'Jurassic Coast' recording 185 million years of history",
+        "zh": "记录地球1.85亿年演化的侏罗纪海岸"
       },
       "description": {
-        "en": "Located in central France, this site features a chain of 80 volcanoes and the Limagne fault. It is a textbook example of continental break-up, where the crust cracks and magma rises to form diverse volcanic cones.",
-        "zh": "位于法国中部，由约80座火山组成的火山链与巨大的利马涅断层组成。这里是研究地壳破裂、下陷并引发岩浆上升的天然实验室，生动展示了大陆裂谷的地质奇观。"
+        "en": "Stretching 155km, this coastline provides a near-continuous record of the Triassic, Jurassic, and Cretaceous periods. It is famous for its fossils and iconic landforms like Durdle Door and Lulworth Cove.",
+        "zh": "绵延约155公里的英国海岸线，完整记录了三叠纪、侏罗纪和白垩纪的地层。这里以化石采集地和杜德尔门等海蚀景观闻名，是探索地球生命史的天然博物馆。"
       },
-      "image": "/assets/attractions/cha-ne-des-puys-limagne-fault-tectonic-arena.jpg",
-      "bestTimeToVisit": "May to October",
-      "recommendedDuration": "1-2 days",
-      "officialWebsite": "https://www.volcan.puy-de-dome.fr/",
-      "tickets": "Free access, Train to Puy de Dôme ~€17",
+      "image": "/assets/attractions/dorset-and-east-devon-coast.JPG",
+      "bestTimeToVisit": "May to September",
+      "recommendedDuration": "2-3 days",
+      "officialWebsite": "https://jurassiccoast.org/",
+      "tickets": "Free (Museums and parking vary)",
       "tags": [
-        "feature:Volcanic",
+        "feature:Coastal",
+        "unesco:natural"
+      ]
+    },
+    {
+      "id": "west-norwegian-fjords",
+      "name": {
+        "en": "West Norwegian Fjords – Geirangerfjord and Nærøyfjord",
+        "zh": "挪威西峡湾-盖朗厄尔峡湾和纳柔依峡湾"
+      },
+      "category": "Natural",
+      "country": "Norway",
+      "coordinates": [
+        7.095,
+        62.105
+      ],
+      "shortDesc": {
+        "en": "The world's longest and deepest fjords with dramatic cliffs",
+        "zh": "世界上最深、最美且最典型的峡湾"
+      },
+      "description": {
+        "en": "Situated in southwestern Norway, these two fjords are among the world's most spectacular coastal landscapes. They feature towering cliff walls, cascading waterfalls, and deep blue waters of breathtaking beauty.",
+        "zh": "位于挪威西南部，由盖朗厄尔峡湾和纳柔依峡湾组成。这里以深邃的海水、高耸的悬崖和如丝带般的瀑布闻名，被誉为地球上最动人心魄的自然奇观之一。"
+      },
+      "image": "/assets/attractions/west-norwegian-fjords.jpg",
+      "bestTimeToVisit": "June to August",
+      "recommendedDuration": "2-3 days",
+      "officialWebsite": "https://www.fjordnorway.com/",
+      "tickets": "Free (Fjord cruises ~€40-€80)",
+      "tags": [
+        "feature:Coastal",
         "unesco:natural"
       ]
     },
@@ -660,6 +238,36 @@
       "recommendedDuration": "1-3 days",
       "officialWebsite": "https://www.waddensea-worldheritage.org/",
       "tickets": "Free (Mudflat walking tours ~€10-€20)",
+      "tags": [
+        "feature:Coastal",
+        "unesco:natural"
+      ]
+    },
+    {
+      "id": "gulf-of-porto-calanche-of-piana-gulf-of-girolata-scandola-reserve",
+      "name": {
+        "en": "Gulf of Porto: Calanche of Piana, Gulf of Girolata, Scandola Reserve",
+        "zh": "波尔托湾：皮亚纳－卡兰切斯、基罗拉塔湾、斯康多拉保护区"
+      },
+      "category": "Natural",
+      "country": "France",
+      "coordinates": [
+        8.58,
+        42.35
+      ],
+      "shortDesc": {
+        "en": "Dramatic red granite cliffs and pristine marine reserve",
+        "zh": "壮丽的红色花岗岩悬崖与清澈海湾"
+      },
+      "description": {
+        "en": "A stunning coastal area in Corsica featuring red granite cliffs, deep blue waters, and the Scandola Reserve. It is famous for its unique rock formations and rich marine life, including ospreys and dolphins.",
+        "zh": "位于科西嘉岛，由红色花岗岩悬崖、清澈海湾和斯康多拉自然保护区组成。这里以独特的火山岩构造和丰富的海洋生物著称，是欧洲陆海综合保护的典范。"
+      },
+      "image": "/assets/attractions/gulf-of-porto-calanche-of-piana-gulf-of-girolata-scandola-reserve.jpg",
+      "bestTimeToVisit": "May to September",
+      "recommendedDuration": "1-2 days",
+      "officialWebsite": "https://www.corsica.co.uk/",
+      "tickets": "Free (Boat tours ~€30 - €60)",
       "tags": [
         "feature:Coastal",
         "unesco:natural"
@@ -725,36 +333,6 @@
       ]
     },
     {
-      "id": "messel-pit",
-      "name": {
-        "en": "Messel Pit Fossil Site",
-        "zh": "梅塞尔化石坑"
-      },
-      "category": "Natural",
-      "country": "Germany",
-      "coordinates": [
-        8.76,
-        49.92
-      ],
-      "shortDesc": {
-        "en": "Exceptionally preserved Eocene fossils from 47 million years ago",
-        "zh": "保存极其完好的始新世生物进化遗址"
-      },
-      "description": {
-        "en": "A world-renowned fossil site providing the best insights into the Eocene environment. Its oil shales have perfectly preserved skeletons, skin, and even stomach contents of prehistoric animals like the dawn horse.",
-        "zh": "位于德国法兰克福附近，是全球最重要的始新世化石产地。这里的油页岩完美保存了约4700万年前的动植物细节，甚至包括毛发与胃内残留物，是研究生物进化的瑰宝。"
-      },
-      "image": "/assets/attractions/messel-pit.jpg",
-      "bestTimeToVisit": "April to October",
-      "recommendedDuration": "Half day",
-      "officialWebsite": "https://www.grube-messel.de/",
-      "tickets": "Adults €10",
-      "tags": [
-        "feature:Fossil",
-        "unesco:natural"
-      ]
-    },
-    {
       "id": "high-coast-kvarken-archipelago",
       "name": {
         "en": "High Coast / Kvarken Archipelago",
@@ -785,123 +363,32 @@
       ]
     },
     {
-      "id": "danube-delta",
+      "id": "garajonay-national-park",
       "name": {
-        "en": "Danube Delta",
-        "zh": "多瑙河三角洲"
+        "en": "Garajonay National Park",
+        "zh": "加拉霍艾国家公园"
       },
       "category": "Natural",
-      "country": "Romania",
+      "country": "Spain",
       "coordinates": [
-        29.51,
-        45.06
+        -17.23,
+        28.12
       ],
       "shortDesc": {
-        "en": "Europe's largest and best-preserved river delta",
-        "zh": "欧洲保存最完好的生物多样性湿地"
+        "en": "Misty relic of prehistoric laurel forests",
+        "zh": "云雾缭绕的史前月桂树森林遗迹"
       },
       "description": {
-        "en": "The largest and best-preserved delta in Europe, home to over 300 bird species and 160 fish species. Its labyrinth of canals, lakes, and reed beds is a vital habitat for white pelicans and other wildlife.",
-        "zh": "位于罗马尼亚，是欧洲面积最大、保存最完好的河流三角洲。这里是三百多种鸟类与百余种鱼类的家园，迷宫般的水道与芦苇丛构成了欧洲最重要的自然保护区之一。"
+        "en": "Located on La Gomera, the park is covered by ancient laurel forest, a relic from the Tertiary period. The mist-shrouded trees and diverse streams create a lush, prehistoric atmosphere.",
+        "zh": "位于加那利群岛，覆盖着约70%的月桂树森林。这种森林是第三纪植被的遗迹，在欧洲大陆已基本消失，但在该岛的云雾带得以幸存，景观如史前世界。"
       },
-      "image": "/assets/attractions/danube-delta.jpg",
-      "bestTimeToVisit": "May to September",
-      "recommendedDuration": "2-3 days",
-      "officialWebsite": "https://ddbra.ro/",
-      "tickets": "Permits ~€6/day, Boat tours ~€30-€50",
-      "tags": [
-        "feature:Wetland",
-        "unesco:natural"
-      ]
-    },
-    {
-      "id": "caves-of-aggtelek-karst-and-slovak-karst",
-      "name": {
-        "en": "Caves of Aggtelek Karst and Slovak Karst",
-        "zh": "阿格泰列克洞穴和斯洛伐克喀斯特地貌"
-      },
-      "category": "Natural",
-      "country": "Hungary / Slovakia",
-      "coordinates": [
-        20.49,
-        48.49
-      ],
-      "shortDesc": {
-        "en": "Vast transboundary cave system with unique formations",
-        "zh": "跨越两国的巨大钟乳石洞穴系统"
-      },
-      "description": {
-        "en": "A complex of over 700 caves across Hungary and Slovakia, including the massive Baradla-Domica system. It showcases millions of years of geological history with incredible stalactites and underground rivers.",
-        "zh": "匈牙利与斯洛伐克边境的喀斯特遗址，包含700多个形态各异的洞穴。巨大的巴拉德拉洞穴以宏伟的石柱与音乐厅著称，展示了数百万年的地球地质变迁。"
-      },
-      "image": "/assets/attractions/caves-of-aggtelek-karst-and-slovak-karst.jpg",
-      "bestTimeToVisit": "April to October",
-      "recommendedDuration": "1 day",
-      "officialWebsite": "https://anp.hu/en",
-      "tickets": "Cave tours €10 - €20",
-      "tags": [
-        "feature:Cave",
-        "range:Carpathians",
-        "unesco:natural"
-      ]
-    },
-    {
-      "id": "dorset-and-east-devon-coast",
-      "name": {
-        "en": "Dorset and East Devon Coast",
-        "zh": "多塞特和东德文海岸"
-      },
-      "category": "Natural",
-      "country": "United Kingdom",
-      "coordinates": [
-        -2.61,
-        50.62
-      ],
-      "shortDesc": {
-        "en": "The 'Jurassic Coast' recording 185 million years of history",
-        "zh": "记录地球1.85亿年演化的侏罗纪海岸"
-      },
-      "description": {
-        "en": "Stretching 155km, this coastline provides a near-continuous record of the Triassic, Jurassic, and Cretaceous periods. It is famous for its fossils and iconic landforms like Durdle Door and Lulworth Cove.",
-        "zh": "绵延约155公里的英国海岸线，完整记录了三叠纪、侏罗纪和白垩纪的地层。这里以化石采集地和杜德尔门等海蚀景观闻名，是探索地球生命史的天然博物馆。"
-      },
-      "image": "/assets/attractions/dorset-and-east-devon-coast.JPG",
-      "bestTimeToVisit": "May to September",
-      "recommendedDuration": "2-3 days",
-      "officialWebsite": "https://jurassiccoast.org/",
-      "tickets": "Free (Museums and parking vary)",
-      "tags": [
-        "feature:Coastal",
-        "unesco:natural"
-      ]
-    },
-    {
-      "id": "the-flow-country",
-      "name": {
-        "en": "The Flow Country",
-        "zh": "弗罗湿地区"
-      },
-      "category": "Natural",
-      "country": "United Kingdom",
-      "coordinates": [
-        -3.85,
-        58.37
-      ],
-      "shortDesc": {
-        "en": "The world's most extensive blanket bog landscape",
-        "zh": "全球最广阔且完整的泥炭沼泽系统"
-      },
-      "description": {
-        "en": "Located in the Scottish Highlands, it is the largest and most intact example of a blanket bog in the world. It plays a crucial role in carbon sequestration and provides a habitat for diverse bird species.",
-        "zh": "位于苏格兰高地，是2024年新晋世界遗产.这片广袤的覆被泥炭沼泽在碳储存与气候调节中起着至关重要的作用，也是多种珍稀鸟类繁衍的原始荒原。"
-      },
-      "image": "/assets/attractions/the-flow-country.jpg",
-      "bestTimeToVisit": "May to September",
-      "recommendedDuration": "1 day",
-      "officialWebsite": "https://www.theflowcountry.org.uk/",
+      "image": "/assets/attractions/garajonay-national-park.jpg",
+      "bestTimeToVisit": "April to November",
+      "recommendedDuration": "1-2 days",
+      "officialWebsite": "https://www.miteco.gob.es/es/red-parques-nacionales/nuestros-parques/garajonay/",
       "tickets": "Free",
       "tags": [
-        "feature:Wetland",
+        "feature:Forest",
         "unesco:natural"
       ]
     },
@@ -936,64 +423,92 @@
       ]
     },
     {
-      "id": "vjetrenica-cave-ravno",
+      "id": "bia-owie-a-forest",
       "name": {
-        "en": "Vjetrenica Cave, Ravno",
-        "zh": "拉夫诺的岩溶风洞"
+        "en": "Białowieża Forest",
+        "zh": "比亚沃维耶扎原始森林"
       },
       "category": "Natural",
-      "country": "Bosnia and Herzegovina",
+      "country": "Poland / Belarus",
       "coordinates": [
-        17.989,
-        42.847
+        23.87,
+        52.75
       ],
       "shortDesc": {
-        "en": "One of the world's most biodiverse cave systems",
-        "zh": "迪纳拉山脉生物多样性最富集的风洞"
+        "en": "The last remaining primeval lowland forest in Europe",
+        "zh": "欧洲最后的一片低地原始森林"
       },
       "description": {
-        "en": "Located in the Dinaric Alps, this cave is famous for its incredible biodiversity, home to over 200 endemic species including the 'human fish' (Olm). It is known for its constant strong cool wind at the entrance.",
-        "zh": "位于波黑，是世界著名的喀斯特溶洞系统。洞口常年吹出强劲冷风，洞内栖息着包括“人鱼”洞螈在内的200多种特有生物，是地下生物多样性的全球热点地区。"
+        "en": "The last primary forest in the European lowlands, home to the European bison and ancient trees. It represents the immense range of primary forest that once covered the European continent thousands of years ago.",
+        "zh": "横跨波兰与白俄罗斯，是欧洲现存唯一的低地原始森林。作为欧洲野牛的最后栖息地，拥有数百年树龄的巨木，展现了数千年前欧洲的原始面貌。"
       },
-      "image": "/assets/attractions/vjetrenica-cave-ravno.jpg",
+      "image": "/assets/attractions/bia-owie-a-forest.jpg",
       "bestTimeToVisit": "May to October",
-      "recommendedDuration": "Half day",
-      "officialWebsite": "https://vjetrenica.ba/",
-      "tickets": "Adults ~€8",
+      "recommendedDuration": "1-2 days",
+      "officialWebsite": "https://bpn.com.pl/",
+      "tickets": "Park entry €2 - €5, Guided tours extra",
       "tags": [
-        "feature:Cave",
-        "range:Alps",
-        "range:Dinaric Alps"
+        "feature:Forest",
+        "unesco:natural"
       ]
     },
     {
-      "id": "west-norwegian-fjords",
+      "id": "hyrcanian-forests",
       "name": {
-        "en": "West Norwegian Fjords – Geirangerfjord and Nærøyfjord",
-        "zh": "挪威西峡湾-盖朗厄尔峡湾和纳柔依峡湾"
+        "en": "Hyrcanian Forests",
+        "zh": "希尔卡尼亚森林"
       },
       "category": "Natural",
-      "country": "Norway",
+      "country": "Azerbaijan / Iran",
       "coordinates": [
-        7.095,
-        62.105
+        48.85,
+        38.85
       ],
       "shortDesc": {
-        "en": "The world's longest and deepest fjords with dramatic cliffs",
-        "zh": "世界上最深、最美且最典型的峡湾"
+        "en": "Ancient 'living fossil' forests dating back 50 million years",
+        "zh": "历史可追溯至5000万年前的“森林活化石”"
       },
       "description": {
-        "en": "Situated in southwestern Norway, these two fjords are among the world's most spectacular coastal landscapes. They feature towering cliff walls, cascading waterfalls, and deep blue waters of breathtaking beauty.",
-        "zh": "位于挪威西南部，由盖朗厄尔峡湾和纳柔依峡湾组成。这里以深邃的海水、高耸的悬崖和如丝带般的瀑布闻名，被誉为地球上最动人心魄的自然奇观之一。"
+        "en": "A unique forested massif along the Caspian Sea, dating back to the Eocene. Often called a 'Jurassic Park of forests', it served as a refuge during the Ice Age and hosts many rare species like the Persian leopard.",
+        "zh": "沿着里海南岸延伸的古老森林，历史可追溯至始新世，被誉为“森林界的侏罗纪公园”。这里是冰河时代的避难所，拥有极高的特有物种比例，也是濒危波斯豹的栖息地。"
       },
-      "image": "/assets/attractions/west-norwegian-fjords.jpg",
-      "bestTimeToVisit": "June to August",
-      "recommendedDuration": "2-3 days",
-      "officialWebsite": "https://www.fjordnorway.com/",
-      "tickets": "Free (Fjord cruises ~€40-€80)",
+      "image": "/assets/attractions/hyrcanian-forests.jpg",
+      "bestTimeToVisit": "April to June, September to November",
+      "recommendedDuration": "1-2 days",
+      "officialWebsite": "https://whc.unesco.org/en/list/1584/",
+      "tickets": "Mostly Free (Some areas require permits)",
       "tags": [
-        "feature:Coastal",
-        "unesco:natural"
+        "feature:Forest"
+      ]
+    },
+    {
+      "id": "ancient-and-primeval-beech-forests-of-the-carpathians-and-other-regions-of-europe",
+      "name": {
+        "en": "Ancient and Primeval Beech Forests of the Carpathians and Other Regions of Europe",
+        "zh": "喀尔巴阡山脉及欧洲其它地区的原始山毛榉林"
+      },
+      "category": "Natural",
+      "country": "Transnational (18 countries)",
+      "coordinates": [
+        22.54,
+        48.47
+      ],
+      "shortDesc": {
+        "en": "Vast transnational network of Europe's oldest beech forests",
+        "zh": "横跨欧洲18国的原始山毛榉森林"
+      },
+      "description": {
+        "en": "A transnational property covering 18 countries, protecting Europe's most intact beech forests. They illustrate the post-glacial expansion of the European Beech and represent a vital wilderness and biodiversity resource.",
+        "zh": "这是一个庞大的跨国遗产，保护了欧洲最完整、受干扰最小的山毛榉森林。这些森林展示了冰川期后植被扩张的生态过程，是欧洲原始荒野与生物多样性的重要缩影。"
+      },
+      "image": "/assets/attractions/ancient-and-primeval-beech-forests-of-the-carpathians-and-other-regions-of-europe.jpg",
+      "bestTimeToVisit": "May to October",
+      "recommendedDuration": "1-2 days",
+      "officialWebsite": "https://www.europeanbeechforests.org/",
+      "tickets": "Mostly Free (Varies by national park)",
+      "tags": [
+        "feature:Forest",
+        "range:Carpathians"
       ]
     },
     {
@@ -1059,33 +574,33 @@
       ]
     },
     {
-      "id": "western-caucasus",
+      "id": "messel-pit",
       "name": {
-        "en": "Western Caucasus",
-        "zh": "西高加索山"
+        "en": "Messel Pit Fossil Site",
+        "zh": "梅塞尔化石坑"
       },
       "category": "Natural",
-      "country": "Russia",
+      "country": "Germany",
       "coordinates": [
-        40.2,
-        43.7
+        8.76,
+        49.92
       ],
       "shortDesc": {
-        "en": "One of Europe's few large undisturbed mountain areas",
-        "zh": "欧洲少数未受干扰的高山生态系统中心"
+        "en": "Exceptionally preserved Eocene fossils from 47 million years ago",
+        "zh": "保存极其完好的始新世生物进化遗址"
       },
       "description": {
-        "en": "A large mountain area in the Caucasus that has experienced minimal human impact. It features diverse ecosystems from subalpine pastures to glaciers and is a key habitat for the European bison and other rare wildlife.",
-        "zh": "位于俄罗斯高加索山脉最西端，是欧洲少数未受人类显著影响的大型山区。这里涵盖了从亚热带到高山冰川的极端生境，是欧洲野牛、棕熊和狼的珍稀栖息地。"
+        "en": "A world-renowned fossil site providing the best insights into the Eocene environment. Its oil shales have perfectly preserved skeletons, skin, and even stomach contents of prehistoric animals like the dawn horse.",
+        "zh": "位于德国法兰克福附近，是全球最重要的始新世化石产地。这里的油页岩完美保存了约4700万年前的动植物细节，甚至包括毛发与胃内残留物，是研究生物进化的瑰宝。"
       },
-      "image": "/assets/attractions/western-caucasus.JPG",
-      "bestTimeToVisit": "June to September",
-      "recommendedDuration": "3-5 days",
-      "officialWebsite": "https://whc.unesco.org/en/list/900/",
-      "tickets": "Permit required, fees vary",
+      "image": "/assets/attractions/messel-pit.jpg",
+      "bestTimeToVisit": "April to October",
+      "recommendedDuration": "Half day",
+      "officialWebsite": "https://www.grube-messel.de/",
+      "tickets": "Adults €10",
       "tags": [
-        "feature:Mountain",
-        "range:Caucasus"
+        "feature:Fossil",
+        "unesco:natural"
       ]
     },
     {
@@ -1118,121 +633,92 @@
       ]
     },
     {
-      "id": "ancient-and-primeval-beech-forests-of-the-carpathians-and-other-regions-of-europe",
+      "id": "vatnaj-kull-national-park-dynamic-nature-of-fire-and-ice",
       "name": {
-        "en": "Ancient and Primeval Beech Forests of the Carpathians and Other Regions of Europe",
-        "zh": "喀尔巴阡山脉及欧洲其它地区的原始山毛榉林"
+        "en": "Vatnajökull National Park - Dynamic Nature of Fire and Ice",
+        "zh": "瓦特纳冰川国家公园-火与冰的动态"
       },
       "category": "Natural",
-      "country": "Transnational (18 countries)",
+      "country": "Iceland",
       "coordinates": [
-        22.54,
-        48.47
+        -16.77,
+        64.42
       ],
       "shortDesc": {
-        "en": "Vast transnational network of Europe's oldest beech forests",
-        "zh": "横跨欧洲18国的原始山毛榉森林"
+        "en": "Dynamic interaction between massive glaciers and active volcanoes",
+        "zh": "“冰与火”共存的巨大冰川与火山区"
       },
       "description": {
-        "en": "A transnational property covering 18 countries, protecting Europe's most intact beech forests. They illustrate the post-glacial expansion of the European Beech and represent a vital wilderness and biodiversity resource.",
-        "zh": "这是一个庞大的跨国遗产，保护了欧洲最完整、受干扰最小的山毛榉森林。这些森林展示了冰川期后植被扩张的生态过程，是欧洲原始荒野与生物多样性的重要缩影。"
+        "en": "Iceland's largest national park, covering 14% of the country. It features massive glaciers overlying active volcanoes, leading to spectacular subglacial eruptions and catastrophic floods that shape the unique landscape.",
+        "zh": "冰岛最大的国家公园，涵盖约14%的领土.冰盖下覆盖多座活跃火山，频繁的喷发与冰川融化造就了黑沙滩、冲积平原 and 震撼的蓝冰洞奇观。"
       },
-      "image": "/assets/attractions/ancient-and-primeval-beech-forests-of-the-carpathians-and-other-regions-of-europe.jpg",
-      "bestTimeToVisit": "May to October",
-      "recommendedDuration": "1-2 days",
-      "officialWebsite": "https://www.europeanbeechforests.org/",
-      "tickets": "Mostly Free (Varies by national park)",
-      "tags": [
-        "feature:Forest",
-        "range:Carpathians"
-      ]
-    },
-    {
-      "id": "hyrcanian-forests",
-      "name": {
-        "en": "Hyrcanian Forests",
-        "zh": "希尔卡尼亚森林"
-      },
-      "category": "Natural",
-      "country": "Azerbaijan / Iran",
-      "coordinates": [
-        48.85,
-        38.85
-      ],
-      "shortDesc": {
-        "en": "Ancient 'living fossil' forests dating back 50 million years",
-        "zh": "历史可追溯至5000万年前的“森林活化石”"
-      },
-      "description": {
-        "en": "A unique forested massif along the Caspian Sea, dating back to the Eocene. Often called a 'Jurassic Park of forests', it served as a refuge during the Ice Age and hosts many rare species like the Persian leopard.",
-        "zh": "沿着里海南岸延伸的古老森林，历史可追溯至始新世，被誉为“森林界的侏罗纪公园”。这里是冰河时代的避难所，拥有极高的特有物种比例，也是濒危波斯豹的栖息地。"
-      },
-      "image": "/assets/attractions/hyrcanian-forests.jpg",
-      "bestTimeToVisit": "April to June, September to November",
-      "recommendedDuration": "1-2 days",
-      "officialWebsite": "https://whc.unesco.org/en/list/1584/",
-      "tickets": "Mostly Free (Some areas require permits)",
-      "tags": [
-        "feature:Forest"
-      ]
-    },
-    {
-      "id": "zermatt-matterhorn",
-      "name": {
-        "en": "Zermatt & The Matterhorn",
-        "zh": "采尔马特与马特洪峰"
-      },
-      "category": "Natural",
-      "country": "Switzerland",
-      "coordinates": [
-        7.7491,
-        46.0207
-      ],
-      "shortDesc": {
-        "en": "Iconic pyramid-shaped peak and car-free alpine village",
-        "zh": "标志性的金字塔形山峰与无车阿尔卑斯村庄"
-      },
-      "description": {
-        "en": "Zermatt is a world-famous, car-free alpine village nestled at the foot of the Matterhorn. The Matterhorn is one of the most recognized peaks in the world due to its near-perfect pyramid shape and dramatic ridges.",
-        "zh": "采尔马特是坐落在马特洪峰山脚下的世界著名无车村庄。马特洪峰因其近乎完美的金字塔形状和险峻的山脊，成为全球最具辨识度的山峰之一。"
-      },
-      "image": "/assets/attractions/zermatt.jpg",
-      "bestTimeToVisit": "July to August (Hiking) / December to April (Skiing)",
+      "image": "/assets/attractions/vatnaj-kull-national-park-dynamic-nature-of-fire-and-ice.jpg",
+      "bestTimeToVisit": "June to August (Summer) / Nov to March (Ice caves)",
       "recommendedDuration": "2-3 days",
-      "officialWebsite": "https://www.zermatt.ch/en",
-      "tickets": "Free (Cable cars/trains €50 - €100+)",
+      "officialWebsite": "https://www.vatnajokulsthjodgardur.is/",
+      "tickets": "Free (Parking/Tours cost extra)",
       "tags": [
-        "feature:Mountain",
-        "range:Alps"
+        "feature:Glacial"
       ]
     },
     {
-      "id": "lauterbrunnen-valley",
+      "id": "swiss-alps-jungfrau-aletsch",
       "name": {
-        "en": "Lauterbrunnen Valley",
-        "zh": "劳特布龙嫩山谷"
+        "en": "Swiss Alps Jungfrau-Aletsch",
+        "zh": "少女峰–阿雷奇冰河–毕奇霍恩峰"
       },
       "category": "Natural",
       "country": "Switzerland",
       "coordinates": [
-        7.9091,
-        46.5935
+        7.98,
+        46.54
       ],
       "shortDesc": {
-        "en": "The 'Valley of 72 Waterfalls' with dramatic limestone cliffs",
-        "zh": "拥有72道瀑布的深邃山谷与壮丽石灰岩壁"
+        "en": "Home to the largest glacier in the Alps",
+        "zh": "阿尔卑斯山最大的阿雷奇冰河景观"
       },
       "description": {
-        "en": "A stunning U-shaped glacial valley flanked by towering limestone cliffs up to 400m high. It features the famous Staubbach Falls and serves as a primary gateway to the high peaks of the Jungfrau region.",
-        "zh": "被400米高的石灰岩峭壁环绕的U形冰川山谷。山谷内散落着72道瀑布（包括著名的施陶巴赫瀑布），是通往少女峰地区核心景区的门户。"
+        "en": "Centering on the Great Aletsch Glacier, the largest in Eurasia, this site features iconic peaks like the Jungfrau and Eiger. It showcases spectacular glacial formation and the ongoing effects of climate change.",
+        "zh": "汇集了少女峰、艾格峰等名峰，核心是欧亚大陆西部最大的大阿雷奇冰河。这里展现了壮丽的冰川消融过程，是高山冰川地貌与生态演替的典范。"
       },
-      "image": "/assets/attractions/lauterbrunnen.jpg",
-      "bestTimeToVisit": "June to September",
-      "recommendedDuration": "1-2 days",
-      "officialWebsite": "https://www.lauterbrunnen.swiss/en",
-      "tickets": "Free",
+      "image": "/assets/attractions/swiss-alps-jungfrau-aletsch.jpg",
+      "bestTimeToVisit": "June to September / December to April",
+      "recommendedDuration": "2-3 days",
+      "officialWebsite": "https://jungfraualetsch.ch/",
+      "tickets": "Jungfraujoch train ~€200+",
       "tags": [
-        "feature:Valley / Waterfalls",
+        "feature:Glacial",
+        "range:Alps",
+        "unesco:natural"
+      ]
+    },
+    {
+      "id": "lake-como",
+      "name": {
+        "en": "Lake Como",
+        "zh": "科莫湖"
+      },
+      "category": "Natural",
+      "country": "Italy",
+      "coordinates": [
+        9.2572,
+        46.016
+      ],
+      "shortDesc": {
+        "en": "Dramatic Y-shaped lake with elegant villas and mountain backdrops",
+        "zh": "拥有优雅别墅与壮丽山景的人字形高山湖泊"
+      },
+      "description": {
+        "en": "A deep glacial lake surrounded by steep mountains and beautiful 19th-century villas. Known for its upscale charm, Bellagio village, and the stunning mountain reflections on its serene waters.",
+        "zh": "被陡峭山峦环抱的深邃冰川湖，以19世纪的优雅别墅和贝拉焦等迷人小镇闻名。湖光山色交相辉映，展现了意大利北部的极致优雅。"
+      },
+      "image": "/assets/attractions/lake-como.jpg",
+      "bestTimeToVisit": "April to June / September",
+      "recommendedDuration": "2-3 days",
+      "officialWebsite": "https://www.lakecomo.is/",
+      "tickets": "Free (Ferries extra)",
+      "tags": [
+        "feature:Lakes",
         "range:Alps"
       ]
     },
@@ -1268,33 +754,34 @@
       ]
     },
     {
-      "id": "grossglockner-road",
+      "id": "plitvice-lakes",
       "name": {
-        "en": "Grossglockner High Alpine Road",
-        "zh": "大格洛克纳高山公路"
+        "en": "Plitvice Lakes National Park",
+        "zh": "普利特维采湖群国家公园"
       },
       "category": "Natural",
-      "country": "Austria",
+      "country": "Croatia",
       "coordinates": [
-        12.8433,
-        47.0833
+        15.621,
+        44.88
       ],
       "shortDesc": {
-        "en": "Austria's highest mountain pass road with panoramic glacier views",
-        "zh": "奥地利最高的高山公路，可俯瞰宏伟的冰川全景"
+        "en": "16 cascading emerald lakes connected by waterfalls",
+        "zh": "16个阶梯式翠绿湖泊与瀑布群"
       },
       "description": {
-        "en": "A scenic high-altitude road with 36 hairpin bends, ascending to 2,504m. It leads to the foot of Austria's highest peak, the Grossglockner, and offers views of the shrinking Pasterze Glacier.",
-        "zh": "拥有36个发卡弯、海拔达2504米的景观公路。公路直达奥地利最高峰大格洛克纳山脚下，并可近距离观察帕斯特泽冰川。"
+        "en": "Known as the 'Plitvice Lakes', this is Croatia's most famous natural wonder. It consists of 16 emerald lakes interconnected by a series of waterfalls and travertine dams, with colors shifting from turquoise to deep blue depending on the sunlight and mineral content.",
+        "zh": "俗称“十六湖”，被誉为欧洲的九寨沟。由16个翠绿色的湖泊通过无数瀑布 and 钙化堤坝相连而成，湖水随矿物质和阳光呈现迷人色彩。"
       },
-      "image": "/assets/attractions/grossglockner.jpg",
-      "bestTimeToVisit": "June to September (Open May to November)",
-      "recommendedDuration": "1 day",
-      "officialWebsite": "https://www.grossglockner.at/gg/en/index",
-      "tickets": "Car Toll: ~€40",
+      "image": "/assets/attractions/plitvice-lakes.jpg",
+      "bestTimeToVisit": "May to September",
+      "recommendedDuration": "1-2 days",
+      "officialWebsite": "https://np-plitvicka-jezera.hr/en/",
+      "tickets": "Adults €23 - €40 (varies by season)",
       "tags": [
-        "feature:Mountain",
-        "range:Alps"
+        "feature:Lakes",
+        "range:Dinaric Alps",
+        "unesco:natural"
       ]
     },
     {
@@ -1328,32 +815,32 @@
       ]
     },
     {
-      "id": "lake-como",
+      "id": "zermatt-matterhorn",
       "name": {
-        "en": "Lake Como",
-        "zh": "科莫湖"
+        "en": "Zermatt & The Matterhorn",
+        "zh": "采尔马特与马特洪峰"
       },
       "category": "Natural",
-      "country": "Italy",
+      "country": "Switzerland",
       "coordinates": [
-        9.2572,
-        46.016
+        7.7491,
+        46.0207
       ],
       "shortDesc": {
-        "en": "Dramatic Y-shaped lake with elegant villas and mountain backdrops",
-        "zh": "拥有优雅别墅与壮丽山景的人字形高山湖泊"
+        "en": "Iconic pyramid-shaped peak and car-free alpine village",
+        "zh": "标志性的金字塔形山峰与无车阿尔卑斯村庄"
       },
       "description": {
-        "en": "A deep glacial lake surrounded by steep mountains and beautiful 19th-century villas. Known for its upscale charm, Bellagio village, and the stunning mountain reflections on its serene waters.",
-        "zh": "被陡峭山峦环抱的深邃冰川湖，以19世纪的优雅别墅和贝拉焦等迷人小镇闻名。湖光山色交相辉映，展现了意大利北部的极致优雅。"
+        "en": "Zermatt is a world-famous, car-free alpine village nestled at the foot of the Matterhorn. The Matterhorn is one of the most recognized peaks in the world due to its near-perfect pyramid shape and dramatic ridges.",
+        "zh": "采尔马特是坐落在马特洪峰山脚下的世界著名无车村庄。马特洪峰因其近乎完美的金字塔形状和险峻的山脊，成为全球最具辨识度的山峰之一。"
       },
-      "image": "/assets/attractions/lake-como.jpg",
-      "bestTimeToVisit": "April to June / September",
+      "image": "/assets/attractions/zermatt.jpg",
+      "bestTimeToVisit": "July to August (Hiking) / December to April (Skiing)",
       "recommendedDuration": "2-3 days",
-      "officialWebsite": "https://www.lakecomo.is/",
-      "tickets": "Free (Ferries extra)",
+      "officialWebsite": "https://www.zermatt.ch/en",
+      "tickets": "Free (Cable cars/trains €50 - €100+)",
       "tags": [
-        "feature:Lakes",
+        "feature:Mountain",
         "range:Alps"
       ]
     },
@@ -1385,6 +872,519 @@
       "tags": [
         "feature:Mountain",
         "range:Alps"
+      ]
+    },
+    {
+      "id": "monte-san-giorgio",
+      "name": {
+        "en": "Monte San Giorgio",
+        "zh": "圣乔治山"
+      },
+      "category": "Natural",
+      "country": "Italy / Switzerland",
+      "coordinates": [
+        8.95,
+        45.91
+      ],
+      "shortDesc": {
+        "en": "The best fossil record of Triassic marine life",
+        "zh": "记录三叠纪海洋生物的化石圣地"
+      },
+      "description": {
+        "en": "A wooded mountain beside Lake Lugano, considered the best record of marine life from the Triassic Period (245–230 million years ago). Its fossils of reptiles, fish, and plants provide crucial insights into early evolution.",
+        "zh": "位于瑞士与意大利交界，拥有世界上最完整、最集中的三叠纪（约2.4亿年前）海洋生物化石记录。化石精美地保留了鱼类、爬行类及昆虫的演化细节。"
+      },
+      "image": "/assets/attractions/monte-san-giorgio.jpg",
+      "bestTimeToVisit": "May to October",
+      "recommendedDuration": "1 day",
+      "officialWebsite": "https://www.montesangiorgio.org/",
+      "tickets": "Free access to mountain, Museum €12",
+      "tags": [
+        "feature:Mountain",
+        "range:Alps"
+      ]
+    },
+    {
+      "id": "swiss-tectonic-arena-sardona",
+      "name": {
+        "en": "Swiss Tectonic Arena Sardona",
+        "zh": "萨尔多纳地质结构区"
+      },
+      "category": "Natural",
+      "country": "Switzerland",
+      "coordinates": [
+        9.22,
+        46.93
+      ],
+      "shortDesc": {
+        "en": "Visible evidence of mountain building and tectonic thrust",
+        "zh": "清晰展示板块碰撞与造山运动的地质区"
+      },
+      "description": {
+        "en": "A mountainous area showcasing the 'Glarus Thrust', where older rocks were carried over younger ones during continental collision. It provides clear visual evidence of the tectonic processes that build mountain ranges.",
+        "zh": "位于瑞士东北部，以“格拉鲁斯推覆体”闻名。老岩层推挤至年轻岩层之上的地质线清晰可见，生动展示了板块碰撞造就山脉的壮阔过程。"
+      },
+      "image": "/assets/attractions/swiss-tectonic-arena-sardona.jpg",
+      "bestTimeToVisit": "July to October",
+      "recommendedDuration": "1-2 days",
+      "officialWebsite": "https://unesco-sardona.ch/",
+      "tickets": "Free",
+      "tags": [
+        "feature:Mountain",
+        "range:Alps"
+      ]
+    },
+    {
+      "id": "the-dolomites",
+      "name": {
+        "en": "The Dolomites",
+        "zh": "多洛米蒂山脉"
+      },
+      "category": "Natural",
+      "country": "Italy",
+      "coordinates": [
+        12.16,
+        46.61
+      ],
+      "shortDesc": {
+        "en": "Iconic jagged peaks and stunning alpine lakes",
+        "zh": "独特的白云石锯齿峰与碧绿湖泊"
+      },
+      "description": {
+        "en": "A mountain range in the northern Italian Alps, famous for its vertical walls, sheer cliffs, and jagged peaks. It features some of the most beautiful mountain landscapes in the world, with vibrant alpine meadows and crystal-clear lakes.",
+        "zh": "位于意大利北部的阿尔卑斯山区，被誉为“世界上最美的山脉”。以独特的白云石锯齿状山峰、高山草甸和如镜般的湖泊闻名，四季皆有绝美景致。"
+      },
+      "image": "/assets/attractions/the-dolomites.jpg",
+      "bestTimeToVisit": "June to September / December to March",
+      "recommendedDuration": "3-5 days",
+      "officialWebsite": "https://www.dolomitisuperski.com/",
+      "tickets": "Free (Cable cars/ski passes €30 - €70+)",
+      "tags": [
+        "feature:Mountain",
+        "range:Alps",
+        "range:Dolomites",
+        "unesco:natural"
+      ]
+    },
+    {
+      "id": "grossglockner-road",
+      "name": {
+        "en": "Grossglockner High Alpine Road",
+        "zh": "大格洛克纳高山公路"
+      },
+      "category": "Natural",
+      "country": "Austria",
+      "coordinates": [
+        12.8433,
+        47.0833
+      ],
+      "shortDesc": {
+        "en": "Austria's highest mountain pass road with panoramic glacier views",
+        "zh": "奥地利最高的高山公路，可俯瞰宏伟的冰川全景"
+      },
+      "description": {
+        "en": "A scenic high-altitude road with 36 hairpin bends, ascending to 2,504m. It leads to the foot of Austria's highest peak, the Grossglockner, and offers views of the shrinking Pasterze Glacier.",
+        "zh": "拥有36个发卡弯、海拔达2504米的景观公路。公路直达奥地利最高峰大格洛克纳山脚下，并可近距离观察帕斯特泽冰川。"
+      },
+      "image": "/assets/attractions/grossglockner.jpg",
+      "bestTimeToVisit": "June to September (Open May to November)",
+      "recommendedDuration": "1 day",
+      "officialWebsite": "https://www.grossglockner.at/gg/en/index",
+      "tickets": "Car Toll: ~€40",
+      "tags": [
+        "feature:Mountain",
+        "range:Alps"
+      ]
+    },
+    {
+      "id": "pirin-national-park",
+      "name": {
+        "en": "Pirin National Park",
+        "zh": "皮林国家公园"
+      },
+      "category": "Natural",
+      "country": "Bulgaria",
+      "coordinates": [
+        23.433,
+        41.75
+      ],
+      "shortDesc": {
+        "en": "Spectacular glacial lakes and 1,300-year-old pine forests",
+        "zh": "壮丽的高山冰川湖与千年古松林"
+      },
+      "description": {
+        "en": "Located in southwest Bulgaria, the park features a diverse limestone landscape with glacial lakes, waterfalls, and ancient pine forests including trees over 1,300 years old. It is a major destination for hiking and skiing.",
+        "zh": "位于保加利亚西南部，以石灰岩高山景观、冰川湖泊和茂密松林著称。拥有树龄超1300年的古松，夏季适合徒步，冬季则是顶级滑雪胜地。"
+      },
+      "image": "/assets/attractions/pirin-national-park.jpg",
+      "bestTimeToVisit": "June to September (Hiking) / Dec to March (Skiing)",
+      "recommendedDuration": "1-3 days",
+      "officialWebsite": "https://www.pirin.bg/",
+      "tickets": "Free",
+      "tags": [
+        "feature:Mountain",
+        "range:Balkans"
+      ]
+    },
+    {
+      "id": "western-caucasus",
+      "name": {
+        "en": "Western Caucasus",
+        "zh": "西高加索山"
+      },
+      "category": "Natural",
+      "country": "Russia",
+      "coordinates": [
+        40.2,
+        43.7
+      ],
+      "shortDesc": {
+        "en": "One of Europe's few large undisturbed mountain areas",
+        "zh": "欧洲少数未受干扰的高山生态系统中心"
+      },
+      "description": {
+        "en": "A large mountain area in the Caucasus that has experienced minimal human impact. It features diverse ecosystems from subalpine pastures to glaciers and is a key habitat for the European bison and other rare wildlife.",
+        "zh": "位于俄罗斯高加索山脉最西端，是欧洲少数未受人类显著影响的大型山区。这里涵盖了从亚热带到高山冰川的极端生境，是欧洲野牛、棕熊和狼的珍稀栖息地。"
+      },
+      "image": "/assets/attractions/western-caucasus.JPG",
+      "bestTimeToVisit": "June to September",
+      "recommendedDuration": "3-5 days",
+      "officialWebsite": "https://whc.unesco.org/en/list/900/",
+      "tickets": "Permit required, fees vary",
+      "tags": [
+        "feature:Mountain",
+        "range:Caucasus"
+      ]
+    },
+    {
+      "id": "durmitor-national-park",
+      "name": {
+        "en": "Durmitor National Park",
+        "zh": "杜米托尔国家公园"
+      },
+      "category": "Natural",
+      "country": "Montenegro",
+      "coordinates": [
+        19.028,
+        43.151
+      ],
+      "shortDesc": {
+        "en": "Glacial landscapes and the deep Tara River Canyon",
+        "zh": "冰川地貌、塔拉大峡谷与“山之眼”"
+      },
+      "description": {
+        "en": "A breathtaking park shaped by glaciers, featuring Europe's deepest canyon (Tara River) and 18 glacial lakes known as 'mountain eyes'. It offers world-class hiking, rafting, and skiing.",
+        "zh": "位于黑山西北部，以冰川地貌著称。拥有欧洲最深的塔拉河大峡谷以及18个被称为“山之眼”的冰蚀湖，是徒步、漂流与滑雪的绝佳场所。"
+      },
+      "image": "/assets/attractions/durmitor-national-park.jpg",
+      "bestTimeToVisit": "June to September",
+      "recommendedDuration": "2-3 days",
+      "officialWebsite": "https://nparkovi.me/np-durmitor/",
+      "tickets": "Park entry €5",
+      "tags": [
+        "feature:Mountain",
+        "range:Dinaric Alps",
+        "unesco:natural"
+      ]
+    },
+    {
+      "id": "lauterbrunnen-valley",
+      "name": {
+        "en": "Lauterbrunnen Valley",
+        "zh": "劳特布龙嫩山谷"
+      },
+      "category": "Natural",
+      "country": "Switzerland",
+      "coordinates": [
+        7.9091,
+        46.5935
+      ],
+      "shortDesc": {
+        "en": "The 'Valley of 72 Waterfalls' with dramatic limestone cliffs",
+        "zh": "拥有72道瀑布的深邃山谷与壮丽石灰岩壁"
+      },
+      "description": {
+        "en": "A stunning U-shaped glacial valley flanked by towering limestone cliffs up to 400m high. It features the famous Staubbach Falls and serves as a primary gateway to the high peaks of the Jungfrau region.",
+        "zh": "被400米高的石灰岩峭壁环绕的U形冰川山谷。山谷内散落着72道瀑布（包括著名的施陶巴赫瀑布），是通往少女峰地区核心景区的门户。"
+      },
+      "image": "/assets/attractions/lauterbrunnen.jpg",
+      "bestTimeToVisit": "June to September",
+      "recommendedDuration": "1-2 days",
+      "officialWebsite": "https://www.lauterbrunnen.swiss/en",
+      "tickets": "Free",
+      "tags": [
+        "feature:Valley / Waterfalls",
+        "range:Alps"
+      ]
+    },
+    {
+      "id": "surtsey",
+      "name": {
+        "en": "Surtsey",
+        "zh": "叙尔特塞岛"
+      },
+      "category": "Natural",
+      "country": "Iceland",
+      "coordinates": [
+        -20.605,
+        63.303
+      ],
+      "shortDesc": {
+        "en": "A pristine volcanic island and natural laboratory",
+        "zh": "诞生于20世纪60年代的火山岛实验室"
+      },
+      "description": {
+        "en": "Formed by eruptions from 1963 to 1967, Surtsey is a 'natural laboratory' protected from human interference. It allows scientists to observe how life colonizes new land through wind, sea currents, and birds.",
+        "zh": "位于冰岛南岸，是1963-1967年海底火山喷发形成的年轻岛屿。作为“天然实验室”，这里严禁游客进入，旨在观察动植物如何在无人类干预下建立生态系统。"
+      },
+      "image": "/assets/attractions/surtsey.jpg",
+      "bestTimeToVisit": "Not open to the public",
+      "recommendedDuration": "N/A",
+      "officialWebsite": "http://www.surtsey.is/",
+      "tickets": "Strictly restricted to scientists",
+      "tags": [
+        "feature:Volcanic",
+        "unesco:natural"
+      ]
+    },
+    {
+      "id": "teide-national-park",
+      "name": {
+        "en": "Teide National Park",
+        "zh": "泰德国家公园"
+      },
+      "category": "Natural",
+      "country": "Spain",
+      "coordinates": [
+        -16.642,
+        28.272
+      ],
+      "shortDesc": {
+        "en": "Spain's highest peak with surreal volcanic landscapes",
+        "zh": "西班牙最高峰与宛如外星的火山地貌"
+      },
+      "description": {
+        "en": "Located on Tenerife, it centers on Mount Teide, a 3,718m stratovolcano that is the highest point in Spain. The park features a dramatic landscape of craters, lava flows, and unique endemic flora.",
+        "zh": "位于特内里费岛，核心是海拔3718米的泰德峰.公园展现了壮丽的火山地貌，包括巨型火山口和凝固的熔岩流，景观独特，是研究海洋岛屿演化的重要基地。"
+      },
+      "image": "/assets/attractions/teide-national-park.jpg",
+      "bestTimeToVisit": "May to October",
+      "recommendedDuration": "1 day",
+      "officialWebsite": "https://www.volcanoteide.com/",
+      "tickets": "Free access, Cable car ~€40",
+      "tags": [
+        "feature:Volcanic",
+        "unesco:natural"
+      ]
+    },
+    {
+      "id": "cha-ne-des-puys-limagne-fault-tectonic-arena",
+      "name": {
+        "en": "Chaîne des Puys - Limagne fault tectonic arena",
+        "zh": "多姆山链，利马涅断层构造区"
+      },
+      "category": "Natural",
+      "country": "France",
+      "coordinates": [
+        2.96,
+        45.774
+      ],
+      "shortDesc": {
+        "en": "Iconic volcanic chain illustrating continental rifting",
+        "zh": "展示大陆裂谷过程的标志性火山群"
+      },
+      "description": {
+        "en": "Located in central France, this site features a chain of 80 volcanoes and the Limagne fault. It is a textbook example of continental break-up, where the crust cracks and magma rises to form diverse volcanic cones.",
+        "zh": "位于法国中部，由约80座火山组成的火山链与巨大的利马涅断层组成。这里是研究地壳破裂、下陷并引发岩浆上升的天然实验室，生动展示了大陆裂谷的地质奇观。"
+      },
+      "image": "/assets/attractions/cha-ne-des-puys-limagne-fault-tectonic-arena.jpg",
+      "bestTimeToVisit": "May to October",
+      "recommendedDuration": "1-2 days",
+      "officialWebsite": "https://www.volcan.puy-de-dome.fr/",
+      "tickets": "Free access, Train to Puy de Dôme ~€17",
+      "tags": [
+        "feature:Volcanic",
+        "unesco:natural"
+      ]
+    },
+    {
+      "id": "aeolian-islands",
+      "name": {
+        "en": "Isole Eolie (Aeolian Islands)",
+        "zh": "伊奥利亚群岛"
+      },
+      "category": "Natural",
+      "country": "Italy",
+      "coordinates": [
+        14.96,
+        38.53
+      ],
+      "shortDesc": {
+        "en": "Archipelago of seven volcanic islands with active craters",
+        "zh": "七座风格各异的火山喷发岛屿"
+      },
+      "description": {
+        "en": "A volcanic archipelago in the Tyrrhenian Sea, north of Sicily. The islands provide an outstanding record of volcanic island-building and destruction, with active volcanoes like Stromboli providing spectacular 'natural fireworks'.",
+        "zh": "位于西西里北部，由7个火山岛组成，是火山学研究的摇篮。斯特龙博利岛至今频繁喷发“岩浆烟花”，武尔卡诺岛则以天然泥浴 and 硫磺泉著称。"
+      },
+      "image": "/assets/attractions/aeolian-islands.jpg",
+      "bestTimeToVisit": "May to October",
+      "recommendedDuration": "2-4 days",
+      "officialWebsite": "http://www.unesco.it/it/PatrimonioMondiale/Detail/135",
+      "tickets": "Free (Ferry/Boat tours vary €20 - €50+)",
+      "tags": [
+        "feature:Volcanic"
+      ]
+    },
+    {
+      "id": "mount-etna",
+      "name": {
+        "en": "Mount Etna",
+        "zh": "埃特纳火山"
+      },
+      "category": "Natural",
+      "country": "Italy",
+      "coordinates": [
+        14.993,
+        37.751
+      ],
+      "shortDesc": {
+        "en": "The highest and most active volcano in Europe",
+        "zh": "欧洲最高且最活跃的活火山"
+      },
+      "description": {
+        "en": "Located on the island of Sicily, Mount Etna is the most active stratovolcano in the world and the highest peak in Italy south of the Alps. Its landscape is constantly reshaped by eruptions, featuring lava flows, craters, and unique volcanic ecosystems.",
+        "zh": "位于西西里岛，是欧洲最高且最活跃的活火山。地貌随喷发不断演变，拥有荒凉的熔岩原与多个火山口，游客可乘坐越野车近距离感受大自然的威力。"
+      },
+      "image": "/assets/attractions/mount-etna.jpg",
+      "bestTimeToVisit": "April to June, September to October",
+      "recommendedDuration": "1 day",
+      "officialWebsite": "https://www.parcoetna.it/",
+      "tickets": "Free access to lower areas, Cable car/Jeep tours ~€30 - €70",
+      "tags": [
+        "feature:Volcanic",
+        "range:Alps",
+        "unesco:natural"
+      ]
+    },
+    {
+      "id": "do-ana-national-park",
+      "name": {
+        "en": "Doñana National Park",
+        "zh": "多南那国家公园"
+      },
+      "category": "Natural",
+      "country": "Spain",
+      "coordinates": [
+        -6.44,
+        36.98
+      ],
+      "shortDesc": {
+        "en": "Europe's most important wetland for migratory birds",
+        "zh": "欧洲规模最大的候鸟越冬沼泽地"
+      },
+      "description": {
+        "en": "A vast wetland in Andalusia featuring lagoons, marshes, and sand dunes. It is a vital wintering site for half a million waterbirds and a refuge for the endangered Iberian lynx and Spanish imperial eagle.",
+        "zh": "位于西班牙瓜达尔基维尔河口，拥有极其多样的生态系统。它是欧洲最重要的候鸟越冬地之一，也是濒危物种伊比利亚猞猁和西班牙帝雕的关键栖息地。"
+      },
+      "image": "/assets/attractions/do-ana-national-park.jpg",
+      "bestTimeToVisit": "March to May, September to November",
+      "recommendedDuration": "1-2 days",
+      "officialWebsite": "https://www.miteco.gob.es/es/red-parques-nacionales/nuestros-parques/donana/",
+      "tickets": "Free access, Guided tours ~€30",
+      "tags": [
+        "feature:Wetland",
+        "unesco:natural"
+      ]
+    },
+    {
+      "id": "the-flow-country",
+      "name": {
+        "en": "The Flow Country",
+        "zh": "弗罗湿地区"
+      },
+      "category": "Natural",
+      "country": "United Kingdom",
+      "coordinates": [
+        -3.85,
+        58.37
+      ],
+      "shortDesc": {
+        "en": "The world's most extensive blanket bog landscape",
+        "zh": "全球最广阔且完整的泥炭沼泽系统"
+      },
+      "description": {
+        "en": "Located in the Scottish Highlands, it is the largest and most intact example of a blanket bog in the world. It plays a crucial role in carbon sequestration and provides a habitat for diverse bird species.",
+        "zh": "位于苏格兰高地，是2024年新晋世界遗产.这片广袤的覆被泥炭沼泽在碳储存与气候调节中起着至关重要的作用，也是多种珍稀鸟类繁衍的原始荒原。"
+      },
+      "image": "/assets/attractions/the-flow-country.jpg",
+      "bestTimeToVisit": "May to September",
+      "recommendedDuration": "1 day",
+      "officialWebsite": "https://www.theflowcountry.org.uk/",
+      "tickets": "Free",
+      "tags": [
+        "feature:Wetland",
+        "unesco:natural"
+      ]
+    },
+    {
+      "id": "srebarna-nature-reserve",
+      "name": {
+        "en": "Srebarna Nature Reserve",
+        "zh": "斯雷巴尔纳自然保护区"
+      },
+      "category": "Natural",
+      "country": "Bulgaria",
+      "coordinates": [
+        27.073,
+        44.107
+      ],
+      "shortDesc": {
+        "en": "Key migratory stopover on the Danube for rare birds",
+        "zh": "多瑙河畔重要的候鸟迁徙中转站"
+      },
+      "description": {
+        "en": "A freshwater lake on the Danube, serving as a vital breeding and stopover ground for over 100 bird species, notably the rare Dalmatian Pelican. It includes an ecological trail and a natural history museum.",
+        "zh": "位于多瑙河畔的淡水湖泊，是欧洲重要的候鸟中转站。作为卷羽鹈鹕在保加利亚唯一的繁殖地，这里栖息着百余种鸟类，设有自然博物馆。"
+      },
+      "image": "/assets/attractions/srebarna-nature-reserve.jpg",
+      "bestTimeToVisit": "April to September",
+      "recommendedDuration": "Half day",
+      "officialWebsite": "https://whc.unesco.org/en/list/219/",
+      "tickets": "Museum entry ~€2",
+      "tags": [
+        "feature:Wetland",
+        "unesco:natural"
+      ]
+    },
+    {
+      "id": "danube-delta",
+      "name": {
+        "en": "Danube Delta",
+        "zh": "多瑙河三角洲"
+      },
+      "category": "Natural",
+      "country": "Romania",
+      "coordinates": [
+        29.51,
+        45.06
+      ],
+      "shortDesc": {
+        "en": "Europe's largest and best-preserved river delta",
+        "zh": "欧洲保存最完好的生物多样性湿地"
+      },
+      "description": {
+        "en": "The largest and best-preserved delta in Europe, home to over 300 bird species and 160 fish species. Its labyrinth of canals, lakes, and reed beds is a vital habitat for white pelicans and other wildlife.",
+        "zh": "位于罗马尼亚，是欧洲面积最大、保存最完好的河流三角洲。这里是三百多种鸟类与百余种鱼类的家园，迷宫般的水道与芦苇丛构成了欧洲最重要的自然保护区之一。"
+      },
+      "image": "/assets/attractions/danube-delta.jpg",
+      "bestTimeToVisit": "May to September",
+      "recommendedDuration": "2-3 days",
+      "officialWebsite": "https://ddbra.ro/",
+      "tickets": "Permits ~€6/day, Boat tours ~€30-€50",
+      "tags": [
+        "feature:Wetland",
+        "unesco:natural"
       ]
     }
   ]

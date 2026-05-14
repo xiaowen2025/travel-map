@@ -18,7 +18,11 @@ export function getCountryCode(fullName) {
 }
 
 export function getCountry(point, locale = 'zh') {
-  const code = point.country;
+  let code = point.country;
   if (!code) return '';
+  // If code is a full name (e.g. "Croatia"), convert to code (e.g. "HR")
+  if (!countries[code] && fullNames[code]) {
+    code = fullNames[code];
+  }
   return getCountryName(code, locale);
 }

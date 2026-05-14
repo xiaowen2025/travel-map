@@ -56,10 +56,16 @@ export function setupBaseOption() {
                     const p = params.data.rawData;
                     const locale = state.get('locale');
                     if (!p) return params.name;
+                    const eraLabel = getLoc(p, 'era', locale);
+                    const eraHtml = eraLabel ? `<div style="font-size:12px;color:#E8CA88;">${eraLabel}</div>` : '';
+                    // Get range from tags (e.g. "range:Alps")
+                    const rangeTag = p.tags?.find(t => t.startsWith('range:'));
+                    const rangeLabel = rangeTag ? rangeTag.split(':')[1] : getLoc(p, 'region', locale);
+                    const locationHtml = rangeLabel ? `, ${rangeLabel}` : '';
                     return `<div style="padding: 2px;">
-                                <div style="font-size:12px;color:#E8CA88;">${getLoc(p, 'era', locale)}</div>
+                                ${eraHtml}
                                 <div style="font-weight:bold;font-size:16px;margin:4px 0;">📍 ${getLoc(p, 'name', locale)}</div>
-                                <div style="font-size:12px;color:#aaa;">${getCountry(p, locale)}${getLoc(p, 'region', locale) ? ', ' + getLoc(p, 'region', locale) : ''}</div>
+                                <div style="font-size:12px;color:#aaa;">${getCountry(p, locale)}${locationHtml}</div>
                             </div>`;
                 }
             }
@@ -137,10 +143,10 @@ export function setupBaseOption() {
                 name: 'GeographyLines',
                 type: 'lines',
                 coordinateSystem: 'geo',
+                polyline: true,
                 zlevel: 2,
                 silent: true,
                 lineStyle: {
-                    curveness: 0.1,
                     opacity: 0.5
                 },
                 data: []
@@ -307,7 +313,7 @@ export function showGeographyPoints(geographyData, locale) {
                 show: true,
                 formatter: `${f.icon} ${f.name[locale] || f.name.en}`,
                 fontSize: f.type === 'mountain' ? LABEL_FONT_SIZE_GEOGRAPHY + 2 : LABEL_FONT_SIZE_GEOGRAPHY,
-                color: f.type === 'mountain' ? '#f8fafc' : '#7dd3fc',
+                color: f.type === 'mountain' ? '#E8CA88' : '#7dd3fc',
                 fontWeight: f.type === 'mountain' ? 'bold' : 'normal'
             }
         });
@@ -318,7 +324,7 @@ export function showGeographyPoints(geographyData, locale) {
                 lineData.push({
                     coords: [f.path[i], f.path[i + 1]],
                     lineStyle: {
-                        color: f.type === 'mountain' ? '#94a3b8' : '#38bdf8',
+                        color: f.type === 'mountain' ? '#E8CA88' : '#38bdf8',
                         width: f.type === 'mountain' ? 3 : 2,
                         opacity: f.type === 'mountain' ? 0.4 : 0.6
                     }

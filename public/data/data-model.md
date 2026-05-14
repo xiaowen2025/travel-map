@@ -79,3 +79,4 @@
 - `category`: string — "Natural"
 - `tags`: array of strings — `["key:value"]`, e.g., `["range:Alps", "feature:Mountain", "unesco:natural"]`
 - `coordinates`: [lng, lat]
+- **Sorting**: Sort by `feature` (ecosystem type), then `range` (geographic region), then by `coordinates[0]` (longitude) from west to east

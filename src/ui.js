@@ -97,11 +97,13 @@ export function showCompactCard(p, direction = null) {
 }
 
 function fillCompactContent(p, eraName, locale) {
-    const eraSuffix = getLoc(p, 'era', locale);
-    ui.cardEra.innerText = eraName + (eraSuffix ? ' · ' + eraSuffix : '');
+    ui.cardEra.style.display = 'none';
     ui.cardTitle.innerText = getLoc(p, 'name', locale);
     ui.cardShortDesc.innerText = getLoc(p, 'shortDesc', locale) || '';
-    ui.cardLocation.innerText = '📍 ' + getCountry(p, locale) + (getLoc(p, 'region', locale) ? ' · ' + getLoc(p, 'region', locale) : '');
+    // Use range tag for region if available, otherwise fall back to region field
+    const rangeTag = p.tags?.find(t => t.startsWith('range:'));
+    const regionLabel = rangeTag ? rangeTag.split(':')[1] : getLoc(p, 'region', locale);
+    ui.cardLocation.innerText = '📍 ' + getCountry(p, locale) + (regionLabel ? ' · ' + regionLabel : '');
 }
 
 /**

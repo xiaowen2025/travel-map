@@ -15,7 +15,7 @@ const ECOSYSTEM_ICONS = {
 
 const ECOSYSTEM_COLORS = {
     'Forest': '#4ade80',
-    'Mountain': '#94a3b8',
+    'Mountain': '#E8CA88',
     'Coastal': '#38bdf8',
     'Volcanic': '#f87171',
     'Cave': '#a78bfa',
@@ -475,5 +475,4 @@ export function onMapNatureClick(p) {
     if (index !== -1) {
         navigateTo(index);
     }
-    showNatureDetail(p);
 }

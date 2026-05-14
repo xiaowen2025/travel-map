@@ -1,9 +1,21 @@
+#!/usr/bin/env node
+/**
+ * Compress large JPEG/PNG images in a directory.
+ * Usage: node compress-images.mjs <directory>
+ * Example: node compress-images.mjs public/assets/attractions
+ */
 import sharp from 'sharp';
 import { readdir, stat, copyFile, rm } from 'fs/promises';
 import path from 'path';
 import { fileTypeFromFile } from 'file-type';
 
-const dir = 'public/assets/destinations';
+const dir = process.argv[2] || 'public/assets/attractions';
+
+if (!dir) {
+  console.error('Usage: node compress-images.mjs <directory>');
+  process.exit(1);
+}
+
 const files = await readdir(dir);
 
 let compressed = 0;
