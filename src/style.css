@@ -203,6 +203,34 @@ body, html {
             transform: translateY(0);
         }
 
+        /* Card Meta List (for nature travel info) */
+        .card-meta-list {
+            margin-top: 14px;
+            padding-top: 14px;
+            border-top: 1px solid rgba(232, 202, 136, 0.1);
+        }
+        .card-meta-item {
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 6px;
+            display: flex;
+            align-items: flex-start;
+        }
+        .meta-label {
+            color: rgba(232, 202, 136, 0.6);
+            width: 80px;
+            flex-shrink: 0;
+        }
+        #cardWebsite {
+            color: #E8CA88;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(232, 202, 136, 0.3);
+        }
+        #cardWebsite:hover {
+            color: #fff;
+            border-bottom-color: #fff;
+        }
+
         .card-expanded.revealed::-webkit-scrollbar {
             width: 4px;
         }
@@ -1143,6 +1171,43 @@ body, html {
             color: rgba(255, 255, 255, 0.6);
             margin: 0;
         }
+
+        /* Nature Travel Info Section */
+        .nature-travel-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        .travel-info-item {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 12px 14px;
+        }
+        .info-label {
+            display: block;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: rgba(232, 202, 136, 0.5);
+            margin-bottom: 4px;
+        }
+        .info-value {
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.4;
+        }
+        .nature-website-link {
+            color: #E8CA88;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(232, 202, 136, 0.2);
+        }
+        .nature-website-link:hover {
+            color: #fff;
+            border-bottom-color: #fff;
+        }
+
         .nature-detail-meta {
             display: flex;
             flex-wrap: wrap;

@@ -8,7 +8,11 @@ const locales = {
         modeNature: '自然风光',
         loadingText: 'Loading Map & History...',
         loadError: '无法加载数据。',
-        langLabel: 'EN'
+        langLabel: 'EN',
+        bestTime: '最佳时间',
+        duration: '建议时长',
+        tickets: '门票',
+        website: '官网'
     },
     en: {
         title: 'EUROPE',
@@ -18,7 +22,11 @@ const locales = {
         modeNature: 'Nature',
         loadingText: 'Loading Map & History...',
         loadError: 'Failed to load data.',
-        langLabel: '中文'
+        langLabel: '中文',
+        bestTime: 'Best Time',
+        duration: 'Duration',
+        tickets: 'Tickets',
+        website: 'Official'
     }
 };
 

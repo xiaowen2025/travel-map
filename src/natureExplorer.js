@@ -26,6 +26,8 @@ const ECOSYSTEM_COLORS = {
     'Fossil': '#d97706'
 };
 
+const getFeature = (site) => site.tags?.find(t => t.startsWith('feature:'))?.split(':')[1] || 'Other';
+
 // ==================== i18n labels ====================
 const labels = {
     zh: {
@@ -36,7 +38,12 @@ const labels = {
         ecosystem: '生态系统',
         country: '国家',
         noResults: '未找到匹配的自然景观',
-        sites: '处景观'
+        sites: '处景观',
+        description: '详情介绍',
+        bestTimeToVisit: '最佳游览时间',
+        recommendedDuration: '建议游览时长',
+        officialWebsite: '官方网站',
+        tickets: '门票价格'
     },
     en: {
         panelTitle: 'Nature Explorer',
@@ -46,7 +53,12 @@ const labels = {
         ecosystem: 'Ecosystem',
         country: 'Country',
         noResults: 'No natural sites found',
-        sites: 'sites'
+        sites: 'sites',
+        description: 'Description',
+        bestTimeToVisit: 'Best Time to Visit',
+        recommendedDuration: 'Recommended Duration',
+        officialWebsite: 'Official Website',
+        tickets: 'Ticket Prices'
     }
 };
 
@@ -111,7 +123,7 @@ export function initNatureExplorer(natureData) {
     allSites = Array.isArray(natureData) ? natureData : (natureData.sites || []);
     allSites = allSites.map(site => ({
         ...site,
-        eraKey: site.ecosystemType
+        eraKey: getFeature(site)
     }));
     state.set('natureData', allSites);
 }
@@ -203,7 +215,7 @@ export function handleKeydown(e) {
 
 function renderPanel() {
     const locale = state.get('locale');
-    const ecosystems = [...new Set(allSites.map(s => s.ecosystemType))].sort();
+    const ecosystems = [...new Set(allSites.map(getFeature))].sort();
 
     panelEl.innerHTML = `
         <div class="nature-panel-header">
@@ -252,12 +264,13 @@ function renderNatureList(search = '', filter = 'all') {
     const searchLower = search.toLowerCase();
 
     let filtered = allSites.filter(site => {
+        const feat = getFeature(site);
         const matchesSearch = !search ||
             getLoc(site, 'name', locale).toLowerCase().includes(searchLower) ||
             site.country.toLowerCase().includes(searchLower) ||
-            site.ecosystemType.toLowerCase().includes(searchLower);
+            feat.toLowerCase().includes(searchLower);
         
-        const matchesFilter = filter === 'all' || site.ecosystemType === filter;
+        const matchesFilter = filter === 'all' || feat === filter;
         
         return matchesSearch && matchesFilter;
     });
@@ -277,8 +290,9 @@ function renderNatureList(search = '', filter = 'all') {
     if (filter === 'all' && !search) {
         const grouped = {};
         filtered.forEach(site => {
-            if (!grouped[site.ecosystemType]) grouped[site.ecosystemType] = [];
-            grouped[site.ecosystemType].push(site);
+            const feat = getFeature(site);
+            if (!grouped[feat]) grouped[feat] = [];
+            grouped[feat].push(site);
         });
 
         Object.keys(grouped).sort().forEach(eco => {
@@ -346,7 +360,7 @@ function showNatureDetail(site) {
 
     const locale = state.get('locale');
     const name = getLoc(site, 'name', locale);
-    const eco = site.ecosystemType;
+    const eco = getFeature(site);
     const icon = ECOSYSTEM_ICONS[eco] || '🌍';
     const description = getLoc(site, 'description', locale);
     const shortDesc = getLoc(site, 'shortDesc', locale);
@@ -371,6 +385,32 @@ function showNatureDetail(site) {
                     <p class="nature-detail-desc-text">${description}</p>
                 </div>
             ` : ''}
+
+            <div class="nature-travel-info">
+                <div class="travel-info-item">
+                    <span class="info-label">${label('bestTimeToVisit')}</span>
+                    <span class="info-value">${site.bestTimeToVisit || '-'}</span>
+                </div>
+                <div class="travel-info-item">
+                    <span class="info-label">${label('recommendedDuration')}</span>
+                    <span class="info-value">${site.recommendedDuration || '-'}</span>
+                </div>
+                <div class="travel-info-item">
+                    <span class="info-label">${label('tickets')}</span>
+                    <span class="info-value">${site.tickets || '-'}</span>
+                </div>
+                ${site.officialWebsite ? `
+                <div class="travel-info-item">
+                    <span class="info-label">${label('officialWebsite')}</span>
+                    <span class="info-value">
+                        <a href="${site.officialWebsite}" target="_blank" class="nature-website-link">
+                            ${site.officialWebsite.replace(/^https?:\/\/(www\.)?/, '').split('/')[0]} ↗
+                        </a>
+                    </span>
+                </div>
+                ` : ''}
+            </div>
+
             <div class="nature-detail-meta">
                 <span class="nature-meta-chip">${icon} ${eco}</span>
                 <span class="nature-meta-chip">📍 ${site.country}</span>
@@ -397,13 +437,14 @@ function closeNatureDetail() {
 function syncMapWithNature() {
     const locale = state.get('locale');
     const points = allSites.map(s => {
+        const feat = getFeature(s);
         return {
             name: getLoc(s, 'name', locale),
             value: s.coordinates,
             symbolSize: 10,
             itemStyle: {
-                color: ECOSYSTEM_COLORS[s.ecosystemType] || '#E8CA88',
-                shadowColor: ECOSYSTEM_COLORS[s.ecosystemType] || '#E8CA88',
+                color: ECOSYSTEM_COLORS[feat] || '#E8CA88',
+                shadowColor: ECOSYSTEM_COLORS[feat] || '#E8CA88',
                 shadowBlur: 10
             },
             rawData: s

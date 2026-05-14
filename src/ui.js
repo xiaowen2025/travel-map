@@ -39,6 +39,15 @@ const ui = {
     cardExpanded: document.getElementById('cardExpanded'),
     cardImage: document.getElementById('cardImage'),
     cardDescription: document.getElementById('cardDescription'),
+    cardMetaList: document.getElementById('cardMetaList'),
+    cardBestTime: document.getElementById('cardBestTime'),
+    cardDuration: document.getElementById('cardDuration'),
+    cardTickets: document.getElementById('cardTickets'),
+    cardWebsite: document.getElementById('cardWebsite'),
+    labelBestTime: document.getElementById('labelBestTime'),
+    labelDuration: document.getElementById('labelDuration'),
+    labelTickets: document.getElementById('labelTickets'),
+    labelWebsite: document.getElementById('labelWebsite'),
 };
 
 // ==================== Idle Timer for Expand ====================
@@ -114,6 +123,30 @@ export function expandCard(p) {
         ui.cardImage.style.display = 'block';
     } else {
         ui.cardImage.style.display = 'none';
+    }
+
+    // Travel Metadata (mostly for nature sites)
+    if (p.bestTimeToVisit || p.recommendedDuration || p.tickets || p.officialWebsite) {
+        ui.cardMetaList.style.display = 'block';
+        ui.labelBestTime.innerText = t('bestTime', locale) + ': ';
+        ui.cardBestTime.innerText = p.bestTimeToVisit || '-';
+        
+        ui.labelDuration.innerText = t('duration', locale) + ': ';
+        ui.cardDuration.innerText = p.recommendedDuration || '-';
+        
+        ui.labelTickets.innerText = t('tickets', locale) + ': ';
+        ui.cardTickets.innerText = p.tickets || '-';
+        
+        ui.labelWebsite.innerText = t('website', locale) + ': ';
+        if (p.officialWebsite) {
+            ui.cardWebsite.href = p.officialWebsite;
+            ui.cardWebsite.innerText = p.officialWebsite.replace(/^https?:\/\/(www\.)?/, '').split('/')[0];
+            ui.cardWebsite.style.display = 'inline';
+        } else {
+            ui.cardWebsite.style.display = 'none';
+        }
+    } else {
+        ui.cardMetaList.style.display = 'none';
     }
 
     // Trigger accordion reveal

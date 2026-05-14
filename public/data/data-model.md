@@ -63,3 +63,20 @@
 
 - ISO 2-letter codes as keys (FR, DE, IT, ES, PL, GB, GR, AT, VA, PT, CZ, HR, BE, TR, SI, NL, MT, IE, HU, BA, SK, CH, SE, NO, DK, FI, EE, LV, LT, RO, BG, RS, AL, MK, XK, ME, LU, CY, AD, MC, SM, LI, IS, BY, MD, UA)
 - `fullNames` inverts the map for lookup
+
+---
+
+## nature.json
+
+```json
+{ "sites": [{
+  id, name: { en, zh }, category, tags, country, coordinates,
+  shortDesc: { en, zh }, description: { en, zh }, image,
+  whcId, bestTimeToVisit, recommendedDuration, officialWebsite, tickets
+}] }
+```
+
+- `category`: string — "Natural"
+- `tags`: array of strings — `["key:value"]`, e.g., `["range:Alps", "feature:Mountain"]`
+- `coordinates`: [lng, lat]
+- `whcId`: int | null — UNESCO World Heritage Centre ID
