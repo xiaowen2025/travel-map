@@ -1,6 +1,74 @@
 {
   "timelinePoints": [
     {
+      "id": "altare-della-patria",
+      "name": {
+        "en": "Altare della Patria",
+        "zh": "祖国祭坛"
+      },
+      "era": "1885–1935",
+      "sortYear": 1911,
+      "eraKey": "late_modern",
+      "category": "cultural",
+      "coordinates": [
+        12.4831,
+        41.8947
+      ],
+      "tags": [
+        "Italian Unity",
+        "Neoclassicism"
+      ],
+      "shortDesc": {
+        "en": "National monument to Victor Emmanuel II, first king of unified Italy",
+        "zh": "意大利统一后的第一座国家纪念碑，献予统一意大利首位国王维克多·埃马努埃莱二世"
+      },
+      "description": {
+        "en": "The Victor Emmanuel II Monument (Vittoriano or Altare della Patria) is a neoclassical monument in Rome built to honor Victor Emmanuel II, the first king of unified Italy. Construction began in 1885 and was completed in 1935. It was inaugurated on 4 June 1911, on the 50th anniversary of Italian unification. The monument houses the Tomb of the Italian Unknown Soldier, interred on 4 November 1921. Located between Piazza Venezia and Capitoline Hill, the building is 135m wide × 70m high, and has become one of Rome's most iconic landmarks, colloquially known as \"The Wedding Cake\".",
+        "zh": "祖国祭坛（意大利语：Altare della Patria，又称维克多·埃马努埃莱二世纪念堂、Vittoriano）是位于罗马的一座新古典主义国家纪念碑，为纪念意大利统一后的首位国王维克多·埃马努埃莱二世而建。工程始于1885年，1935年竣工。1911年6月4日（意大利统一50周年）举行落成典礼。纪念堂内安葬着意大利无名烈士（1921年11月4日安葬）。建筑坐落于威尼斯广场与卡比托莱山之间，宽135米、高70米，已成为罗马最具标志性的地标之一，绰号\"结婚蛋糕\"。"
+      },
+      "image": "/assets/attractions/altare-della-patria.jpg",
+      "country": "IT",
+      "region": {
+        "en": "Lazio",
+        "zh": "拉齐奥"
+      },
+      "city": "Rome"
+    },
+    {
+      "id": "karl-marx-house",
+      "name": {
+        "en": "Karl Marx House",
+        "zh": "卡尔·马克思故居"
+      },
+      "era": "1727–1947",
+      "sortYear": 1818,
+      "eraKey": "late_modern",
+      "category": "cultural",
+      "coordinates": [
+        6.63556,
+        49.75389
+      ],
+      "tags": [
+        "Karl Marx",
+        "German History"
+      ],
+      "shortDesc": {
+        "en": "Birthplace of Karl Marx, now a museum dedicated to his life and work",
+        "zh": "卡尔·马克思出生地，现为博物馆，展示其生平与思想"
+      },
+      "description": {
+        "en": "The Karl Marx House (German: Karl-Marx-Haus) in Trier, Germany, is the birthplace of the philosopher, economist, and revolutionary socialist Karl Marx, born 5 May 1818. The building, originally constructed in 1727 as a Baroque townhouse, was acquired by the Social Democratic Party of Germany in 1928 and opened as a museum on 5 May 1947. Today it is owned by the Friedrich Ebert Foundation and receives approximately 50,000 visitors annually. Marx lived here until 1836, when his family moved away. The museum houses exhibits on Marx's life, work, and influence on world history, as well as the development of the labor movement.",
+        "zh": "卡尔·马克思故居（Karl-Marx-Haus）位于德国特里尔市，是哲学家、经济学家、革命社会主义者卡尔·马克思的出生地，马克思于1818年5月5日在此诞生。这座建筑始建于1727年，最初是一座巴洛克风格的联排住宅。1928年被德国社会民主党收购，1947年5月5日正式开放为博物馆，现由弗里德里希·埃伯特基金会管理，每年接待约5万名访客。马克思在此居住至1836年，随后全家迁出。博物馆内设有展览，介绍马克思的生平、思想、对世界历史的影响以及工人运动的发展。"
+      },
+      "image": "/assets/attractions/karl-marx-house.jpg",
+      "country": "DE",
+      "region": {
+        "en": "Rhineland-Palatinate",
+        "zh": "莱茵兰-普法尔茨"
+      },
+      "city": "Trier"
+    },
+    {
       "id": "altamira-cave",
       "name": {
         "en": "Altamira Cave",
@@ -1750,39 +1818,6 @@
       "image": "/assets/attractions/krakow-old-town.jpg"
     },
     {
-      "id": "sintra",
-      "name": {
-        "en": "Sintra",
-        "zh": "辛特拉"
-      },
-      "era": "15th century",
-      "sortYear": 1454,
-      "eraKey": "early_modern",
-      "category": "cultural",
-      "coordinates": [
-        -9.3908,
-        38.7878
-      ],
-      "tags": [
-        "Renaissance"
-      ],
-      "shortDesc": {
-        "en": "City of Portuguese Romantic palaces, UNESCO 1995",
-        "zh": "葡萄牙浪漫主义宫殿之城，1995年 UNESCO"
-      },
-      "description": {
-        "en": "Sintra is a hill town on the outskirts of Lisbon, which became a royal summer retreat from the 15th century. In the 19th century, with the development of the Portuguese Romantic movement, it attracted artists and intellectuals from across Europe, who built a series of fairy-tale palaces and villas. Palácio da Pena is the most famous of these - its striking contrast of red brick and yellow walls with deep blue roofs, mysterious shapes of towers and castle turrets make it look as if it was moved out of a Grimm fairy tale. In 1995, Sintra's cultural landscape was listed as UNESCO World Heritage.",
-        "zh": "辛特拉是里斯本郊外的山丘小镇，从15世纪起成为葡萄牙皇室的避暑胜地。19世纪，随着葡萄牙浪漫主义运动的发展，这里吸引了欧洲各地的艺术家和知识分子，建造了一系列充满童话色彩的宫殿和别墅。佩纳宫（Palácio da Pena）是其中最著名的一座，其红砖黄墙与深蓝屋顶的强烈对比，尖塔和城堡塔楼的神秘外形，使其看起来像是从格林童话中搬出来的。1995年辛特拉的文化景观被列入UNESCO世界遗产。"
-      },
-      "country": "PT",
-      "region": {
-        "en": "Lisbon Region",
-        "zh": "里斯本大"
-      },
-      "city": null,
-      "image": "/assets/attractions/sintra.jpg"
-    },
-    {
       "id": "nicolaus-copernicus-house",
       "name": {
         "en": "Nicolaus Copernicus House",
@@ -2167,8 +2202,8 @@
         "zh": "摒弃中世纪拼凑风格，法国文艺复兴晚期建筑的完美对称典范"
       },
       "description": {
-        "en": "After 30 years of construction, Cheverny Castle completed in 1634 represents the pinnacle of its era, showcasing perfectly unified symmetrical classical style, abandoning the chaotic, piecemeal expansion typical of early medieval architecture. This castle is a model of late French Renaissance architecture, its strict symmetrical facade, regular French gardens and cool architectural vocabulary form a sharp contrast to the passion of the Italian Renaissance, reflecting the French nobility's pursuit of order and reason.",
-        "zh": "经过30年的建设后于1634年完工的雪瓦尼堡，代表了该时代的顶峰，展示了完美统一的对称古典风格，摒弃了早期中世纪建筑典型的混乱、零碎的扩建。这座城堡是法国文艺复兴晚期建筑的典范，其严格的正立面对称、规整的法式花园和冷静的建筑语汇，与意大利文艺复兴的激情形成鲜明对比，体现了法国贵族对秩序和理性的追求。"
+        "en": "Completed in 1634 after three decades of construction, Cheverny Castle stands as the pinnacle of late French Renaissance architecture—a perfect embodiment of unified symmetrical classical style that abandoned the chaotic, piecemeal expansion of earlier eras. Its strict symmetrical facade, regular French gardens, and restrained architectural vocabulary form a sharp contrast to the passion of the Italian Renaissance, reflecting the French nobility's pursuit of order and reason. Unlike earlier Renaissance castles that retained defensive corner towers and inaccessible moats, Cheverny embodied a society seeking rational order and domestic tranquility after the bloody French Wars of Religion. This architecture of \"pacification\" and refined elegance laid the foundation for the absolute pinnacle of French royal architecture—the Palace of Versailles in 1682.",
+        "zh": "经过三十年的建设于1634年完工的雪瓦尼堡，是法国文艺复兴晚期建筑的顶峰——完美体现了统一的对称古典风格，彻底摒弃了早期建筑的混乱与零碎扩建。其严格的正立面对称、规整的法式花园和克制的建筑语汇，与意大利文艺复兴的激情形成鲜明对比，体现了法国贵族对秩序和理性的追求。不同于保留防御性角塔和护城河的早期文艺复兴城堡，雪瓦尼堡体现了一个在血腥的法国宗教战争之后渴望理性秩序与家庭宁静的社会。这种「绥靖」与精致优雅的建筑，为法国皇家建筑的绝对顶峰——1682年的凡尔赛宫——奠定了基础。"
       },
       "image": "/assets/attractions/cheverny-castle.jpg",
       "country": "FR",
@@ -2235,7 +2270,7 @@
       },
       "description": {
         "en": "The Palace of Versailles was built in the 17th century as a hunting lodge for Louis XIII, and later expanded by Louis XIV into the largest royal palace in the world. Known as the 'Palace of the Sun King' after the emblem of Apollo chosen by Louis XIV, Versailles became the center of French political power and a model of European absolutism. The Hall of Mirrors (Galerie des Glaces), the Royal Opera, and the formal gardens designed by Andre Le Notre are masterpieces of French Baroque architecture. The Treaty of Versailles was signed here in 1919, ending World War I. Listed as UNESCO World Heritage in 1979.",
-        "zh": "凡尔赛宫始建于17世纪，最初是路易十三的狩猎行宫，后被路易十四扩建为世界上最大的皇家宫殿。以路易十四选择的阿波罗标志被称为\"太阳王宫殿\"，凡尔赛宫成为法国政治权力的中心和欧洲君主专制的典范。镜厅（Galerie des Glaces）、皇家歌剧院以及安德烈·勒诺特设计的正式花园都是法国巴洛克建筑的巅峰之作。1919年《凡尔赛条约》在此签署，标志着第一次世界大战的结束。1979年列入UNESCO世界遗产。"
+        "zh": "凡尔赛宫始建于17世纪，最初是路易十三的狩猎行宫，后被路易十四扩建为世界上最大的皇家宫殿。以路易十四选择的阿波罗标志被称为\"太阳王宫殿\"，凡尔赛宫成为法国政治权力的中心和欧洲君主专制的典范。镜厅（Galerie des Glaces）、皇家歌剧院以及安德烈·勒诺特设计的正式花园都是法国巴洛克建筑的巅峰之作。1919年《凡尔赛条约》在此签署，标志着第一次世界大战的结束。"
       },
       "image": "/assets/attractions/palace-of-versailles.jpg",
       "country": "FR",
@@ -2244,6 +2279,175 @@
         "zh": "法兰西岛大区"
       },
       "city": "Versailles"
+    },
+    {
+      "id": "cafe-procope",
+      "name": {
+        "en": "Café Procope",
+        "zh": "普罗可布咖啡馆"
+      },
+      "era": "Established 1686",
+      "sortYear": 1686,
+      "eraKey": "early_modern",
+      "category": "cultural",
+      "coordinates": [
+        2.3388,
+        48.8525
+      ],
+      "tags": [
+        "Enlightenment",
+        "Paris"
+      ],
+      "shortDesc": {
+        "en": "The oldest cafe in Paris and a legendary intellectual hub where Enlightenment giants like Voltaire and Diderot gathered.",
+        "zh": "巴黎最古老的咖啡馆，伏尔泰、狄德罗等启蒙思想家曾在此聚会。"
+      },
+      "description": {
+        "en": "Established in 1686, Café Procope is one of the oldest cafes in Paris and served as a vital meeting place for the intellectual establishment. During the 18th century, it became a legendary hub for Enlightenment thinkers such as Voltaire, Rousseau, and Diderot, as well as American figures like Benjamin Franklin and Thomas Jefferson. The cafe is famously recognized as the birthplace of the *Encyclopédie*, which was conceived there during conversations between Denis Diderot and Jean le Rond d'Alembert. Its rich history also includes a role as a gathering spot for revolutionaries like Robespierre and Danton.",
+        "zh": "这是巴黎最古老的连续营业咖啡馆。在18世纪，这里是启蒙运动思想家的“大本营”。伏尔泰（Voltaire）、卢梭（Rousseau）、狄德罗（Diderot）以及后来的美国国父本杰明·富兰克林、托马斯·杰斐逊都是这里的常客。狄德罗甚至在这里构思了改变人类知识历史的《百科全书》。"
+      },
+      "image": "/assets/attractions/cafe-procope.jpg",
+      "country": "FR",
+      "region": {
+        "en": "Ile-de-France",
+        "zh": "法兰西岛大区"
+      },
+      "city": "Paris"
+    },
+    {
+      "id": "edinburgh-old-town",
+      "name": {
+        "en": "Old Town, Edinburgh",
+        "zh": "爱丁堡旧城"
+      },
+      "era": "18th Century",
+      "sortYear": 1700,
+      "eraKey": "early_modern",
+      "category": "cultural",
+      "coordinates": [
+        -3.1916,
+        55.9476
+      ],
+      "tags": [
+        "Early Modern Period"
+      ],
+      "shortDesc": {
+        "en": "The cradle of the Scottish Enlightenment, where thinkers like Adam Smith and David Hume shaped modern philosophy and economics.",
+        "zh": "苏格兰启蒙运动的摇篮，亚当·斯密与大卫·休谟曾在此探讨现代思想。"
+      },
+      "description": {
+        "en": "Preserving its medieval street plan along the iconic Royal Mile, Edinburgh’s Old Town was the primary stage for the Scottish Enlightenment, an 18th-century golden age of reason and science. This atmospheric district was home to the influential Select Society, where giants of thought like David Hume and Adam Smith gathered to debate philosophy and political economy. Hume’s groundbreaking work in empiricism and Smith’s foundational *The Wealth of Nations* were deeply rooted in the intellectual ferment of the Old Town’s universities and social clubs. Today, the area’s narrow closes and historic landmarks stand as a testament to the era when Edinburgh was known as the \"Athens of the North.\"",
+        "zh": "18世纪的苏格兰启蒙运动诞生了经济学之父亚当·斯密（Adam Smith）和哲学家大卫·休谟（David Hume）。爱丁堡旧城的“皇家英里大道”以及周边的酒馆、大学和辩论社，当时被誉为“天才的温床”。亚当·斯密正是在这里完成了奠定现代经济学基础的《国富论》。"
+      },
+      "image": "/assets/attractions/edinburgh-old-town.jpg",
+      "country": "GB",
+      "region": {
+        "en": "Scotland",
+        "zh": "苏格兰"
+      },
+      "city": "Edinburgh"
+    },
+    {
+      "id": "belvedere-palace",
+      "name": {
+        "en": "Belvedere Palace",
+        "zh": "美景宫"
+      },
+      "era": "completed 1717",
+      "sortYear": 1717,
+      "eraKey": "early_modern",
+      "category": "cultural",
+      "coordinates": [
+        16.3794,
+        48.1905
+      ],
+      "tags": [
+        "Baroque",
+        "Palace"
+      ],
+      "shortDesc": {
+        "en": "Baroque masterpiece of Prince Eugene of Savoy, UNESCO 2001",
+        "zh": "萨伏伊亲王欧根的巴洛克杰作，2001年 UNESCO"
+      },
+      "description": {
+        "en": "The Belvedere Palace in Vienna is one of the greatest Baroque architectural ensembles in the world. Prince Eugene of Savoy, a military commander who served the Habsburg Empire, built this summer residence as a personal monument to his achievements. The complex consists of the Upper and Lower Belvedere palaces connected by a formal garden. The Upper Belvedere, completed in 1717, houses one of Europe's most important art collections. The palace's interior features lavish stucco work, marble, and paintings by artists including Kuntz. The gardens with their cascades, statues, and pools form a perfect conclusion to the overall composition. Listed as UNESCO World Heritage in 2001.",
+        "zh": "维也纳美景宫是世界上最伟大的巴洛克建筑群之一。萨伏伊亲王欧根是哈布斯堡帝国的军事指挥官，他建造这座夏宫作为个人成就的纪念碑。建筑群由上宫和下宫组成，由一座正式花园连接。上宫建于1717年，内藏欧洲最重要的艺术收藏之一。宫殿内部有华丽的灰泥作品、大理石和包括Kuntz在内的艺术家的画作。花园设有瀑布、雕塑和池塘，形成完美的整体布局。2001年列入UNESCO世界遗产。"
+      },
+      "image": "/assets/attractions/belvedere-palace-upper.jpg",
+      "country": "AT",
+      "region": {
+        "en": "Vienna",
+        "zh": "维也纳"
+      },
+      "city": null
+    },
+    {
+      "id": "dresden-zwinger",
+      "name": {
+        "en": "Dresden Zwinger",
+        "zh": "德累斯顿茨温伯格宫"
+      },
+      "era": "1711-1722",
+      "sortYear": 1722,
+      "eraKey": "early_modern",
+      "category": "cultural",
+      "coordinates": [
+        13.7284,
+        51.0539
+      ],
+      "tags": [
+        "Baroque",
+        "Palace"
+      ],
+      "shortDesc": {
+        "en": "Baroque jewel of the Saxon kings, birthplace of the collections of the Dresden State Art Collections",
+        "zh": "萨克森国王的巴洛克珍宝，德累斯顿国家艺术收藏的发源地"
+      },
+      "description": {
+        "en": "The Dresden Zwinger is a Baroque palace in Dresden, Germany, originally built as an orangery and festival arena for the Elector of Saxony. Designed by architect Matthäus Daniel Pöppelmann, construction began in 1711 and was completed in 1722. The palace is renowned for its elaborate gallerias and pavilions, featuring distinctive Chinese and Japanese motifs that influenced European design. The Zwinger's gardens once housed exotic plants and hosted elaborate court celebrations. Today it houses part of the Dresden State Art Collections, including the Royal Cabinet of Mathematical and Physical Instruments. The palace's decorative program represents the peak of Saxon Baroque architecture.",
+        "zh": "德累斯顿茨温伯格宫是德国德累斯顿的一座巴洛克宫殿，最初作为选帝侯的橘园和节庆场所建造。由建筑师马蒂亚斯·丹尼尔·波佩尔曼设计，建于1711年，1722年完工。宫殿以其精致的画廊和展馆闻名，具有独特的中日风格元素，影响了欧洲设计。茨温伯格的花园曾种植异国植物并举办盛大的宫廷庆典。如今这里收藏了德累斯顿国家艺术收藏的一部分，包括皇家数学和物理仪器柜。宫殿的装饰项目代表了萨克森巴洛克建筑的巅峰。"
+      },
+      "image": "/assets/attractions/dresden-zwinger-langgalerie.jpg",
+      "country": "DE",
+      "region": {
+        "en": "Saxony",
+        "zh": "萨克森"
+      },
+      "city": "Dresden"
+    },
+    {
+      "id": "wurzburg-residence",
+      "name": {
+        "en": "Würzburg Residence",
+        "zh": "维尔茨堡官邸"
+      },
+      "era": "1729-1744",
+      "sortYear": 1744,
+      "eraKey": "early_modern",
+      "category": "cultural",
+      "coordinates": [
+        9.953,
+        49.794
+      ],
+      "tags": [
+        "Baroque",
+        "Palace"
+      ],
+      "shortDesc": {
+        "en": "Baroque palace of the Prince-Bishops of Würzburg, UNESCO 1981",
+        "zh": "维尔茨堡亲王主教的巴洛克宫殿，1981年 UNESCO"
+      },
+      "description": {
+        "en": "The Würzburg Residence is a palace in Würzburg, Germany, built by the Prince-Bishops of Würzburg in the 18th century. The construction began in 1729 and was completed in 1744. It is considered one of the most magnificent Baroque palaces in Europe. The highlight is the Imperial Hall (Kaisersaal) on the second floor, which features a ceiling fresco by Tiepolo, the largest ceiling fresco in the world at the time of its creation. The staircase hall contains one of the most impressive Baroque interior spaces in Germany, with stucco work by Antonio Bossi and paintings depicting scenes from mythology. The palace gardens include a court garden and the Würzburg Fortress on the nearby hill. Listed as UNESCO World Heritage in 1981.",
+        "zh": "维尔茨堡官邸是德国维尔茨堡的一座宫殿，由维尔茨堡亲王主教于18世纪建造。工程始于1729年，1744年完工。它被认为是欧洲最壮丽的巴洛克宫殿之一。最精彩的是二楼的帝国大厅（Kaisersaal），天花板上有蒂耶波罗的壁画，是创作时世界上最大的天花板壁画。楼梯厅拥有德国最令人印象深刻的巴洛克内部空间之一，内有安东尼奥·博西的灰泥作品和描绘神话场景的绘画。宫殿花园包括宫廷花园和附近山上的维尔茨堡要塞。1981年列入UNESCO世界遗产。"
+      },
+      "image": "/assets/attractions/wurzburg-residence-gartenfront.jpg",
+      "country": "DE",
+      "region": {
+        "en": "Bavaria",
+        "zh": "巴伐利亚"
+      },
+      "city": "Würzburg"
     },
     {
       "id": "sanssouci-palace",
@@ -2381,11 +2585,11 @@
       "id": "place-de-la-concorde-la-conciergerie",
       "name": {
         "en": "Place de la Concorde & La Conciergerie",
-        "zh": "协和广场与巴黎古监狱 Place de la Concorde & La Conciergerie"
+        "zh": "协和广场与巴黎古监狱"
       },
       "era": "late 18th century",
       "sortYear": 1789,
-      "eraKey": "modern",
+      "eraKey": "late_modern",
       "category": "cultural",
       "coordinates": [
         2.321,
@@ -2411,6 +2615,39 @@
       "image": "/assets/attractions/place-de-la-concorde.jpg"
     },
     {
+      "id": "brandenburg-gate",
+      "name": {
+        "en": "Brandenburg Gate",
+        "zh": "勃兰登堡门"
+      },
+      "era": "1788-1791",
+      "sortYear": 1791,
+      "eraKey": "late_modern",
+      "category": "cultural",
+      "coordinates": [
+        13.3778,
+        52.5163
+      ],
+      "tags": [
+        "Late Modern"
+      ],
+      "shortDesc": {
+        "en": "Neoclassical monument and symbol of German reunification",
+        "zh": "新古典主义建筑，德国统一的精神象征"
+      },
+      "description": {
+        "en": "The Brandenburg Gate is a neoclassical monument in Berlin, Germany, built between 1788 and 1791 according to designs by Carl Gotthard Langhans. It is the only remaining city gate of Berlin's historical defensive wall. The gate is 26 meters high and 65.5 meters wide, modeled on the Propylaea of the Acropolis in Athens. Crowned by a bronze quadriga depicting Victoria, goddess of victory, driving a four-horse chariot, the monument has witnessed pivotal moments in European history—from Napoleonic conquest to the fall of the Berlin Wall. Today it stands as a powerful symbol of German unity and peace.",
+        "zh": "勃兰登堡门是德国柏林的一座新古典主义建筑，于1788年至1791年间由卡尔·格特哈德·朗汉斯设计建造。它是柏林历史防御城墙中唯一保留至今的城门。城门高26米，宽65.5米，以雅典卫城的山门为蓝本。门顶中央的胜利女神维多利亚驾驶四马战车的铜制雕塑高耸入云。这座纪念碑见证了欧洲历史上的重大时刻——从拿破仑的征服到柏林墙的倒塌。如今它已成为德国统一与和平的象征。2012年欧洲遗产保护标识。"
+      },
+      "image": "/assets/attractions/brandenburg-gate.jpg",
+      "country": "DE",
+      "region": {
+        "en": "Berlin",
+        "zh": "柏林"
+      },
+      "city": null
+    },
+    {
       "id": "july-column",
       "name": {
         "en": "July Column",
@@ -2418,7 +2655,7 @@
       },
       "era": "1836",
       "sortYear": 1836,
-      "eraKey": "modern",
+      "eraKey": "late_modern",
       "category": "cultural",
       "coordinates": [
         2.3694,
@@ -2444,6 +2681,39 @@
       "city": null
     },
     {
+      "id": "sintra",
+      "name": {
+        "en": "Sintra",
+        "zh": "辛特拉"
+      },
+      "era": "19th century",
+      "sortYear": 1840,
+      "eraKey": "late_modern",
+      "category": "cultural",
+      "coordinates": [
+        -9.3908,
+        38.7878
+      ],
+      "tags": [
+        "Renaissance"
+      ],
+      "shortDesc": {
+        "en": "City of Portuguese Romantic palaces, UNESCO 1995",
+        "zh": "葡萄牙浪漫主义宫殿之城，1995年 UNESCO"
+      },
+      "description": {
+        "en": "Sintra is a hill town on the outskirts of Lisbon, which became a royal summer retreat from the 15th century. In the 19th century, with the development of the Portuguese Romantic movement, it attracted artists and intellectuals from across Europe, who built a series of fairy-tale palaces and villas. Palácio da Pena is the most famous of these - its striking contrast of red brick and yellow walls with deep blue roofs, mysterious shapes of towers and castle turrets make it look as if it was moved out of a Grimm fairy tale. In 1995, Sintra's cultural landscape was listed as UNESCO World Heritage.",
+        "zh": "辛特拉是里斯本郊外的山丘小镇，从15世纪起成为葡萄牙皇室的避暑胜地。19世纪，随着葡萄牙浪漫主义运动的发展，这里吸引了欧洲各地的艺术家和知识分子，建造了一系列充满童话色彩的宫殿和别墅。佩纳宫（Palácio da Pena）是其中最著名的一座，其红砖黄墙与深蓝屋顶的强烈对比，尖塔和城堡塔楼的神秘外形，使其看起来像是从格林童话中搬出来的。1995年辛特拉的文化景观被列入UNESCO世界遗产。"
+      },
+      "country": "PT",
+      "region": {
+        "en": "Lisbon Region",
+        "zh": "里斯本大"
+      },
+      "city": null,
+      "image": "/assets/attractions/sintra.jpg"
+    },
+    {
       "id": "crystal-palace",
       "name": {
         "en": "Crystal Palace",
@@ -2451,7 +2721,7 @@
       },
       "era": "1851-1936(destroyed by fire)",
       "sortYear": 1851,
-      "eraKey": "modern",
+      "eraKey": "late_modern",
       "category": "cultural",
       "coordinates": [
         -0.0715,
@@ -2477,6 +2747,39 @@
       "city": null
     },
     {
+      "id": "vienna-ringstrasse",
+      "name": {
+        "en": "Vienna Ringstrasse",
+        "zh": "维也纳环路"
+      },
+      "era": "1865-1890",
+      "sortYear": 1865,
+      "eraKey": "late_modern",
+      "category": "cultural",
+      "coordinates": [
+        16.3738,
+        48.2082
+      ],
+      "tags": [
+        "Late Modern"
+      ],
+      "shortDesc": {
+        "en": "Grand boulevard encircling Vienna's historic center, lined with monumental Ringstrasse buildings",
+        "zh": "环绕维也纳历史中心的宏大环路，两侧矗立着壮观的建筑群"
+      },
+      "description": {
+        "en": "The Vienna Ringstrasse is a 5.3 km circular boulevard that encircles the Innere Stadt (historic city centre) of Vienna, Austria. Constructed after an 1857 imperial decree that demolished the former fortifications and moat, the Ringstrasse became one of the most ambitious urban planning projects of the 19th century. The boulevard is lined with monumental buildings including the Hofburg Imperial Palace, the Austrian Parliament Building, Vienna City Hall (Rathaus), the Burgtheater, the Vienna State Opera, and the twin museums of Art History and Natural History. The Ringstrasse represents the transformation of Vienna from a medieval walled city into a modern imperial capital.",
+        "zh": "维也纳环路是一条5.3公里长的环形大道，环绕着奥地利维也纳的历史市中心（Innere Stadt）。这条环路于1857年皇室法令后建造，原有的城墙和护城河被拆除，取而代之的是一条宏伟的林荫大道。维也纳环路成为19世纪最宏大的城市规划项目之一。两侧的建筑包括霍夫堡皇宫、奥地利议会大厦、维也纳市政厅、城堡剧院、维也纳国家歌剧院，以及艺术史和自然史两座博物馆。维也纳环路标志着维也纳从中世纪城墙城市向现代帝国首都的转变。"
+      },
+      "image": "/assets/attractions/vienna-ringstrasse.jpg",
+      "country": "AT",
+      "region": {
+        "en": "Vienna",
+        "zh": "维也纳"
+      },
+      "city": null
+    },
+    {
       "id": "palace-of-westminster",
       "name": {
         "en": "Palace of Westminster",
@@ -2484,7 +2787,7 @@
       },
       "era": "1840-1870",
       "sortYear": 1870,
-      "eraKey": "modern",
+      "eraKey": "late_modern",
       "category": "cultural",
       "coordinates": [
         -0.1247,
@@ -2517,7 +2820,7 @@
       },
       "era": "from 1882(unfinished)",
       "sortYear": 1882,
-      "eraKey": "modern",
+      "eraKey": "late_modern",
       "category": "cultural",
       "coordinates": [
         2.1744,
@@ -2550,7 +2853,7 @@
       },
       "era": "1889",
       "sortYear": 1889,
-      "eraKey": "modern",
+      "eraKey": "late_modern",
       "category": "cultural",
       "coordinates": [
         2.2945,
@@ -2576,6 +2879,40 @@
       "city": null
     },
     {
+      "id": "jacobite-steam-train",
+      "name": {
+        "en": "The Jacobite",
+        "zh": "雅各比特蒸汽火车"
+      },
+      "era": "1894(West Highland Line)",
+      "sortYear": 1901,
+      "eraKey": "late_modern",
+      "category": "cultural",
+      "coordinates": [
+        -5.432,
+        56.8764
+      ],
+      "tags": [
+        "Industrial",
+        "HarryPotter"
+      ],
+      "shortDesc": {
+        "en": "The world's most famous scenic railway, inspiration for the Hogwarts Express, crossing the iconic 21-arch Glenfinnan Viaduct",
+        "zh": "全球知名度最高的铁路线，霍格沃茨特快列车原型，驶过标志性的21孔格伦芬南高架桥"
+      },
+      "description": {
+        "en": "The Jacobite is a famous steam train service running between Fort William and Mallaig along the West Highland Line in the Scottish Highlands. Voted the world's top rail journey by Wanderlust magazine, it is best known as the real-life inspiration for the Hogwarts Express in the Harry Potter films. The route's most iconic moment comes at Glenfinnan Viaduct—a soaring 21-arch concrete bridge completed in 1901, spanning 380 metres across the valley above Loch Shiel. Passing beneath the viaduct on a cloudless day, with coal smoke billowing and the whistle screaming, one can glimpse the distant轮廓 of the Isle of Skye at the journey's end in Mallaig. The complete experience—steam, coal dust, deafening whistles, and authentic Victorian carriages—makes this a living relic of the golden age of rail travel.",
+        "zh": "雅各比特蒸汽火车运行于苏格兰高地西高地线上，从威廉堡开往马莱格。《 Wanderlust 》旅行杂志读者投票的世界第一铁路线，更是《哈利·波特》电影中\"霍格沃茨特快列车\"的原型。沿途最标志性的画面是格伦芬南高架桥——21孔混凝土高架桥，1901年竣工，全长380米，横跨希尔湖畔的山谷。在蓝天白云下穿越桥下，煤烟升腾、汽笛震耳，隐约可见终点马莱格港远方斯凯岛的轮廓。煤烟味、汽笛声、正宗维多利亚时代车厢——这完整的一幕，使其成为铁路黄金时代活的遗迹。"
+      },
+      "image": "/assets/attractions/jacobite-steam-train.jpg",
+      "country": "GB",
+      "region": {
+        "en": "Scotland",
+        "zh": "苏格兰"
+      },
+      "city": null
+    },
+    {
       "id": "hungarian-parliament-building",
       "name": {
         "en": "Hungarian Parliament Building",
@@ -2583,7 +2920,7 @@
       },
       "era": "1885-1902",
       "sortYear": 1902,
-      "eraKey": "modern",
+      "eraKey": "late_modern",
       "category": "cultural",
       "coordinates": [
         19.0458,
@@ -2616,7 +2953,7 @@
       },
       "era": "1914",
       "sortYear": 1914,
-      "eraKey": "modern",
+      "eraKey": "late_modern",
       "category": "cultural",
       "coordinates": [
         18.4286,
@@ -2649,7 +2986,7 @@
       },
       "era": "1916(battle)",
       "sortYear": 1916,
-      "eraKey": "modern",
+      "eraKey": "late_modern",
       "category": "cultural",
       "coordinates": [
         5.4343,
@@ -2675,6 +3012,40 @@
       "city": null
     },
     {
+      "id": "schloss-cecilienhof",
+      "name": {
+        "en": "Schloss Cecilienhof",
+        "zh": "塞西琳霍夫宫"
+      },
+      "era": "1914-1917",
+      "sortYear": 1917,
+      "eraKey": "late_modern",
+      "category": "cultural",
+      "coordinates": [
+        13.07083,
+        52.41917
+      ],
+      "tags": [
+        "WorldWars",
+        "ColdWar"
+      ],
+      "shortDesc": {
+        "en": "Last palace of the Hohenzollern dynasty, venue of the 1945 Potsdam Conference where the Potsdam Declaration was issued",
+        "zh": "霍亨索伦王朝建造的最后一座宫殿，1945年波茨坦会议举办地，《波茨坦公告》在此发表"
+      },
+      "description": {
+        "en": "Schloss Cecilienhof is the last palace built by the German Hohenzollern dynasty, constructed between 1914 and 1917. Its most distinctive features are the red-brick half-timbered facade and 55 unique decorative Tudor-style chimneys. In July-August 1945, the palace hosted the Potsdam Conference, where Allied leaders Stalin, Truman, and Churchill gathered to shape the post-World War II international order and issued the Potsdam Declaration. Unlike the famous Sanssouci Palace in Potsdam, which is known for its Rococo style, Cecilienhof represents a deliberate emulation of English Tudor rural villa architecture.",
+        "zh": "塞西琳霍夫宫是德意志帝国霍亨索伦王朝建造的最后一座宫殿，建于1914至1917年。其标志性特征是外墙的红砖半木结构以及屋顶上55根形态各异的红砖都铎式烟囱。1945年7月至8月在此举办波茨坦会议，斯大林、杜鲁门和丘吉尔共商二战后国际新秩序并发表《波茨坦公告》。与波茨坦著名的洛可可风无忧宫截然不同，塞西琳霍夫宫体现了对英国都铎乡村别墅建筑的刻意模仿。"
+      },
+      "image": "/assets/attractions/schloss-cecilienhof.jpg",
+      "country": "DE",
+      "region": {
+        "en": "Brandenburg",
+        "zh": "勃兰登堡州"
+      },
+      "city": "Potsdam"
+    },
+    {
       "id": "nazi-party-rally-grounds",
       "name": {
         "en": "Nazi Party Rally Grounds",
@@ -2682,7 +3053,7 @@
       },
       "era": "1927-1938",
       "sortYear": 1938,
-      "eraKey": "modern",
+      "eraKey": "late_modern",
       "category": "cultural",
       "coordinates": [
         11.1133,
@@ -2715,7 +3086,7 @@
       },
       "era": "1939",
       "sortYear": 1939,
-      "eraKey": "modern",
+      "eraKey": "late_modern",
       "category": "cultural",
       "coordinates": [
         18.6715,
@@ -2748,7 +3119,7 @@
       },
       "era": "mid 20th century",
       "sortYear": 1940,
-      "eraKey": "modern",
+      "eraKey": "late_modern",
       "category": "cultural",
       "coordinates": [
         19.204,
@@ -2781,7 +3152,7 @@
       },
       "era": "1944(D-Day)",
       "sortYear": 1944,
-      "eraKey": "modern",
+      "eraKey": "late_modern",
       "category": "cultural",
       "coordinates": [
         -0.8612,
@@ -2814,7 +3185,7 @@
       },
       "era": "1944",
       "sortYear": 1944,
-      "eraKey": "modern",
+      "eraKey": "late_modern",
       "category": "cultural",
       "coordinates": [
         21.0122,
@@ -2847,7 +3218,7 @@
       },
       "era": "1933-1945",
       "sortYear": 1945,
-      "eraKey": "modern",
+      "eraKey": "late_modern",
       "category": "cultural",
       "coordinates": [
         11.4683,
@@ -2942,7 +3313,7 @@
       "id": "berlin-wall-checkpoint-charlie",
       "name": {
         "en": "Berlin Wall & Checkpoint Charlie",
-        "zh": "柏林墙与查理检查站 Berlin Wall & Checkpoint Charlie"
+        "zh": "柏林墙与查理检查站"
       },
       "era": "1961-1989",
       "sortYear": 1989,

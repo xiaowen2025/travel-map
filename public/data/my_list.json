@@ -1,5 +1,21 @@
 [
   {
+    "id": "altare-della-patria",
+    "name": "祖国祭坛",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "karl-marx-house",
+    "name": "卡尔·马克思故居",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
     "id": "altamira-cave",
     "name": "阿尔塔米拉洞",
     "rating": "必须去",
@@ -10,6 +26,14 @@
   {
     "id": "lascaux-cave",
     "name": "拉斯科洞穴",
+    "rating": "看情况",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "gobekli-tepe",
+    "name": "哥贝克力石阵",
     "rating": "看情况",
     "visited": false,
     "comment": "",
@@ -40,11 +64,43 @@
     "category": "attraction"
   },
   {
+    "id": "skara-brae",
+    "name": "斯卡拉布雷",
+    "rating": "看情况",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "stonehenge",
+    "name": "巨石阵",
+    "rating": "看情况",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "palace-of-knossos",
+    "name": "克诺索斯宫",
+    "rating": "看情况",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
     "id": "su-nuraxi",
     "name": "苏努拉吉 1600-1500 BC",
     "rating": "必须去",
     "visited": false,
     "comment": "而且撒丁岛的海被誉为“欧洲的马尔代夫”，其海水透明度极高，颜色从浅绿到深蓝层次分明。有跳岛游与浮潜，还有海上洞穴探险。",
+    "category": "attraction"
+  },
+  {
+    "id": "mycenae",
+    "name": "迈锡尼遗址",
+    "rating": "看情况",
+    "visited": false,
+    "comment": "",
     "category": "attraction"
   },
   {
@@ -117,6 +173,14 @@
     "category": "attraction"
   },
   {
+    "id": "evora",
+    "name": "埃武拉",
+    "rating": "看情况",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
     "id": "pantheon",
     "name": "万神殿",
     "rating": "必须去",
@@ -177,6 +241,14 @@
     "rating": "必须去",
     "visited": false,
     "comment": "这里还可以去看海豚，从柏林出发的话飞到意大利的Trieste可以坐船去皮兰。",
+    "category": "attraction"
+  },
+  {
+    "id": "camino-de-santiago",
+    "name": "圣雅各之路",
+    "rating": "看情况",
+    "visited": false,
+    "comment": "",
     "category": "attraction"
   },
   {
@@ -358,14 +430,6 @@
     "comment": ""
   },
   {
-    "id": "sintra",
-    "name": "辛特拉",
-    "rating": "必须去",
-    "visited": false,
-    "comment": "",
-    "category": "attraction"
-  },
-  {
     "id": "nicolaus-copernicus-house",
     "name": "哥白尼故居",
     "rating": "看情况",
@@ -440,7 +504,7 @@
   {
     "id": "el-escorial",
     "name": "埃斯科里亚尔修道院",
-    "rating": "看情况",
+    "rating": "必须去",
     "visited": false,
     "comment": "",
     "category": "attraction"
@@ -472,6 +536,46 @@
   {
     "id": "palace-of-versailles",
     "name": "凡尔赛宫",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "cafe-procope",
+    "name": "普罗可布咖啡馆",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "edinburgh-old-town",
+    "name": "爱丁堡老城",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "belvedere-palace",
+    "name": "美景宫",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "dresden-zwinger",
+    "name": "德累斯顿茨温伯格宫",
+    "rating": "看情况",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "wurzburg-residence",
+    "name": "维尔茨堡官邸",
     "rating": "看情况",
     "visited": false,
     "comment": "",
@@ -480,7 +584,7 @@
   {
     "id": "sanssouci-palace",
     "name": "无忧宫",
-    "rating": "看情况",
+    "rating": "必须去",
     "visited": false,
     "comment": "",
     "category": "attraction"
@@ -496,7 +600,7 @@
   {
     "id": "schonbrunn-palace-hofburg-palace",
     "name": "美泉宫与霍夫堡宫",
-    "rating": "尽量去",
+    "rating": "必须去",
     "visited": true,
     "comment": ""
   },
@@ -517,9 +621,41 @@
     "category": "attraction"
   },
   {
+    "id": "brandenburg-gate",
+    "name": "勃兰登堡门",
+    "rating": "必须去",
+    "visited": true,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "july-column",
+    "name": "七月圆柱",
+    "rating": "看情况",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "sintra",
+    "name": "辛特拉",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
     "id": "crystal-palace",
     "name": "水晶宫",
     "rating": "尽量去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "vienna-ringstrasse",
+    "name": "维也纳环路",
+    "rating": "必须去",
     "visited": false,
     "comment": "",
     "category": "attraction"
@@ -548,6 +684,14 @@
     "comment": ""
   },
   {
+    "id": "jacobite-steam-train",
+    "name": "雅各比特蒸汽火车",
+    "rating": "必须去",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
     "id": "hungarian-parliament-building",
     "name": "匈牙利国会大厦",
     "rating": "必须去",
@@ -566,6 +710,14 @@
     "id": "memorial-de-verdun",
     "name": "凡尔登纪念馆与战场遗址",
     "rating": "看情况",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "schloss-cecilienhof",
+    "name": "塞西琳霍夫宫",
+    "rating": "必须去",
     "visited": false,
     "comment": "",
     "category": "attraction"
@@ -597,6 +749,62 @@
   {
     "id": "normandy-beaches",
     "name": "诺曼底登陆海滩",
+    "rating": "看情况",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "warsaw-uprising-sites",
+    "name": "华沙起义相关遗址",
+    "rating": "看情况",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "dachau-concentration-camp",
+    "name": "达豪集中营",
+    "rating": "看情况",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "palace-of-justice",
+    "name": "纽伦堡司法宫",
+    "rating": "看情况",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "spomeniks",
+    "name": "南斯拉夫纪念碑群",
+    "rating": "看情况",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "berlin-wall-checkpoint-charlie",
+    "name": "柏林墙与查理检查站 Berlin Wall & Checkpoint Charlie",
+    "rating": "看情况",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "stasi-museum",
+    "name": "斯塔西博物馆",
+    "rating": "看情况",
+    "visited": false,
+    "comment": "",
+    "category": "attraction"
+  },
+  {
+    "id": "european-parliament",
+    "name": "斯特拉斯堡欧洲议会",
     "rating": "看情况",
     "visited": false,
     "comment": "",
