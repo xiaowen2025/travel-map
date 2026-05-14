@@ -30,6 +30,7 @@ jobs:
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_TOKEN }}
-          project-name: travel-map
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: travel-map
           directory: dist
           gitSkip: true
