@@ -29,14 +29,15 @@ let scrollCleanup = null;
 
 // ==================== Data Loading ====================
 async function loadData(locale) {
-    const [geoJson, attractionsData, erasData, destinationsData, natureData] = await Promise.all([
+    const [geoJson, attractionsData, erasData, destinationsData, natureData, geographyData] = await Promise.all([
         fetch('data/europe.geo.json').then(r => r.json()),
         fetch('data/attractions.json').then(r => r.json()),
         fetch('data/eras.json').then(r => r.json()),
         fetch('data/destinations.json').then(r => r.json()),
-        fetch('data/nature.json').then(r => r.json())
+        fetch('data/nature.json').then(r => r.json()),
+        fetch('data/geography.json').then(r => r.json())
     ]);
-    return { geoJson, attractionsData, erasData, destinationsData, natureData };
+    return { geoJson, attractionsData, erasData, destinationsData, natureData, geographyData };
 }
 
 // viewMode change → update UI visibility + map display
@@ -132,9 +133,10 @@ function handleMapDataAndInit(geoJson, attractionsData) {
 }
 
 // ==================== Boot ====================
-loadData(state.get('locale')).then(({ geoJson, attractionsData, erasData, destinationsData, natureData }) => {
+loadData(state.get('locale')).then(({ geoJson, attractionsData, erasData, destinationsData, natureData, geographyData }) => {
     // Store eras data in state for UI to use
     state.set('erasData', erasData);
+    state.set('geographyData', geographyData);
 
     // Initialize city explorer with destinations data
     initCityExplorer(destinationsData.destinations);

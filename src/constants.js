@@ -17,11 +17,13 @@ export const SYMBOL_SIZE_SELECTED = 20;        // clicked/related point
 export const SYMBOL_SIZE_HISTORY = 12;         // history points in scatter
 export const SYMBOL_SIZE_OTHER = 6;            // other points in scatter
 export const SYMBOL_SIZE_DEFAULT = 8;          // default symbol size for city mode
+export const SYMBOL_SIZE_GEOGRAPHY = 14;      // geography feature symbol size
 
 // Map label fonts
 export const LABEL_FONT_SIZE_NORMAL = 13;      // normal label font size
 export const LABEL_FONT_SIZE_CITY = 12;       // city mode label font size
 export const LABEL_FONT_SIZE_EMPHASIS = 14;   // emphasis label font size
+export const LABEL_FONT_SIZE_GEOGRAPHY = 11;  // geography feature label font size
 
 // Scroll management
 export const SCROLL_THROTTLE_MS = 400;         // throttle ms for scroll events

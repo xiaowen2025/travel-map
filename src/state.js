@@ -6,6 +6,7 @@ class StateManager {
         viewMode: 'history',
         activePointId: null,
         currentEraCategory: '',
+        geographyData: null,
         locale: 'zh'
     };
 

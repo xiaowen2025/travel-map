@@ -7,11 +7,15 @@ import {
     MAP_ZOOM_FLYTO,
     MAP_ANIMATION_DURATION_MS,
     SYMBOL_SIZE_ACTIVE,
+    SYMBOL_SIZE_SELECTED,
     SYMBOL_SIZE_HISTORY,
     SYMBOL_SIZE_OTHER,
+    SYMBOL_SIZE_DEFAULT,
+    SYMBOL_SIZE_GEOGRAPHY,
     LABEL_FONT_SIZE_NORMAL,
     LABEL_FONT_SIZE_CITY,
     LABEL_FONT_SIZE_EMPHASIS,
+    LABEL_FONT_SIZE_GEOGRAPHY,
 } from './constants.js';
 
 let myChart = null;
@@ -106,6 +110,28 @@ export function setupBaseOption() {
                 label: { show: false },
                 itemStyle: { color: 'rgba(232, 202, 136, 0.3)' },
                 data: []
+            },
+            {
+                name: 'GeographyPoints',
+                type: 'scatter',
+                coordinateSystem: 'geo',
+                zlevel: 1,
+                symbolSize: SYMBOL_SIZE_GEOGRAPHY,
+                label: {
+                    show: true,
+                    position: 'bottom',
+                    formatter: '{b}',
+                    color: 'rgba(200, 200, 200, 0.6)',
+                    fontSize: LABEL_FONT_SIZE_GEOGRAPHY,
+                    distance: 2,
+                    textBorderColor: 'rgba(15, 16, 20, 0.8)',
+                    textBorderWidth: 1
+                },
+                itemStyle: {
+                    opacity: 0.6
+                },
+                silent: true,
+                data: []
             }
         ]
     };
@@ -199,7 +225,7 @@ export function showCityPoints(points) {
                 coordinateSystem: 'geo',
                 zlevel: 2,
                 symbolSize: function (val, params) {
-                    return params.data.symbolSize || 8;
+                    return params.data.symbolSize || SYMBOL_SIZE_DEFAULT;
                 },
                 label: {
                     show: true,
@@ -241,6 +267,32 @@ export function showAllPoints(points) {
         series: [
             { name: 'HistoryPoints', data: points },
             { name: 'OtherPoints', data: [] }
+        ]
+    });
+}
+
+// Show geography features (mountains, rivers)
+export function showGeographyPoints(geographyData, locale) {
+    if (!geographyData || !geographyData.features) {
+        myChart.setOption({ series: [{ name: 'GeographyPoints', data: [] }] });
+        return;
+    }
+
+    const points = geographyData.features.map(f => ({
+        name: f.name[locale] || f.name.en,
+        value: f.coordinates,
+        symbol: 'path://M0,0 L0,0', // Invisible symbol, we use label/icon
+        label: {
+            show: true,
+            formatter: `${f.icon} ${f.name[locale] || f.name.en}`,
+            fontSize: f.type === 'mountain' ? LABEL_FONT_SIZE_GEOGRAPHY + 1 : LABEL_FONT_SIZE_GEOGRAPHY,
+            color: f.type === 'mountain' ? '#94a3b8' : '#38bdf8'
+        }
+    }));
+
+    myChart.setOption({
+        series: [
+            { name: 'GeographyPoints', data: points }
         ]
     });
 }

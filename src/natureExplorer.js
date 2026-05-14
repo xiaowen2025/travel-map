@@ -1,6 +1,6 @@
 import { state } from './state.js';
 import { t, getLoc, loc } from './i18n.js';
-import { flyTo, showAllPoints, updateMarkers } from './mapEngine.js';
+import { flyTo, showAllPoints, updateMarkers, showGeographyPoints } from './mapEngine.js';
 import { createDetailOverlay } from './detailOverlay.js';
 import {
     showCompactCard, collapseCard, startExpandTimer
@@ -135,6 +135,11 @@ export function showNatureExplorer() {
         panelEl.classList.add('visible');
     }
     
+    // Show geography layer
+    const geographyData = state.get('geographyData');
+    const locale = state.get('locale');
+    showGeographyPoints(geographyData, locale);
+
     const data = state.get('natureData');
     if (data) {
         // Use existing index or reset to 0
@@ -160,12 +165,20 @@ export function hideNatureExplorer() {
     }
     collapseCard();
     closeNatureDetail();
+
+    // Hide geography layer
+    showGeographyPoints(null);
 }
 
 export function refreshNatureExplorer() {
     if (!isActive) return;
     renderPanel();
     
+    // Refresh geography layer for locale change
+    const geographyData = state.get('geographyData');
+    const locale = state.get('locale');
+    showGeographyPoints(geographyData, locale);
+
     const data = state.get('natureData');
     const idx = state.get('currentPointIndex');
     if (data && data[idx]) {
@@ -414,7 +427,7 @@ function showNatureDetail(site) {
             <div class="nature-detail-meta">
                 <span class="nature-meta-chip">${icon} ${eco}</span>
                 <span class="nature-meta-chip">📍 ${site.country}</span>
-                ${site.whcId ? `<span class="nature-meta-chip">🏛️ WHC #${site.whcId}</span>` : ''}
+                ${site.tags && site.tags.includes('unesco:world-heritage') ? `<span class="nature-meta-chip">🏛️ UNESCO World Heritage</span>` : ''}
             </div>
         </div>
     `;

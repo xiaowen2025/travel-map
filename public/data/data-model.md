@@ -72,11 +72,10 @@
 { "sites": [{
   id, name: { en, zh }, category, tags, country, coordinates,
   shortDesc: { en, zh }, description: { en, zh }, image,
-  whcId, bestTimeToVisit, recommendedDuration, officialWebsite, tickets
+  bestTimeToVisit, recommendedDuration, officialWebsite, tickets
 }] }
 ```
 
 - `category`: string — "Natural"
-- `tags`: array of strings — `["key:value"]`, e.g., `["range:Alps", "feature:Mountain"]`
+- `tags`: array of strings — `["key:value"]`, e.g., `["range:Alps", "feature:Mountain", "unesco:world-heritage"]`
 - `coordinates`: [lng, lat]
-- `whcId`: int | null — UNESCO World Heritage Centre ID
