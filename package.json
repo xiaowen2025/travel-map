@@ -15,5 +15,8 @@
     "sharp": "^0.34.5",
     "vite": "^5.0.0",
     "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "file-type": "^22.0.1"
   }
 }
