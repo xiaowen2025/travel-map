@@ -1,6 +1,37 @@
 {
   "sites": [
     {
+      "id": "ordesa-monte-perdido",
+      "name": {
+        "en": "Ordesa and Monte Perdido National Park",
+        "zh": "奥尔德萨和佩尔迪多山国家公园"
+      },
+      "category": "Natural",
+      "country": "Spain",
+      "coordinates": [
+        0.0333,
+        42.671
+      ],
+      "shortDesc": {
+        "en": "Deep canyons and the highest limestone massif in Europe",
+        "zh": "欧洲最高的石灰岩山体，拥有深邃峡谷和雄伟瀑布"
+      },
+      "description": {
+        "en": "This national park features the impressive Ordesa Valley with its dramatic canyons and waterfalls like the Cola de Caballo. Monte Perdido (3,355m) is the centerpiece, being the highest limestone peak in Europe.",
+        "zh": "西班牙最古老的国家公园之一。奥尔德萨峡谷以其深邃的河谷和著名的“马尾瀑布”（Cola de Caballo）而闻名。核心景观是海拔3355米的佩尔迪多山，它是欧洲最高的石灰岩山峰。"
+      },
+      "image": "/assets/attractions/ordesa-monte-perdido.jpg",
+      "bestTimeToVisit": "May to October",
+      "recommendedDuration": "1-2 days",
+      "officialWebsite": "https://www.ordesa.net/",
+      "tickets": "Free",
+      "tags": [
+        "feature:Canyon",
+        "range:Pyrenees",
+        "unesco:natural"
+      ]
+    },
+    {
       "id": "kocjan-caves",
       "name": {
         "en": "Škocjan Caves",
@@ -121,6 +152,36 @@
         "feature:Cave",
         "range:Carpathians",
         "unesco:natural"
+      ]
+    },
+    {
+      "id": "mallos-de-riglos",
+      "name": {
+        "en": "Mallos de Riglos",
+        "zh": "里格洛斯之墙"
+      },
+      "category": "Natural",
+      "country": "Spain",
+      "coordinates": [
+        -0.7242,
+        42.3514
+      ],
+      "shortDesc": {
+        "en": "Vertical red cliffs rising 300 meters",
+        "zh": "高耸的赤红色圆柱状峭壁，登山者与飞鸟的天堂"
+      },
+      "description": {
+        "en": "Spectacular conglomerate rock formations in the foothills of the Pyrenees. These vertical red cliffs rise 300 meters above the village of Riglos and are a world-renowned destination for rock climbers and birdwatchers.",
+        "zh": "位于比利牛斯山脉南麓的巨大砾岩地质奇观。这些近乎垂直的红色峭壁高出地面300米，雄伟异常。它是世界级的攀岩胜地，也是秃鹫等猛禽的栖息地。"
+      },
+      "image": "/assets/attractions/mallos-de-riglos.jpg",
+      "bestTimeToVisit": "Spring and Autumn",
+      "recommendedDuration": "Half day",
+      "officialWebsite": "https://turismo.hoyadehuesca.es/",
+      "tickets": "Free",
+      "tags": [
+        "feature:Cliff",
+        "range:Pyrenees"
       ]
     },
     {
@@ -633,6 +694,36 @@
       ]
     },
     {
+      "id": "orgues-ille-sur-tet",
+      "name": {
+        "en": "Les Orgues d'Ille-sur-Têt",
+        "zh": "泰特河畔伊勒石林"
+      },
+      "category": "Natural",
+      "country": "France",
+      "coordinates": [
+        2.6215,
+        42.6862
+      ],
+      "shortDesc": {
+        "en": "Unique fairy chimney rock formations",
+        "zh": "大自然雕琢的“土林”奇观，形似巨大的管风琴"
+      },
+      "description": {
+        "en": "Unique sand and clay columns sculpted by water erosion over five million years into organ-pipe shapes (fairy chimneys). It is a rare geological site in the eastern Pyrenees foothills.",
+        "zh": "由泥沙和粘土经过500万年的水流侵蚀形成的奇特岩柱。这些被称为“仙女烟囱”的地质景观形状酷似管风琴，是东比利牛斯山脚下罕见的地质奇迹。"
+      },
+      "image": "/assets/attractions/orgues-ille-sur-tet.jpg",
+      "bestTimeToVisit": "Year-round",
+      "recommendedDuration": "1-2 hours",
+      "officialWebsite": "https://lesorgues.ille-sur-tet.com/",
+      "tickets": "Adults €5",
+      "tags": [
+        "feature:Geology",
+        "range:Pyrenees"
+      ]
+    },
+    {
       "id": "vatnaj-kull-national-park-dynamic-nature-of-fire-and-ice",
       "name": {
         "en": "Vatnajökull National Park - Dynamic Nature of Fire and Ice",
@@ -678,8 +769,8 @@
         "zh": "阿尔卑斯山最大的阿雷奇冰河景观"
       },
       "description": {
-        "en": "Centering on the Great Aletsch Glacier, the largest in Eurasia, this site features iconic peaks like the Jungfrau and Eiger. It showcases spectacular glacial formation and the ongoing effects of climate change.",
-        "zh": "汇集了少女峰、艾格峰等名峰，核心是欧亚大陆西部最大的大阿雷奇冰河。这里展现了壮丽的冰川消融过程，是高山冰川地貌与生态演替的典范。"
+        "en": "Centering on the Great Aletsch Glacier, the largest in Eurasia, this site features iconic peaks like the Jungfrau and Eiger. It showcases spectacular glacial formation and the ongoing effects of climate change. Relying on the Jungfrau Railway system, visitors can ascend to the Jungfraujoch railway station at an altitude of 3,454 meters ('Top of Europe'), where they can closely observe traces of glacial retreat and exposed rock faces in the Ice Palace and the Pro Natura Zentrum Aletsch nature reserve.",
+        "zh": "汇集了少女峰、艾格峰等名峰，核心是欧亚大陆西部最大的大阿雷奇冰河。这里展现了壮丽的冰川消融过程，是高山冰川地貌与生态演替的典范。依靠少女峰铁路系统，游客可以登上海拔3,454米的少女峰火车站（Top of Europe），在冰宫（Ice Palace）和阿莱奇森林自然保护区（Pro Natura Zentrum Aletsch）中近距离观察冰川退缩的痕迹与岩石暴露面 。"
       },
       "image": "/assets/attractions/swiss-alps-jungfrau-aletsch.jpg",
       "bestTimeToVisit": "June to September / December to April",
@@ -690,6 +781,97 @@
         "feature:Glacial",
         "range:Alps",
         "unesco:natural"
+      ]
+    },
+    {
+      "id": "cirque-de-gavarnie",
+      "name": {
+        "en": "Cirque de Gavarnie",
+        "zh": "加瓦尔尼冰斗"
+      },
+      "category": "Natural",
+      "country": "France",
+      "coordinates": [
+        -0.0094,
+        42.7277
+      ],
+      "shortDesc": {
+        "en": "A massive glacial amphitheatre and UNESCO World Heritage site",
+        "zh": "巨大的冰川竞技场，世界遗产，拥有欧洲最高的瀑布之一"
+      },
+      "description": {
+        "en": "A spectacular glacial circus in the central Pyrenees, featuring limestone walls rising over 1,500 meters and the Gavarnie Falls, one of Europe's highest waterfalls at 422 meters. It is part of the Pyrénées - Mont Perdu World Heritage site.",
+        "zh": "位于比利牛斯山脉中部的壮丽冰川竞技场。巨大的石灰岩峭壁落差超过1500米，加瓦尔尼瀑布（落差422米）是欧洲最高的瀑布之一。该地属于“比利牛斯-佩尔迪多山”世界遗产地。"
+      },
+      "image": "/assets/attractions/cirque-de-gavarnie.jpg",
+      "bestTimeToVisit": "June to September",
+      "recommendedDuration": "Full day",
+      "officialWebsite": "https://www.valleesdegavarnie.com/",
+      "tickets": "Free (Parking fees may apply)",
+      "tags": [
+        "feature:Glacier",
+        "range:Pyrenees",
+        "unesco:natural"
+      ]
+    },
+    {
+      "id": "lac-doo",
+      "name": {
+        "en": "Lac d'Oô",
+        "zh": "奥湖"
+      },
+      "category": "Natural",
+      "country": "France",
+      "coordinates": [
+        0.492,
+        42.7401
+      ],
+      "shortDesc": {
+        "en": "Glacial lake with a stunning 275-meter waterfall",
+        "zh": "壮丽的高山冰川湖，拥有一条直落湖中的巨型瀑布"
+      },
+      "description": {
+        "en": "A beautiful glacial lake located at 1,507m altitude. It is famous for its 275-meter high waterfall that plunges directly into the lake, accessible via a popular hiking trail from the Val d'Astau.",
+        "zh": "位于法属比利牛斯山脉的著名冰川湖，海拔1507米。最震撼的景观是湖对岸那条落差275米的瀑布直入碧绿的湖水中，是当地最受欢迎的徒步目的地之一。"
+      },
+      "image": "/assets/attractions/lac-doo.jpg",
+      "bestTimeToVisit": "May to October",
+      "recommendedDuration": "Half day",
+      "officialWebsite": "https://www.pyrenees-centrales.com/",
+      "tickets": "Free",
+      "tags": [
+        "feature:Lake",
+        "range:Pyrenees"
+      ]
+    },
+    {
+      "id": "aiguestortes",
+      "name": {
+        "en": "Aigüestortes i Estany de Sant Maurici",
+        "zh": "艾格斯托特斯和圣毛里齐湖"
+      },
+      "category": "Natural",
+      "country": "Spain",
+      "coordinates": [
+        0.9833,
+        42.5833
+      ],
+      "shortDesc": {
+        "en": "Lakes and meandering streams in the high mountains",
+        "zh": "高山湖泊与蜿蜒溪流，比利牛斯山脉最美的水景区"
+      },
+      "description": {
+        "en": "This national park is characterized by its high mountain landscape with over 200 lakes, numerous streams and the iconic Encantats peaks. It is a paradise for hikers and nature lovers.",
+        "zh": "加泰罗尼亚唯一的国家公园，以200多个高山湖泊和无数蜿蜒溪流（Aigüestortes意为“蜿蜒的水”）为特色。双子峰“恩坎塔茨”与圣毛里齐湖交相辉映，风景如画。"
+      },
+      "image": "/assets/attractions/aiguestortes.jpg",
+      "bestTimeToVisit": "June to October",
+      "recommendedDuration": "1-2 days",
+      "officialWebsite": "https://parcsnaturals.gencat.cat/en/aiguestortes/",
+      "tickets": "Free",
+      "tags": [
+        "feature:Lake",
+        "range:Pyrenees"
       ]
     },
     {
@@ -801,8 +983,8 @@
         "zh": "阿尔卑斯山最高峰——勃朗峰的门户"
       },
       "description": {
-        "en": "A legendary mountain resort at the base of Mont Blanc (4,810m). It is a hub for extreme sports and mountaineering, offering spectacular views from the Aiguille du Midi cable car and the Mer de Glace glacier.",
-        "zh": "坐落在西欧最高峰勃朗峰（4810米）山脚下的传奇度假胜地。这里是登山和极限运动的中心，拥有南针峰索道和冰海冰川等壮观景点。"
+        "en": "As the highest point of the entire Alps, Mont Blanc stands at an altitude of 4,808.73 meters, dominating the European continent. The Mont Blanc Massif is primarily composed of an extremely hard basement of granite and metamorphic rocks. These deep-seated rocks were thrust to the surface by immense tectonic stress during the closure of the Tethys Ocean and continental collision, and were subsequently ruthlessly carved and sculpted by massive Pleistocene glaciers over hundreds of thousands of years during the Quaternary period. The glaciers not only smoothed parts of the rock walls but also gouged out wide and deep U-shaped valleys, the most representative being the Chamonix Valley in France. Chamonix is not only a natural laboratory for geomorphologists studying alpine glacier dynamics but also the birthplace of modern mountaineering. The valley is flanked by numerous towering arêtes and horns, the most prominent being the Aiguille du Midi at 3,842 meters. The Aiguille du Midi cable car system is a marvel of human engineering grappling with extreme geological environments. Visitors ascend via two cable car sections and an elevator carved inside the rock to reach a high-altitude observation platform surrounded by the peaks of France, Switzerland, and Italy. Furthermore, the Panoramic Mont-Blanc gondola spans the vast crevassed glacier zone, connecting France's Aiguille du Midi with Italy's Pointe Helbronner, offering a unique high-altitude experience across international borders and the polar cryosphere.",
+        "zh": "作为整个阿尔卑斯山脉的最高点，勃朗峰（Mont Blanc）海拔达到4,808.73米，傲视欧洲大陆 。勃朗峰地块（Massif）主要由极度坚硬的花岗岩和变质岩基底构成，这些深层岩石在古特提斯洋闭合和大陆碰撞的过程中被巨大的应力挤出地表，随后在第四纪的数十万年间受到了更新世巨大冰川的无情切割与雕刻 。冰川不仅削平了部分岩壁，还向下挖掘出了宽阔而深邃的U型谷，其中最具代表性的便是法国境内的霞慕尼（Chamonix）山谷 。霞慕尼不仅是地貌学界研究高山冰川动力学的天然实验室，也是现代登山运动的诞生地。山谷两侧林立着无数高耸的刃脊和角峰，其中最引人瞩目的是海拔3,842米的南针峰（Aiguille du Midi） 。南针峰缆车系统堪称人类工程学与极端地质环境博弈的奇迹。游客需经过两段索道及一部在岩体内部开凿的电梯，最终抵达四周被法国、瑞士和意大利群山环绕的极高海拔观景台 。此外，全景勃朗峰缆车（Panoramic Mont-Blanc gondola）横跨广袤的冰川裂缝区，连接法国的南针峰与意大利境内的海尔布隆纳峰（Pointe Helbronner），为人类提供了跨越国际边界与极地冰冻圈的独特高空体验 。"
       },
       "image": "/assets/attractions/chamonix.jpg",
       "bestTimeToVisit": "July to September / December to March",
@@ -831,8 +1013,8 @@
         "zh": "标志性的金字塔形山峰与无车阿尔卑斯村庄"
       },
       "description": {
-        "en": "Zermatt is a world-famous, car-free alpine village nestled at the foot of the Matterhorn. The Matterhorn is one of the most recognized peaks in the world due to its near-perfect pyramid shape and dramatic ridges.",
-        "zh": "采尔马特是坐落在马特洪峰山脚下的世界著名无车村庄。马特洪峰因其近乎完美的金字塔形状和险峻的山脊，成为全球最具辨识度的山峰之一。"
+        "en": "Zermatt is a world-famous car-free village at the foot of the Matterhorn, which is one of the most recognizable peaks in the world due to its near-perfect pyramid shape and daunting ridges. Geologically, this region in the Central Alps exhibits an extremely complex system of stacked nappes. The Matterhorn, situated on the border between Switzerland and Italy, serves as an exceptional three-dimensional anatomical specimen of ongoing orogeny. Its steep pyramidal horn is not only a masterpiece of glacial erosion but also direct evidence of intense folding and thrusting. From base to summit, the Matterhorn reveals three distinct geological origins: the base consists of European continental basement rocks; the middle layer contains marine sediments and oceanic crust from the ancient Tethys Ocean; and the iconic peak is composed of gneisses originating from the African plate. This 'sandwich' structure provides a direct visual testament to the epic tectonic process where the African plate traversed an ancient ocean to be thrust over the European plate.",
+        "zh": "采尔马特是坐落在马特洪峰山脚下的世界著名无车村庄。马特洪峰因其近乎完美的金字塔形状和险峻的山脊，成为全球最具辨识度的山峰之一。在地理上，这里属于中阿尔卑斯山脉，地质构造表现为极其错综复杂的岩幂（Nappe）系统堆叠。位于瑞士与意大利交界处的马特洪峰是正在进行的造山运动的绝佳立体解剖学标本，其陡峭的角峰不仅是冰川侵蚀的杰作，更是强烈褶皱与推覆体运动的直接证据 。从山麓到山顶，马特洪峰展示了三个截然不同的地质来源：其底部结构源自欧洲大陆的基底岩石；中间的岩层夹杂着古特提斯洋的海洋沉积物及其洋壳基底；而山峰的尖端部分，则是来自非洲板块的片麻岩（Gneisses） 。这种“三明治”式的层叠结构直观地证明了非洲板块在长期的构造运动中跨越古海洋并最终推覆在欧洲板块之上的宏大过程。"
       },
       "image": "/assets/attractions/zermatt.jpg",
       "bestTimeToVisit": "July to August (Hiking) / December to April (Skiing)",
@@ -951,8 +1133,8 @@
         "zh": "独特的白云石锯齿峰与碧绿湖泊"
       },
       "description": {
-        "en": "A mountain range in the northern Italian Alps, famous for its vertical walls, sheer cliffs, and jagged peaks. It features some of the most beautiful mountain landscapes in the world, with vibrant alpine meadows and crystal-clear lakes.",
-        "zh": "位于意大利北部的阿尔卑斯山区，被誉为“世界上最美的山脉”。以独特的白云石锯齿状山峰、高山草甸和如镜般的湖泊闻名，四季皆有绝美景致。"
+        "en": "A mountain range in the northern Italian Alps, famous for its vertical walls, sheer cliffs, and jagged peaks. The Dolomites are a global geological wonder; their peaks are not merely products of physical erosion, but an epic history of life's evolution sealed in stone. Approximately 250 million years ago during the Triassic, this region was a shallow tropical sea located near the equator. Following the catastrophic end-Permian mass extinction (~252 Ma), marine life slowly recovered here, forming vast carbonate reef systems from the accumulation of calcareous algae, sponges, and corals over tens of millions of years. Intense volcanic activity deposited tephra between these thriving reefs. With the collision of the African and European plates, these heavy carbonate platforms from the Tethys seabed were thrust upwards to altitudes exceeding 3,000 meters. Iconic massifs like Sciliar, Odle, and Sasso Putia are essentially the remains of these ancient coral reefs. Due to the high magnesium content in the rock, the Dolomites exhibit a magnificent optical phenomenon known as 'Enrosadira' (Alpenglow): at sunrise and sunset, the dolomite surfaces refract incredible shades of rose-red, yellow, and even violet, while in the bright light of day, the rocks appear almost pale and milky-gray.",
+        "zh": "位于意大利北部的阿尔卑斯山区，被誉为“世界上最美的山脉”。多洛米蒂山脉是全球地学界公认的地质奇迹。这里的山体不仅是物理侵蚀的结果，更是一部封存在岩石中的生命进化史诗 。在距今约2.5亿年前的三叠纪时期，多洛米蒂地区位于赤道附近的一片浅水热带海域 。在经历了二叠纪末期（约2.52亿年前）毁灭性的全球生物大灭绝后，海洋生命在这片区域缓慢复苏 。石灰质藻类、海绵以及珊瑚的骨骼开始在洋底沉积，历经数千万年，形成了巨大的珊瑚礁平台系统 。在此期间，强烈的火山活动将大量火山碎屑物堆积在这些生机勃勃的珊瑚礁之间 。随着非洲大陆与欧洲大陆板块的无情碰撞，这些在古特提斯洋底发育的厚重碳酸盐岩台地被巨大的构造应力抬升至海拔3,000米以上，形成了今天多洛米蒂锯齿状、直插云霄的独特尖峰 。如今的Sciliar、Odle和Sasso Putia等著名山群，本质上就是古老珊瑚礁的残骸 。由于岩石中的高镁含量，多洛米蒂山脉展现出了被称为“Enrosadira”的壮丽光学奇观——在日出和日落时分，阳光照射在白云岩表面，山体会不可思议地折射出玫瑰红、黄色甚至是紫罗兰色的光芒，而在光线强烈的白天，岩石则呈现出近乎苍白的乳灰色。"
       },
       "image": "/assets/attractions/the-dolomites.jpg",
       "bestTimeToVisit": "June to September / December to March",
@@ -1085,6 +1267,249 @@
         "feature:Mountain",
         "range:Dinaric Alps",
         "unesco:natural"
+      ]
+    },
+    {
+      "id": "mount-olympus",
+      "name": {
+        "en": "Mount Olympus",
+        "zh": "奥林匹斯山"
+      },
+      "category": "Natural",
+      "country": "Greece",
+      "coordinates": [
+        22.3499,
+        40.0881
+      ],
+      "shortDesc": {
+        "en": "Mythological home of the Greek gods",
+        "zh": "希腊神话中众神的居所"
+      },
+      "description": {
+        "en": "The highest mountain in Greece, legendary as the home of the Twelve Olympian Gods. It is a National Park and a World Biosphere Reserve, known for its rich flora and high peaks like Mytikas.",
+        "zh": "希腊最高峰，古希腊神话中奥林匹斯十二主神的居所。这里是希腊第一个国家公园，也是世界生物圈保护区，以其独特的植物群和众神之巅米提卡斯峰闻名。"
+      },
+      "image": "/assets/attractions/mount-olympus.jpg",
+      "bestTimeToVisit": "May to October",
+      "recommendedDuration": "1-2 days",
+      "officialWebsite": "https://olympusfd.gr/",
+      "tickets": "Free",
+      "tags": [
+        "feature:Mountain",
+        "range:Olympus Range",
+        "unesco:mixed"
+      ]
+    },
+    {
+      "id": "high-tatras",
+      "name": {
+        "en": "High Tatras",
+        "zh": "高塔特拉山"
+      },
+      "category": "Natural",
+      "country": "Slovakia",
+      "coordinates": [
+        20.1333,
+        49.1667
+      ],
+      "shortDesc": {
+        "en": "The highest range in the Carpathians",
+        "zh": "喀尔巴阡山脉的最高峰"
+      },
+      "description": {
+        "en": "The highest mountain range in the Carpathians, forming a natural border between Slovakia and Poland. Known for its sharp peaks, alpine lakes, and diverse wildlife including chamois and bears.",
+        "zh": "喀尔巴阡山脉最高的山脉，斯洛伐克与波兰的天然边界。以其险峻的高山地貌、深邃的冰川湖和丰富的野生动物（如羚羊和熊）而闻名。"
+      },
+      "image": "/assets/attractions/high-tatras.jpg",
+      "bestTimeToVisit": "June to September",
+      "recommendedDuration": "1-3 days",
+      "officialWebsite": "https://www.vt.sk/",
+      "tickets": "Free",
+      "tags": [
+        "feature:Mountain Range",
+        "range:Carpathians",
+        "unesco:biosphere"
+      ]
+    },
+    {
+      "id": "zugspitze",
+      "name": {
+        "en": "Zugspitze",
+        "zh": "楚格峰"
+      },
+      "category": "Natural",
+      "country": "Germany",
+      "coordinates": [
+        10.9848,
+        47.4211
+      ],
+      "shortDesc": {
+        "en": "Highest peak in Germany",
+        "zh": "德国第一高峰"
+      },
+      "description": {
+        "en": "The highest peak in Germany, located in the Bavarian Alps, offering a 360-degree panorama of over 400 mountain peaks in four countries. Zugspitze once boasted three prominent glaciers: the Northern Schneeferner (Nördliche Schneeferner), the Höllentalferner, and the Southern Schneeferner (Südliche Schneeferner). However, following extreme summer melting in 2022, the Southern Schneeferner shrank so severely that it lost its glacial dynamics and was officially downgraded to 'dead ice' by the scientific community.",
+        "zh": "德国最高峰，位于巴伐利亚阿尔卑斯山脉。在山顶可以360度俯瞰德、奥、意、瑞四国的400多座山峰。楚格峰曾经拥有广阔的北部雪原冰川（Nördliche Schneeferner）和地狱谷冰川（Höllentalferner） 。而在2022年，由于剧烈的夏季融化，南部雪原冰川（Südliche Schneeferner）的体积严重萎缩，彻底失去了冰川的动力学特征，被科学界降级为“死冰”（Dead ice） 。"
+      },
+      "image": "/assets/attractions/zugspitze.jpg",
+      "bestTimeToVisit": "Year-round",
+      "recommendedDuration": "Half to full day",
+      "officialWebsite": "https://zugspitze.de/",
+      "tickets": "Adults ~€60 (round trip)",
+      "tags": [
+        "feature:Peak",
+        "range:Alps"
+      ]
+    },
+    {
+      "id": "mount-triglav",
+      "name": {
+        "en": "Mount Triglav",
+        "zh": "特里格拉夫山"
+      },
+      "category": "Natural",
+      "country": "Slovenia",
+      "coordinates": [
+        13.8366,
+        46.3783
+      ],
+      "shortDesc": {
+        "en": "National symbol of Slovenia and Alpine karst wonder",
+        "zh": "斯洛文尼亚的国家象征与高山喀斯特奇迹"
+      },
+      "description": {
+        "en": "The highest peak in Slovenia and the Julian Alps, Mount Triglav is a powerful national symbol. In the Kozja dnina area of the Vrata Valley (~1,200m), researchers discovered a remarkable fossil assemblage in Upper Triassic (Carnian) strata from 220 million years ago. Anoxic conditions on the ancient seabed allowed for the perfect preservation of mollusks, sea urchins, crustaceans, vertebrates, and even rare soft-bodied organisms. The region is also a premier site for studying Alpine karst. The combination of harsh mountain climate and abundant precipitation has deeply eroded the exposed limestone, creating complex surface micro-topography: from Karren and Grikes that channel rainwater, to massive snow-filled sinkholes (Kontas), small depressions with vertical walls (Kotliči), and flat-bottomed solution pans. The park is integrated with stunning water resources, including the picturesque Lake Bled with its cliffside castle, the massive glacial Lake Bohinj, and the emerald Soča River. A vast network of trails, such as the Juliana Trail and Soča Trail, facilitates exploration. The transition from summer to autumn (June to September) is ideal for hiking, canyoning, and mountain biking, while winter offers premium alpine skiing at resorts like Kanin and Vogel.",
+        "zh": "斯洛文尼亚与朱利安阿尔卑斯山脉的最高峰，是斯洛文尼亚的国家象征。在海拔约1,200米的Vrata山谷的Kozja dnina地区，科研人员在距今约2.2亿年前的上三叠统（卡尼期）地层中，发现了惊人的古生物群。当时海底的缺氧环境（Anoxic conditions）使得大量的软体动物、海胆、甲壳类、脊椎动物甚至极其罕见的软体生物得以完美保存。除了宏大的化石群，特里格拉夫地区还是研究高山喀斯特（Alpine karst）地貌的顶级区域 。在高山恶劣气候和充沛降水（雨、雪、冰）的综合作用下，裸露的石灰岩表面经历了严重的化学溶蚀和物理切割，形成了极其复杂的地表微地貌：从收集雨水并形成水流通道的溶沟（Karren）和石芽（Grikes），到长期积雪的巨大天坑（Kontas）和具有垂直岩壁的小型洼地（Kotliči），再到平底的溶蚀盘（Solution pans） 。公园结合周边的自然水体资源，如风景如画的布莱德湖（Lake Bled）和巨大的冰川湖波希尼湖（Lake Bohinj），以及以祖母绿水色闻名的索查河（Soča River），打造了广阔的步道网络。夏秋之交（6月至9月）是进行徒步、峡谷溪降和山地自行车的最适宜季节，冬季则可享受滑雪体验。"
+      },
+      "image": "/assets/attractions/mount-triglav.jpg",
+      "bestTimeToVisit": "June to September / December to March",
+      "recommendedDuration": "2-4 days",
+      "officialWebsite": "https://www.tnp.si/",
+      "tickets": "Free (Parking/Huts cost extra)",
+      "tags": [
+        "feature:Peak",
+        "range:Alps",
+        "unesco:biosphere"
+      ]
+    },
+    {
+      "id": "mount-elbrus",
+      "name": {
+        "en": "Mount Elbrus",
+        "zh": "厄尔布鲁士山"
+      },
+      "category": "Natural",
+      "country": "Russia",
+      "coordinates": [
+        42.4392,
+        43.3499
+      ],
+      "shortDesc": {
+        "en": "Highest peak in Europe",
+        "zh": "欧洲第一高峰"
+      },
+      "description": {
+        "en": "The highest mountain in Europe and one of the Seven Summits. This dormant volcano in the Caucasus Mountains features two main peaks, both covered by permanent ice and snow.",
+        "zh": "欧洲第一高峰，“七大洲最高峰”之一。位于高加索山脉的死火山，拥有两座主峰，常年被冰雪覆盖。"
+      },
+      "image": "/assets/attractions/mount-elbrus.jpg",
+      "bestTimeToVisit": "June to August",
+      "recommendedDuration": "1-2 days",
+      "officialWebsite": "https://visit-elbrus.ru/",
+      "tickets": "Cable car ~€20",
+      "tags": [
+        "feature:Peak",
+        "range:Caucasus"
+      ]
+    },
+    {
+      "id": "ben-nevis",
+      "name": {
+        "en": "Ben Nevis",
+        "zh": "本尼维斯山"
+      },
+      "category": "Natural",
+      "country": "United Kingdom",
+      "coordinates": [
+        -5.0036,
+        56.7969
+      ],
+      "shortDesc": {
+        "en": "Highest mountain in the British Isles",
+        "zh": "不列颠群岛最高峰"
+      },
+      "description": {
+        "en": "The highest mountain in the British Isles, located in the Lochaber area of the Scottish Highlands. The summit features the ruins of an observatory and is a popular destination for hikers.",
+        "zh": "不列颠群岛最高峰，位于苏格兰高地的洛哈伯地区。山顶留有19世纪气象观测站的遗址，是英国最受欢迎的登山目的地之一。"
+      },
+      "image": "/assets/attractions/ben-nevis.jpg",
+      "bestTimeToVisit": "June to September",
+      "recommendedDuration": "7-9 hours",
+      "officialWebsite": "https://www.visitscotland.com/",
+      "tickets": "Free",
+      "tags": [
+        "feature:Peak",
+        "range:Grampian Mountains"
+      ]
+    },
+    {
+      "id": "pic-du-midi",
+      "name": {
+        "en": "Pic du Midi de Bigorre",
+        "zh": "南日比戈尔峰"
+      },
+      "category": "Natural",
+      "country": "France",
+      "coordinates": [
+        0.1428,
+        42.9364
+      ],
+      "shortDesc": {
+        "en": "High-altitude observatory with panoramic views",
+        "zh": "著名的高山天文台，拥有震撼的360度全景观景台"
+      },
+      "description": {
+        "en": "Famous for its astronomical observatory at 2,877m altitude, Pic du Midi is accessible by cable car from La Mongie. It offers spectacular 360-degree views of the Pyrenees and is a certified International Dark Sky Reserve.",
+        "zh": "海拔2877米的天文观测胜地，可从蒙吉搭乘缆车抵达。这里拥有比利牛斯山脉最壮观的360度全景视野，也是著名的国际暗夜星空保护区。"
+      },
+      "image": "/assets/attractions/pic-du-midi.jpg",
+      "bestTimeToVisit": "Year-round",
+      "recommendedDuration": "Half day",
+      "officialWebsite": "https://picdumidi.com/",
+      "tickets": "Adults ~€45 (Includes cable car)",
+      "tags": [
+        "feature:Peak",
+        "range:Pyrenees"
+      ]
+    },
+    {
+      "id": "aneto-peak",
+      "name": {
+        "en": "Aneto Peak",
+        "zh": "阿内托峰"
+      },
+      "category": "Natural",
+      "country": "Spain",
+      "coordinates": [
+        0.6566,
+        42.6311
+      ],
+      "shortDesc": {
+        "en": "The highest point in the Pyrenees at 3,404 meters",
+        "zh": "比利牛斯山脉的最高点，拥有该山脉最大的冰川"
+      },
+      "description": {
+        "en": "Located in the Posets-Maladeta Natural Park, Aneto is the highest peak in the Pyrenees. It is home to the largest glacier in the mountain range and offers challenging climbs for experienced mountaineers.",
+        "zh": "位于波塞茨-马拉德塔自然公园内，是比利牛斯山脉的最高峰。这里拥有该山脉面积最大的冰川，是登山爱好者的终极目标，山顶视野极其开阔。"
+      },
+      "image": "/assets/attractions/aneto-peak.jpg",
+      "bestTimeToVisit": "July to September",
+      "recommendedDuration": "Full day",
+      "officialWebsite": "http://www.turismobenasque.com/",
+      "tickets": "Free",
+      "tags": [
+        "feature:Peak",
+        "range:Pyrenees"
       ]
     },
     {
@@ -1265,6 +1690,36 @@
         "feature:Volcanic",
         "range:Alps",
         "unesco:natural"
+      ]
+    },
+    {
+      "id": "mount-vesuvius",
+      "name": {
+        "en": "Mount Vesuvius",
+        "zh": "维苏威火山"
+      },
+      "category": "Natural",
+      "country": "Italy",
+      "coordinates": [
+        14.4262,
+        40.8224
+      ],
+      "shortDesc": {
+        "en": "Famous volcano overlooking Naples",
+        "zh": "俯瞰那不勒斯的著名火山"
+      },
+      "description": {
+        "en": "One of the world's most dangerous and famous volcanoes, best known for the eruption in 79 AD that buried Pompeii and Herculaneum. It offers dramatic views of the Bay of Naples from its crater rim.",
+        "zh": "世界上最著名的火山之一，因公元79年的大喷发埋没庞贝古城而闻名。游客可以攀登至火山口边缘，俯瞰那不勒斯湾的壮丽景色。"
+      },
+      "image": "/assets/attractions/mount-vesuvius.jpg",
+      "bestTimeToVisit": "April to October",
+      "recommendedDuration": "3-4 hours",
+      "officialWebsite": "https://www.parconazionaledelvesuvio.it/",
+      "tickets": "Adults €10",
+      "tags": [
+        "feature:Volcano",
+        "range:Apennines"
       ]
     },
     {

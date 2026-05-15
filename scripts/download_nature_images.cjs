@@ -56,7 +56,15 @@ const imageUrls = {
   'western-caucasus': 'https://upload.wikimedia.org/wikipedia/commons/d/d6/Autumn_in_Caucasus.JPG',
   'hierapolis-pamukkale': 'https://upload.wikimedia.org/wikipedia/commons/c/c7/Pamukkale_%28Hierapolis%29_Turkey.jpg',
   'ancient-and-primeval-beech-forests-of-the-carpathians-and-other-regions-of-europe': 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Beu%C8%99ni%C8%9Ba_%28Beu%29_valley_42.jpg',
-  'hyrcanian-forests': 'https://upload.wikimedia.org/wikipedia/commons/5/52/3615554_%D8%AA%D8%B5%D8%A7%D9%88%DB%8C%D8%B1_%D9%87%D9%88%D8%A7%DB%8C%DB%8C_%D8%AC%D8%A7%D8%AF%D9%87_%D9%87%D8%A7%DB%8C_%D9%BE%D8%A7%DB%8C%DB%8C%D8%B2%DB%8C_%D8%AC%D9%86%DA%AF%D9%84_%D9%87%D8%A7%DB%8C_%D9%87%DB%8C%D8%B1%DA%A9%D8%A7%D9%86%DB%8C.jpg'
+  'hyrcanian-forests': 'https://upload.wikimedia.org/wikipedia/commons/5/52/3615554_%D8%AA%D8%B5%D8%A7%D9%88%DB%8C%D8%B1_%D9%87%D9%88%D8%A7%DB%8C%DB%8C_%D8%AC%D8%A7%D8%AF%D9%87_%D9%87%D8%A7%DB%8C_%D9%BE%D8%A7%DB%8C%DB%8C%D8%B2%DB%8C_%D8%AC%D9%86%DA%AF%D9%84_%D9%87%D8%A7%DB%8C_%D9%87%DB%8C%D8%B1%DA%A9%D8%A7%D9%86%DB%8C.jpg',
+  'mount-elbrus': 'https://upload.wikimedia.org/wikipedia/commons/c/c6/Mount_Elbrus_May_2008.jpg',
+  'mount-olympus': 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Mount_Olympus_view.jpg',
+  'high-tatras': 'https://upload.wikimedia.org/wikipedia/commons/f/f3/High_Tatras_Panorama_Slovakia.jpg',
+  'mount-vesuvius': 'https://upload.wikimedia.org/wikipedia/commons/3/3d/Vesuvius_from_Pompeii.jpg',
+  'zugspitze': 'https://upload.wikimedia.org/wikipedia/commons/b/b3/Zugspitze_Germany.jpg',
+  'ben-nevis': 'https://upload.wikimedia.org/wikipedia/commons/0/08/BenNevis2005.jpg',
+  'mount-triglav': 'https://upload.wikimedia.org/wikipedia/commons/0/0d/Triglav_v_oblakih.jpg',
+  'mallos-de-riglos': 'https://commons.wikimedia.org/wiki/Special:FilePath/Murillo_de_G%C3%A1llego_y_Mallos_de_Riglos%2C_Huesca%2C_Espa%C3%B1a%2C_2023-01-05%2C_DD_09.jpg?width=1200'
 };
 
 const destDir = path.join(__dirname, '..', 'public', 'assets', 'attractions');
