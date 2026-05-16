@@ -61,7 +61,7 @@ const imageUrls = {
   'mount-olympus': 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Mount_Olympus_view.jpg',
   'high-tatras': 'https://upload.wikimedia.org/wikipedia/commons/f/f3/High_Tatras_Panorama_Slovakia.jpg',
   'mount-vesuvius': 'https://upload.wikimedia.org/wikipedia/commons/3/3d/Vesuvius_from_Pompeii.jpg',
-  'zugspitze': 'https://upload.wikimedia.org/wikipedia/commons/b/b3/Zugspitze_Germany.jpg',
+  'zugspitze': 'https://upload.wikimedia.org/wikipedia/commons/2/21/ZugspitzeJubilaeumsgratHoellental.JPG',
   'ben-nevis': 'https://upload.wikimedia.org/wikipedia/commons/0/08/BenNevis2005.jpg',
   'mount-triglav': 'https://upload.wikimedia.org/wikipedia/commons/0/0d/Triglav_v_oblakih.jpg',
   'mallos-de-riglos': 'https://commons.wikimedia.org/wiki/Special:FilePath/Murillo_de_G%C3%A1llego_y_Mallos_de_Riglos%2C_Huesca%2C_Espa%C3%B1a%2C_2023-01-05%2C_DD_09.jpg?width=1200'

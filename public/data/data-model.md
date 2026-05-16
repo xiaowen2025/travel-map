@@ -72,7 +72,7 @@
 { "sites": [{
   id, name: { en, zh }, category, tags, country, coordinates,
   shortDesc: { en, zh }, description: { en, zh }, image,
-  bestTimeToVisit, recommendedDuration, officialWebsite, tickets
+  bestTimeToVisit, officialWebsite
 }] }
 ```
 

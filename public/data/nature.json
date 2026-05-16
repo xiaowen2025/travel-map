@@ -22,9 +22,7 @@
       },
       "image": "/assets/attractions/ordesa-monte-perdido.jpg",
       "bestTimeToVisit": "May to October",
-      "recommendedDuration": "1-2 days",
       "officialWebsite": "https://www.ordesa.net/",
-      "tickets": "Free",
       "tags": [
         "feature:Canyon",
         "range:Pyrenees",
@@ -53,9 +51,7 @@
       },
       "image": "/assets/attractions/kocjan-caves.jpg",
       "bestTimeToVisit": "May to October",
-      "recommendedDuration": "Half day",
       "officialWebsite": "https://park-skocjanske-jame.si/",
-      "tickets": "Adults €18 - €24",
       "tags": [
         "feature:Cave",
         "unesco:natural"
@@ -83,12 +79,9 @@
       },
       "image": "/assets/attractions/vjetrenica-cave-ravno.jpg",
       "bestTimeToVisit": "May to October",
-      "recommendedDuration": "Half day",
       "officialWebsite": "https://vjetrenica.ba/",
-      "tickets": "Adults ~€8",
       "tags": [
         "feature:Cave",
-        "range:Alps",
         "range:Dinaric Alps"
       ]
     },
@@ -114,9 +107,7 @@
       },
       "image": "/assets/attractions/evaporitic-karst-and-caves-of-northern-apennines.jpg",
       "bestTimeToVisit": "April to October",
-      "recommendedDuration": "Half day",
       "officialWebsite": "https://whc.unesco.org/en/list/1692/",
-      "tickets": "Cave tours vary ~€10 - €20",
       "tags": [
         "feature:Cave",
         "range:Apennines",
@@ -145,9 +136,7 @@
       },
       "image": "/assets/attractions/caves-of-aggtelek-karst-and-slovak-karst.jpg",
       "bestTimeToVisit": "April to October",
-      "recommendedDuration": "1 day",
       "officialWebsite": "https://anp.hu/en",
-      "tickets": "Cave tours €10 - €20",
       "tags": [
         "feature:Cave",
         "range:Carpathians",
@@ -174,11 +163,9 @@
         "en": "Spectacular conglomerate rock formations in the foothills of the Pyrenees. These vertical red cliffs rise 300 meters above the village of Riglos and are a world-renowned destination for rock climbers and birdwatchers.",
         "zh": "位于比利牛斯山脉南麓的巨大砾岩地质奇观。这些近乎垂直的红色峭壁高出地面300米，雄伟异常。它是世界级的攀岩胜地，也是秃鹫等猛禽的栖息地。"
       },
-      "image": "/assets/attractions/mallos-de-riglos.jpg",
+      "image": "/assets/attractions/mallos-de-riglos.jpg?width=1200",
       "bestTimeToVisit": "Spring and Autumn",
-      "recommendedDuration": "Half day",
       "officialWebsite": "https://turismo.hoyadehuesca.es/",
-      "tickets": "Free",
       "tags": [
         "feature:Cliff",
         "range:Pyrenees"
@@ -206,9 +193,7 @@
       },
       "image": "/assets/attractions/giants-causeway-and-causeway-coast.jpg",
       "bestTimeToVisit": "April to September",
-      "recommendedDuration": "Half day",
       "officialWebsite": "https://www.nationaltrust.org.uk/giants-causeway",
-      "tickets": "Visitor Experience: ~€16 (Site access is free)",
       "tags": [
         "feature:Coastal",
         "unesco:natural"
@@ -236,9 +221,7 @@
       },
       "image": "/assets/attractions/dorset-and-east-devon-coast.JPG",
       "bestTimeToVisit": "May to September",
-      "recommendedDuration": "2-3 days",
       "officialWebsite": "https://jurassiccoast.org/",
-      "tickets": "Free (Museums and parking vary)",
       "tags": [
         "feature:Coastal",
         "unesco:natural"
@@ -266,9 +249,7 @@
       },
       "image": "/assets/attractions/west-norwegian-fjords.jpg",
       "bestTimeToVisit": "June to August",
-      "recommendedDuration": "2-3 days",
       "officialWebsite": "https://www.fjordnorway.com/",
-      "tickets": "Free (Fjord cruises ~€40-€80)",
       "tags": [
         "feature:Coastal",
         "unesco:natural"
@@ -296,9 +277,7 @@
       },
       "image": "/assets/attractions/wadden-sea.jpg",
       "bestTimeToVisit": "May to September",
-      "recommendedDuration": "1-3 days",
       "officialWebsite": "https://www.waddensea-worldheritage.org/",
-      "tickets": "Free (Mudflat walking tours ~€10-€20)",
       "tags": [
         "feature:Coastal",
         "unesco:natural"
@@ -326,9 +305,7 @@
       },
       "image": "/assets/attractions/gulf-of-porto-calanche-of-piana-gulf-of-girolata-scandola-reserve.jpg",
       "bestTimeToVisit": "May to September",
-      "recommendedDuration": "1-2 days",
       "officialWebsite": "https://www.corsica.co.uk/",
-      "tickets": "Free (Boat tours ~€30 - €60)",
       "tags": [
         "feature:Coastal",
         "unesco:natural"
@@ -356,9 +333,7 @@
       },
       "image": "/assets/attractions/stevns-klint.jpg",
       "bestTimeToVisit": "May to September",
-      "recommendedDuration": "Half day",
       "officialWebsite": "https://stevnsklint.com/",
-      "tickets": "Free",
       "tags": [
         "feature:Coastal"
       ]
@@ -385,9 +360,7 @@
       },
       "image": "/assets/attractions/m-ns-klint.jpg",
       "bestTimeToVisit": "May to September",
-      "recommendedDuration": "1 day",
       "officialWebsite": "https://moensklint.dk/",
-      "tickets": "Free (GeoCenter Møns Klint ~€20)",
       "tags": [
         "feature:Coastal",
         "unesco:natural"
@@ -415,9 +388,7 @@
       },
       "image": "/assets/attractions/high-coast-kvarken-archipelago.jpg",
       "bestTimeToVisit": "June to August",
-      "recommendedDuration": "2-3 days",
       "officialWebsite": "https://www.highcoast.net/",
-      "tickets": "Free",
       "tags": [
         "feature:Coastal",
         "unesco:natural"
@@ -445,9 +416,7 @@
       },
       "image": "/assets/attractions/garajonay-national-park.jpg",
       "bestTimeToVisit": "April to November",
-      "recommendedDuration": "1-2 days",
       "officialWebsite": "https://www.miteco.gob.es/es/red-parques-nacionales/nuestros-parques/garajonay/",
-      "tickets": "Free",
       "tags": [
         "feature:Forest",
         "unesco:natural"
@@ -475,9 +444,7 @@
       },
       "image": "/assets/attractions/laurisilva-of-madeira.jpg",
       "bestTimeToVisit": "Year-round (April to October for best weather)",
-      "recommendedDuration": "1-2 days",
       "officialWebsite": "https://whc.unesco.org/en/list/934/",
-      "tickets": "Free (some guided levada walks €20-€40)",
       "tags": [
         "feature:Forest",
         "unesco:natural"
@@ -505,9 +472,7 @@
       },
       "image": "/assets/attractions/bia-owie-a-forest.jpg",
       "bestTimeToVisit": "May to October",
-      "recommendedDuration": "1-2 days",
       "officialWebsite": "https://bpn.com.pl/",
-      "tickets": "Park entry €2 - €5, Guided tours extra",
       "tags": [
         "feature:Forest",
         "unesco:natural"
@@ -535,9 +500,7 @@
       },
       "image": "/assets/attractions/hyrcanian-forests.jpg",
       "bestTimeToVisit": "April to June, September to November",
-      "recommendedDuration": "1-2 days",
       "officialWebsite": "https://whc.unesco.org/en/list/1584/",
-      "tickets": "Mostly Free (Some areas require permits)",
       "tags": [
         "feature:Forest"
       ]
@@ -564,9 +527,7 @@
       },
       "image": "/assets/attractions/ancient-and-primeval-beech-forests-of-the-carpathians-and-other-regions-of-europe.jpg",
       "bestTimeToVisit": "May to October",
-      "recommendedDuration": "1-2 days",
       "officialWebsite": "https://www.europeanbeechforests.org/",
-      "tickets": "Mostly Free (Varies by national park)",
       "tags": [
         "feature:Forest",
         "range:Carpathians"
@@ -594,9 +555,7 @@
       },
       "image": "/assets/attractions/colchic-rainforests.jpg",
       "bestTimeToVisit": "May to October",
-      "recommendedDuration": "1-2 days",
       "officialWebsite": "https://nationalparks.ge/",
-      "tickets": "Free",
       "tags": [
         "feature:Forest",
         "range:Caucasus",
@@ -625,9 +584,7 @@
       },
       "image": "/assets/attractions/virgin-komi-forests.JPG",
       "bestTimeToVisit": "June to August",
-      "recommendedDuration": "3-5 days",
       "officialWebsite": "https://whc.unesco.org/en/list/719/",
-      "tickets": "Requires special permits",
       "tags": [
         "feature:Forest",
         "range:Urals",
@@ -656,9 +613,7 @@
       },
       "image": "/assets/attractions/messel-pit.jpg",
       "bestTimeToVisit": "April to October",
-      "recommendedDuration": "Half day",
       "officialWebsite": "https://www.grube-messel.de/",
-      "tickets": "Adults €10",
       "tags": [
         "feature:Fossil",
         "unesco:natural"
@@ -686,9 +641,7 @@
       },
       "image": "/assets/attractions/hierapolis-pamukkale.jpg",
       "bestTimeToVisit": "April to May, September to October",
-      "recommendedDuration": "1 day",
       "officialWebsite": "https://muze.gov.tr/",
-      "tickets": "Adults ~€30",
       "tags": [
         "feature:Geological"
       ]
@@ -715,9 +668,7 @@
       },
       "image": "/assets/attractions/orgues-ille-sur-tet.jpg",
       "bestTimeToVisit": "Year-round",
-      "recommendedDuration": "1-2 hours",
       "officialWebsite": "https://lesorgues.ille-sur-tet.com/",
-      "tickets": "Adults €5",
       "tags": [
         "feature:Geology",
         "range:Pyrenees"
@@ -745,9 +696,7 @@
       },
       "image": "/assets/attractions/vatnaj-kull-national-park-dynamic-nature-of-fire-and-ice.jpg",
       "bestTimeToVisit": "June to August (Summer) / Nov to March (Ice caves)",
-      "recommendedDuration": "2-3 days",
       "officialWebsite": "https://www.vatnajokulsthjodgardur.is/",
-      "tickets": "Free (Parking/Tours cost extra)",
       "tags": [
         "feature:Glacial"
       ]
@@ -774,9 +723,7 @@
       },
       "image": "/assets/attractions/swiss-alps-jungfrau-aletsch.jpg",
       "bestTimeToVisit": "June to September / December to April",
-      "recommendedDuration": "2-3 days",
       "officialWebsite": "https://jungfraualetsch.ch/",
-      "tickets": "Jungfraujoch train ~€200+",
       "tags": [
         "feature:Glacial",
         "range:Alps",
@@ -805,9 +752,7 @@
       },
       "image": "/assets/attractions/cirque-de-gavarnie.jpg",
       "bestTimeToVisit": "June to September",
-      "recommendedDuration": "Full day",
       "officialWebsite": "https://www.valleesdegavarnie.com/",
-      "tickets": "Free (Parking fees may apply)",
       "tags": [
         "feature:Glacier",
         "range:Pyrenees",
@@ -836,9 +781,7 @@
       },
       "image": "/assets/attractions/lac-doo.jpg",
       "bestTimeToVisit": "May to October",
-      "recommendedDuration": "Half day",
       "officialWebsite": "https://www.pyrenees-centrales.com/",
-      "tickets": "Free",
       "tags": [
         "feature:Lake",
         "range:Pyrenees"
@@ -866,9 +809,7 @@
       },
       "image": "/assets/attractions/aiguestortes.jpg",
       "bestTimeToVisit": "June to October",
-      "recommendedDuration": "1-2 days",
       "officialWebsite": "https://parcsnaturals.gencat.cat/en/aiguestortes/",
-      "tickets": "Free",
       "tags": [
         "feature:Lake",
         "range:Pyrenees"
@@ -896,9 +837,7 @@
       },
       "image": "/assets/attractions/lake-como.jpg",
       "bestTimeToVisit": "April to June / September",
-      "recommendedDuration": "2-3 days",
       "officialWebsite": "https://www.lakecomo.is/",
-      "tickets": "Free (Ferries extra)",
       "tags": [
         "feature:Lakes",
         "range:Alps"
@@ -926,9 +865,7 @@
       },
       "image": "/assets/attractions/lake-braies.jpg",
       "bestTimeToVisit": "June to July / October",
-      "recommendedDuration": "Half day",
       "officialWebsite": "https://www.prags.bz/en",
-      "tickets": "Free (Boat rental extra)",
       "tags": [
         "feature:Lakes",
         "range:Alps",
@@ -957,9 +894,7 @@
       },
       "image": "/assets/attractions/plitvice-lakes.jpg",
       "bestTimeToVisit": "May to September",
-      "recommendedDuration": "1-2 days",
       "officialWebsite": "https://np-plitvicka-jezera.hr/en/",
-      "tickets": "Adults €23 - €40 (varies by season)",
       "tags": [
         "feature:Lakes",
         "range:Dinaric Alps",
@@ -988,9 +923,7 @@
       },
       "image": "/assets/attractions/chamonix.jpg",
       "bestTimeToVisit": "July to September / December to March",
-      "recommendedDuration": "2-3 days",
       "officialWebsite": "https://www.chamonix.com/",
-      "tickets": "Free (Cable cars €50+)",
       "tags": [
         "feature:Mountain",
         "range:Alps"
@@ -1018,9 +951,7 @@
       },
       "image": "/assets/attractions/zermatt.jpg",
       "bestTimeToVisit": "July to August (Hiking) / December to April (Skiing)",
-      "recommendedDuration": "2-3 days",
       "officialWebsite": "https://www.zermatt.ch/en",
-      "tickets": "Free (Cable cars/trains €50 - €100+)",
       "tags": [
         "feature:Mountain",
         "range:Alps"
@@ -1048,9 +979,7 @@
       },
       "image": "/assets/attractions/grindelwald.jpg",
       "bestTimeToVisit": "July to September / December to February",
-      "recommendedDuration": "1-2 days",
       "officialWebsite": "https://grindelwald.swiss/en/",
-      "tickets": "Free (Cable cars €30+)",
       "tags": [
         "feature:Mountain",
         "range:Alps"
@@ -1078,9 +1007,7 @@
       },
       "image": "/assets/attractions/monte-san-giorgio.jpg",
       "bestTimeToVisit": "May to October",
-      "recommendedDuration": "1 day",
       "officialWebsite": "https://www.montesangiorgio.org/",
-      "tickets": "Free access to mountain, Museum €12",
       "tags": [
         "feature:Mountain",
         "range:Alps"
@@ -1108,9 +1035,7 @@
       },
       "image": "/assets/attractions/swiss-tectonic-arena-sardona.jpg",
       "bestTimeToVisit": "July to October",
-      "recommendedDuration": "1-2 days",
       "officialWebsite": "https://unesco-sardona.ch/",
-      "tickets": "Free",
       "tags": [
         "feature:Mountain",
         "range:Alps"
@@ -1138,9 +1063,7 @@
       },
       "image": "/assets/attractions/the-dolomites.jpg",
       "bestTimeToVisit": "June to September / December to March",
-      "recommendedDuration": "3-5 days",
       "officialWebsite": "https://www.dolomitisuperski.com/",
-      "tickets": "Free (Cable cars/ski passes €30 - €70+)",
       "tags": [
         "feature:Mountain",
         "range:Alps",
@@ -1170,9 +1093,7 @@
       },
       "image": "/assets/attractions/grossglockner.jpg",
       "bestTimeToVisit": "June to September (Open May to November)",
-      "recommendedDuration": "1 day",
       "officialWebsite": "https://www.grossglockner.at/gg/en/index",
-      "tickets": "Car Toll: ~€40",
       "tags": [
         "feature:Mountain",
         "range:Alps"
@@ -1200,9 +1121,7 @@
       },
       "image": "/assets/attractions/pirin-national-park.jpg",
       "bestTimeToVisit": "June to September (Hiking) / Dec to March (Skiing)",
-      "recommendedDuration": "1-3 days",
       "officialWebsite": "https://www.pirin.bg/",
-      "tickets": "Free",
       "tags": [
         "feature:Mountain",
         "range:Balkans"
@@ -1230,9 +1149,7 @@
       },
       "image": "/assets/attractions/western-caucasus.JPG",
       "bestTimeToVisit": "June to September",
-      "recommendedDuration": "3-5 days",
       "officialWebsite": "https://whc.unesco.org/en/list/900/",
-      "tickets": "Permit required, fees vary",
       "tags": [
         "feature:Mountain",
         "range:Caucasus"
@@ -1260,9 +1177,7 @@
       },
       "image": "/assets/attractions/durmitor-national-park.jpg",
       "bestTimeToVisit": "June to September",
-      "recommendedDuration": "2-3 days",
       "officialWebsite": "https://nparkovi.me/np-durmitor/",
-      "tickets": "Park entry €5",
       "tags": [
         "feature:Mountain",
         "range:Dinaric Alps",
@@ -1291,9 +1206,7 @@
       },
       "image": "/assets/attractions/mount-olympus.jpg",
       "bestTimeToVisit": "May to October",
-      "recommendedDuration": "1-2 days",
       "officialWebsite": "https://olympusfd.gr/",
-      "tickets": "Free",
       "tags": [
         "feature:Mountain",
         "range:Olympus Range",
@@ -1322,9 +1235,7 @@
       },
       "image": "/assets/attractions/high-tatras.jpg",
       "bestTimeToVisit": "June to September",
-      "recommendedDuration": "1-3 days",
       "officialWebsite": "https://www.vt.sk/",
-      "tickets": "Free",
       "tags": [
         "feature:Mountain Range",
         "range:Carpathians",
@@ -1353,9 +1264,7 @@
       },
       "image": "/assets/attractions/zugspitze.jpg",
       "bestTimeToVisit": "Year-round",
-      "recommendedDuration": "Half to full day",
       "officialWebsite": "https://zugspitze.de/",
-      "tickets": "Adults ~€60 (round trip)",
       "tags": [
         "feature:Peak",
         "range:Alps"
@@ -1383,9 +1292,7 @@
       },
       "image": "/assets/attractions/mount-triglav.jpg",
       "bestTimeToVisit": "June to September / December to March",
-      "recommendedDuration": "2-4 days",
       "officialWebsite": "https://www.tnp.si/",
-      "tickets": "Free (Parking/Huts cost extra)",
       "tags": [
         "feature:Peak",
         "range:Alps",
@@ -1414,9 +1321,7 @@
       },
       "image": "/assets/attractions/mount-elbrus.jpg",
       "bestTimeToVisit": "June to August",
-      "recommendedDuration": "1-2 days",
       "officialWebsite": "https://visit-elbrus.ru/",
-      "tickets": "Cable car ~€20",
       "tags": [
         "feature:Peak",
         "range:Caucasus"
@@ -1444,9 +1349,7 @@
       },
       "image": "/assets/attractions/ben-nevis.jpg",
       "bestTimeToVisit": "June to September",
-      "recommendedDuration": "7-9 hours",
       "officialWebsite": "https://www.visitscotland.com/",
-      "tickets": "Free",
       "tags": [
         "feature:Peak",
         "range:Grampian Mountains"
@@ -1474,9 +1377,7 @@
       },
       "image": "/assets/attractions/pic-du-midi.jpg",
       "bestTimeToVisit": "Year-round",
-      "recommendedDuration": "Half day",
       "officialWebsite": "https://picdumidi.com/",
-      "tickets": "Adults ~€45 (Includes cable car)",
       "tags": [
         "feature:Peak",
         "range:Pyrenees"
@@ -1504,9 +1405,7 @@
       },
       "image": "/assets/attractions/aneto-peak.jpg",
       "bestTimeToVisit": "July to September",
-      "recommendedDuration": "Full day",
       "officialWebsite": "http://www.turismobenasque.com/",
-      "tickets": "Free",
       "tags": [
         "feature:Peak",
         "range:Pyrenees"
@@ -1534,9 +1433,7 @@
       },
       "image": "/assets/attractions/lauterbrunnen.jpg",
       "bestTimeToVisit": "June to September",
-      "recommendedDuration": "1-2 days",
       "officialWebsite": "https://www.lauterbrunnen.swiss/en",
-      "tickets": "Free",
       "tags": [
         "feature:Valley / Waterfalls",
         "range:Alps"
@@ -1564,9 +1461,7 @@
       },
       "image": "/assets/attractions/surtsey.jpg",
       "bestTimeToVisit": "Not open to the public",
-      "recommendedDuration": "N/A",
       "officialWebsite": "http://www.surtsey.is/",
-      "tickets": "Strictly restricted to scientists",
       "tags": [
         "feature:Volcanic",
         "unesco:natural"
@@ -1594,9 +1489,7 @@
       },
       "image": "/assets/attractions/teide-national-park.jpg",
       "bestTimeToVisit": "May to October",
-      "recommendedDuration": "1 day",
       "officialWebsite": "https://www.volcanoteide.com/",
-      "tickets": "Free access, Cable car ~€40",
       "tags": [
         "feature:Volcanic",
         "unesco:natural"
@@ -1624,9 +1517,7 @@
       },
       "image": "/assets/attractions/cha-ne-des-puys-limagne-fault-tectonic-arena.jpg",
       "bestTimeToVisit": "May to October",
-      "recommendedDuration": "1-2 days",
       "officialWebsite": "https://www.volcan.puy-de-dome.fr/",
-      "tickets": "Free access, Train to Puy de Dôme ~€17",
       "tags": [
         "feature:Volcanic",
         "unesco:natural"
@@ -1654,9 +1545,7 @@
       },
       "image": "/assets/attractions/aeolian-islands.jpg",
       "bestTimeToVisit": "May to October",
-      "recommendedDuration": "2-4 days",
       "officialWebsite": "http://www.unesco.it/it/PatrimonioMondiale/Detail/135",
-      "tickets": "Free (Ferry/Boat tours vary €20 - €50+)",
       "tags": [
         "feature:Volcanic"
       ]
@@ -1683,9 +1572,7 @@
       },
       "image": "/assets/attractions/mount-etna.jpg",
       "bestTimeToVisit": "April to June, September to October",
-      "recommendedDuration": "1 day",
       "officialWebsite": "https://www.parcoetna.it/",
-      "tickets": "Free access to lower areas, Cable car/Jeep tours ~€30 - €70",
       "tags": [
         "feature:Volcanic",
         "range:Alps",
@@ -1714,9 +1601,7 @@
       },
       "image": "/assets/attractions/mount-vesuvius.jpg",
       "bestTimeToVisit": "April to October",
-      "recommendedDuration": "3-4 hours",
       "officialWebsite": "https://www.parconazionaledelvesuvio.it/",
-      "tickets": "Adults €10",
       "tags": [
         "feature:Volcano",
         "range:Apennines"
@@ -1744,9 +1629,7 @@
       },
       "image": "/assets/attractions/do-ana-national-park.jpg",
       "bestTimeToVisit": "March to May, September to November",
-      "recommendedDuration": "1-2 days",
       "officialWebsite": "https://www.miteco.gob.es/es/red-parques-nacionales/nuestros-parques/donana/",
-      "tickets": "Free access, Guided tours ~€30",
       "tags": [
         "feature:Wetland",
         "unesco:natural"
@@ -1774,9 +1657,7 @@
       },
       "image": "/assets/attractions/the-flow-country.jpg",
       "bestTimeToVisit": "May to September",
-      "recommendedDuration": "1 day",
       "officialWebsite": "https://www.theflowcountry.org.uk/",
-      "tickets": "Free",
       "tags": [
         "feature:Wetland",
         "unesco:natural"
@@ -1804,9 +1685,7 @@
       },
       "image": "/assets/attractions/srebarna-nature-reserve.jpg",
       "bestTimeToVisit": "April to September",
-      "recommendedDuration": "Half day",
       "officialWebsite": "https://whc.unesco.org/en/list/219/",
-      "tickets": "Museum entry ~€2",
       "tags": [
         "feature:Wetland",
         "unesco:natural"
@@ -1834,9 +1713,7 @@
       },
       "image": "/assets/attractions/danube-delta.jpg",
       "bestTimeToVisit": "May to September",
-      "recommendedDuration": "2-3 days",
       "officialWebsite": "https://ddbra.ro/",
-      "tickets": "Permits ~€6/day, Boat tours ~€30-€50",
       "tags": [
         "feature:Wetland",
         "unesco:natural"

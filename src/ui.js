@@ -41,12 +41,8 @@ const ui = {
     cardDescription: document.getElementById('cardDescription'),
     cardMetaList: document.getElementById('cardMetaList'),
     cardBestTime: document.getElementById('cardBestTime'),
-    cardDuration: document.getElementById('cardDuration'),
-    cardTickets: document.getElementById('cardTickets'),
     cardWebsite: document.getElementById('cardWebsite'),
     labelBestTime: document.getElementById('labelBestTime'),
-    labelDuration: document.getElementById('labelDuration'),
-    labelTickets: document.getElementById('labelTickets'),
     labelWebsite: document.getElementById('labelWebsite'),
 };
 
@@ -128,16 +124,10 @@ export function expandCard(p) {
     }
 
     // Travel Metadata (mostly for nature sites)
-    if (p.bestTimeToVisit || p.recommendedDuration || p.tickets || p.officialWebsite) {
+    if (p.bestTimeToVisit || p.officialWebsite) {
         ui.cardMetaList.style.display = 'block';
         ui.labelBestTime.innerText = t('bestTime', locale) + ': ';
         ui.cardBestTime.innerText = p.bestTimeToVisit || '-';
-        
-        ui.labelDuration.innerText = t('duration', locale) + ': ';
-        ui.cardDuration.innerText = p.recommendedDuration || '-';
-        
-        ui.labelTickets.innerText = t('tickets', locale) + ': ';
-        ui.cardTickets.innerText = p.tickets || '-';
         
         ui.labelWebsite.innerText = t('website', locale) + ': ';
         if (p.officialWebsite) {

@@ -41,9 +41,7 @@ const labels = {
         sites: '处景观',
         description: '详情介绍',
         bestTimeToVisit: '最佳游览时间',
-        recommendedDuration: '建议游览时长',
-        officialWebsite: '官方网站',
-        tickets: '门票价格'
+        officialWebsite: '官方网站'
     },
     en: {
         panelTitle: 'Nature Explorer',
@@ -56,9 +54,7 @@ const labels = {
         sites: 'sites',
         description: 'Description',
         bestTimeToVisit: 'Best Time to Visit',
-        recommendedDuration: 'Recommended Duration',
-        officialWebsite: 'Official Website',
-        tickets: 'Ticket Prices'
+        officialWebsite: 'Official Website'
     }
 };
 
@@ -403,14 +399,6 @@ function showNatureDetail(site) {
                 <div class="travel-info-item">
                     <span class="info-label">${label('bestTimeToVisit')}</span>
                     <span class="info-value">${site.bestTimeToVisit || '-'}</span>
-                </div>
-                <div class="travel-info-item">
-                    <span class="info-label">${label('recommendedDuration')}</span>
-                    <span class="info-value">${site.recommendedDuration || '-'}</span>
-                </div>
-                <div class="travel-info-item">
-                    <span class="info-label">${label('tickets')}</span>
-                    <span class="info-value">${site.tickets || '-'}</span>
                 </div>
                 ${site.officialWebsite ? `
                 <div class="travel-info-item">

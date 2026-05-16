@@ -11,7 +11,6 @@ const locales = {
         langLabel: 'EN',
         bestTime: '最佳时间',
         duration: '建议时长',
-        tickets: '门票',
         website: '官网'
     },
     en: {
@@ -25,7 +24,6 @@ const locales = {
         langLabel: '中文',
         bestTime: 'Best Time',
         duration: 'Duration',
-        tickets: 'Tickets',
         website: 'Official'
     }
 };
