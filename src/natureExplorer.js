@@ -1,6 +1,6 @@
 import { state } from './state.js';
 import { t, getLoc, loc } from './i18n.js';
-import { flyTo, showAllPoints, updateMarkers, showGeographyPoints } from './mapEngine.js';
+import { flyTo, showAllPoints, updateMarkers, showGeographyPoints, toggleCountryLabels } from './mapEngine.js';
 import { createDetailOverlay } from './detailOverlay.js';
 import {
     showCompactCard, collapseCard, startExpandTimer
@@ -135,6 +135,7 @@ export function showNatureExplorer() {
     const geographyData = state.get('geographyData');
     const locale = state.get('locale');
     showGeographyPoints(geographyData, locale);
+    toggleCountryLabels(true, locale);
 
     const data = state.get('natureData');
     if (data) {
@@ -164,6 +165,7 @@ export function hideNatureExplorer() {
 
     // Hide geography layer
     showGeographyPoints(null);
+    toggleCountryLabels(false);
 }
 
 export function refreshNatureExplorer() {
@@ -174,6 +176,7 @@ export function refreshNatureExplorer() {
     const geographyData = state.get('geographyData');
     const locale = state.get('locale');
     showGeographyPoints(geographyData, locale);
+    toggleCountryLabels(true, locale);
 
     const data = state.get('natureData');
     const idx = state.get('currentPointIndex');

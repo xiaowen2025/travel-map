@@ -1,7 +1,7 @@
 import * as echarts from 'echarts';
 import { state } from './state.js';
 import { getLoc } from './i18n.js';
-import { getCountry } from './countries.js';
+import { getCountry, getCountryByFullName } from './countries.js';
 import {
     MAP_ZOOM_INITIAL,
     MAP_ZOOM_FLYTO,
@@ -19,6 +19,7 @@ import {
 } from './constants.js';
 
 let myChart = null;
+let countryCentroids = [];
 
 export function initMap(chartDom) {
     myChart = echarts.init(chartDom);
@@ -40,7 +41,28 @@ export function hideLoading() {
 }
 
 export function registerMap(geoJson) {
-    echarts.registerMap('europe', geoJson);
+    echarts.registerMap('europe', geoJson, {
+        nameProperty: 'NAME'
+    });
+
+    // Calculate centroids for labels
+    countryCentroids = geoJson.features.map(f => {
+        const name = f.properties.NAME;
+        let coords = [0, 0];
+        
+        // Use provided LON/LAT if available, otherwise simple average
+        if (f.properties.LON && f.properties.LAT) {
+            coords = [f.properties.LON, f.properties.LAT];
+        } else {
+            // Very simple centroid: average of all points in first polygon
+            const ring = f.geometry.type === 'Polygon' ? f.geometry.coordinates[0] : f.geometry.coordinates[0][0];
+            let sumX = 0, sumY = 0;
+            ring.forEach(p => { sumX += p[0]; sumY += p[1]; });
+            coords = [sumX / ring.length, sumY / ring.length];
+        }
+        
+        return { name, value: coords };
+    });
 }
 
 export function setupBaseOption() {
@@ -75,7 +97,6 @@ export function setupBaseOption() {
             roam: true,
             zoom: MAP_ZOOM_INITIAL,
             center: [10, 52],
-            label: { emphasis: { show: false } },
             itemStyle: {
                 areaColor: '#1c1e26',
                 borderColor: '#3a3d4a',
@@ -91,6 +112,28 @@ export function setupBaseOption() {
             }
         },
         series: [
+            {
+                name: 'CountryLabels',
+                type: 'scatter',
+                coordinateSystem: 'geo',
+                data: [],
+                symbolSize: 0,
+                label: {
+                    show: false,
+                    position: 'inside',
+                    color: '#E8CA88',
+                    fontSize: 11,
+                    fontWeight: 'normal',
+                    textBorderColor: 'rgba(0, 0, 0, 0.8)',
+                    textBorderWidth: 1.5,
+                    formatter: function (params) {
+                        const locale = state.get('locale');
+                        return getCountryByFullName(params.name, locale);
+                    }
+                },
+                silent: true,
+                zlevel: 1
+            },
             {
                 name: 'HistoryPoints',
                 type: 'effectScatter',
@@ -337,6 +380,22 @@ export function showGeographyPoints(geographyData, locale) {
         series: [
             { name: 'GeographyPoints', data: scatterPoints },
             { name: 'GeographyLines', data: lineData }
+        ]
+    });
+}
+
+// Toggle country labels on the map
+export function toggleCountryLabels(show, locale = 'zh') {
+    if (!myChart) return;
+    myChart.setOption({
+        series: [
+            {
+                name: 'CountryLabels',
+                data: show ? countryCentroids : [],
+                label: {
+                    show: show
+                }
+            }
         ]
     });
 }

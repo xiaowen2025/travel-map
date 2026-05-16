@@ -45,7 +45,12 @@
     "IS": { "en": "Iceland", "zh": "冰岛" },
     "BY": { "en": "Belarus", "zh": "白俄罗斯" },
     "MD": { "en": "Moldova", "zh": "摩尔多瓦" },
-    "UA": { "en": "Ukraine", "zh": "乌克兰" }
+    "UA": { "en": "Ukraine", "zh": "乌克兰" },
+    "RU": { "en": "Russia", "zh": "俄罗斯" },
+    "GE": { "en": "Georgia", "zh": "格鲁吉亚" },
+    "AZ": { "en": "Azerbaijan", "zh": "阿塞拜疆" },
+    "AM": { "en": "Armenia", "zh": "亚美尼亚" },
+    "IL": { "en": "Israel", "zh": "以色列" }
   },
   "fullNames": {
     "France": "FR",
@@ -93,6 +98,14 @@
     "Iceland": "IS",
     "Belarus": "BY",
     "Moldova": "MD",
-    "Ukraine": "UA"
+    "Ukraine": "UA",
+    "Russia": "RU",
+    "Georgia": "GE",
+    "Azerbaijan": "AZ",
+    "Armenia": "AM",
+    "Israel": "IL",
+    "The former Yugoslav Republic of Macedonia": "MK",
+    "Republic of Moldova": "MD",
+    "Holy See (Vatican City)": "VA"
   }
 }
