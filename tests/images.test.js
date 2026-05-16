@@ -1,6 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { readdir } from 'fs/promises';
-import { stat } from 'fs/promises';
+import { readdir, stat } from 'fs/promises';
 import path from 'path';
 import { fileTypeFromFile } from 'file-type';
 
@@ -43,4 +42,32 @@ describe('Image validation', () => {
       });
     });
   }
+
+  describe('nature.json image references', () => {
+    it('all referenced images should exist in public/assets/attractions', async () => {
+      const natureData = JSON.parse(
+        await import('fs').then(fs => fs.promises.readFile('public/data/nature.json', 'utf-8'))
+      );
+
+      const missingImages = [];
+      const checkedPaths = new Set();
+
+      for (const site of natureData.sites) {
+        if (site.image) {
+          const imagePath = site.image; // e.g., "/assets/attractions/la-meije.jpg"
+          if (!checkedPaths.has(imagePath)) {
+            checkedPaths.add(imagePath);
+            const fullPath = path.join(process.cwd(), 'public', imagePath);
+            try {
+              await stat(fullPath);
+            } catch {
+              missingImages.push({ id: site.id, path: imagePath });
+            }
+          }
+        }
+      }
+
+      expect(missingImages, `Missing images: ${missingImages.map(m => m.path).join(', ')}`).toHaveLength(0);
+    });
+  });
 });

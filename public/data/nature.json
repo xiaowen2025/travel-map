@@ -58,31 +58,31 @@
       ]
     },
     {
-      "id": "vjetrenica-cave-ravno",
+      "id": "eisriesenwelt",
       "name": {
-        "en": "Vjetrenica Cave, Ravno",
-        "zh": "拉夫诺的岩溶风洞"
+        "en": "Eisriesenwelt (World of the Ice Giants)",
+        "zh": "万芬大冰洞"
       },
       "category": "Natural",
-      "country": "Bosnia and Herzegovina",
+      "country": "Austria",
       "coordinates": [
-        17.989,
-        42.847
+        13.1903,
+        47.5029
       ],
       "shortDesc": {
-        "en": "One of the world's most biodiverse cave systems",
-        "zh": "迪纳拉山脉生物多样性最富集的风洞"
+        "en": "The largest ice cave in the world",
+        "zh": "世界上最大的冰洞"
       },
       "description": {
-        "en": "Located in the Dinaric Alps, this cave is famous for its incredible biodiversity, home to over 200 endemic species including the 'human fish' (Olm). It is known for its constant strong cool wind at the entrance.",
-        "zh": "位于波黑，是世界著名的喀斯特溶洞系统。洞口常年吹出强劲冷风，洞内栖息着包括“人鱼”洞螈在内的200多种特有生物，是地下生物多样性的全球热点地区。"
+        "en": "Located in the Tennengebirge mountains near Werfen, Eisriesenwelt is a natural limestone and ice cave extending over 42 kilometers. The first kilometer is covered in spectacular ice formations, formed by the chimney effect where winter air freezes spring meltwater. It is a stunning subterranean landscape of frozen palaces.",
+        "zh": "万芬大冰洞位于韦尔芬附近的滕嫩山脉，是一个落差巨大的天然石灰岩冰洞，全长超过42公里。其前一公里的冰层景观最为壮观，由烟囱效应形成的冬季冷风冻结了春季融水。这里展现了令人惊叹的地下冰雪宫殿景观。"
       },
-      "image": "/assets/attractions/vjetrenica-cave-ravno.jpg",
+      "image": "/assets/attractions/eisriesenwelt.jpg",
       "bestTimeToVisit": "May to October",
-      "officialWebsite": "https://vjetrenica.ba/",
+      "officialWebsite": "https://www.eisriesenwelt.at/en/",
       "tags": [
         "feature:Cave",
-        "range:Dinaric Alps"
+        "range:Alps"
       ]
     },
     {
@@ -141,6 +141,34 @@
         "feature:Cave",
         "range:Carpathians",
         "unesco:natural"
+      ]
+    },
+    {
+      "id": "vjetrenica-cave-ravno",
+      "name": {
+        "en": "Vjetrenica Cave, Ravno",
+        "zh": "拉夫诺的岩溶风洞"
+      },
+      "category": "Natural",
+      "country": "Bosnia and Herzegovina",
+      "coordinates": [
+        17.989,
+        42.847
+      ],
+      "shortDesc": {
+        "en": "One of the world's most biodiverse cave systems",
+        "zh": "迪纳拉山脉生物多样性最富集的风洞"
+      },
+      "description": {
+        "en": "Located in the Dinaric Alps, this cave is famous for its incredible biodiversity, home to over 200 endemic species including the 'human fish' (Olm). It is known for its constant strong cool wind at the entrance.",
+        "zh": "位于波黑，是世界著名的喀斯特溶洞系统。洞口常年吹出强劲冷风，洞内栖息着包括“人鱼”洞螈在内的200多种特有生物，是地下生物多样性的全球热点地区。"
+      },
+      "image": "/assets/attractions/vjetrenica-cave-ravno.jpg",
+      "bestTimeToVisit": "May to October",
+      "officialWebsite": "https://vjetrenica.ba/",
+      "tags": [
+        "feature:Cave",
+        "range:Dinaric Alps"
       ]
     },
     {
@@ -219,7 +247,7 @@
         "en": "Stretching 155km, this coastline provides a near-continuous record of the Triassic, Jurassic, and Cretaceous periods. It is famous for its fossils and iconic landforms like Durdle Door and Lulworth Cove.",
         "zh": "绵延约155公里的英国海岸线，完整记录了三叠纪、侏罗纪和白垩纪的地层。这里以化石采集地和杜德尔门等海蚀景观闻名，是探索地球生命史的天然博物馆。"
       },
-      "image": "/assets/attractions/dorset-and-east-devon-coast.JPG",
+      "image": "/assets/attractions/dorset-and-east-devon-coast.jpg",
       "bestTimeToVisit": "May to September",
       "officialWebsite": "https://jurassiccoast.org/",
       "tags": [
@@ -563,35 +591,6 @@
       ]
     },
     {
-      "id": "virgin-komi-forests",
-      "name": {
-        "en": "Virgin Komi Forests",
-        "zh": "科米原始森林"
-      },
-      "category": "Natural",
-      "country": "Russia",
-      "coordinates": [
-        58.75,
-        63.5
-      ],
-      "shortDesc": {
-        "en": "Europe's largest area of virgin boreal forest",
-        "zh": "欧洲面积最大的原始北方针叶林"
-      },
-      "description": {
-        "en": "Covering 3.28 million hectares in the Ural Mountains, this is the most extensive area of virgin boreal forest (taiga) remaining in Europe. It is a vast wilderness sanctuary for brown bears, wolves, and reindeer.",
-        "zh": "位于俄罗斯乌拉尔山脉北部，覆盖了广袤的泰加林。这里是棕熊、狼和驯鹿等野生动物的天堂，也是欧洲现存最辽阔、最原始的一片荒野森林。"
-      },
-      "image": "/assets/attractions/virgin-komi-forests.JPG",
-      "bestTimeToVisit": "June to August",
-      "officialWebsite": "https://whc.unesco.org/en/list/719/",
-      "tags": [
-        "feature:Forest",
-        "range:Urals",
-        "unesco:natural"
-      ]
-    },
-    {
       "id": "messel-pit",
       "name": {
         "en": "Messel Pit Fossil Site",
@@ -731,6 +730,35 @@
       ]
     },
     {
+      "id": "morteratsch-glacier",
+      "name": {
+        "en": "Bernina Range & Morteratsch Glacier",
+        "zh": "贝尔尼纳山脉与莫尔特拉奇冰川"
+      },
+      "category": "Natural",
+      "country": "Switzerland",
+      "coordinates": [
+        9.9317,
+        46.4094
+      ],
+      "shortDesc": {
+        "en": "The largest glacier in the Bernina Range of the Eastern Alps",
+        "zh": "东阿尔卑斯贝尔尼纳山脉最大的冰川"
+      },
+      "description": {
+        "en": "The Morteratsch Glacier is a massive valley glacier in the Bernina Range, dominated by the peaks of Piz Bernina and Piz Palü. It is a significant indicator of climate change, with a well-marked educational trail showing its dramatic retreat over the past century. It is easily accessible via the Morteratsch railway station.",
+        "zh": "莫尔特拉奇冰川是贝尔尼纳山脉中巨大的山谷冰川，由皮兹贝尔尼纳峰和皮兹帕吕峰环抱。它是气候变化的显著标志，设有教育步道展示一个多世纪以来的冰川退缩。通过莫尔特拉奇火车站可轻松抵达。"
+      },
+      "image": "/assets/attractions/morteratsch-glacier.jpg",
+      "bestTimeToVisit": "June to September",
+      "officialWebsite": "https://www.pontresina.ch/en/glacier-morteratsch/",
+      "tags": [
+        "feature:Glacier",
+        "feature:Mountain",
+        "range:Alps"
+      ]
+    },
+    {
       "id": "cirque-de-gavarnie",
       "name": {
         "en": "Cirque de Gavarnie",
@@ -757,6 +785,36 @@
         "feature:Glacier",
         "range:Pyrenees",
         "unesco:natural"
+      ]
+    },
+    {
+      "id": "konigssee-watzmann",
+      "name": {
+        "en": "Königssee & Watzmann",
+        "zh": "国王湖与瓦茨曼山"
+      },
+      "category": "Natural",
+      "country": "Germany",
+      "coordinates": [
+        12.9778,
+        47.5539
+      ],
+      "shortDesc": {
+        "en": "A fjord-like lake and a massive limestone peak in Bavaria",
+        "zh": "巴伐利亚如峡湾般的湖泊与雄伟的石灰岩高峰"
+      },
+      "description": {
+        "en": "The Königssee is Germany's deepest and cleanest lake, nestled between the steep walls of the Berchtesgaden Alps. Towering above it is the Watzmann (2,713m), Germany's third highest mountain, famous for its unique family-like silhouette and its massive East Face, the highest rock wall in the Eastern Alps.",
+        "zh": "国王湖是德国最深且最清澈的湖泊，坐落在贝希特斯加登阿尔卑斯山的悬崖峭壁之间。矗立在湖边的是瓦茨曼山（2713米），它是德国第三高峰，以其独特的“家族”轮廓和东壁（东阿尔卑斯最高岩壁）而闻名。"
+      },
+      "image": "/assets/attractions/konigssee-watzmann.jpg",
+      "bestTimeToVisit": "Year-round",
+      "officialWebsite": "https://www.berchtesgaden.de/en/nature/koenigssee",
+      "tags": [
+        "feature:Lake",
+        "feature:Mountain",
+        "feature:National Park",
+        "range:Alps"
       ]
     },
     {
@@ -902,6 +960,34 @@
       ]
     },
     {
+      "id": "la-meije",
+      "name": {
+        "en": "La Meije",
+        "zh": "拉梅热峰"
+      },
+      "category": "Natural",
+      "country": "France",
+      "coordinates": [
+        6.3086,
+        45.0047
+      ],
+      "shortDesc": {
+        "en": "One of the most iconic and technical peaks in the French Alps",
+        "zh": "法国阿尔卑斯山最著名的技术性高峰之一"
+      },
+      "description": {
+        "en": "La Meije (3,984m) is the second-highest peak in the Massif des Écrins. It was the last major Alpine peak to be climbed (1877) and is famous for having no \"easy\" route to the summit. It overlooks the village of La Grave, a world-renowned center for off-piste skiing.",
+        "zh": "拉梅热峰（3984米）是埃克兰山脉的第二高峰。它是阿尔卑斯山最后一座被攀登的主要高峰（1877年），因没有“简易”登顶路线而闻名。山脚下的拉格拉沃（La Grave）是世界著名的越野滑雪胜地。"
+      },
+      "image": "/assets/attractions/la-meije.jpg",
+      "bestTimeToVisit": "June to September",
+      "officialWebsite": "https://www.la-grave.com/",
+      "tags": [
+        "feature:Mountain",
+        "range:Alps"
+      ]
+    },
+    {
       "id": "chamonix-mont-blanc",
       "name": {
         "en": "Chamonix-Mont-Blanc",
@@ -924,6 +1010,34 @@
       "image": "/assets/attractions/chamonix.jpg",
       "bestTimeToVisit": "July to September / December to March",
       "officialWebsite": "https://www.chamonix.com/",
+      "tags": [
+        "feature:Mountain",
+        "range:Alps"
+      ]
+    },
+    {
+      "id": "pointe-de-ronce",
+      "name": {
+        "en": "Pointe de Ronce",
+        "zh": "朗斯峰"
+      },
+      "category": "Natural",
+      "country": "France",
+      "coordinates": [
+        6.9783,
+        45.2647
+      ],
+      "shortDesc": {
+        "en": "The highest peak of the Mont Cenis massif in the Graian Alps",
+        "zh": "格拉耶山脉仙尼斯峰群的最高峰，俯瞰仙尼斯湖"
+      },
+      "description": {
+        "en": "Pointe de Ronce (3,612m) is the majestic summit of the Mont Cenis massif on the French-Italian border. It offers breathtaking panoramic views of the Vanoise National Park and the surrounding Alpine glaciers. Historically significant, the region was transferred from Italy to France in 1947. The mountain is a favorite for mountaineers seeking high-altitude views of the Lac du Mont-Cenis.",
+        "zh": "朗斯峰（Pointe de Ronce，3612米）是位于法意边境的仙尼斯峰群（Mont Cenis massif）的最高点。它提供了瓦诺伊兹国家公园及周围阿尔卑斯冰川的绝佳全景。该地区在地质和历史上都具有重要意义，1947年后由意大利划归法国。它是登山者俯瞰仙尼斯湖（Lac du Mont-Cenis）壮丽景色的首选目的地。"
+      },
+      "image": "/assets/attractions/pointe-de-ronce.jpg",
+      "bestTimeToVisit": "June to September",
+      "officialWebsite": "https://www.haute-maurienne-vanoise.com/",
       "tags": [
         "feature:Mountain",
         "range:Alps"
@@ -1147,7 +1261,7 @@
         "en": "A large mountain area in the Caucasus that has experienced minimal human impact. It features diverse ecosystems from subalpine pastures to glaciers and is a key habitat for the European bison and other rare wildlife.",
         "zh": "位于俄罗斯高加索山脉最西端，是欧洲少数未受人类显著影响的大型山区。这里涵盖了从亚热带到高山冰川的极端生境，是欧洲野牛、棕熊和狼的珍稀栖息地。"
       },
-      "image": "/assets/attractions/western-caucasus.JPG",
+      "image": "/assets/attractions/western-caucasus.jpg",
       "bestTimeToVisit": "June to September",
       "officialWebsite": "https://whc.unesco.org/en/list/900/",
       "tags": [
@@ -1240,6 +1354,35 @@
         "feature:Mountain Range",
         "range:Carpathians",
         "unesco:biosphere"
+      ]
+    },
+    {
+      "id": "gran-paradiso",
+      "name": {
+        "en": "Gran Paradiso National Park",
+        "zh": "大帕拉迪索国家公园"
+      },
+      "category": "Natural",
+      "country": "Italy",
+      "coordinates": [
+        7.2569,
+        45.5247
+      ],
+      "shortDesc": {
+        "en": "Italy's oldest national park, home to the Alpine ibex",
+        "zh": "意大利最古老的国家公园，羱羊的故乡"
+      },
+      "description": {
+        "en": "Founded in 1922 to protect the Alpine ibex, Gran Paradiso National Park covers a vast area of the Graian Alps. Its highest point, the Gran Paradiso (4,061m), is the only 4,000-meter peak entirely within Italian territory. The park features stunning glaciers, alpine meadows, and rich wildlife.",
+        "zh": "成立于1922年，旨在保护阿尔卑斯羱羊。公园位于格雷晏阿尔卑斯山脉，其最高点大帕拉迪索峰（4061米）是唯一完全位于意大利境内的4000米级山峰。这里拥有壮丽的冰川、高山草甸和丰富的野生动物。"
+      },
+      "image": "/assets/attractions/gran-paradiso.jpg",
+      "bestTimeToVisit": "June to September",
+      "officialWebsite": "https://www.pngp.it/en",
+      "tags": [
+        "feature:National Park",
+        "feature:Mountain",
+        "range:Alps"
       ]
     },
     {
@@ -1605,6 +1748,35 @@
       "tags": [
         "feature:Volcano",
         "range:Apennines"
+      ]
+    },
+    {
+      "id": "krimml-waterfalls",
+      "name": {
+        "en": "Krimml Waterfalls",
+        "zh": "克里姆尔瀑布"
+      },
+      "category": "Natural",
+      "country": "Austria",
+      "coordinates": [
+        12.1695,
+        47.1922
+      ],
+      "shortDesc": {
+        "en": "The highest waterfalls in Austria, cascading in three stages",
+        "zh": "奥地利最高的瀑布，分三级飞流直下"
+      },
+      "description": {
+        "en": "With a total drop of 380 meters, the Krimml Waterfalls are the highest in Austria. Located in the Hohe Tauern National Park, the falls are formed by the glacial stream Krimmler Ache. The fine mist from the falls is famous for its health benefits for respiratory conditions.",
+        "zh": "克里姆尔瀑布总落差达380米，是奥地利最高的瀑布。瀑布位于高地陶恩国家公园，由冰川径流克里姆尔河形成。其产生的水雾对呼吸系统疾病具有显著的康复作用。"
+      },
+      "image": "/assets/attractions/krimml-waterfalls.jpg",
+      "bestTimeToVisit": "May to October",
+      "officialWebsite": "https://www.wasserfaelle-krimml.at/en/",
+      "tags": [
+        "feature:Waterfall",
+        "feature:National Park",
+        "range:Alps"
       ]
     },
     {
